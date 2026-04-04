@@ -1,0 +1,2 @@
+@echo off
+npm install next@latest react@latest react-dom@latest typescript@latest @types/node@latest @types/react@latest @types/react-dom@latest eslint@latest eslint-config-next@latest tailwindcss@latest postcss@latest autoprefixer@latest @heroicons/react@latest 
