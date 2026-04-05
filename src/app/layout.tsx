@@ -6,7 +6,7 @@ import SocialLinks from '../components/SocialLinks'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Affiliate Marketing Site - De Beste Producten',
+  title: 'Top 10 Vandaag - De Beste Vergelijkingssite Voor Jou!',
   description: 'Ontdek geweldige producten, speciaal voor jou geselecteerd',
 }
 
