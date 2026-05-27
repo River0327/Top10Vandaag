@@ -10,17 +10,14 @@ const trendingItems = [
     name: "Logitech G Pro X Superlight",
     description: "Ultralichte draadloze gaming muis",
     rating: 9.8,
-    price: "€149,99",
     image: "https://image.coolblue.nl/max/500x500/products/1784657",
     stores: [
       {
         name: "Coolblue",
-        price: 149.99,
         link: "https://www.coolblue.nl/product/logitech-g-pro-x-superlight"
       },
       {
         name: "Bol.com",
-        price: 149.99,
         link: "https://www.bol.com/nl/p/logitech-g-pro-x-superlight"
       }
     ]
@@ -30,17 +27,14 @@ const trendingItems = [
     name: "LG 27GP950",
     description: "4K gaming monitor met 144Hz",
     rating: 9.7,
-    price: "€899,99",
     image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
     stores: [
       {
         name: "Coolblue",
-        price: 899.99,
         link: "https://www.coolblue.nl/product/lg-27gp950"
       },
       {
         name: "Bol.com",
-        price: 899.99,
         link: "https://www.bol.com/nl/p/lg-27gp950"
       }
     ]
@@ -50,17 +44,14 @@ const trendingItems = [
     name: "iPhone 15 Pro",
     description: "Apple's beste smartphone",
     rating: 9.8,
-    price: "€1.229",
     image: "/images/iphone-se.png",
     stores: [
       {
         name: "Coolblue",
-        price: 1229,
         link: "https://www.coolblue.nl/product/iphone-15-pro"
       },
       {
         name: "Bol.com",
-        price: 1229,
         link: "https://www.bol.com/nl/p/iphone-15-pro"
       }
     ]
@@ -70,17 +61,14 @@ const trendingItems = [
     name: "MacBook Pro 14\"",
     description: "M1 Pro chip, beste voor creatives",
     rating: 9.8,
-    price: "€2.249",
     image: "https://images.unsplash.com/photo-1639249227523-78502e9b01c6",
     stores: [
       {
         name: "Coolblue",
-        price: 2249,
         link: "https://www.coolblue.nl/product/macbook-pro-14"
       },
       {
         name: "Bol.com",
-        price: 2249,
         link: "https://www.bol.com/nl/p/macbook-pro-14"
       }
     ]
@@ -160,8 +148,7 @@ export default function TrendingPage() {
                           <p className="text-gray-400">{item.description}</p>
                         </div>
                       </div>
-                      <div className="flex justify-between items-end">
-                        <div className="text-2xl font-bold text-white/90">{item.price}</div>
+                      <div className="flex justify-end items-end">
                         <div className="flex flex-col gap-2 w-[300px]">
                           {item.stores.map((store) => (
                             <a
@@ -169,10 +156,9 @@ export default function TrendingPage() {
                               href={store.link}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="bg-[#2563eb] hover:bg-[#1d4ed8] text-white/90 px-4 py-2 rounded-lg transition-all duration-200 flex justify-between items-center w-full shadow-lg hover:shadow-xl"
+                              className="bg-[#2563eb] hover:bg-[#1d4ed8] text-white/90 px-4 py-2 rounded-lg transition-all duration-200 flex justify-center items-center w-full shadow-lg hover:shadow-xl"
                             >
                               <span>Bekijk bij {store.name}</span>
-                              <span>€{store.price}</span>
                             </a>
                           ))}
                         </div>

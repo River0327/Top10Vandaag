@@ -34,7 +34,6 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Scherm: 6,1 inch OLED | Camera: 48 MP hoofdcamera | Chip: A18 Pro",
         rating: 4.8,
         image: "https://media.s-bol.com/0KDNEKOJNj5V/DRL6Ayq/163x210.jpg",
-        price: 1229,
         pros: [
           "Scherm: 6,9 inch OLED",
           "Camera: 48 MP",
@@ -44,12 +43,10 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         stores: [
           {
             name: "Coolblue",
-            price: 1199,
             link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F969451%2Fapple-iphone-17-pro-max-256gb-blauw.html"
           },
           {
             name: "Bol.com",
-            price: 1150,
             link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-17-pro-max-256gb-cosmic-orange%2F9300000240171924%2F&name=Apple%20iPhone%2017%20Pro%20Max%20-%20Cosmic%20Orange%20-%20256GB%20-%2018MP%20camera"
           }
         ]
@@ -59,7 +56,6 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Scherm: 6,1 inch OLED | Camera: 48 MP hoofdcamera | Chip: A16 Bionic",
         rating: 4.7,
         image: "https://media.s-bol.com/ZMLZDjvwX10Q/xGw7X1P/550x679.jpg",
-        price: 729,
         pros: [
           "Scherm: 6,3 inch OLED",
           "Camera: 48 MP",
@@ -69,12 +65,10 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         stores: [
           {
             name: "Coolblue",
-            price: 729,
             link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F979992%2Fapple-iphone-17-pro-256gb-blauw-snellader.html"
           },
           {
             name: "Bol.com",
-            price: 719,
             link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-17-pro-256gb-cosmic-orange%2F9300000240171763%2F&name=Apple%20iPhone%2017%20Pro%20-%20256GB%20-%20Cosmic%20Orange%20-%20Nieuw%20camera%20systeem"
           }
         ]
@@ -84,7 +78,6 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Scherm: 5,4 inch OLED | Camera: 12 MP dual-camera | Chip: A15 Bionic",
         rating: 4.7,
         image: "https://media.s-bol.com/4ZBWqNmEYgK0/WnXj4zJ/168x208.jpg",
-        price: 342,
         pros: [
           "Scherm: 6,3 inch OLED",
           "Camera: 48 MP",
@@ -94,12 +87,10 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         stores: [
           {
             name: "Coolblue",
-            price: 819,
             link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F979991%2Fapple-iphone-17-256gb-zwart-snellader.html"
           },
           {
             name: "Bol.com",
-            price: 342,
             link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-17-256gb-zwart%2F9300000240171936%2F&name=Apple%20iPhone%2017%20-%20256GB%20-%20Black%20-%206%2C3%20inch%20Super%20Retina%20XDR-display"
           }
         ]
@@ -109,7 +100,6 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Scherm: 6,1 inch OLED | Camera: 48 MP hoofdcamera | Chip: A18 Bionic",
         rating: 4.6,
         image: "https://media.s-bol.com/k3mJkmGzmq3N/0VRjv5X/168x204.jpg",
-        price: 789,
         pros: [
           "Scherm: 6,1 inch OLED",
           "Camera: 48 MP",
@@ -119,12 +109,10 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         stores: [
           {
             name: "Coolblue",
-            price: 819,
             link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F979995%2Fapple-iphone-17e-256gb-zwart-snellader.html"
           },
           {
             name: "Bol.com",
-            price: 789,
             link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-17e-5g-256gb-zwart%2F9300000266256313%2F&name=Apple%20iPhone%2017e%20-%20256%20GB%20-%20Zwart"
           }
         ]
@@ -134,7 +122,6 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Scherm: 6,1 inch OLED | Camera: 12 MP dual-camera | Chip: A15 Bionic",
         rating: 4.5,
         image: "https://media.s-bol.com/EEgORmq4zqLY/XD9zJW8/168x210.jpg",
-        price: 489,
         pros: [
           "Scherm: 6,9 inch OLED",
           "Camera: 48 MP",
@@ -144,7 +131,6 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         stores: [
           {
             name: "Bol.com",
-            price: 489,
             link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-16-pro-max-17-5-cm-dual-sim-ios-18-5g-usb-type-c-256-gb-zwart%2F9300000189439873%2F&name=Apple%20iPhone%2016%20Pro%20Max%20-%20256GB%20-%20Zwart%20Titanium%20-%20A18%20Pro-chip"
           }
         ]
@@ -154,7 +140,6 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Scherm: 6,1 inch OLED | Camera: 12 MP dual-camera | Chip: A15 Bionic",
         rating: 4.7,
         image: "https://media.s-bol.com/6qBjPmL8EoMN/mZmVxVn/168x207.jpg",
-        price: 569,
         pros: [
           "Scherm: 6,3 inch OLED",
           "Camera: 48 MP",
@@ -164,7 +149,6 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         stores: [
           {
             name: "Bol.com",
-            price: 569,
             link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-16-pro-16-cm-dual-sim-ios-18-5g-usb-type-c-128-gb-zand%2F9300000189454726%2F&name=Apple%20iPhone%2016%20Pro%2016%20cm%20(6.3%22)%20Dual%20SIM%20iOS%2018%205G%20USB%20Type-C%20128%20GB%20Zand"
           }
         ]
@@ -174,7 +158,6 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Scherm: 6,1 inch OLED | Camera: 12 MP triple-camera | Chip: A15 Bionic",
         rating: 4.8,
         image: "https://media.s-bol.com/vyMq25G8wP10/9rEwKz3/168x206.jpg",
-        price: 788,
         pros: [
           "Scherm: 6,1 inch OLED",
           "Camera: 48 MP",
@@ -184,12 +167,10 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         stores: [
           {
             name: "Coolblue",
-            price: 1299,
             link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F952114%2Fapple-iphone-16-128gb-zwart.html"
           },
             {
             name: "Bol.com",
-            price: 788,
             link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fiphone-16-zwart%2F9300000189439876%2F&name=Apple%20iPhone%2016%20-%20128GB%20opslag%20-%20Zwart%20-%20Nieuw%20camerasysteem%20-%20A18-chip"
           }
         ]
@@ -199,7 +180,6 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Scherm: 6,7 inch OLED | Camera: 48 MP triple-camera | Chip: A18 Pro",
         rating: 4.9,
         image: "https://media.s-bol.com/BYw3mMMkYNyk/Z4wxAzR/160x210.jpg",
-        price: 1189,
         pros: [
           "Scherm: 6,1 inch OLED",
           "Camera: 48 MP",
@@ -209,12 +189,10 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         stores: [
           {
             name: "Coolblue",
-            price: 1299,
             link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F935188%2Fapple-iphone-15-128gb-zwart.html"
           },
           {
             name: "Bol.com",
-            price: 1189,
             link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-15-128gb-zwart%2F9300000161136294%2F&name=Apple%20iPhone%2015%20-%20128GB%20-%20Black%20-%20Dynamic%20Island%20-%20A16%20Bionic%20chip"
           }
         ]
@@ -224,7 +202,6 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Scherm: 6,1 inch OLED | Camera: 48 MP triple-camera | Chip: A17 Pro",
         rating: 4.7,
         image: "https://media.s-bol.com/5ozp2OOMoQ1Z/98O1ml4/157x210.jpg",
-        price: 1165,
         pros: [
           "Scherm: 6,7 inch OLED",
           "Camera: 48 MP",
@@ -234,7 +211,6 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         stores: [
           {
             name: "Bol.com",
-            price: 1165,
             link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-15-plus-128gb-black%2F9300000161136553%2F&name=Apple%20iPhone%2015%20Plus%20-%20Dynamic%20Island%20-%20USB-C%20-%20128GB%20-%20Zwart"
           }
         ]
@@ -244,7 +220,6 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Scherm: 4,7 inch LCD | Camera: 12 MP single-camera | Chip: A15 Bionic",
         rating: 4.6,
         image: "https://media.s-bol.com/k0AqNRGQBVY6/vgY3O50/159x210.jpg",
-        price: 459,
         pros: [
           "Scherm: 6,1 inch OLED",
           "Camera: 12 MP",
@@ -269,7 +244,6 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "10,9 inch iPad met A14 Bionic chip, ideaal voor werk, studie en entertainment.",
         rating: 4.6,
         image: "",
-        price: 489,
         pros: [
           "10,9 inch scherm",
           "A14 Bionic chip",
@@ -279,12 +253,10 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         stores: [
           {
             name: "Coolblue",
-            price: 489,
             link: "#"
           },
           {
             name: "Bol.com",
-            price: 479,
             link: "#"
           }
         ]
@@ -300,140 +272,130 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Soepele midrange met 5G en ruime 256 GB opslag",
         rating: 0,
         image: "",
-        price: 0,
         pros: [
           "5G ondersteuning",
           "256 GB opslag",
           "Vloeiend scherm"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", price: 0, link: "#" }, { name: "Coolblue", price: 0, link: "#" }]
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
         name: "Samsung Galaxy A56 5G (128 GB)",
         description: "Betaalbare 5G-smartphone met 128 GB opslag",
         rating: 0,
         image: "",
-        price: 0,
         pros: [
           "5G ondersteuning",
           "Goede prijs-kwaliteit",
           "Vloeiend scherm"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", price: 0, link: "#" }, { name: "Coolblue", price: 0, link: "#" }]
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
         name: "Samsung Galaxy A16 4G (LTE)",
         description: "Instapmodel met 4G en lange batterijduur",
         rating: 0,
         image: "",
-        price: 0,
         pros: [
           "Lange batterijduur",
           "Betaalbaar",
           "Groot scherm"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", price: 0, link: "#" }, { name: "Coolblue", price: 0, link: "#" }]
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
         name: "Samsung Galaxy A16 5G",
         description: "Budget 5G-telefoon voor dagelijks gebruik",
         rating: 0,
         image: "",
-        price: 0,
         pros: [
           "5G ondersteuning",
           "Budgetvriendelijk",
           "Modern design"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", price: 0, link: "#" }, { name: "Coolblue", price: 0, link: "#" }]
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
         name: "Samsung Galaxy A26 5G",
         description: "Instap 5G-model met degelijke prestaties",
         rating: 0,
         image: "",
-        price: 0,
         pros: [
           "5G ondersteuning",
           "Scherpe prijs",
           "Groot scherm"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", price: 0, link: "#" }, { name: "Coolblue", price: 0, link: "#" }]
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
         name: "Samsung Galaxy A36 5G (128 GB)",
         description: "Populaire middenklasser met 128 GB opslag",
         rating: 0,
         image: "",
-        price: 0,
         pros: [
           "Goede prijs-kwaliteit",
           "5G ondersteuning",
           "Prima camera"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", price: 0, link: "#" }, { name: "Coolblue", price: 0, link: "#" }]
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
         name: "Samsung Galaxy A05s (4G)",
         description: "Zeer betaalbare 4G-smartphone voor basisgebruik",
         rating: 0,
         image: "",
-        price: 0,
         pros: [
           "Budgetvriendelijk",
           "Groot scherm",
           "Degelijke batterij"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", price: 0, link: "#" }, { name: "Coolblue", price: 0, link: "#" }]
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
         name: "Samsung Galaxy A36 5G (256 GB)",
         description: "A36 met extra 256 GB opslag voor meer ruimte",
         rating: 0,
         image: "",
-        price: 0,
         pros: [
           "256 GB opslag",
           "5G ondersteuning",
           "Vloeiend scherm"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", price: 0, link: "#" }, { name: "Coolblue", price: 0, link: "#" }]
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
         name: "Samsung Galaxy S25 5G (256 GB)",
         description: "Nieuwste S-serie met 5G en 256 GB opslag",
         rating: 0,
         image: "",
-        price: 0,
         pros: [
           "High-end prestaties",
           "Uitstekende camera",
           "5G ondersteuning"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", price: 0, link: "#" }, { name: "Coolblue", price: 0, link: "#" }]
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
         name: "Samsung Galaxy S25 5G (512 GB)",
         description: "S25 met royale 512 GB opslag voor power users",
         rating: 0,
         image: "",
-        price: 0,
         pros: [
           "512 GB opslag",
           "High-end prestaties",
           "Uitstekende camera"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", price: 0, link: "#" }, { name: "Coolblue", price: 0, link: "#" }]
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       }
     ]
   },
@@ -446,18 +408,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Het nieuwe vlaggenschip met Snapdragon 8 Gen 3",
         rating: 9.7,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 969,
         pros: ["Snapdragon 8 Gen 3", "100W laden", "Hasselblad camera's"],
         cons: ["Prijzig voor OnePlus", "Groot formaat"],
         stores: [
           {
             name: "Coolblue",
-            price: 969,
             link: "https://www.coolblue.nl/product/oneplus-12"
           },
           {
             name: "Bol.com",
-            price: 959,
             link: "https://www.bol.com/nl/p/oneplus-12"
           }
         ]
@@ -467,18 +426,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Gaming-focused met grote batterij en scherpe prijs",
         rating: 9.5,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 699,
         pros: ["Grote batterij", "Gaming features", "Goede prijs"],
         cons: ["Basis camera", "Geen draadloos laden"],
         stores: [
           {
             name: "Coolblue",
-            price: 699,
             link: "https://www.coolblue.nl/product/oneplus-12r"
           },
           {
             name: "Bol.com",
-            price: 689,
             link: "https://www.bol.com/nl/p/oneplus-12r"
           }
         ]
@@ -488,18 +444,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "De beste mid-range smartphone van OnePlus",
         rating: 9.3,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 449,
         pros: ["Goede prijs-kwaliteit", "80W laden", "OxygenOS"],
         cons: ["Plastic frame", "Geen draadloos laden"],
         stores: [
           {
             name: "Coolblue",
-            price: 449,
             link: "https://www.coolblue.nl/product/oneplus-nord-3"
           },
           {
             name: "Bol.com",
-            price: 439,
             link: "https://www.bol.com/nl/p/oneplus-nord-3"
           }
         ]
@@ -509,18 +462,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Betaalbare alleskunner met 5G",
         rating: 9.2,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 349,
         pros: ["Scherpe prijs", "5G", "Snelladen"],
         cons: ["Basis camera", "Plastic design"],
         stores: [
           {
             name: "Coolblue",
-            price: 349,
             link: "https://www.coolblue.nl/product/oneplus-nord-ce-3"
           },
           {
             name: "Bol.com",
-            price: 339,
             link: "https://www.bol.com/nl/p/oneplus-nord-ce-3"
           }
         ]
@@ -530,18 +480,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "De eerste vouwbare smartphone van OnePlus",
         rating: 9.1,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 1799,
         pros: ["Innovatief design", "Hasselblad camera's", "OxygenOS"],
         cons: ["Zeer hoge prijs", "Eerste generatie"],
         stores: [
           {
             name: "Coolblue",
-            price: 1799,
             link: "https://www.coolblue.nl/product/oneplus-open"
           },
           {
             name: "Bol.com",
-            price: 1789,
             link: "https://www.bol.com/nl/p/oneplus-open"
           }
         ]
@@ -551,18 +498,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Vorig vlaggenschip voor een scherpe prijs",
         rating: 9.0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 699,
         pros: ["Goede prijs", "Hasselblad camera's", "Snelladen"],
         cons: ["Geen draadloos laden", "Oudere processor"],
         stores: [
           {
             name: "Coolblue",
-            price: 699,
             link: "https://www.coolblue.nl/product/oneplus-11"
           },
           {
             name: "Bol.com",
-            price: 689,
             link: "https://www.bol.com/nl/p/oneplus-11"
           }
         ]
@@ -572,18 +516,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Budget-vriendelijke 5G smartphone",
         rating: 8.9,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 299,
         pros: ["Zeer betaalbaar", "5G", "Grote batterij"],
         cons: ["Basis camera", "Plastic bouw"],
         stores: [
           {
             name: "Coolblue",
-            price: 299,
             link: "https://www.coolblue.nl/product/oneplus-nord-n30"
           },
           {
             name: "Bol.com",
-            price: 289,
             link: "https://www.bol.com/nl/p/oneplus-nord-n30"
           }
         ]
@@ -593,18 +534,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Nog steeds een uitstekende mid-ranger",
         rating: 8.8,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 369,
         pros: ["Goede prijs", "80W laden", "OxygenOS"],
         cons: ["Oudere chip", "Basis camera's"],
         stores: [
           {
             name: "Coolblue",
-            price: 369,
             link: "https://www.coolblue.nl/product/oneplus-nord-2t"
           },
           {
             name: "Bol.com",
-            price: 359,
             link: "https://www.bol.com/nl/p/oneplus-nord-2t"
           }
         ]
@@ -614,18 +552,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Budget-vriendelijk met goede features",
         rating: 8.7,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 299,
         pros: ["Betaalbaar", "Snelladen", "Licht"],
         cons: ["Oudere processor", "Basis camera"],
         stores: [
           {
             name: "Coolblue",
-            price: 299,
             link: "https://www.coolblue.nl/product/oneplus-nord-ce-2"
           },
           {
             name: "Bol.com",
-            price: 289,
             link: "https://www.bol.com/nl/p/oneplus-nord-ce-2"
           }
         ]
@@ -635,18 +570,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "De meest betaalbare OnePlus",
         rating: 8.6,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 249,
         pros: ["Zeer betaalbaar", "AMOLED scherm", "Snelladen"],
         cons: ["Basis specs", "Plastic bouw"],
         stores: [
           {
             name: "Coolblue",
-            price: 249,
             link: "https://www.coolblue.nl/product/oneplus-nord-n20"
           },
           {
             name: "Bol.com",
-            price: 239,
             link: "https://www.bol.com/nl/p/oneplus-nord-n20"
           }
         ]
@@ -662,18 +594,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "De ultieme AI-smartphone met 7 jaar updates",
         rating: 9.7,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 1099,
         pros: ["Beste AI features", "7 jaar updates", "Geweldige camera's"],
         cons: ["Hoge prijs", "Beperkte beschikbaarheid"],
         stores: [
           {
             name: "Coolblue",
-            price: 1099,
             link: "https://www.coolblue.nl/product/google-pixel-8-pro"
           },
           {
             name: "Bol.com",
-            price: 1089,
             link: "https://www.bol.com/nl/p/google-pixel-8-pro"
           }
         ]
@@ -683,18 +612,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Compact powerhouse met alle AI features",
         rating: 9.6,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 799,
         pros: ["Compact", "7 jaar updates", "AI features"],
         cons: ["Geen telelens", "Prijzig"],
         stores: [
           {
             name: "Coolblue",
-            price: 799,
             link: "https://www.coolblue.nl/product/google-pixel-8"
           },
           {
             name: "Bol.com",
-            price: 789,
             link: "https://www.bol.com/nl/p/google-pixel-8"
           }
         ]
@@ -704,18 +630,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "De eerste vouwbare Pixel met stock Android",
         rating: 9.4,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 1899,
         pros: ["Uniek design", "Pure Android", "Goede camera's"],
         cons: ["Zeer hoge prijs", "Zwaar", "Eerste generatie"],
         stores: [
           {
             name: "Coolblue",
-            price: 1899,
             link: "https://www.coolblue.nl/product/google-pixel-fold"
           },
           {
             name: "Bol.com",
-            price: 1889,
             link: "https://www.bol.com/nl/p/google-pixel-fold"
           }
         ]
@@ -725,18 +648,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "De beste mid-range smartphone met pure Android",
         rating: 9.3,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 509,
         pros: ["Goede prijs", "Pure Android", "Geweldige camera"],
         cons: ["Plastic bouw", "Geen telelens"],
         stores: [
           {
             name: "Coolblue",
-            price: 509,
             link: "https://www.coolblue.nl/product/google-pixel-7a"
           },
           {
             name: "Bol.com",
-            price: 499,
             link: "https://www.bol.com/nl/p/google-pixel-7a"
           }
         ]
@@ -746,18 +666,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Nog steeds een toptoestel met geweldige camera's",
         rating: 9.2,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 899,
         pros: ["Scherpe prijs", "Goede camera's", "Pure Android"],
         cons: ["Oudere processor", "Kortere updates"],
         stores: [
           {
             name: "Coolblue",
-            price: 899,
             link: "https://www.coolblue.nl/product/google-pixel-7-pro"
           },
           {
             name: "Bol.com",
-            price: 889,
             link: "https://www.bol.com/nl/p/google-pixel-7-pro"
           }
         ]
@@ -767,18 +684,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Pure Android ervaring voor een scherpe prijs",
         rating: 9.1,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 649,
         pros: ["Goede prijs", "Pure Android", "Compacte behuizing"],
         cons: ["Basis camera", "Kortere updates"],
         stores: [
           {
             name: "Coolblue",
-            price: 649,
             link: "https://www.coolblue.nl/product/google-pixel-7"
           },
           {
             name: "Bol.com",
-            price: 639,
             link: "https://www.bol.com/nl/p/google-pixel-7"
           }
         ]
@@ -788,18 +702,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Budget-vriendelijke Pixel met goede prestaties",
         rating: 9.0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 399,
         pros: ["Zeer betaalbaar", "Pure Android", "Compact"],
         cons: ["Oudere hardware", "60Hz scherm"],
         stores: [
           {
             name: "Coolblue",
-            price: 399,
             link: "https://www.coolblue.nl/product/google-pixel-6a"
           },
           {
             name: "Bol.com",
-            price: 389,
             link: "https://www.bol.com/nl/p/google-pixel-6a"
           }
         ]
@@ -809,18 +720,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Voormalig vlaggenschip voor een scherpe prijs",
         rating: 8.9,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 699,
         pros: ["Scherpe prijs", "Goede camera's", "Pure Android"],
         cons: ["Oudere hardware", "Beperkte updates"],
         stores: [
           {
             name: "Coolblue",
-            price: 699,
             link: "https://www.coolblue.nl/product/google-pixel-6-pro"
           },
           {
             name: "Bol.com",
-            price: 689,
             link: "https://www.bol.com/nl/p/google-pixel-6-pro"
           }
         ]
@@ -830,18 +738,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Basis Pixel met pure Android ervaring",
         rating: 8.8,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 549,
         pros: ["Goede prijs", "Pure Android", "Degelijke camera"],
         cons: ["Oudere hardware", "Beperkte updates"],
         stores: [
           {
             name: "Coolblue",
-            price: 549,
             link: "https://www.coolblue.nl/product/google-pixel-6"
           },
           {
             name: "Bol.com",
-            price: 539,
             link: "https://www.bol.com/nl/p/google-pixel-6"
           }
         ]
@@ -851,18 +756,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Klassieke Pixel voor de liefhebber",
         rating: 8.7,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 449,
         pros: ["Compact", "Pure Android", "Betaalbaar"],
         cons: ["Verouderde specs", "Geen updates meer"],
         stores: [
           {
             name: "Coolblue",
-            price: 449,
             link: "https://www.coolblue.nl/product/google-pixel-5"
           },
           {
             name: "Bol.com",
-            price: 439,
             link: "https://www.bol.com/nl/p/google-pixel-5"
           }
         ]
@@ -878,18 +780,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Het nieuwe vlaggenschip met revolutionaire camera's",
         rating: 9.6,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 1299,
         pros: ["Hasselblad camera's", "Snapdragon 8 Gen 3", "Prachtig design"],
         cons: ["Zeer hoge prijs", "Beperkte beschikbaarheid"],
         stores: [
           {
             name: "Coolblue",
-            price: 1299,
             link: "https://www.coolblue.nl/product/oppo-find-x7-ultra"
           },
           {
             name: "Bol.com",
-            price: 1289,
             link: "https://www.bol.com/nl/p/oppo-find-x7-ultra"
           }
         ]
@@ -899,18 +798,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Premium vouwbare smartphone met Hasselblad camera's",
         rating: 9.5,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 1899,
         pros: ["Innovatief design", "Hasselblad camera's", "Groot scherm"],
         cons: ["Zeer hoge prijs", "Beperkte beschikbaarheid"],
         stores: [
           {
             name: "Coolblue",
-            price: 1899,
             link: "https://www.coolblue.nl/product/oppo-find-n3"
           },
           {
             name: "Bol.com",
-            price: 1889,
             link: "https://www.bol.com/nl/p/oppo-find-n3"
           }
         ]
@@ -920,18 +816,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Stijlvolle vouwbare smartphone met groot coverscherm",
         rating: 9.4,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 1199,
         pros: ["Uniek design", "Goede camera's", "Compact opgevouwen"],
         cons: ["Hoge prijs", "Batterijduur"],
         stores: [
           {
             name: "Coolblue",
-            price: 1199,
             link: "https://www.coolblue.nl/product/oppo-find-n3-flip"
           },
           {
             name: "Bol.com",
-            price: 1189,
             link: "https://www.bol.com/nl/p/oppo-find-n3-flip"
           }
         ]
@@ -941,18 +834,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Premium midrange met uitstekende camera's",
         rating: 9.3,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 799,
         pros: ["Mooi design", "Goede camera's", "Snelladen"],
         cons: ["Midrange processor", "Prijzig"],
         stores: [
           {
             name: "Coolblue",
-            price: 799,
             link: "https://www.coolblue.nl/product/oppo-reno11-pro"
           },
           {
             name: "Bol.com",
-            price: 789,
             link: "https://www.bol.com/nl/p/oppo-reno11-pro"
           }
         ]
@@ -962,18 +852,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Stijlvolle midrange smartphone",
         rating: 9.2,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 599,
         pros: ["Goed design", "Prima camera's", "Snelladen"],
         cons: ["Plastic frame", "Basis processor"],
         stores: [
           {
             name: "Coolblue",
-            price: 599,
             link: "https://www.coolblue.nl/product/oppo-reno11"
           },
           {
             name: "Bol.com",
-            price: 589,
             link: "https://www.bol.com/nl/p/oppo-reno11"
           }
         ]
@@ -983,18 +870,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Vorig vlaggenschip met top specs",
         rating: 9.1,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 999,
         pros: ["Goede prijs", "Top camera's", "Snelladen"],
         cons: ["Oudere processor", "Geen nieuwste features"],
         stores: [
           {
             name: "Coolblue",
-            price: 999,
             link: "https://www.coolblue.nl/product/oppo-find-x6-pro"
           },
           {
             name: "Bol.com",
-            price: 989,
             link: "https://www.bol.com/nl/p/oppo-find-x6-pro"
           }
         ]
@@ -1004,18 +888,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Betaalbare 5G smartphone met goede specs",
         rating: 9.0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 329,
         pros: ["5G", "Grote batterij", "Scherpe prijs"],
         cons: ["Basis camera", "Plastic design"],
         stores: [
           {
             name: "Coolblue",
-            price: 329,
             link: "https://www.coolblue.nl/product/oppo-a79-5g"
           },
           {
             name: "Bol.com",
-            price: 319,
             link: "https://www.bol.com/nl/p/oppo-a79-5g"
           }
         ]
@@ -1025,18 +906,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Budget-vriendelijke smartphone met goede features",
         rating: 8.9,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 249,
         pros: ["Zeer betaalbaar", "Groot scherm", "Goede batterij"],
         cons: ["Basis specs", "Plastic bouw"],
         stores: [
           {
             name: "Coolblue",
-            price: 249,
             link: "https://www.coolblue.nl/product/oppo-a58"
           },
           {
             name: "Bol.com",
-            price: 239,
             link: "https://www.bol.com/nl/p/oppo-a58"
           }
         ]
@@ -1046,18 +924,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Entry-level smartphone met goede batterij",
         rating: 8.8,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 179,
         pros: ["Zeer betaalbaar", "Lange batterijduur", "Degelijk"],
         cons: ["Basis camera", "Basis scherm"],
         stores: [
           {
             name: "Coolblue",
-            price: 179,
             link: "https://www.coolblue.nl/product/oppo-a38"
           },
           {
             name: "Bol.com",
-            price: 169,
             link: "https://www.bol.com/nl/p/oppo-a38"
           }
         ]
@@ -1067,18 +942,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "De meest betaalbare OPPO smartphone",
         rating: 8.7,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        price: 149,
         pros: ["Zeer goedkoop", "Basis functies", "Degelijk"],
         cons: ["Minimale specs", "Basis camera"],
         stores: [
           {
             name: "Coolblue",
-            price: 149,
             link: "https://www.coolblue.nl/product/oppo-a18"
           },
           {
             name: "Bol.com",
-            price: 139,
             link: "https://www.bol.com/nl/p/oppo-a18"
           }
         ]
@@ -1094,18 +966,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "De krachtigste PlayStation console ooit met 8K gaming support",
         rating: 9.8,
         image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3",
-        price: 599,
         pros: ["8K gaming", "Ray tracing", "SSD opslag", "4K/120fps"],
         cons: ["Hoge prijs", "Groot formaat"],
         stores: [
           {
             name: "Coolblue",
-            price: 599,
             link: "https://www.coolblue.nl/product/playstation-5-pro"
           },
           {
             name: "Bol.com",
-            price: 589,
             link: "https://www.bol.com/nl/p/playstation-5-pro"
           }
         ]
@@ -1115,18 +984,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Premium controller met aanpasbare knoppen en profielen",
         rating: 9.7,
         image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3",
-        price: 239,
         pros: ["Aanpasbare knoppen", "Extra profielen", "Premium build"],
         cons: ["Hoge prijs", "Batterijduur"],
         stores: [
           {
             name: "Coolblue",
-            price: 239,
             link: "https://www.coolblue.nl/product/dualsense-edge"
           },
           {
             name: "Bol.com",
-            price: 229,
             link: "https://www.bol.com/nl/p/dualsense-edge"
           }
         ]
@@ -1136,18 +1002,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Next-gen VR voor de ultieme gaming ervaring",
         rating: 9.6,
         image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3",
-        price: 599,
         pros: ["4K HDR", "Eye tracking", "Haptic feedback"],
         cons: ["Alleen voor PS5", "Prijzig"],
         stores: [
           {
             name: "Coolblue",
-            price: 599,
             link: "https://www.coolblue.nl/product/playstation-vr2"
           },
           {
             name: "Bol.com",
-            price: 589,
             link: "https://www.bol.com/nl/p/playstation-vr2"
           }
         ]
@@ -1157,18 +1020,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Epische superhelden actie in een open wereld",
         rating: 9.5,
         image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3",
-        price: 79,
         pros: ["Prachtige graphics", "Meeslepend verhaal", "Co-op"],
         cons: ["Relatief kort", "DLC prijzig"],
         stores: [
           {
             name: "Coolblue",
-            price: 79,
             link: "https://www.coolblue.nl/product/spiderman-2"
           },
           {
             name: "Bol.com",
-            price: 69,
             link: "https://www.bol.com/nl/p/spiderman-2"
           }
         ]
@@ -1178,18 +1038,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Episch Norse mythologie avontuur",
         rating: 9.4,
         image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3",
-        price: 69,
         pros: ["Episch verhaal", "Geweldige graphics", "Veel content"],
         cons: ["Lineair", "Moeilijk"],
         stores: [
           {
             name: "Coolblue",
-            price: 69,
             link: "https://www.coolblue.nl/product/god-of-war"
           },
           {
             name: "Bol.com",
-            price: 59,
             link: "https://www.bol.com/nl/p/god-of-war"
           }
         ]
@@ -1199,18 +1056,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "1080p camera voor streaming en content creatie",
         rating: 9.3,
         image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3",
-        price: 69,
         pros: ["Hoge kwaliteit", "Makkelijk setup", "Dual lenzen"],
         cons: ["Alleen voor PS5", "Beperkte features"],
         stores: [
           {
             name: "Coolblue",
-            price: 69,
             link: "https://www.coolblue.nl/product/ps5-camera"
           },
           {
             name: "Bol.com",
-            price: 59,
             link: "https://www.bol.com/nl/p/ps5-camera"
           }
         ]
@@ -1220,18 +1074,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Draadloze gaming headset met 3D audio",
         rating: 9.2,
         image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3",
-        price: 99,
         pros: ["3D audio", "Comfortabel", "Goede microfoon"],
         cons: ["Batterijduur", "Plastic build"],
         stores: [
           {
             name: "Coolblue",
-            price: 99,
             link: "https://www.coolblue.nl/product/pulse-3d"
           },
           {
             name: "Bol.com",
-            price: 89,
             link: "https://www.bol.com/nl/p/pulse-3d"
           }
         ]
@@ -1241,18 +1092,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Standaard PS5 controller met haptic feedback",
         rating: 9.1,
         image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3",
-        price: 69,
         pros: ["Haptic feedback", "Adaptive triggers", "Ergonomisch"],
         cons: ["Batterijduur", "Prijs"],
         stores: [
           {
             name: "Coolblue",
-            price: 69,
             link: "https://www.coolblue.nl/product/dualsense"
           },
           {
             name: "Bol.com",
-            price: 59,
             link: "https://www.bol.com/nl/p/dualsense"
           }
         ]
@@ -1262,18 +1110,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Afstandsbediening voor media content",
         rating: 9.0,
         image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3",
-        price: 29,
         pros: ["Handig design", "Media knoppen", "Bluetooth"],
         cons: ["Beperkt gebruik", "Basis functionaliteit"],
         stores: [
           {
             name: "Coolblue",
-            price: 29,
             link: "https://www.coolblue.nl/product/ps5-remote"
           },
           {
             name: "Bol.com",
-            price: 25,
             link: "https://www.bol.com/nl/p/ps5-remote"
           }
         ]
@@ -1283,18 +1128,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Oplaadstation voor twee DualSense controllers",
         rating: 8.9,
         image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3",
-        price: 29,
         pros: ["Laadt 2 controllers", "Past bij PS5", "Snel laden"],
         cons: ["Basis functionaliteit", "Prijs"],
         stores: [
           {
             name: "Coolblue",
-            price: 29,
             link: "https://www.coolblue.nl/product/ps5-charging"
           },
           {
             name: "Bol.com",
-            price: 25,
             link: "https://www.bol.com/nl/p/ps5-charging"
           }
         ]
@@ -1310,18 +1152,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "De krachtigste Xbox console met 4K gaming",
         rating: 9.8,
         image: "https://images.unsplash.com/photo-1621259182978-fbf93132d53d",
-        price: 499,
         pros: ["4K gaming", "Quick Resume", "Game Pass", "Backwards compatibility"],
         cons: ["Groot formaat", "Beperkte exclusives"],
         stores: [
           {
             name: "Coolblue",
-            price: 499,
             link: "https://www.coolblue.nl/product/xbox-series-x"
           },
           {
             name: "Bol.com",
-            price: 489,
             link: "https://www.bol.com/nl/p/xbox-series-x"
           }
         ]
@@ -1331,18 +1170,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Premium controller met aanpasbare onderdelen",
         rating: 9.7,
         image: "https://images.unsplash.com/photo-1621259182978-fbf93132d53d",
-        price: 179,
         pros: ["Aanpasbaar", "Premium build", "Lange batterijduur"],
         cons: ["Hoge prijs", "Complex voor casual gamers"],
         stores: [
           {
             name: "Coolblue",
-            price: 179,
             link: "https://www.coolblue.nl/product/xbox-elite-2"
           },
           {
             name: "Bol.com",
-            price: 169,
             link: "https://www.bol.com/nl/p/xbox-elite-2"
           }
         ]
@@ -1352,18 +1188,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Compacte digitale console voor 1440p gaming",
         rating: 9.6,
         image: "https://images.unsplash.com/photo-1621259182978-fbf93132d53d",
-        price: 299,
         pros: ["Compact", "Betaalbaar", "Game Pass", "Quick Resume"],
         cons: ["Geen disc drive", "Minder krachtig"],
         stores: [
           {
             name: "Coolblue",
-            price: 299,
             link: "https://www.coolblue.nl/product/xbox-series-s"
           },
           {
             name: "Bol.com",
-            price: 289,
             link: "https://www.bol.com/nl/p/xbox-series-s"
           }
         ]
@@ -1373,18 +1206,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Official Xbox headset met spatial audio",
         rating: 9.5,
         image: "https://images.unsplash.com/photo-1621259182978-fbf93132d53d",
-        price: 99,
         pros: ["Spatial audio", "Bluetooth", "Goede microfoon"],
         cons: ["Plastic build", "Basis EQ"],
         stores: [
           {
             name: "Coolblue",
-            price: 99,
             link: "https://www.coolblue.nl/product/xbox-headset"
           },
           {
             name: "Bol.com",
-            price: 89,
             link: "https://www.bol.com/nl/p/xbox-headset"
           }
         ]
@@ -1394,18 +1224,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Epische sci-fi RPG van Bethesda",
         rating: 9.4,
         image: "https://images.unsplash.com/photo-1621259182978-fbf93132d53d",
-        price: 79,
         pros: ["Enorme wereld", "Veel vrijheid", "Mooi verhaal"],
         cons: ["Bugs", "Lange laadtijden"],
         stores: [
           {
             name: "Coolblue",
-            price: 79,
             link: "https://www.coolblue.nl/product/starfield"
           },
           {
             name: "Bol.com",
-            price: 69,
             link: "https://www.bol.com/nl/p/starfield"
           }
         ]
@@ -1415,18 +1242,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Next-gen racing simulator",
         rating: 9.3,
         image: "https://images.unsplash.com/photo-1621259182978-fbf93132d53d",
-        price: 79,
         pros: ["Realistische physics", "Prachtige graphics", "Veel content"],
         cons: ["Steep learning curve", "Online vereist"],
         stores: [
           {
             name: "Coolblue",
-            price: 79,
             link: "https://www.coolblue.nl/product/forza-motorsport"
           },
           {
             name: "Bol.com",
-            price: 69,
             link: "https://www.bol.com/nl/p/forza-motorsport"
           }
         ]
@@ -1436,18 +1260,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "1TB extra snelle opslag voor Series X|S",
         rating: 9.2,
         image: "https://images.unsplash.com/photo-1621259182978-fbf93132d53d",
-        price: 219,
         pros: ["Snelle laadtijden", "Plug & play", "Portable"],
         cons: ["Zeer duur", "Alleen voor Series X|S"],
         stores: [
           {
             name: "Coolblue",
-            price: 219,
             link: "https://www.coolblue.nl/product/xbox-storage"
           },
           {
             name: "Bol.com",
-            price: 209,
             link: "https://www.bol.com/nl/p/xbox-storage"
           }
         ]
@@ -1457,18 +1278,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Standaard controller voor Xbox Series X|S",
         rating: 9.1,
         image: "https://images.unsplash.com/photo-1621259182978-fbf93132d53d",
-        price: 59,
         pros: ["Vertrouwd design", "Goede d-pad", "Share knop"],
         cons: ["Batterijen nodig", "Basis features"],
         stores: [
           {
             name: "Coolblue",
-            price: 59,
             link: "https://www.coolblue.nl/product/xbox-controller"
           },
           {
             name: "Bol.com",
-            price: 49,
             link: "https://www.bol.com/nl/p/xbox-controller"
           }
         ]
@@ -1478,18 +1296,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Oplaadbare batterij voor Xbox controllers",
         rating: 9.0,
         image: "https://images.unsplash.com/photo-1621259182978-fbf93132d53d",
-        price: 24,
         pros: ["Oplaadbaar", "Lange batterijduur", "USB-C"],
         cons: ["Prijs", "Één batterij"],
         stores: [
           {
             name: "Coolblue",
-            price: 24,
             link: "https://www.coolblue.nl/product/xbox-battery"
           },
           {
             name: "Bol.com",
-            price: 19,
             link: "https://www.bol.com/nl/p/xbox-battery"
           }
         ]
@@ -1499,18 +1314,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Afstandsbediening voor media content",
         rating: 8.9,
         image: "https://images.unsplash.com/photo-1621259182978-fbf93132d53d",
-        price: 24,
         pros: ["Verlichte knoppen", "Media controls", "IR blaster"],
         cons: ["Basis functionaliteit", "Batterijen nodig"],
         stores: [
           {
             name: "Coolblue",
-            price: 24,
             link: "https://www.coolblue.nl/product/xbox-remote"
           },
           {
             name: "Bol.com",
-            price: 19,
             link: "https://www.bol.com/nl/p/xbox-remote"
           }
         ]
@@ -1526,18 +1338,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "De nieuwe generatie Nintendo console met 4K support",
         rating: 9.8,
         image: "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e",
-        price: 399,
         pros: ["4K gaming", "Betere batterij", "Backwards compatible"],
         cons: ["Hogere prijs", "Groot formaat"],
         stores: [
           {
             name: "Coolblue",
-            price: 399,
             link: "https://www.coolblue.nl/product/switch-2"
           },
           {
             name: "Bol.com",
-            price: 389,
             link: "https://www.bol.com/nl/p/switch-2"
           }
         ]
@@ -1547,18 +1356,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Het langverwachte vervolg op Breath of the Wild",
         rating: 9.7,
         image: "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e",
-        price: 69,
         pros: ["Grote open wereld", "Innovatieve gameplay", "Prachtige graphics"],
         cons: ["Hoge systeemeisen", "DLC prijzig"],
         stores: [
           {
             name: "Coolblue",
-            price: 69,
             link: "https://www.coolblue.nl/product/zelda-botw2"
           },
           {
             name: "Bol.com",
-            price: 59,
             link: "https://www.bol.com/nl/p/zelda-botw2"
           }
         ]
@@ -1568,18 +1374,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Premium controller voor de Nintendo Switch",
         rating: 9.6,
         image: "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e",
-        price: 69,
         pros: ["Comfortabel", "Lange batterijduur", "Amiibo support"],
         cons: ["Hoge prijs", "Geen analoge triggers"],
         stores: [
           {
             name: "Coolblue",
-            price: 69,
             link: "https://www.coolblue.nl/product/switch-pro"
           },
           {
             name: "Bol.com",
-            price: 59,
             link: "https://www.bol.com/nl/p/switch-pro"
           }
         ]
@@ -1589,18 +1392,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Nieuwe Mario Kart met next-gen features",
         rating: 9.5,
         image: "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e",
-        price: 59,
         pros: ["Nieuwe banen", "Online multiplayer", "4K graphics"],
         cons: ["DLC nodig", "Weinig innovatie"],
         stores: [
           {
             name: "Coolblue",
-            price: 59,
             link: "https://www.coolblue.nl/product/mario-kart-9"
           },
           {
             name: "Bol.com",
-            price: 49,
             link: "https://www.bol.com/nl/p/mario-kart-9"
           }
         ]
@@ -1610,18 +1410,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Nieuwe dock met 4K output en ethernet",
         rating: 9.4,
         image: "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e",
-        price: 99,
         pros: ["4K output", "Meer poorten", "Betere koeling"],
         cons: ["Hoge prijs", "Groot formaat"],
         stores: [
           {
             name: "Coolblue",
-            price: 99,
             link: "https://www.coolblue.nl/product/switch-dock-2"
           },
           {
             name: "Bol.com",
-            price: 89,
             link: "https://www.bol.com/nl/p/switch-dock-2"
           }
         ]
@@ -1631,18 +1428,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Set van twee Joy-Con controllers",
         rating: 9.3,
         image: "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e",
-        price: 79,
         pros: ["Veelzijdig", "HD rumble", "Motion controls"],
         cons: ["Drift issues", "Hoge prijs"],
         stores: [
           {
             name: "Coolblue",
-            price: 79,
             link: "https://www.coolblue.nl/product/joy-con"
           },
           {
             name: "Bol.com",
-            price: 69,
             link: "https://www.bol.com/nl/p/joy-con"
           }
         ]
@@ -1652,18 +1446,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Online gaming service met extra content",
         rating: 9.2,
         image: "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e",
-        price: 39,
         pros: ["Retro games", "Online play", "Cloud saves"],
         cons: ["Jaarlijks", "Beperkte features"],
         stores: [
           {
             name: "Coolblue",
-            price: 39,
             link: "https://www.coolblue.nl/product/switch-online"
           },
           {
             name: "Bol.com",
-            price: 35,
             link: "https://www.bol.com/nl/p/switch-online"
           }
         ]
@@ -1673,18 +1464,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Premium beschermhoes voor de Switch",
         rating: 9.1,
         image: "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e",
-        price: 24,
         pros: ["Stevig", "Kaarthouders", "Standaard"],
         cons: ["Basis design", "Beperkte ruimte"],
         stores: [
           {
             name: "Coolblue",
-            price: 24,
             link: "https://www.coolblue.nl/product/switch-case"
           },
           {
             name: "Bol.com",
-            price: 19,
             link: "https://www.bol.com/nl/p/switch-case"
           }
         ]
@@ -1694,18 +1482,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Interactieve figuren voor Nintendo games",
         rating: 9.0,
         image: "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e",
-        price: 14,
         pros: ["Collectible", "In-game content", "Hoge kwaliteit"],
         cons: ["Prijzig verzamelen", "Beperkte functionaliteit"],
         stores: [
           {
             name: "Coolblue",
-            price: 14,
             link: "https://www.coolblue.nl/product/amiibo"
           },
           {
             name: "Bol.com",
-            price: 12,
             link: "https://www.bol.com/nl/p/amiibo"
           }
         ]
@@ -1715,18 +1500,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Tempered glass bescherming voor het scherm",
         rating: 8.9,
         image: "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e",
-        price: 9,
         pros: ["Krasbestendig", "Makkelijk aan te brengen", "Helder"],
         cons: ["Basis accessoire", "Moet vervangen worden"],
         stores: [
           {
             name: "Coolblue",
-            price: 9,
             link: "https://www.coolblue.nl/product/switch-protector"
           },
           {
             name: "Bol.com",
-            price: 7,
             link: "https://www.bol.com/nl/p/switch-protector"
           }
         ]
@@ -1742,18 +1524,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "De krachtigste MacBook ooit met M3 Max chip",
         rating: 9.8,
         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        price: 3499,
         pros: ["M3 Max chip", "Mini-LED display", "Lange batterijduur"],
         cons: ["Zeer hoge prijs", "Zwaar"],
         stores: [
           {
             name: "Coolblue",
-            price: 3499,
             link: "https://www.coolblue.nl/product/macbook-pro-16-m3"
           },
           {
             name: "Bol.com",
-            price: 3489,
             link: "https://www.bol.com/nl/p/macbook-pro-16-m3"
           }
         ]
@@ -1763,18 +1542,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Premium Windows laptop met OLED display",
         rating: 9.7,
         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        price: 2499,
         pros: ["4K OLED", "RTX 4070", "Premium build"],
         cons: ["Prijzig", "Warm onder load"],
         stores: [
           {
             name: "Coolblue",
-            price: 2499,
             link: "https://www.coolblue.nl/product/dell-xps-16"
           },
           {
             name: "Bol.com",
-            price: 2489,
             link: "https://www.bol.com/nl/p/dell-xps-16"
           }
         ]
@@ -1784,18 +1560,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Zakelijke ultrabook met uitstekende bouwkwaliteit",
         rating: 9.6,
         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        price: 1999,
         pros: ["Licht", "Geweldig toetsenbord", "Lange batterijduur"],
         cons: ["Prijzig", "Beperkte GPU"],
         stores: [
           {
             name: "Coolblue",
-            price: 1999,
             link: "https://www.coolblue.nl/product/thinkpad-x1"
           },
           {
             name: "Bol.com",
-            price: 1989,
             link: "https://www.bol.com/nl/p/thinkpad-x1"
           }
         ]
@@ -1805,18 +1578,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Krachtige gaming laptop met Mini-LED",
         rating: 9.5,
         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        price: 2299,
         pros: ["RTX 4080", "Mini-LED", "Uitstekende koeling"],
         cons: ["Korte batterijduur", "Luid onder load"],
         stores: [
           {
             name: "Coolblue",
-            price: 2299,
             link: "https://www.coolblue.nl/product/asus-rog-g16"
           },
           {
             name: "Bol.com",
-            price: 2289,
             link: "https://www.bol.com/nl/p/asus-rog-g16"
           }
         ]
@@ -1826,18 +1596,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Dunne en lichte laptop met M3 chip",
         rating: 9.4,
         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        price: 1499,
         pros: ["M3 chip", "Fanless design", "Groot display"],
         cons: ["Beperkte poorten", "Prijzig"],
         stores: [
           {
             name: "Coolblue",
-            price: 1499,
             link: "https://www.coolblue.nl/product/macbook-air-15"
           },
           {
             name: "Bol.com",
-            price: 1489,
             link: "https://www.bol.com/nl/p/macbook-air-15"
           }
         ]
@@ -1847,18 +1614,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Premium 2-in-1 laptop met OLED",
         rating: 9.3,
         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        price: 1799,
         pros: ["Veelzijdig", "OLED display", "Pen support"],
         cons: ["Zwaar als tablet", "Prijzig"],
         stores: [
           {
             name: "Coolblue",
-            price: 1799,
             link: "https://www.coolblue.nl/product/hp-spectre-16"
           },
           {
             name: "Bol.com",
-            price: 1789,
             link: "https://www.bol.com/nl/p/hp-spectre-16"
           }
         ]
@@ -1868,18 +1632,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Ultralichte laptop met OLED display",
         rating: 9.2,
         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        price: 1299,
         pros: ["Zeer licht", "OLED", "Goede prijs"],
         cons: ["Plastic chassis", "Basis speakers"],
         stores: [
           {
             name: "Coolblue",
-            price: 1299,
             link: "https://www.coolblue.nl/product/acer-swift-edge"
           },
           {
             name: "Bol.com",
-            price: 1289,
             link: "https://www.bol.com/nl/p/acer-swift-edge"
           }
         ]
@@ -1889,18 +1650,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Creatieve laptop met krachtige GPU",
         rating: 9.1,
         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        price: 1999,
         pros: ["RTX 4070", "4K display", "Stil"],
         cons: ["Duur", "Matige batterij"],
         stores: [
           {
             name: "Coolblue",
-            price: 1999,
             link: "https://www.coolblue.nl/product/msi-stealth-16"
           },
           {
             name: "Bol.com",
-            price: 1989,
             link: "https://www.bol.com/nl/p/msi-stealth-16"
           }
         ]
@@ -1910,18 +1668,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "High-end gaming laptop",
         rating: 9.0,
         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        price: 2499,
         pros: ["RTX 4090", "165Hz display", "Uitstekende koeling"],
         cons: ["Zwaar", "Korte batterijduur"],
         stores: [
           {
             name: "Coolblue",
-            price: 2499,
             link: "https://www.coolblue.nl/product/legion-pro-7"
           },
           {
             name: "Bol.com",
-            price: 2489,
             link: "https://www.bol.com/nl/p/legion-pro-7"
           }
         ]
@@ -1931,18 +1686,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Compacte laptop met OLED display",
         rating: 8.9,
         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        price: 999,
         pros: ["OLED", "Licht", "Betaalbaar"],
         cons: ["Integrated GPU", "Beperkte poorten"],
         stores: [
           {
             name: "Coolblue",
-            price: 999,
             link: "https://www.coolblue.nl/product/zenbook-14"
           },
           {
             name: "Bol.com",
-            price: 989,
             link: "https://www.bol.com/nl/p/zenbook-14"
           }
         ]
@@ -1958,18 +1710,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "De krachtigste Mac desktop voor professionals",
         rating: 9.8,
         image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        price: 4999,
         pros: ["M3 Ultra chip", "Tot 192GB RAM", "Stil"],
         cons: ["Zeer duur", "Niet upgradeable"],
         stores: [
           {
             name: "Coolblue",
-            price: 4999,
             link: "https://www.coolblue.nl/product/mac-studio"
           },
           {
             name: "Bol.com",
-            price: 4989,
             link: "https://www.bol.com/nl/p/mac-studio"
           }
         ]
@@ -1979,18 +1728,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "High-end gaming desktop met waterkoeking",
         rating: 9.7,
         image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        price: 3499,
         pros: ["RTX 4090", "Cryo cooling", "Makkelijk upgraden"],
         cons: ["Groot formaat", "Prijzig"],
         stores: [
           {
             name: "Coolblue",
-            price: 3499,
             link: "https://www.coolblue.nl/product/hp-omen-45l"
           },
           {
             name: "Bol.com",
-            price: 3489,
             link: "https://www.bol.com/nl/p/hp-omen-45l"
           }
         ]
@@ -2000,18 +1746,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Compacte high-end gaming PC",
         rating: 9.6,
         image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        price: 4299,
         pros: ["Compact", "Waterkoeling", "RTX 4080"],
         cons: ["Duur", "Beperkt upgradebaar"],
         stores: [
           {
             name: "Coolblue",
-            price: 4299,
             link: "https://www.coolblue.nl/product/corsair-one"
           },
           {
             name: "Bol.com",
-            price: 4289,
             link: "https://www.bol.com/nl/p/corsair-one"
           }
         ]
@@ -2021,18 +1764,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Futuristisch gaming desktop",
         rating: 9.5,
         image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        price: 3999,
         pros: ["Uniek design", "RTX 4090", "RGB"],
         cons: ["Zeer groot", "Prijzig"],
         stores: [
           {
             name: "Coolblue",
-            price: 3999,
             link: "https://www.coolblue.nl/product/msi-aegis"
           },
           {
             name: "Bol.com",
-            price: 3989,
             link: "https://www.bol.com/nl/p/msi-aegis"
           }
         ]
@@ -2042,18 +1782,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "All-in-one desktop met M3 chip",
         rating: 9.4,
         image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        price: 1699,
         pros: ["Slank design", "4.5K display", "M3 chip"],
         cons: ["Niet upgradeable", "Beperkte poorten"],
         stores: [
           {
             name: "Coolblue",
-            price: 1699,
             link: "https://www.coolblue.nl/product/imac-24"
           },
           {
             name: "Bol.com",
-            price: 1689,
             link: "https://www.bol.com/nl/p/imac-24"
           }
         ]
@@ -2063,18 +1800,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Krachtige gaming desktop",
         rating: 9.3,
         image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        price: 2999,
         pros: ["RTX 4080", "Goede koeling", "Tool-less design"],
         cons: ["Groot", "Basic RGB"],
         stores: [
           {
             name: "Coolblue",
-            price: 2999,
             link: "https://www.coolblue.nl/product/legion-tower"
           },
           {
             name: "Bol.com",
-            price: 2989,
             link: "https://www.bol.com/nl/p/legion-tower"
           }
         ]
@@ -2084,18 +1818,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Stijlvolle desktop voor werk en gaming",
         rating: 9.2,
         image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        price: 1999,
         pros: ["Compact", "RTX 4070", "Stil"],
         cons: ["Beperkte RGB", "Prijzig"],
         stores: [
           {
             name: "Coolblue",
-            price: 1999,
             link: "https://www.coolblue.nl/product/xps-desktop"
           },
           {
             name: "Bol.com",
-            price: 1989,
             link: "https://www.bol.com/nl/p/xps-desktop"
           }
         ]
@@ -2105,18 +1836,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Gaming desktop met uniek design",
         rating: 9.1,
         image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        price: 2499,
         pros: ["RTX 4070 Ti", "Goede airflow", "RGB"],
         cons: ["Groot formaat", "Luid onder load"],
         stores: [
           {
             name: "Coolblue",
-            price: 2499,
             link: "https://www.coolblue.nl/product/rog-strix"
           },
           {
             name: "Bol.com",
-            price: 2489,
             link: "https://www.bol.com/nl/p/rog-strix"
           }
         ]
@@ -2126,18 +1854,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Budget-vriendelijke gaming PC",
         rating: 9.0,
         image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        price: 1299,
         pros: ["RTX 4060", "Compact", "Betaalbaar"],
         cons: ["Basic koeling", "Beperkt RGB"],
         stores: [
           {
             name: "Coolblue",
-            price: 1299,
             link: "https://www.coolblue.nl/product/pavilion-gaming"
           },
           {
             name: "Bol.com",
-            price: 1289,
             link: "https://www.bol.com/nl/p/pavilion-gaming"
           }
         ]
@@ -2147,18 +1872,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Betaalbare desktop voor thuisgebruik",
         rating: 8.9,
         image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        price: 699,
         pros: ["Goede prijs", "Stil", "Compact"],
         cons: ["Integrated graphics", "Basis design"],
         stores: [
           {
             name: "Coolblue",
-            price: 699,
             link: "https://www.coolblue.nl/product/aspire-tc"
           },
           {
             name: "Bol.com",
-            price: 689,
             link: "https://www.bol.com/nl/p/aspire-tc"
           }
         ]
@@ -2174,18 +1896,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "De snelste gaming GPU ter wereld",
         rating: 9.8,
         image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        price: 1999,
         pros: ["Ongekende prestaties", "Ray tracing", "DLSS 4.0"],
         cons: ["Zeer duur", "Hoog stroomverbruik"],
         stores: [
           {
             name: "Coolblue",
-            price: 1999,
             link: "https://www.coolblue.nl/product/rtx-5090"
           },
           {
             name: "Bol.com",
-            price: 1989,
             link: "https://www.bol.com/nl/p/rtx-5090"
           }
         ]
@@ -2195,18 +1914,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "High-end desktop processor",
         rating: 9.7,
         image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        price: 699,
         pros: ["32 cores", "Hoge kloksnelheid", "PCIe 5.0"],
         cons: ["Prijzig", "Stroomverbruik"],
         stores: [
           {
             name: "Coolblue",
-            price: 699,
             link: "https://www.coolblue.nl/product/i9-15900k"
           },
           {
             name: "Bol.com",
-            price: 689,
             link: "https://www.bol.com/nl/p/i9-15900k"
           }
         ]
@@ -2216,18 +1932,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Ultra-snelle PCIe 5.0 NVMe SSD",
         rating: 9.6,
         image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        price: 499,
         pros: ["13GB/s reads", "Lange levensduur", "Heatsink"],
         cons: ["Hoge prijs", "Overkill voor gaming"],
         stores: [
           {
             name: "Coolblue",
-            price: 499,
             link: "https://www.coolblue.nl/product/990-pro"
           },
           {
             name: "Bol.com",
-            price: 489,
             link: "https://www.bol.com/nl/p/990-pro"
           }
         ]
@@ -2237,18 +1950,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "High-end AMD processor",
         rating: 9.5,
         image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        price: 649,
         pros: ["24 cores", "Efficient", "AM5 socket"],
         cons: ["Dure moederborden", "Prijzig"],
         stores: [
           {
             name: "Coolblue",
-            price: 649,
             link: "https://www.coolblue.nl/product/ryzen-8950x"
           },
           {
             name: "Bol.com",
-            price: 639,
             link: "https://www.bol.com/nl/p/ryzen-8950x"
           }
         ]
@@ -2258,18 +1968,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "High-end Intel moederbord",
         rating: 9.4,
         image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        price: 799,
         pros: ["PCIe 5.0", "WiFi 7", "Uitstekende VRMs"],
         cons: ["Zeer duur", "Overkill features"],
         stores: [
           {
             name: "Coolblue",
-            price: 799,
             link: "https://www.coolblue.nl/product/maximus-hero"
           },
           {
             name: "Bol.com",
-            price: 789,
             link: "https://www.bol.com/nl/p/maximus-hero"
           }
         ]
@@ -2279,18 +1986,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "DDR5-8000 RAM kit (32GB)",
         rating: 9.3,
         image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        price: 399,
         pros: ["Extreme snelheid", "RGB", "Goede koeling"],
         cons: ["Zeer duur", "Overkill"],
         stores: [
           {
             name: "Coolblue",
-            price: 399,
             link: "https://www.coolblue.nl/product/dominator-ddr5"
           },
           {
             name: "Bol.com",
-            price: 389,
             link: "https://www.bol.com/nl/p/dominator-ddr5"
           }
         ]
@@ -2300,18 +2004,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "1500W ATX 3.0 voeding",
         rating: 9.2,
         image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        price: 399,
         pros: ["Titanium efficiency", "Stil", "Modulair"],
         cons: ["Hoge prijs", "Overkill voor veel builds"],
         stores: [
           {
             name: "Coolblue",
-            price: 399,
             link: "https://www.coolblue.nl/product/dark-power"
           },
           {
             name: "Bol.com",
-            price: 389,
             link: "https://www.bol.com/nl/p/dark-power"
           }
         ]
@@ -2321,18 +2022,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Premium PC behuizing",
         rating: 9.1,
         image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        price: 199,
         pros: ["Uitstekende airflow", "Tool-less", "Mooi design"],
         cons: ["Prijzig", "Groot formaat"],
         stores: [
           {
             name: "Coolblue",
-            price: 199,
             link: "https://www.coolblue.nl/product/o11-dynamic"
           },
           {
             name: "Bol.com",
-            price: 189,
             link: "https://www.bol.com/nl/p/o11-dynamic"
           }
         ]
@@ -2342,18 +2040,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "360mm AIO waterkoeling",
         rating: 9.0,
         image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        price: 179,
         pros: ["Uitstekende koeling", "Stil", "Goede prijs"],
         cons: ["Groot radiator", "Basic RGB"],
         stores: [
           {
             name: "Coolblue",
-            price: 179,
             link: "https://www.coolblue.nl/product/liquid-freezer"
           },
           {
             name: "Bol.com",
-            price: 169,
             link: "https://www.bol.com/nl/p/liquid-freezer"
           }
         ]
@@ -2363,18 +2058,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Premium CPU luchtkoeler",
         rating: 8.9,
         image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        price: 109,
         pros: ["Uitstekende koeling", "Zeer stil", "Duurzaam"],
         cons: ["Groot formaat", "RAM clearance"],
         stores: [
           {
             name: "Coolblue",
-            price: 109,
             link: "https://www.coolblue.nl/product/nh-d15"
           },
           {
             name: "Bol.com",
-            price: 99,
             link: "https://www.bol.com/nl/p/nh-d15"
           }
         ]
@@ -2390,18 +2082,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Premium 32-inch 4K Mini-LED gaming monitor",
         rating: 9.8,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 1299,
         pros: ["4K 240Hz", "Mini-LED", "HDR 1600", "G-Sync Ultimate"],
         cons: ["Zeer duur", "Groot formaat"],
         stores: [
           {
             name: "Coolblue",
-            price: 1299,
             link: "https://www.coolblue.nl/product/rog-swift-pg32ucdm"
           },
           {
             name: "Bol.com",
-            price: 1289,
             link: "https://www.bol.com/nl/p/rog-swift-pg32ucdm"
           }
         ]
@@ -2411,18 +2100,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "49-inch ultrawide OLED gaming monitor",
         rating: 9.7,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 1499,
         pros: ["5120x1440", "OLED", "240Hz", "Perfect blacks"],
         cons: ["Zeer duur", "Enorm formaat"],
         stores: [
           {
             name: "Coolblue",
-            price: 1499,
             link: "https://www.coolblue.nl/product/odyssey-oled-g9"
           },
           {
             name: "Bol.com",
-            price: 1489,
             link: "https://www.bol.com/nl/p/odyssey-oled-g9"
           }
         ]
@@ -2432,18 +2118,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "32-inch 4K gaming monitor met OLED",
         rating: 9.6,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 999,
         pros: ["4K 144Hz", "OLED", "G-Sync", "HDR"],
         cons: ["Prijzig", "Burn-in risico"],
         stores: [
           {
             name: "Coolblue",
-            price: 999,
             link: "https://www.coolblue.nl/product/lg-32gr93u"
           },
           {
             name: "Bol.com",
-            price: 989,
             link: "https://www.bol.com/nl/p/lg-32gr93u"
           }
         ]
@@ -2453,18 +2136,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "27-inch QD-OLED gaming monitor",
         rating: 9.5,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 899,
         pros: ["1440p 360Hz", "QD-OLED", "G-Sync"],
         cons: ["Hoge prijs", "Beperkte HDR"],
         stores: [
           {
             name: "Coolblue",
-            price: 899,
             link: "https://www.coolblue.nl/product/alienware-aw2725df"
           },
           {
             name: "Bol.com",
-            price: 889,
             link: "https://www.bol.com/nl/p/alienware-aw2725df"
           }
         ]
@@ -2474,18 +2154,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "32-inch 4K gaming monitor",
         rating: 9.4,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 799,
         pros: ["4K 160Hz", "HDR 600", "KVM switch"],
         cons: ["IPS glow", "Groot formaat"],
         stores: [
           {
             name: "Coolblue",
-            price: 799,
             link: "https://www.coolblue.nl/product/msi-mpg-321urx"
           },
           {
             name: "Bol.com",
-            price: 789,
             link: "https://www.bol.com/nl/p/msi-mpg-321urx"
           }
         ]
@@ -2495,18 +2172,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "27-inch gaming monitor met hoge refresh rate",
         rating: 9.3,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 299,
         pros: ["1080p 280Hz", "Adaptive Sync", "Goede prijs"],
         cons: ["Basis HDR", "1080p op 27 inch"],
         stores: [
           {
             name: "Coolblue",
-            price: 299,
             link: "https://www.coolblue.nl/product/aoc-27g3x"
           },
           {
             name: "Bol.com",
-            price: 289,
             link: "https://www.bol.com/nl/p/aoc-27g3x"
           }
         ]
@@ -2516,18 +2190,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "27-inch 1440p gaming monitor",
         rating: 9.2,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 499,
         pros: ["1440p 240Hz", "IPS", "G-Sync"],
         cons: ["Matige HDR", "Prijzig"],
         stores: [
           {
             name: "Coolblue",
-            price: 499,
             link: "https://www.coolblue.nl/product/viewsonic-xg271qg"
           },
           {
             name: "Bol.com",
-            price: 489,
             link: "https://www.bol.com/nl/p/viewsonic-xg271qg"
           }
         ]
@@ -2537,18 +2208,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "27-inch curved gaming monitor",
         rating: 9.1,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 399,
         pros: ["1440p 165Hz", "Curved", "HDR"],
         cons: ["VA panel", "Basic design"],
         stores: [
           {
             name: "Coolblue",
-            price: 399,
             link: "https://www.coolblue.nl/product/benq-ex2710r"
           },
           {
             name: "Bol.com",
-            price: 389,
             link: "https://www.bol.com/nl/p/benq-ex2710r"
           }
         ]
@@ -2558,18 +2226,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "27-inch gaming monitor met KVM",
         rating: 9.0,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 449,
         pros: ["1440p 240Hz", "KVM switch", "Goede prijs"],
         cons: ["Basic design", "Matige HDR"],
         stores: [
           {
             name: "Coolblue",
-            price: 449,
             link: "https://www.coolblue.nl/product/gigabyte-m27q-x"
           },
           {
             name: "Bol.com",
-            price: 439,
             link: "https://www.bol.com/nl/p/gigabyte-m27q-x"
           }
         ]
@@ -2579,18 +2244,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "25-inch esports gaming monitor",
         rating: 8.9,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 299,
         pros: ["1080p 280Hz", "ELMB-Sync", "Betaalbaar"],
         cons: ["Klein scherm", "Basic HDR"],
         stores: [
           {
             name: "Coolblue",
-            price: 299,
             link: "https://www.coolblue.nl/product/asus-vg259qm"
           },
           {
             name: "Bol.com",
-            price: 289,
             link: "https://www.bol.com/nl/p/asus-vg259qm"
           }
         ]
@@ -2606,18 +2268,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "32-inch 6K professionele monitor",
         rating: 9.8,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 5999,
         pros: ["6K resolutie", "Mini-LED", "Perfect kleurbereik"],
         cons: ["Extreem duur", "Stand apart verkrijgbaar"],
         stores: [
           {
             name: "Coolblue",
-            price: 5999,
             link: "https://www.coolblue.nl/product/pro-display-xdr-2"
           },
           {
             name: "Bol.com",
-            price: 5989,
             link: "https://www.bol.com/nl/p/pro-display-xdr-2"
           }
         ]
@@ -2627,18 +2286,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "32-inch 4K professionele monitor",
         rating: 9.7,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 2999,
         pros: ["4K Mini-LED", "Calman verified", "Thunderbolt 4"],
         cons: ["Zeer duur", "Complex menu"],
         stores: [
           {
             name: "Coolblue",
-            price: 2999,
             link: "https://www.coolblue.nl/product/proart-pa32ucr"
           },
           {
             name: "Bol.com",
-            price: 2989,
             link: "https://www.bol.com/nl/p/proart-pa32ucr"
           }
         ]
@@ -2648,18 +2304,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "40-inch ultrawide professionele monitor",
         rating: 9.6,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 2199,
         pros: ["5K2K resolutie", "Thunderbolt 4", "KVM"],
         cons: ["Hoge prijs", "Groot formaat"],
         stores: [
           {
             name: "Coolblue",
-            price: 2199,
             link: "https://www.coolblue.nl/product/dell-u4024qw"
           },
           {
             name: "Bol.com",
-            price: 2189,
             link: "https://www.bol.com/nl/p/dell-u4024qw"
           }
         ]
@@ -2669,18 +2322,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "32-inch 4K OLED monitor",
         rating: 9.5,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 2999,
         pros: ["OLED", "Perfect zwart", "99% Adobe RGB"],
         cons: ["Zeer duur", "Burn-in risico"],
         stores: [
           {
             name: "Coolblue",
-            price: 2999,
             link: "https://www.coolblue.nl/product/lg-32ep950"
           },
           {
             name: "Bol.com",
-            price: 2989,
             link: "https://www.bol.com/nl/p/lg-32ep950"
           }
         ]
@@ -2690,18 +2340,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "32-inch 4K monitor voor fotografen",
         rating: 9.4,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 1999,
         pros: ["4K IPS", "Hardware kalibratie", "16-bit 3D LUT"],
         cons: ["Prijzig", "Basis HDR"],
         stores: [
           {
             name: "Coolblue",
-            price: 1999,
             link: "https://www.coolblue.nl/product/benq-sw321c"
           },
           {
             name: "Bol.com",
-            price: 1989,
             link: "https://www.bol.com/nl/p/benq-sw321c"
           }
         ]
@@ -2711,18 +2358,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "27-inch 4K monitor voor creators",
         rating: 9.3,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 1099,
         pros: ["4K", "Pantone validated", "USB-C"],
         cons: ["Basic HDR", "Prijzig"],
         stores: [
           {
             name: "Coolblue",
-            price: 1099,
             link: "https://www.coolblue.nl/product/viewsonic-vp2786"
           },
           {
             name: "Bol.com",
-            price: 1089,
             link: "https://www.bol.com/nl/p/viewsonic-vp2786"
           }
         ]
@@ -2732,18 +2376,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "27-inch 4K USB-C monitor",
         rating: 9.2,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 599,
         pros: ["4K IPS", "USB-C", "Goede prijs"],
         cons: ["Basic HDR", "Basis design"],
         stores: [
           {
             name: "Coolblue",
-            price: 599,
             link: "https://www.coolblue.nl/product/philips-279p1"
           },
           {
             name: "Bol.com",
-            price: 589,
             link: "https://www.bol.com/nl/p/philips-279p1"
           }
         ]
@@ -2753,18 +2394,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "27-inch QHD USB-C monitor",
         rating: 9.1,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 449,
         pros: ["QHD", "USB-C", "Ergonomisch"],
         cons: ["Geen HDR", "Basic speakers"],
         stores: [
           {
             name: "Coolblue",
-            price: 449,
             link: "https://www.coolblue.nl/product/dell-p2724de"
           },
           {
             name: "Bol.com",
-            price: 439,
             link: "https://www.bol.com/nl/p/dell-p2724de"
           }
         ]
@@ -2774,18 +2412,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "27-inch 4K USB-C monitor",
         rating: 9.0,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 699,
         pros: ["4K", "USB-C", "Factory gekalibreerd"],
         cons: ["Prijzig", "Basic HDR"],
         stores: [
           {
             name: "Coolblue",
-            price: 699,
             link: "https://www.coolblue.nl/product/hp-z27k"
           },
           {
             name: "Bol.com",
-            price: 689,
             link: "https://www.bol.com/nl/p/hp-z27k"
           }
         ]
@@ -2795,18 +2430,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "27-inch professionele monitor",
         rating: 8.9,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 399,
         pros: ["QHD", "100% sRGB", "USB-C"],
         cons: ["Geen HDR", "Basic design"],
         stores: [
           {
             name: "Coolblue",
-            price: 399,
             link: "https://www.coolblue.nl/product/proart-pa278cv"
           },
           {
             name: "Bol.com",
-            price: 389,
             link: "https://www.bol.com/nl/p/proart-pa278cv"
           }
         ]
@@ -2822,18 +2454,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "24-inch gaming monitor",
         rating: 9.4,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 169,
         pros: ["144Hz", "IPS", "Adaptive Sync"],
         cons: ["1080p", "Basic HDR"],
         stores: [
           {
             name: "Coolblue",
-            price: 169,
             link: "https://www.coolblue.nl/product/aoc-24g2sp"
           },
           {
             name: "Bol.com",
-            price: 159,
             link: "https://www.bol.com/nl/p/aoc-24g2sp"
           }
         ]
@@ -2843,18 +2472,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "27-inch IPS monitor",
         rating: 9.3,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 149,
         pros: ["IPS panel", "75Hz", "AMD FreeSync"],
         cons: ["1080p op 27 inch", "Basis stand"],
         stores: [
           {
             name: "Coolblue",
-            price: 149,
             link: "https://www.coolblue.nl/product/samsung-s27a336"
           },
           {
             name: "Bol.com",
-            price: 139,
             link: "https://www.bol.com/nl/p/samsung-s27a336"
           }
         ]
@@ -2864,18 +2490,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "24-inch gaming monitor",
         rating: 9.2,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 179,
         pros: ["144Hz", "1ms response", "FreeSync"],
         cons: ["1080p", "TN panel"],
         stores: [
           {
             name: "Coolblue",
-            price: 179,
             link: "https://www.coolblue.nl/product/lg-24gn60r"
           },
           {
             name: "Bol.com",
-            price: 169,
             link: "https://www.bol.com/nl/p/lg-24gn60r"
           }
         ]
@@ -2885,18 +2508,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "24-inch IPS monitor",
         rating: 9.1,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 129,
         pros: ["IPS", "75Hz", "Ingebouwde speakers"],
         cons: ["1080p", "Basic design"],
         stores: [
           {
             name: "Coolblue",
-            price: 129,
             link: "https://www.coolblue.nl/product/philips-242v8a"
           },
           {
             name: "Bol.com",
-            price: 119,
             link: "https://www.bol.com/nl/p/philips-242v8a"
           }
         ]
@@ -2906,18 +2526,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "24-inch kantoor monitor",
         rating: 9.0,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 139,
         pros: ["IPS", "75Hz", "Eye Care"],
         cons: ["1080p", "Basis features"],
         stores: [
           {
             name: "Coolblue",
-            price: 139,
             link: "https://www.coolblue.nl/product/asus-va24dq"
           },
           {
             name: "Bol.com",
-            price: 129,
             link: "https://www.bol.com/nl/p/asus-va24dq"
           }
         ]
@@ -2927,18 +2544,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "24-inch IPS monitor",
         rating: 8.9,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 119,
         pros: ["IPS", "Flicker-free", "Eye Care"],
         cons: ["60Hz", "Geen VESA"],
         stores: [
           {
             name: "Coolblue",
-            price: 119,
             link: "https://www.coolblue.nl/product/benq-gw2475h"
           },
           {
             name: "Bol.com",
-            price: 109,
             link: "https://www.bol.com/nl/p/benq-gw2475h"
           }
         ]
@@ -2948,18 +2562,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "24-inch gaming monitor",
         rating: 8.8,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 149,
         pros: ["75Hz", "FreeSync", "USB hub"],
         cons: ["TN panel", "Basic design"],
         stores: [
           {
             name: "Coolblue",
-            price: 149,
             link: "https://www.coolblue.nl/product/iiyama-e2483hsu"
           },
           {
             name: "Bol.com",
-            price: 139,
             link: "https://www.bol.com/nl/p/iiyama-e2483hsu"
           }
         ]
@@ -2969,18 +2580,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "24-inch IPS monitor",
         rating: 8.7,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 129,
         pros: ["IPS", "75Hz", "Slim design"],
         cons: ["Geen VESA", "Basic features"],
         stores: [
           {
             name: "Coolblue",
-            price: 129,
             link: "https://www.coolblue.nl/product/viewsonic-va2432h"
           },
           {
             name: "Bol.com",
-            price: 119,
             link: "https://www.bol.com/nl/p/viewsonic-va2432h"
           }
         ]
@@ -2990,18 +2598,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "24-inch design monitor",
         rating: 8.6,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 139,
         pros: ["IPS", "Mooi design", "AMD FreeSync"],
         cons: ["60Hz", "Geen VESA"],
         stores: [
           {
             name: "Coolblue",
-            price: 139,
             link: "https://www.coolblue.nl/product/hp-m24f"
           },
           {
             name: "Bol.com",
-            price: 129,
             link: "https://www.bol.com/nl/p/hp-m24f"
           }
         ]
@@ -3011,18 +2616,15 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "24-inch basis monitor",
         rating: 8.5,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        price: 109,
         pros: ["VA panel", "Betaalbaar", "VESA"],
         cons: ["60Hz", "Basic features"],
         stores: [
           {
             name: "Coolblue",
-            price: 109,
             link: "https://www.coolblue.nl/product/acer-k243y"
           },
           {
             name: "Bol.com",
-            price: 99,
             link: "https://www.bol.com/nl/p/acer-k243y"
           }
         ]
@@ -3038,30 +2640,27 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Officiële PlayStation 5 controller met haptische feedback",
         rating: 4.8,
         image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&q=80",
-        price: 74,
         pros: ["Haptische feedback", "Adaptive triggers", "Bluetooth"],
         cons: ["Batterijduur beperkt"],
-        stores: [{ name: "Coolblue", price: 74, link: "#" }, { name: "Bol.com", price: 69, link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
         name: "Xbox Wireless Controller",
         description: "Officiële Xbox controller, ook geschikt voor PC",
         rating: 4.7,
         image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&q=80",
-        price: 64,
         pros: ["Ergonomisch", "Werkt op PC en Xbox", "Bluetooth"],
         cons: ["Geen oplaadbare batterij standaard"],
-        stores: [{ name: "Coolblue", price: 64, link: "#" }, { name: "Bol.com", price: 59, link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
         name: "8BitDo Ultimate Bluetooth Controller",
         description: "Veelzijdige controller voor Switch, PC en mobiel",
         rating: 4.6,
         image: "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&q=80",
-        price: 69,
         pros: ["Hall-effect sticks", "Programmeerbare knoppen", "Multi-platform"],
         cons: ["Software kan beter"],
-        stores: [{ name: "Coolblue", price: 69, link: "#" }, { name: "Bol.com", price: 65, link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       }
     ]
   },
@@ -3074,30 +2673,27 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Draadloze gaming headset met lange batterijduur",
         rating: 4.8,
         image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80",
-        price: 179,
         pros: ["2.4GHz + Bluetooth", "30 uur batterij", "Comfortabel"],
         cons: ["Prijzig"],
-        stores: [{ name: "Coolblue", price: 179, link: "#" }, { name: "Bol.com", price: 169, link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
         name: "HyperX Cloud III Wireless",
         description: "Lichtgewicht draadloze headset met DTS audio",
         rating: 4.7,
         image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80",
-        price: 149,
         pros: ["Lichtgewicht", "Goede microfoon", "Multi-platform"],
         cons: ["Geen actieve noise cancelling"],
-        stores: [{ name: "Coolblue", price: 149, link: "#" }, { name: "Bol.com", price: 139, link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
         name: "Razer BlackShark V2 Pro",
         description: "Premium draadloze esports headset",
         rating: 4.6,
         image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80",
-        price: 199,
         pros: ["Heldere audio", "Verwijderbare microfoon", "Lange batterij"],
         cons: ["Duur"],
-        stores: [{ name: "Coolblue", price: 199, link: "#" }, { name: "Bol.com", price: 189, link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       }
     ]
   },
@@ -3110,30 +2706,27 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Compact draadloos toetsenbord voor esports",
         rating: 4.8,
         image: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&q=80",
-        price: 229,
         pros: ["Lightspeed draadloos", "Compact TKL", "GX switches"],
         cons: ["Geen numpad"],
-        stores: [{ name: "Coolblue", price: 229, link: "#" }, { name: "Bol.com", price: 219, link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
         name: "Keychron Q1 Pro",
         description: "Premium mechanisch toetsenbord met aluminium behuizing",
         rating: 4.7,
         image: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&q=80",
-        price: 199,
         pros: ["Aluminium frame", "Hot-swap", "Bluetooth + kabel"],
         cons: ["Zwaar"],
-        stores: [{ name: "Coolblue", price: 199, link: "#" }, { name: "Bol.com", price: 189, link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
         name: "Razer BlackWidow V4 Pro",
         description: "Full-size gaming toetsenbord met RGB en macrotoetsen",
         rating: 4.6,
         image: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&q=80",
-        price: 249,
         pros: ["Razer switches", "Dial control", "RGB Chroma"],
         cons: ["Duur", "Groot formaat"],
-        stores: [{ name: "Coolblue", price: 249, link: "#" }, { name: "Bol.com", price: 239, link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       }
     ]
   },
@@ -3146,30 +2739,27 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "Ultralichte draadloze esports muis",
         rating: 4.9,
         image: "https://images.unsplash.com/photo-1623820919239-0d0ff10797a1?auto=format&fit=crop&q=80",
-        price: 169,
         pros: ["60g gewicht", "HERO 2 sensor", "Lightspeed"],
         cons: ["Duur"],
-        stores: [{ name: "Coolblue", price: 169, link: "#" }, { name: "Bol.com", price: 159, link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
         name: "Razer DeathAdder V3 Pro",
         description: "Ergonomische draadloze muis met Focus Pro sensor",
         rating: 4.8,
         image: "https://images.unsplash.com/photo-1623820919239-0d0ff10797a1?auto=format&fit=crop&q=80",
-        price: 159,
         pros: ["Ergonomisch", "Lange batterij", "Precieze sensor"],
         cons: ["Rechtshandig only"],
-        stores: [{ name: "Coolblue", price: 159, link: "#" }, { name: "Bol.com", price: 149, link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
         name: "SteelSeries Rival 3 Wireless",
         description: "Betaalbare draadloze gaming muis",
         rating: 4.5,
         image: "https://images.unsplash.com/photo-1623820919239-0d0ff10797a1?auto=format&fit=crop&q=80",
-        price: 59,
         pros: ["Goede prijs", "Lichtgewicht", "Multi-platform"],
         cons: ["Minder premium afwerking"],
-        stores: [{ name: "Coolblue", price: 59, link: "#" }, { name: "Bol.com", price: 55, link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       }
     ]
   },
@@ -3182,30 +2772,27 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         description: "QD-OLED TV met heldere beelden en diep zwart",
         rating: 4.9,
         image: "https://images.pexels.com/photos/5202957/pexels-photo-5202957.jpeg?auto=format&fit=crop&q=80",
-        price: 2199,
         pros: ["QD-OLED", "4K 144Hz gaming", "Dolby Atmos"],
         cons: ["Zeer duur"],
-        stores: [{ name: "Coolblue", price: 2199, link: "#" }, { name: "Bol.com", price: 2149, link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
         name: "LG C4 55 inch OLED evo",
         description: "Populaire OLED TV met uitstekende gaming features",
         rating: 4.8,
         image: "https://images.pexels.com/photos/5202957/pexels-photo-5202957.jpeg?auto=format&fit=crop&q=80",
-        price: 1299,
         pros: ["OLED evo panel", "HDMI 2.1", "webOS"],
         cons: ["Helderheid lager dan QD-OLED"],
-        stores: [{ name: "Coolblue", price: 1299, link: "#" }, { name: "Bol.com", price: 1249, link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
         name: "TCL C855 65 inch Mini LED",
         description: "Betaalbare Mini LED TV met hoge helderheid",
         rating: 4.6,
         image: "https://images.pexels.com/photos/5202957/pexels-photo-5202957.jpeg?auto=format&fit=crop&q=80",
-        price: 999,
         pros: ["Hoge helderheid", "Google TV", "Goede prijs"],
         cons: ["Viewing angles minder goed dan OLED"],
-        stores: [{ name: "Coolblue", price: 999, link: "#" }, { name: "Bol.com", price: 949, link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       }
     ]
   },
@@ -3371,7 +2958,7 @@ export default function SubcategoryPage({ params }: { params: { category: string
                             rel="noopener noreferrer"
                             className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 shadow-lg"
                           >
-                            Bekijk op Bol.com (€457,99)
+                            Bekijk op Bol.com
                           </a>
                         ) : (
                           product.stores && product.stores.find(s => s.name === 'Bol.com') && (() => {
