@@ -125,7 +125,7 @@ const categoryData: CategoryData = {
   },
   schermen: {
     title: "Schermen",
-    description: "Kies het type scherm dat je zoekt",
+    description: "Kies het soort scherm dat je zoekt",
     subcategories: [
       { 
         name: "TV's", 

@@ -1,9 +1,3 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/top-10/[category]/[subcategory]/page": "app/top-10/[category]/[subcategory]/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/top-10/[category]/page": "app/top-10/[category]/page.js",
-  "/page": "app/page.js",
-  "/trending/page": "app/trending/page.js",
-  "/api/fetch-live-price/route": "app/api/fetch-live-price/route.js"
+  "/top-10/[category]/[subcategory]/page": "app/top-10/[category]/[subcategory]/page.js"
 }
