@@ -10,12 +10,10 @@ interface Product {
   description: string;
   rating: number;
   image: string;
-  price: number;
   pros: string[];
   cons: string[];
   stores: {
     name: string;
-    price: number;
     link: string;
   }[];
 }
@@ -28,231 +26,235 @@ interface SubcategoryData {
 
 const subcategoryData: { [key: string]: SubcategoryData } = {
   apple: {
-    title: "Top 10 Populairste iPhones bij Coolblue & bol.com (2025)",
-    description: "De populairste iPhones van dit moment bij Coolblue en bol.com.",
+    title: "Top 10 Populaire Apple iPhones van 2026",
+    description: "De populairste iPhones op dit moment, gerangschikt op prestaties en gebruiksgemak.",
     products: [
       {
-        name: "Apple iPhone 16 Pro 256GB Black Titanium",
+        name: "Apple iPhone 17 Pro Max",
         description: "Scherm: 6,1 inch OLED | Camera: 48 MP hoofdcamera | Chip: A18 Pro",
         rating: 4.8,
-        image: "https://ik.imagekit.io/aflisw3mk7/iphone16promax.PNG?updatedAt=1747660283274",
+        image: "https://media.s-bol.com/0KDNEKOJNj5V/DRL6Ayq/163x210.jpg",
         price: 1229,
         pros: [
-          "6,1 inch OLED-scherm",
-          "48 MP hoofdcamera",
-          "A18 Pro chip"
+          "Scherm: 6,9 inch OLED",
+          "Camera: 48 MP",
+          "Chip: A19 Pro"
         ],
         cons: [],
         stores: [
           {
             name: "Coolblue",
             price: 1199,
-            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fen%2Fproduct%2F953037%2Fapple-iphone-16-pro-256gb-black-titanium.html"
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F969451%2Fapple-iphone-17-pro-max-256gb-blauw.html"
           },
           {
             name: "Bol.com",
             price: 1150,
-            link: "https://partner.bol.com/click/click?p=2&t=url&s=1445110&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-16-pro-256gb-zwart-titanium%2F9300000189439947%2F&name=Apple%20iPhone%2016%20Pro%20-%20256GB%20-%20Zwart%20Titanium"
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-17-pro-max-256gb-cosmic-orange%2F9300000240171924%2F&name=Apple%20iPhone%2017%20Pro%20Max%20-%20Cosmic%20Orange%20-%20256GB%20-%2018MP%20camera"
           }
         ]
       },
       {
-        name: "Apple iPhone 15 128GB Zwart",
+        name: "Apple iPhone 17 Pro",
         description: "Scherm: 6,1 inch OLED | Camera: 48 MP hoofdcamera | Chip: A16 Bionic",
         rating: 4.7,
-        image: "https://ik.imagekit.io/aflisw3mk7/Iphone15-128gb-zwart.jpg?updatedAt=1747662369687",
+        image: "https://media.s-bol.com/ZMLZDjvwX10Q/xGw7X1P/550x679.jpg",
         price: 729,
         pros: [
-          "6,1 inch OLED-scherm",
-          "48 MP hoofdcamera",
-          "A16 Bionic chip"
+          "Scherm: 6,3 inch OLED",
+          "Camera: 48 MP",
+          "Chip: A19 Pro"
         ],
         cons: [],
         stores: [
           {
             name: "Coolblue",
             price: 729,
-            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fen%2Fproduct%2F935188%2Fapple-iphone-15-128gb-black.html"
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F979992%2Fapple-iphone-17-pro-256gb-blauw-snellader.html"
           },
           {
             name: "Bol.com",
             price: 719,
-            link: "https://partner.bol.com/click/click?p=2&t=url&s=1445110&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-15-128gb-zwart%2F9300000161136294%2F&name=Apple%20iPhone%2015%20-%20128GB%20-%20Black"
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-17-pro-256gb-cosmic-orange%2F9300000240171763%2F&name=Apple%20iPhone%2017%20Pro%20-%20256GB%20-%20Cosmic%20Orange%20-%20Nieuw%20camera%20systeem"
           }
         ]
       },
       {
-        name: "Apple iPhone 13 mini 128GB Midnight",
+        name: "Apple iPhone 17",
         description: "Scherm: 5,4 inch OLED | Camera: 12 MP dual-camera | Chip: A15 Bionic",
         rating: 4.7,
-        image: "https://ik.imagekit.io/aflisw3mk7/Apple%20iPhone%2013%20128GB%20Middernacht.jpg?updatedAt=1747662369654",
+        image: "https://media.s-bol.com/4ZBWqNmEYgK0/WnXj4zJ/168x208.jpg",
         price: 342,
         pros: [
-          "5,4 inch OLED-scherm",
-          "12 MP dual-camera",
-          "A15 Bionic chip"
-        ],
-        cons: [],
-        stores: [
-          {
-            name: "Bol.com",
-            price: 342,
-            link: "https://partner.bol.com/click/click?p=2&t=url&s=1445110&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-13-mini-128gb-middernacht%2F9300000052189837%2F&name=Apple%20iPhone%2013%20mini%20-%20128GB%20-%20Middernacht"
-          }
-        ]
-      },
-      {
-        name: "Apple iPhone 16 128GB Zwart",
-        description: "Scherm: 6,1 inch OLED | Camera: 48 MP hoofdcamera | Chip: A18 Bionic",
-        rating: 4.6,
-        image: "https://ik.imagekit.io/aflisw3mk7/Apple%20iPhone%2016%20128GB%20Zwart.jpg?updatedAt=1747662369579",
-        price: 789,
-        pros: [
-          "6,1 inch OLED-scherm",
-          "48 MP hoofdcamera",
-          "A18 Bionic chip"
+          "Scherm: 6,3 inch OLED",
+          "Camera: 48 MP",
+          "Chip: A19"
         ],
         cons: [],
         stores: [
           {
             name: "Coolblue",
             price: 819,
-            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fen%2Fproduct%2F952114%2Fapple-iphone-16-128gb-black.html"
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F979991%2Fapple-iphone-17-256gb-zwart-snellader.html"
           },
           {
             name: "Bol.com",
-            price: 789,
-            link: "https://partner.bol.com/click/click?p=2&t=url&s=1445110&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-16-128gb-zwart%2F9300000189439876%2F&name=Apple%20iPhone%2016%20-%20128GB%20-%20Zwart"
+            price: 342,
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-17-256gb-zwart%2F9300000240171936%2F&name=Apple%20iPhone%2017%20-%20256GB%20-%20Black%20-%206%2C3%20inch%20Super%20Retina%20XDR-display"
           }
         ]
       },
       {
-        name: "Apple iPhone 13 128GB Middernacht",
+        name: "Apple iPhone 17e",
+        description: "Scherm: 6,1 inch OLED | Camera: 48 MP hoofdcamera | Chip: A18 Bionic",
+        rating: 4.6,
+        image: "https://media.s-bol.com/k3mJkmGzmq3N/0VRjv5X/168x204.jpg",
+        price: 789,
+        pros: [
+          "Scherm: 6,1 inch OLED",
+          "Camera: 48 MP",
+          "Chip: A19"
+        ],
+        cons: [],
+        stores: [
+          {
+            name: "Coolblue",
+            price: 819,
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F979995%2Fapple-iphone-17e-256gb-zwart-snellader.html"
+          },
+          {
+            name: "Bol.com",
+            price: 789,
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-17e-5g-256gb-zwart%2F9300000266256313%2F&name=Apple%20iPhone%2017e%20-%20256%20GB%20-%20Zwart"
+          }
+        ]
+      },
+      {
+        name: "Apple iPhone 16 Pro Max",
         description: "Scherm: 6,1 inch OLED | Camera: 12 MP dual-camera | Chip: A15 Bionic",
         rating: 4.5,
-        image: "https://ik.imagekit.io/aflisw3mk7/Iphone13-mini-128gb-midnight.jpg?updatedAt=1747662369650",
+        image: "https://media.s-bol.com/EEgORmq4zqLY/XD9zJW8/168x210.jpg",
         price: 489,
         pros: [
-          "6,1 inch OLED-scherm",
-          "12 MP dual-camera",
-          "A15 Bionic chip"
+          "Scherm: 6,9 inch OLED",
+          "Camera: 48 MP",
+          "Chip: A18 Pro"
         ],
         cons: [],
         stores: [
           {
             name: "Bol.com",
             price: 489,
-            link: "https://partner.bol.com/click/click?p=2&t=url&s=1445110&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-13-15-5-cm-dual-sim-ios-15-5g-128-gb-zwart%2F9300000052191184%2F&name=Apple%20iPhone%2013%20-%20128GB%20-%20Middernacht"
-          },
-          {
-            name: "Coolblue",
-            price: 559,
-            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fen%2Fproduct%2F892007%2Fapple-iphone-13-128gb-black.html"
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-16-pro-max-17-5-cm-dual-sim-ios-18-5g-usb-type-c-256-gb-zwart%2F9300000189439873%2F&name=Apple%20iPhone%2016%20Pro%20Max%20-%20256GB%20-%20Zwart%20Titanium%20-%20A18%20Pro-chip"
           }
         ]
       },
       {
-        name: "Apple iPhone 14 128GB Middernacht",
+        name: "Apple iPhone 16 Pro (Refurbished)",
         description: "Scherm: 6,1 inch OLED | Camera: 12 MP dual-camera | Chip: A15 Bionic",
         rating: 4.7,
-        image: "https://ik.imagekit.io/aflisw3mk7/Apple%20iPhone%2014%20128GB%20Middernacht.jpg?updatedAt=1747662369680",
+        image: "https://media.s-bol.com/6qBjPmL8EoMN/mZmVxVn/168x207.jpg",
         price: 569,
         pros: [
-          "6,1 inch OLED-scherm",
-          "12 MP dual-camera",
-          "A15 Bionic chip"
+          "Scherm: 6,3 inch OLED",
+          "Camera: 48 MP",
+          "Chip: A18 Pro"
         ],
         cons: [],
         stores: [
           {
             name: "Bol.com",
             price: 569,
-            link: "https://partner.bol.com/click/click?p=2&t=url&s=1445110&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-14-128gb-middernacht%2F9300000123038693%2F&name=Apple%20iPhone%2014%20-%20128GB%20-%20Middernacht"
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-16-pro-16-cm-dual-sim-ios-18-5g-usb-type-c-128-gb-zand%2F9300000189454726%2F&name=Apple%20iPhone%2016%20Pro%2016%20cm%20(6.3%22)%20Dual%20SIM%20iOS%2018%205G%20USB%20Type-C%20128%20GB%20Zand"
           }
         ]
       },
       {
-        name: "Apple iPhone 13 Pro 128GB Goud",
+        name: "Apple iPhone 16",
         description: "Scherm: 6,1 inch OLED | Camera: 12 MP triple-camera | Chip: A15 Bionic",
         rating: 4.8,
-        image: "https://ik.imagekit.io/aflisw3mk7/Apple%20iPhone%2013%20Pro%20128GB%20Goud.jpg?updatedAt=1747662369712",
+        image: "https://media.s-bol.com/vyMq25G8wP10/9rEwKz3/168x206.jpg",
         price: 788,
         pros: [
-          "6,1 inch OLED-scherm",
-          "12 MP triple-camera",
-          "A15 Bionic chip"
-        ],
-        cons: [],
-        stores: [
-          {
-            name: "Bol.com",
-            price: 788,
-            link: "https://partner.bol.com/click/click?p=2&t=url&s=1445110&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-13-pro-128gb-goud%2F9300000052189828%2F&name=Apple%20iPhone%2013%20Pro%20-%20128GB%20-%20Goud"
-          }
-        ]
-      },
-      {
-        name: "Apple iPhone 16 Pro Max 256GB Black Titanium",
-        description: "Scherm: 6,7 inch OLED | Camera: 48 MP triple-camera | Chip: A18 Pro",
-        rating: 4.9,
-        image: "https://ik.imagekit.io/aflisw3mk7/iphone16promax.PNG?updatedAt=1747660283274",
-        price: 1189,
-        pros: [
-          "6,7 inch OLED-scherm",
-          "48 MP triple-camera",
-          "A18 Pro chip"
+          "Scherm: 6,1 inch OLED",
+          "Camera: 48 MP",
+          "Chip: A18"
         ],
         cons: [],
         stores: [
           {
             name: "Coolblue",
             price: 1299,
-            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fen%2Fproduct%2F953051%2Fapple-iphone-16-pro-max-256gb-black-titanium.html"
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F952114%2Fapple-iphone-16-128gb-zwart.html"
           },
-          {
+            {
             name: "Bol.com",
-            price: 1189,
-            link: "https://partner.bol.com/click/click?p=2&t=url&s=1445110&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-16-pro-max-256gb-zwart-titanium%2F9300000189439873%2F&name=Apple%20iPhone%2016%20Pro%20Max%20-%20256GB%20-%20Zwart%20Titanium"
+            price: 788,
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fiphone-16-zwart%2F9300000189439876%2F&name=Apple%20iPhone%2016%20-%20128GB%20opslag%20-%20Zwart%20-%20Nieuw%20camerasysteem%20-%20A18-chip"
           }
         ]
       },
       {
-        name: "Apple iPhone 15 Pro 128GB Zwart Titanium",
+        name: "Apple iPhone 15",
+        description: "Scherm: 6,7 inch OLED | Camera: 48 MP triple-camera | Chip: A18 Pro",
+        rating: 4.9,
+        image: "https://media.s-bol.com/BYw3mMMkYNyk/Z4wxAzR/160x210.jpg",
+        price: 1189,
+        pros: [
+          "Scherm: 6,1 inch OLED",
+          "Camera: 48 MP",
+          "Chip: A16 Bionic"
+        ],
+        cons: [],
+        stores: [
+          {
+            name: "Coolblue",
+            price: 1299,
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F935188%2Fapple-iphone-15-128gb-zwart.html"
+          },
+          {
+            name: "Bol.com",
+            price: 1189,
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-15-128gb-zwart%2F9300000161136294%2F&name=Apple%20iPhone%2015%20-%20128GB%20-%20Black%20-%20Dynamic%20Island%20-%20A16%20Bionic%20chip"
+          }
+        ]
+      },
+      {
+        name: "Apple iPhone 15 Plus (Refurbished)",
         description: "Scherm: 6,1 inch OLED | Camera: 48 MP triple-camera | Chip: A17 Pro",
         rating: 4.7,
-        image: "https://ik.imagekit.io/aflisw3mk7/Apple%20iPhone%2015%20Pro%20128GB%20Zwart%20Titanium.jpg?updatedAt=1747662369575",
+        image: "https://media.s-bol.com/5ozp2OOMoQ1Z/98O1ml4/157x210.jpg",
         price: 1165,
         pros: [
-          "6,1 inch OLED-scherm",
-          "48 MP triple-camera",
-          "A17 Pro chip"
+          "Scherm: 6,7 inch OLED",
+          "Camera: 48 MP",
+          "Chip: A16 Bionic"
         ],
         cons: [],
         stores: [
           {
             name: "Bol.com",
             price: 1165,
-            link: "https://partner.bol.com/click/click?p=2&t=url&s=1445110&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-15-pro-128gb-zwart-titanium%2F9300000161136275%2F&name=Apple%20iPhone%2015%20Pro%20-%20128GB%20-%20Zwart%20Titanium"
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-15-plus-128gb-black%2F9300000161136553%2F&name=Apple%20iPhone%2015%20Plus%20-%20Dynamic%20Island%20-%20USB-C%20-%20128GB%20-%20Zwart"
           }
         ]
       },
       {
-        name: "Apple iPhone SE (2022) 64GB Midnight",
+        name: "Apple iPhone 14",
         description: "Scherm: 4,7 inch LCD | Camera: 12 MP single-camera | Chip: A15 Bionic",
         rating: 4.6,
-        image: "https://ik.imagekit.io/aflisw3mk7/iphone%20se.jpg?updatedAt=1747663068193",
+        image: "https://media.s-bol.com/k0AqNRGQBVY6/vgY3O50/159x210.jpg",
         price: 459,
         pros: [
-          "4,7 inch LCD-scherm",
-          "12 MP single-camera",
-          "A15 Bionic chip"
+          "Scherm: 6,1 inch OLED",
+          "Camera: 12 MP",
+          "Chip: A15 Bionic"
         ],
         cons: [],
         stores: [
           {
             name: "Bol.com",
-            price: 459,
-            link: "https://partner.bol.com/click/click?p=2&t=url&s=1445110&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-se-64gb-zwart%2F9300000084961830%2F&name=Apple%20iPhone%20SE%20(2022)%20-%2064GB%20-%20Zwart"
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-14-128gb-middernacht%2F9300000123038693%2F&name=Apple%20iPhone%2014%20-%20128GB%20-%20Dualcamera%20-%20Crashdetectie%20-%20Middernacht"
           }
         ]
       }
@@ -3026,7 +3028,187 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         ]
       }
     ]
-  }
+  },
+  controllers: {
+    title: "Top 10 Beste Controllers van 2025",
+    description: "De populairste gamecontrollers voor PC, PlayStation en Xbox",
+    products: [
+      {
+        name: "Sony DualSense Wireless Controller",
+        description: "Officiële PlayStation 5 controller met haptische feedback",
+        rating: 4.8,
+        image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&q=80",
+        price: 74,
+        pros: ["Haptische feedback", "Adaptive triggers", "Bluetooth"],
+        cons: ["Batterijduur beperkt"],
+        stores: [{ name: "Coolblue", price: 74, link: "#" }, { name: "Bol.com", price: 69, link: "#" }]
+      },
+      {
+        name: "Xbox Wireless Controller",
+        description: "Officiële Xbox controller, ook geschikt voor PC",
+        rating: 4.7,
+        image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&q=80",
+        price: 64,
+        pros: ["Ergonomisch", "Werkt op PC en Xbox", "Bluetooth"],
+        cons: ["Geen oplaadbare batterij standaard"],
+        stores: [{ name: "Coolblue", price: 64, link: "#" }, { name: "Bol.com", price: 59, link: "#" }]
+      },
+      {
+        name: "8BitDo Ultimate Bluetooth Controller",
+        description: "Veelzijdige controller voor Switch, PC en mobiel",
+        rating: 4.6,
+        image: "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&q=80",
+        price: 69,
+        pros: ["Hall-effect sticks", "Programmeerbare knoppen", "Multi-platform"],
+        cons: ["Software kan beter"],
+        stores: [{ name: "Coolblue", price: 69, link: "#" }, { name: "Bol.com", price: 65, link: "#" }]
+      }
+    ]
+  },
+  headsets: {
+    title: "Top 10 Beste Gaming Headsets van 2025",
+    description: "De beste koptelefoons voor gaming met heldere microfoon en comfort",
+    products: [
+      {
+        name: "SteelSeries Arctis Nova 7",
+        description: "Draadloze gaming headset met lange batterijduur",
+        rating: 4.8,
+        image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80",
+        price: 179,
+        pros: ["2.4GHz + Bluetooth", "30 uur batterij", "Comfortabel"],
+        cons: ["Prijzig"],
+        stores: [{ name: "Coolblue", price: 179, link: "#" }, { name: "Bol.com", price: 169, link: "#" }]
+      },
+      {
+        name: "HyperX Cloud III Wireless",
+        description: "Lichtgewicht draadloze headset met DTS audio",
+        rating: 4.7,
+        image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80",
+        price: 149,
+        pros: ["Lichtgewicht", "Goede microfoon", "Multi-platform"],
+        cons: ["Geen actieve noise cancelling"],
+        stores: [{ name: "Coolblue", price: 149, link: "#" }, { name: "Bol.com", price: 139, link: "#" }]
+      },
+      {
+        name: "Razer BlackShark V2 Pro",
+        description: "Premium draadloze esports headset",
+        rating: 4.6,
+        image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80",
+        price: 199,
+        pros: ["Heldere audio", "Verwijderbare microfoon", "Lange batterij"],
+        cons: ["Duur"],
+        stores: [{ name: "Coolblue", price: 199, link: "#" }, { name: "Bol.com", price: 189, link: "#" }]
+      }
+    ]
+  },
+  keyboards: {
+    title: "Top 10 Beste Gaming Toetsenborden van 2025",
+    description: "Mechanische en gaming toetsenborden voor elke speler",
+    products: [
+      {
+        name: "Logitech G Pro X TKL Lightspeed",
+        description: "Compact draadloos toetsenbord voor esports",
+        rating: 4.8,
+        image: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&q=80",
+        price: 229,
+        pros: ["Lightspeed draadloos", "Compact TKL", "GX switches"],
+        cons: ["Geen numpad"],
+        stores: [{ name: "Coolblue", price: 229, link: "#" }, { name: "Bol.com", price: 219, link: "#" }]
+      },
+      {
+        name: "Keychron Q1 Pro",
+        description: "Premium mechanisch toetsenbord met aluminium behuizing",
+        rating: 4.7,
+        image: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&q=80",
+        price: 199,
+        pros: ["Aluminium frame", "Hot-swap", "Bluetooth + kabel"],
+        cons: ["Zwaar"],
+        stores: [{ name: "Coolblue", price: 199, link: "#" }, { name: "Bol.com", price: 189, link: "#" }]
+      },
+      {
+        name: "Razer BlackWidow V4 Pro",
+        description: "Full-size gaming toetsenbord met RGB en macrotoetsen",
+        rating: 4.6,
+        image: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&q=80",
+        price: 249,
+        pros: ["Razer switches", "Dial control", "RGB Chroma"],
+        cons: ["Duur", "Groot formaat"],
+        stores: [{ name: "Coolblue", price: 249, link: "#" }, { name: "Bol.com", price: 239, link: "#" }]
+      }
+    ]
+  },
+  mice: {
+    title: "Top 10 Beste Gaming Muizen van 2025",
+    description: "Lichte en precieze gaming muizen voor competitief spelen",
+    products: [
+      {
+        name: "Logitech G Pro X Superlight 2",
+        description: "Ultralichte draadloze esports muis",
+        rating: 4.9,
+        image: "https://images.unsplash.com/photo-1623820919239-0d0ff10797a1?auto=format&fit=crop&q=80",
+        price: 169,
+        pros: ["60g gewicht", "HERO 2 sensor", "Lightspeed"],
+        cons: ["Duur"],
+        stores: [{ name: "Coolblue", price: 169, link: "#" }, { name: "Bol.com", price: 159, link: "#" }]
+      },
+      {
+        name: "Razer DeathAdder V3 Pro",
+        description: "Ergonomische draadloze muis met Focus Pro sensor",
+        rating: 4.8,
+        image: "https://images.unsplash.com/photo-1623820919239-0d0ff10797a1?auto=format&fit=crop&q=80",
+        price: 159,
+        pros: ["Ergonomisch", "Lange batterij", "Precieze sensor"],
+        cons: ["Rechtshandig only"],
+        stores: [{ name: "Coolblue", price: 159, link: "#" }, { name: "Bol.com", price: 149, link: "#" }]
+      },
+      {
+        name: "SteelSeries Rival 3 Wireless",
+        description: "Betaalbare draadloze gaming muis",
+        rating: 4.5,
+        image: "https://images.unsplash.com/photo-1623820919239-0d0ff10797a1?auto=format&fit=crop&q=80",
+        price: 59,
+        pros: ["Goede prijs", "Lichtgewicht", "Multi-platform"],
+        cons: ["Minder premium afwerking"],
+        stores: [{ name: "Coolblue", price: 59, link: "#" }, { name: "Bol.com", price: 55, link: "#" }]
+      }
+    ]
+  },
+  tvs: {
+    title: "Top 10 Beste TV's van 2025",
+    description: "Smart TV's met OLED en QLED voor film, sport en gaming",
+    products: [
+      {
+        name: "Samsung S95D 65 inch OLED",
+        description: "QD-OLED TV met heldere beelden en diep zwart",
+        rating: 4.9,
+        image: "https://images.pexels.com/photos/5202957/pexels-photo-5202957.jpeg?auto=format&fit=crop&q=80",
+        price: 2199,
+        pros: ["QD-OLED", "4K 144Hz gaming", "Dolby Atmos"],
+        cons: ["Zeer duur"],
+        stores: [{ name: "Coolblue", price: 2199, link: "#" }, { name: "Bol.com", price: 2149, link: "#" }]
+      },
+      {
+        name: "LG C4 55 inch OLED evo",
+        description: "Populaire OLED TV met uitstekende gaming features",
+        rating: 4.8,
+        image: "https://images.pexels.com/photos/5202957/pexels-photo-5202957.jpeg?auto=format&fit=crop&q=80",
+        price: 1299,
+        pros: ["OLED evo panel", "HDMI 2.1", "webOS"],
+        cons: ["Helderheid lager dan QD-OLED"],
+        stores: [{ name: "Coolblue", price: 1299, link: "#" }, { name: "Bol.com", price: 1249, link: "#" }]
+      },
+      {
+        name: "TCL C855 65 inch Mini LED",
+        description: "Betaalbare Mini LED TV met hoge helderheid",
+        rating: 4.6,
+        image: "https://images.pexels.com/photos/5202957/pexels-photo-5202957.jpeg?auto=format&fit=crop&q=80",
+        price: 999,
+        pros: ["Hoge helderheid", "Google TV", "Goede prijs"],
+        cons: ["Viewing angles minder goed dan OLED"],
+        stores: [{ name: "Coolblue", price: 999, link: "#" }, { name: "Bol.com", price: 949, link: "#" }]
+      }
+    ]
+  },
 };
 
 function BolComAffiliateImage() {
@@ -3178,7 +3360,7 @@ export default function SubcategoryPage({ params }: { params: { category: string
                               rel="noopener noreferrer"
                               className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 shadow-lg"
                             >
-                              Bekijk op Coolblue (€{coolblue.price})
+                              Bekijk op Coolblue
                             </a>
                           );
                         })()}
@@ -3202,7 +3384,7 @@ export default function SubcategoryPage({ params }: { params: { category: string
                                 rel="noopener noreferrer"
                                 className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 shadow-lg"
                               >
-                                Bekijk op Bol.com (€{bol.price})
+                                Bekijk op Bol.com 
                               </a>
                             );
                           })()
