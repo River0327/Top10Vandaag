@@ -236,724 +236,712 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   ipad: {
-    title: "Top 10 Beste iPads (2025)",
+    title: "Top 10 Beste iPads (2026)",
     description: "De populairste iPads gerangschikt op prestaties en gebruiksgemak",
     products: [
       {
-        name: "Apple iPad 10.9 inch (2022) 64GB Wi-Fi",
-        description: "10,9 inch iPad met A14 Bionic chip, ideaal voor werk, studie en entertainment.",
-        rating: 4.6,
+        name: "Apple iPad Pro 13-inch M5",
+        description: "Scherm: 13 inch Ultra Retina XDR | Chip: Apple M5 | ProMotion 120Hz",
+        rating: 0,
         image: "",
         pros: [
-          "10,9 inch scherm",
-          "A14 Bionic chip",
-          "Snelle performance voor dagelijkse taken"
+          "Scherm: 13 inch Ultra Retina XDR",
+          "Chip: Apple M5",
+          "Thunderbolt en Apple Pencil Pro"
         ],
-        cons: ["Geen 5G (Wi-Fi versie)", "64GB opslag kan beperkt zijn"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "#"
-          },
-          {
-            name: "Bol.com",
-            link: "#"
-          }
-        ]
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Apple iPad Pro 11-inch M5",
+        description: "Scherm: 11 inch Ultra Retina XDR | Chip: Apple M5 | ProMotion 120Hz",
+        rating: 0,
+        image: "",
+        pros: [
+          "Scherm: 11 inch Ultra Retina XDR",
+          "Chip: Apple M5",
+          "Compact Pro-model met ProMotion"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Apple iPad Air 13-inch M4",
+        description: "Scherm: 13 inch Liquid Retina | Chip: Apple M4 | Dun en licht design",
+        rating: 0,
+        image: "",
+        pros: [
+          "Scherm: 13 inch Liquid Retina",
+          "Chip: Apple M4",
+          "Groot scherm in dun Air-ontwerp"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Apple iPad Air 11-inch M4",
+        description: "Scherm: 11 inch Liquid Retina | Chip: Apple M4 | Apple Pencil Pro",
+        rating: 0,
+        image: "",
+        pros: [
+          "Scherm: 11 inch Liquid Retina",
+          "Chip: Apple M4",
+          "Krachtige middenklasser voor werk en studie"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Apple iPad 11e generatie",
+        description: "Scherm: 11 inch Liquid Retina | Chip: A18 | Betaalbare alleskunner",
+        rating: 0,
+        image: "",
+        pros: [
+          "Scherm: 11 inch Liquid Retina",
+          "Chip: A18",
+          "Betaalbare iPad voor dagelijks gebruik"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Apple iPad Mini 8",
+        description: "Scherm: 8,3 inch Liquid Retina | Chip: A19 Pro | Compact formaat",
+        rating: 0,
+        image: "",
+        pros: [
+          "Scherm: 8,3 inch Liquid Retina",
+          "Chip: A19 Pro",
+          "Krachtigste compacte iPad"
+        ],
+        cons: [],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Apple iPad Pro M4",
+        description: "Scherm: Ultra Retina XDR | Chip: Apple M4 | Professionele prestaties",
+        rating: 0,
+        image: "",
+        pros: [
+          "Scherm: Ultra Retina XDR",
+          "Chip: Apple M4",
+          "Pro-prestaties voor creatief werk"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Apple iPad Air M2",
+        description: "Scherm: Liquid Retina | Chip: Apple M2 | Goede prijs-kwaliteit",
+        rating: 0,
+        image: "",
+        pros: [
+          "Scherm: Liquid Retina",
+          "Chip: Apple M2",
+          "Sterke middenklasser met scherpe prijs"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Apple iPad 10e generatie",
+        description: "Scherm: 10,9 inch Liquid Retina | Chip: A14 Bionic | Instapmodel",
+        rating: 0,
+        image: "",
+        pros: [
+          "Scherm: 10,9 inch Liquid Retina",
+          "Chip: A14 Bionic",
+          "Instap iPad voor studie en entertainment"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Apple iPad Mini 7",
+        description: "Scherm: 8,3 inch Liquid Retina | Chip: A17 Pro | Compact formaat",
+        rating: 0,
+        image: "",
+        pros: [
+          "Scherm: 8,3 inch Liquid Retina",
+          "Chip: A17 Pro",
+          "Compact met sterke prestaties"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       }
     ]
   },
   samsung: {
-    title: "Top 10 Beste Samsung Telefoons en tablets (mei 2025)",
+    title: "Top 10 Beste Samsung Telefoons (2026)",
     description: "De populairste Samsung smartphones gerangschikt op prestaties en gebruikerservaringen",
     products: [
       {
-        name: "Samsung Galaxy A56 5G (256 GB)",
-        description: "Soepele midrange met 5G en ruime 256 GB opslag",
+        name: "Samsung Galaxy S26 Ultra",
+        description: "Scherm: 6,9 inch Dynamic AMOLED 2X | Camera: 200 MP | Chip: Snapdragon 8 Elite",
         rating: 0,
-        image: "",
+        image: "https://ik.imagekit.io/402p80kep/ss_1.jpg",
         pros: [
-          "5G ondersteuning",
-          "256 GB opslag",
-          "Vloeiend scherm"
+          "Scherm: 6,9 inch Dynamic AMOLED 2X",
+          "Camera: 200 MP met 5x optische zoom",
+          "S Pen en titanium behuizing"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-galaxy-s26-ultra-256gb-black%2F9300000265051702%2F&name=Samsung%20Galaxy%20S26%20Ultra%20-%20256GB%20-%20Black" },
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F975476%2Fsamsung-galaxy-s26-ultra-512gb-zwart-5g.html" }
+        ]
       },
       {
-        name: "Samsung Galaxy A56 5G (128 GB)",
-        description: "Betaalbare 5G-smartphone met 128 GB opslag",
+        name: "Samsung Galaxy S26 Plus",
+        description: "Scherm: 6,7 inch Dynamic AMOLED 2X | Camera: 50 MP driedubbel | Chip: Snapdragon 8 Elite",
         rating: 0,
-        image: "",
+        image: "https://ik.imagekit.io/402p80kep/ss_2.jpg",
         pros: [
-          "5G ondersteuning",
-          "Goede prijs-kwaliteit",
-          "Vloeiend scherm"
+          "Scherm: 6,7 inch Dynamic AMOLED 2X",
+          "Camera: 50 MP driedubbel systeem",
+          "Batterij: 5000 mAh met snelladen"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-galaxy-s26-256gb-zwart%2F9300000265030601%2F&name=Samsung%20Galaxy%20S26%20Plus%20-%20256GB%20-%20Black" },
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F975462%2Fsamsung-galaxy-s26-plus-256gb-zwart-5g.html" }
+        ]
       },
       {
-        name: "Samsung Galaxy A16 4G (LTE)",
-        description: "Instapmodel met 4G en lange batterijduur",
+        name: "Samsung Galaxy S26",
+        description: "Scherm: 6,2 inch Dynamic AMOLED 2X | Camera: 50 MP driedubbel | Chip: Snapdragon 8 Elite",
         rating: 0,
-        image: "",
+        image: "https://ik.imagekit.io/402p80kep/ss_3.jpg",
         pros: [
-          "Lange batterijduur",
-          "Betaalbaar",
-          "Groot scherm"
+          "Scherm: 6,2 inch Dynamic AMOLED 2X",
+          "Camera: 50 MP driedubbel systeem",
+          "Compact vlaggenschipformaat"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-galaxy-s26-256gb-black%2F9300000265051690%2F&name=Samsung%20Galaxy%20S26%20-%20256GB%20-%20Black" },
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F975476%2Fsamsung-galaxy-s26-ultra-512gb-zwart-5g.html" }
+        ]
       },
       {
-        name: "Samsung Galaxy A16 5G",
-        description: "Budget 5G-telefoon voor dagelijks gebruik",
+        name: "Samsung Galaxy S25 Ultra",
+        description: "Scherm: 6,9 inch Dynamic AMOLED 2X | Camera: 200 MP | Chip: Snapdragon 8 Gen 3",
         rating: 0,
-        image: "",
+        image: "https://ik.imagekit.io/402p80kep/ss_4.jpg",
         pros: [
-          "5G ondersteuning",
-          "Budgetvriendelijk",
-          "Modern design"
+          "Scherm: 6,9 inch Dynamic AMOLED 2X",
+          "Camera: 200 MP met S Pen",
+          "Chip: Snapdragon 8 Gen 3"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-galaxy-s26-ultra-256gb-black%2F9300000265051702%2F&name=Samsung%20Galaxy%20S26%20Ultra%20-%20256GB%20-%20Black" },
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F975476%2Fsamsung-galaxy-s26-ultra-512gb-zwart-5g.html" }
+        ]
+      },
+      {
+        name: "Samsung Galaxy A57 5G",
+        description: "Scherm: 6,7 inch Super AMOLED 120Hz | Camera: 50 MP OIS | Batterij: 5000 mAh",
+        rating: 0,
+        image: "https://ik.imagekit.io/402p80kep/ss_5.jpg",
+        pros: [
+          "Scherm: 6,7 inch Super AMOLED 120Hz",
+          "Camera: 50 MP met optische beeldstabilisatie",
+          "IP67 en 5000 mAh batterij"
+        ],
+        cons: [],
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-galaxy-a57-5g-256gb-donkerblauw%2F9300000271900488%2F&name=Samsung%20Galaxy%20A57%205G%20-%20256GB%20-%20Donkerblauw" },
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F976545%2Fsamsung-galaxy-a57-256gb-grijs-5g.html" }
+        ]
+      },
+      {
+        name: "Samsung Galaxy A56 5G",
+        description: "Scherm: 6,7 inch Super AMOLED 120Hz | Camera: 50 MP dubbel | 5G",
+        rating: 0,
+        image: "https://ik.imagekit.io/402p80kep/ss_6.jpg",
+        pros: [
+          "Scherm: 6,7 inch Super AMOLED 120Hz",
+          "Camera: 50 MP dubbele camera",
+          "5G en Knox-beveiliging"
+        ],
+        cons: [],
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-galaxy-a56-5g-8gb-256gb-awesome-graphite%2F9300000225539117%2F&name=Samsung%20Galaxy%20A56%205G%20-%20256GB%20-%20Awesome%20Graphite%20-%20AI%20tools" },
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F960968%2Fsamsung-galaxy-a56-128gb-zwart-5g.html" }
+        ]
+      },
+      {
+        name: "Samsung Galaxy A37 5G",
+        description: "Scherm: 6,6 inch Super AMOLED | Camera: 50 MP | Batterij: 5000 mAh",
+        rating: 0,
+        image: "https://ik.imagekit.io/402p80kep/ss_7.jpg",
+        pros: [
+          "Scherm: 6,6 inch Super AMOLED",
+          "Camera: 50 MP hoofdcamera",
+          "Lange batterijduur met 5G"
+        ],
+        cons: [],
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-galaxy-a37-5g-128gb-awesome-lavender-1-jaar-extra-garantie%2F9300000265834600%2F&name=Samsung%20Galaxy%20A37%205G%20-%20128GB%20-%20Awesome%20Lavender%20%2B%201%20jaar%20extra%20garantie" },
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F976536%2Fsamsung-galaxy-a37-256gb-zwart-5g.html" }
+        ]
       },
       {
         name: "Samsung Galaxy A26 5G",
-        description: "Instap 5G-model met degelijke prestaties",
+        description: "Scherm: 6,7 inch display | Camera: 50 MP | 5G instap middenklasse",
         rating: 0,
-        image: "",
+        image: "https://ik.imagekit.io/402p80kep/ss_8.jpg",
         pros: [
+          "Scherm: 6,7 inch groot display",
+          "Camera: 50 MP hoofdcamera",
+          "5G met scherpe prijs-kwaliteit"
+        ],
+        cons: [],
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-galaxy-a26-5g-128gb-black-1-jaar-extra-garantie%2F9300000233562433%2F&name=Samsung%20Galaxy%20A26%205G%20-%20128GB%20-%20Zwart%20-%20IP67%20waterbestendig" },
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F960931%2Fsamsung-galaxy-a26-128gb-zwart-5g.html" }
+        ]
+      },
+      {
+        name: "Samsung Galaxy A17 5G",
+        description: "Scherm: 6,7 inch display | 5G | Budgetvriendelijk instapmodel",
+        rating: 0,
+        image: "https://ik.imagekit.io/402p80kep/ss_9.jpg",
+        pros: [
+          "Scherm: 6,7 inch groot display",
           "5G ondersteuning",
-          "Scherpe prijs",
-          "Groot scherm"
+          "Budgetvriendelijk met lange batterijduur"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsmartphone-samsung-galaxy-a17-5g-6-7-128-gb-zwart-6-gb-ram%2F9300000237500868%2F&name=Samsung%20Galaxy%20A17%205G%20-%20128GB%20opslag%20-%2050MP%20camera%20-%20Zwart" },
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F967620%2Fsamsung-galaxy-a17-128gb-zwart-5g.html" }
+        ]
       },
       {
-        name: "Samsung Galaxy A36 5G (128 GB)",
-        description: "Populaire middenklasser met 128 GB opslag",
+        name: "Samsung Galaxy Z Fold 7",
+        description: "Scherm: 7,6 inch intern + 6,4 inch cover | Chip: Snapdragon 8 Elite",
         rating: 0,
-        image: "",
+        image: "https://ik.imagekit.io/402p80kep/ss_10.jpg",
         pros: [
-          "Goede prijs-kwaliteit",
-          "5G ondersteuning",
-          "Prima camera"
+          "Scherm: 7,6 inch opvouwbaar + 6,4 inch cover",
+          "Multitasking op groot vouwscherm",
+          "Chip: Snapdragon 8 Elite"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
-      },
-      {
-        name: "Samsung Galaxy A05s (4G)",
-        description: "Zeer betaalbare 4G-smartphone voor basisgebruik",
-        rating: 0,
-        image: "",
-        pros: [
-          "Budgetvriendelijk",
-          "Groot scherm",
-          "Degelijke batterij"
-        ],
-        cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
-      },
-      {
-        name: "Samsung Galaxy A36 5G (256 GB)",
-        description: "A36 met extra 256 GB opslag voor meer ruimte",
-        rating: 0,
-        image: "",
-        pros: [
-          "256 GB opslag",
-          "5G ondersteuning",
-          "Vloeiend scherm"
-        ],
-        cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
-      },
-      {
-        name: "Samsung Galaxy S25 5G (256 GB)",
-        description: "Nieuwste S-serie met 5G en 256 GB opslag",
-        rating: 0,
-        image: "",
-        pros: [
-          "High-end prestaties",
-          "Uitstekende camera",
-          "5G ondersteuning"
-        ],
-        cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
-      },
-      {
-        name: "Samsung Galaxy S25 5G (512 GB)",
-        description: "S25 met royale 512 GB opslag voor power users",
-        rating: 0,
-        image: "",
-        pros: [
-          "512 GB opslag",
-          "High-end prestaties",
-          "Uitstekende camera"
-        ],
-        cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-galaxy-z-fold7-256gb-jet-black%2F9300000236074232%2F&name=Samsung%20Galaxy%20Z%20Fold7%205G%20-%20256GB%20-%20JetBlack%20-%2012%20maanden%20garantie" },
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F966261%2Fsamsung-galaxy-z-fold-7-512gb-blauw-5g.html" }
+        ]
       }
     ]
   },
   oneplus: {
-    title: "Top 10 Beste OnePlus Phones van 2025",
+    title: "Top 10 Beste OnePlus Phones (2026)",
     description: "De populairste OnePlus smartphones gerangschikt op verkoopcijfers en gebruikerservaringen",
     products: [
       {
+        name: "OnePlus 14",
+        description: "Scherm: 6,82 inch LTPO AMOLED 120Hz | Camera: Hasselblad driedubbel | Chip: Snapdragon 8 Elite",
+        rating: 0,
+        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        pros: [
+          "Scherm: 6,82 inch LTPO AMOLED 120Hz",
+          "Camera: Hasselblad driedubbel systeem",
+          "100W SUPERVOOC snelladen"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "OnePlus 13",
+        description: "Scherm: 6,7 inch LTPO AMOLED | Camera: Hasselblad driedubbel | Chip: Snapdragon 8 Gen 3",
+        rating: 0,
+        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        pros: [
+          "Scherm: 6,7 inch LTPO AMOLED",
+          "Camera: Hasselblad driedubbel systeem",
+          "Chip: Snapdragon 8 Gen 3"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "OnePlus 13R",
+        description: "Scherm: 6,78 inch AMOLED 120Hz | Chip: Snapdragon 8 Gen 3 | Batterij: 6000 mAh",
+        rating: 0,
+        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        pros: [
+          "Scherm: 6,78 inch AMOLED 120Hz",
+          "Chip: Snapdragon 8 Gen 3",
+          "Grote batterij met gamingprestaties"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "OnePlus Nord 5",
+        description: "Scherm: 6,7 inch AMOLED 120Hz | Chip: Snapdragon 7 Gen 3 | 80W SUPERVOOC",
+        rating: 0,
+        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        pros: [
+          "Scherm: 6,7 inch AMOLED 120Hz",
+          "Chip: Snapdragon 7 Gen 3",
+          "80W SUPERVOOC snelladen"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "OnePlus Nord CE5",
+        description: "Scherm: 6,7 inch AMOLED | 5G | OxygenOS middenklasse",
+        rating: 0,
+        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        pros: [
+          "Scherm: 6,7 inch AMOLED",
+          "5G met OxygenOS",
+          "Betaalbare middenklasser met snelladen"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "OnePlus Open 2",
+        description: "Scherm: opvouwbaar 8 inch intern | Camera: Hasselblad | Chip: Snapdragon 8 Elite",
+        rating: 0,
+        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        pros: [
+          "Scherm: groot opvouwbaar intern display",
+          "Camera: Hasselblad driedubbel systeem",
+          "Multitasking met OxygenOS"
+        ],
+        cons: [],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
         name: "OnePlus 12",
-        description: "Het nieuwe vlaggenschip met Snapdragon 8 Gen 3",
-        rating: 9.7,
+        description: "Scherm: 6,82 inch LTPO AMOLED | Camera: Hasselblad | Chip: Snapdragon 8 Gen 3",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Snapdragon 8 Gen 3", "100W laden", "Hasselblad camera's"],
-        cons: ["Prijzig voor OnePlus", "Groot formaat"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oneplus-12"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oneplus-12"
-          }
-        ]
+        pros: [
+          "Chip: Snapdragon 8 Gen 3",
+          "Camera: Hasselblad driedubbel systeem",
+          "100W SUPERVOOC snelladen"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
-        name: "OnePlus 12R",
-        description: "Gaming-focused met grote batterij en scherpe prijs",
-        rating: 9.5,
+        name: "OnePlus Nord 4",
+        description: "Scherm: 6,74 inch AMOLED | Chip: Snapdragon 7+ Gen 3 | 80W SUPERVOOC",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Grote batterij", "Gaming features", "Goede prijs"],
-        cons: ["Basis camera", "Geen draadloos laden"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oneplus-12r"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oneplus-12r"
-          }
-        ]
+        pros: [
+          "Scherm: 6,74 inch AMOLED",
+          "Chip: Snapdragon 7+ Gen 3",
+          "80W SUPERVOOC snelladen"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
-        name: "OnePlus Nord 3",
-        description: "De beste mid-range smartphone van OnePlus",
-        rating: 9.3,
+        name: "OnePlus Nord CE4 Lite",
+        description: "Scherm: 6,7 inch display | 5G | Budget instapmodel",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Goede prijs-kwaliteit", "80W laden", "OxygenOS"],
-        cons: ["Plastic frame", "Geen draadloos laden"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oneplus-nord-3"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oneplus-nord-3"
-          }
-        ]
-      },
-      {
-        name: "OnePlus Nord CE 3",
-        description: "Betaalbare alleskunner met 5G",
-        rating: 9.2,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Scherpe prijs", "5G", "Snelladen"],
-        cons: ["Basis camera", "Plastic design"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oneplus-nord-ce-3"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oneplus-nord-ce-3"
-          }
-        ]
+        pros: [
+          "Scherm: 6,7 inch groot display",
+          "5G met OxygenOS",
+          "Budgetvriendelijk met lange batterijduur"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
         name: "OnePlus Open",
-        description: "De eerste vouwbare smartphone van OnePlus",
-        rating: 9.1,
+        description: "Scherm: 7,82 inch opvouwbaar | Camera: Hasselblad | Vouwbare premium smartphone",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Innovatief design", "Hasselblad camera's", "OxygenOS"],
-        cons: ["Zeer hoge prijs", "Eerste generatie"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oneplus-open"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oneplus-open"
-          }
-        ]
-      },
-      {
-        name: "OnePlus 11",
-        description: "Vorig vlaggenschip voor een scherpe prijs",
-        rating: 9.0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Goede prijs", "Hasselblad camera's", "Snelladen"],
-        cons: ["Geen draadloos laden", "Oudere processor"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oneplus-11"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oneplus-11"
-          }
-        ]
-      },
-      {
-        name: "OnePlus Nord N30",
-        description: "Budget-vriendelijke 5G smartphone",
-        rating: 8.9,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Zeer betaalbaar", "5G", "Grote batterij"],
-        cons: ["Basis camera", "Plastic bouw"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oneplus-nord-n30"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oneplus-nord-n30"
-          }
-        ]
-      },
-      {
-        name: "OnePlus Nord 2T",
-        description: "Nog steeds een uitstekende mid-ranger",
-        rating: 8.8,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Goede prijs", "80W laden", "OxygenOS"],
-        cons: ["Oudere chip", "Basis camera's"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oneplus-nord-2t"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oneplus-nord-2t"
-          }
-        ]
-      },
-      {
-        name: "OnePlus Nord CE 2",
-        description: "Budget-vriendelijk met goede features",
-        rating: 8.7,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Betaalbaar", "Snelladen", "Licht"],
-        cons: ["Oudere processor", "Basis camera"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oneplus-nord-ce-2"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oneplus-nord-ce-2"
-          }
-        ]
-      },
-      {
-        name: "OnePlus Nord N20",
-        description: "De meest betaalbare OnePlus",
-        rating: 8.6,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Zeer betaalbaar", "AMOLED scherm", "Snelladen"],
-        cons: ["Basis specs", "Plastic bouw"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oneplus-nord-n20"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oneplus-nord-n20"
-          }
-        ]
+        pros: [
+          "Scherm: 7,82 inch opvouwbaar display",
+          "Camera: Hasselblad driedubbel systeem",
+          "OxygenOS multitasking op groot scherm"
+        ],
+        cons: [],
+        stores: [{ name: "Coolblue", link: "#" }]
       }
     ]
   },
   google: {
-    title: "Top 10 Beste Google Phones van 2025",
+    title: "Top 10 Beste Google Pixel Phones (2026)",
     description: "De populairste Google Pixel smartphones gerangschikt op verkoopcijfers en gebruikerservaringen",
     products: [
       {
+        name: "Google Pixel 10 Pro XL",
+        description: "Scherm: 6,8 inch LTPO OLED 120Hz | Camera: 50 MP driedubbel | Chip: Tensor G5",
+        rating: 0,
+        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        pros: [
+          "Scherm: 6,8 inch LTPO OLED 120Hz",
+          "Camera: 50 MP met 5x optische zoom",
+          "7 jaar Android-updates en Gemini AI"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Google Pixel 10 Pro",
+        description: "Scherm: 6,3 inch LTPO OLED 120Hz | Camera: 50 MP driedubbel | Chip: Tensor G5",
+        rating: 0,
+        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        pros: [
+          "Scherm: 6,3 inch LTPO OLED 120Hz",
+          "Camera: 50 MP driedubbel systeem",
+          "Chip: Tensor G5 met Gemini AI"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Google Pixel 10",
+        description: "Scherm: 6,3 inch OLED 120Hz | Camera: 50 MP dubbel | Chip: Tensor G5",
+        rating: 0,
+        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        pros: [
+          "Scherm: 6,3 inch OLED 120Hz",
+          "Camera: 50 MP dubbele camera",
+          "7 jaar updates met pure Android"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Google Pixel 9 Pro Fold",
+        description: "Scherm: 8 inch intern + 6,3 inch cover | Camera: 50 MP | Chip: Tensor G4",
+        rating: 0,
+        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        pros: [
+          "Scherm: 8 inch opvouwbaar + 6,3 inch cover",
+          "Camera: 50 MP Pro camera's",
+          "Gemini AI op groot vouwscherm"
+        ],
+        cons: [],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Google Pixel 9 Pro XL",
+        description: "Scherm: 6,8 inch LTPO OLED 120Hz | Camera: 50 MP driedubbel | Chip: Tensor G4",
+        rating: 0,
+        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        pros: [
+          "Scherm: 6,8 inch LTPO OLED 120Hz",
+          "Camera: 50 MP met 5x optische zoom",
+          "Chip: Tensor G4 met Gemini AI"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Google Pixel 9 Pro",
+        description: "Scherm: 6,3 inch LTPO OLED 120Hz | Camera: 50 MP driedubbel | Chip: Tensor G4",
+        rating: 0,
+        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        pros: [
+          "Scherm: 6,3 inch LTPO OLED 120Hz",
+          "Camera: 50 MP driedubbel systeem",
+          "7 jaar Android-updates"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Google Pixel 9",
+        description: "Scherm: 6,3 inch OLED 120Hz | Camera: 50 MP dubbel | Chip: Tensor G4",
+        rating: 0,
+        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        pros: [
+          "Scherm: 6,3 inch OLED 120Hz",
+          "Camera: 50 MP dubbele camera",
+          "Gemini AI en 7 jaar updates"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Google Pixel 9a",
+        description: "Scherm: 6,3 inch OLED | Camera: 48 MP | Chip: Tensor G4",
+        rating: 0,
+        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        pros: [
+          "Scherm: 6,3 inch OLED",
+          "Camera: 48 MP met Pro-functies",
+          "Betaalbare Pixel met 7 jaar updates"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
         name: "Google Pixel 8 Pro",
-        description: "De ultieme AI-smartphone met 7 jaar updates",
-        rating: 9.7,
+        description: "Scherm: 6,7 inch LTPO OLED 120Hz | Camera: 50 MP driedubbel | Chip: Tensor G3",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Beste AI features", "7 jaar updates", "Geweldige camera's"],
-        cons: ["Hoge prijs", "Beperkte beschikbaarheid"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/google-pixel-8-pro"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/google-pixel-8-pro"
-          }
-        ]
+        pros: [
+          "Scherm: 6,7 inch LTPO OLED 120Hz",
+          "Camera: 50 MP driedubbel systeem",
+          "Chip: Tensor G3 met AI-functies"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
-        name: "Google Pixel 8",
-        description: "Compact powerhouse met alle AI features",
-        rating: 9.6,
+        name: "Google Pixel 8a",
+        description: "Scherm: 6,1 inch OLED 120Hz | Camera: 64 MP | Chip: Tensor G3",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Compact", "7 jaar updates", "AI features"],
-        cons: ["Geen telelens", "Prijzig"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/google-pixel-8"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/google-pixel-8"
-          }
-        ]
-      },
-      {
-        name: "Google Pixel Fold",
-        description: "De eerste vouwbare Pixel met stock Android",
-        rating: 9.4,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Uniek design", "Pure Android", "Goede camera's"],
-        cons: ["Zeer hoge prijs", "Zwaar", "Eerste generatie"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/google-pixel-fold"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/google-pixel-fold"
-          }
-        ]
-      },
-      {
-        name: "Google Pixel 7a",
-        description: "De beste mid-range smartphone met pure Android",
-        rating: 9.3,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Goede prijs", "Pure Android", "Geweldige camera"],
-        cons: ["Plastic bouw", "Geen telelens"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/google-pixel-7a"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/google-pixel-7a"
-          }
-        ]
-      },
-      {
-        name: "Google Pixel 7 Pro",
-        description: "Nog steeds een toptoestel met geweldige camera's",
-        rating: 9.2,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Scherpe prijs", "Goede camera's", "Pure Android"],
-        cons: ["Oudere processor", "Kortere updates"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/google-pixel-7-pro"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/google-pixel-7-pro"
-          }
-        ]
-      },
-      {
-        name: "Google Pixel 7",
-        description: "Pure Android ervaring voor een scherpe prijs",
-        rating: 9.1,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Goede prijs", "Pure Android", "Compacte behuizing"],
-        cons: ["Basis camera", "Kortere updates"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/google-pixel-7"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/google-pixel-7"
-          }
-        ]
-      },
-      {
-        name: "Google Pixel 6a",
-        description: "Budget-vriendelijke Pixel met goede prestaties",
-        rating: 9.0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Zeer betaalbaar", "Pure Android", "Compact"],
-        cons: ["Oudere hardware", "60Hz scherm"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/google-pixel-6a"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/google-pixel-6a"
-          }
-        ]
-      },
-      {
-        name: "Google Pixel 6 Pro",
-        description: "Voormalig vlaggenschip voor een scherpe prijs",
-        rating: 8.9,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Scherpe prijs", "Goede camera's", "Pure Android"],
-        cons: ["Oudere hardware", "Beperkte updates"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/google-pixel-6-pro"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/google-pixel-6-pro"
-          }
-        ]
-      },
-      {
-        name: "Google Pixel 6",
-        description: "Basis Pixel met pure Android ervaring",
-        rating: 8.8,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Goede prijs", "Pure Android", "Degelijke camera"],
-        cons: ["Oudere hardware", "Beperkte updates"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/google-pixel-6"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/google-pixel-6"
-          }
-        ]
-      },
-      {
-        name: "Google Pixel 5",
-        description: "Klassieke Pixel voor de liefhebber",
-        rating: 8.7,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Compact", "Pure Android", "Betaalbaar"],
-        cons: ["Verouderde specs", "Geen updates meer"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/google-pixel-5"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/google-pixel-5"
-          }
-        ]
+        pros: [
+          "Scherm: 6,1 inch OLED 120Hz",
+          "Camera: 64 MP hoofdcamera",
+          "Scherpe prijs met pure Android"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       }
     ]
   },
   oppo: {
-    title: "Top 10 Beste OPPO Phones van 2025",
+    title: "Top 10 Beste OPPO Phones (2026)",
     description: "De populairste OPPO smartphones gerangschikt op verkoopcijfers en gebruikerservaringen",
     products: [
       {
-        name: "OPPO Find X7 Ultra",
-        description: "Het nieuwe vlaggenschip met revolutionaire camera's",
-        rating: 9.6,
+        name: "OPPO Find X9 Pro",
+        description: "Scherm: 6,82 inch LTPO AMOLED 120Hz | Camera: Hasselblad driedubbel | Chip: Snapdragon 8 Elite",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Hasselblad camera's", "Snapdragon 8 Gen 3", "Prachtig design"],
-        cons: ["Zeer hoge prijs", "Beperkte beschikbaarheid"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oppo-find-x7-ultra"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oppo-find-x7-ultra"
-          }
-        ]
+        pros: [
+          "Scherm: 6,82 inch LTPO AMOLED 120Hz",
+          "Camera: Hasselblad driedubbel systeem",
+          "Chip: Snapdragon 8 Elite"
+        ],
+        cons: [],
+        stores: [{ name: "Coolblue", link: "#" }]
       },
       {
-        name: "OPPO Find N3",
-        description: "Premium vouwbare smartphone met Hasselblad camera's",
-        rating: 9.5,
+        name: "OPPO Reno14 Pro",
+        description: "Scherm: 6,7 inch AMOLED 120Hz | Camera: 50 MP driedubbel | 80W SUPERVOOC",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Innovatief design", "Hasselblad camera's", "Groot scherm"],
-        cons: ["Zeer hoge prijs", "Beperkte beschikbaarheid"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oppo-find-n3"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oppo-find-n3"
-          }
-        ]
+        pros: [
+          "Scherm: 6,7 inch AMOLED 120Hz",
+          "Camera: 50 MP driedubbel systeem",
+          "80W SUPERVOOC snelladen"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
-        name: "OPPO Find N3 Flip",
-        description: "Stijlvolle vouwbare smartphone met groot coverscherm",
-        rating: 9.4,
+        name: "OPPO Reno14 F 5G",
+        description: "Scherm: 6,7 inch AMOLED | Camera: 50 MP | 5G middenklasse",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Uniek design", "Goede camera's", "Compact opgevouwen"],
-        cons: ["Hoge prijs", "Batterijduur"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oppo-find-n3-flip"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oppo-find-n3-flip"
-          }
-        ]
+        pros: [
+          "Scherm: 6,7 inch AMOLED",
+          "Camera: 50 MP hoofdcamera",
+          "5G met stijlvol Reno-design"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "OPPO Reno11 Pro",
-        description: "Premium midrange met uitstekende camera's",
-        rating: 9.3,
+        name: "OPPO A5 Pro 5G",
+        description: "Scherm: 6,67 inch display | 5G | IP69 waterbestendig",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Mooi design", "Goede camera's", "Snelladen"],
-        cons: ["Midrange processor", "Prijzig"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oppo-reno11-pro"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oppo-reno11-pro"
-          }
-        ]
+        pros: [
+          "Scherm: 6,67 inch groot display",
+          "5G met IP69 waterbestendigheid",
+          "Sterke batterij voor dagelijks gebruik"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "OPPO Reno11",
-        description: "Stijlvolle midrange smartphone",
-        rating: 9.2,
+        name: "OPPO A5x 4G",
+        description: "Scherm: 6,67 inch display | 4G | Budget instapmodel",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Goed design", "Prima camera's", "Snelladen"],
-        cons: ["Plastic frame", "Basis processor"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oppo-reno11"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oppo-reno11"
-          }
-        ]
+        pros: [
+          "Scherm: 6,67 inch groot display",
+          "Betaalbaar 4G instapmodel",
+          "Lange batterijduur"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "OPPO Find X6 Pro",
-        description: "Vorig vlaggenschip met top specs",
-        rating: 9.1,
+        name: "OPPO Reno13",
+        description: "Scherm: 6,7 inch AMOLED 120Hz | Camera: 50 MP dubbel | 80W SUPERVOOC",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Goede prijs", "Top camera's", "Snelladen"],
-        cons: ["Oudere processor", "Geen nieuwste features"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oppo-find-x6-pro"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oppo-find-x6-pro"
-          }
-        ]
+        pros: [
+          "Scherm: 6,7 inch AMOLED 120Hz",
+          "Camera: 50 MP dubbele camera",
+          "80W SUPERVOOC snelladen"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
-        name: "OPPO A79 5G",
-        description: "Betaalbare 5G smartphone met goede specs",
-        rating: 9.0,
+        name: "OPPO Find N5",
+        description: "Scherm: opvouwbaar 8 inch intern | Camera: Hasselblad | Chip: Snapdragon 8 Elite",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["5G", "Grote batterij", "Scherpe prijs"],
-        cons: ["Basis camera", "Plastic design"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oppo-a79-5g"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oppo-a79-5g"
-          }
-        ]
+        pros: [
+          "Scherm: dunste opvouwbare smartphone",
+          "Camera: Hasselblad driedubbel systeem",
+          "Chip: Snapdragon 8 Elite"
+        ],
+        cons: [],
+        stores: [{ name: "Coolblue", link: "#" }]
       },
       {
-        name: "OPPO A58",
-        description: "Budget-vriendelijke smartphone met goede features",
-        rating: 8.9,
+        name: "OPPO A98 5G",
+        description: "Scherm: 6,72 inch display | 5G | 67W SUPERVOOC",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Zeer betaalbaar", "Groot scherm", "Goede batterij"],
-        cons: ["Basis specs", "Plastic bouw"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oppo-a58"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oppo-a58"
-          }
-        ]
+        pros: [
+          "Scherm: 6,72 inch groot display",
+          "5G met 67W SUPERVOOC",
+          "Goede prijs-kwaliteit in A-serie"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
-        name: "OPPO A38",
-        description: "Entry-level smartphone met goede batterij",
-        rating: 8.8,
+        name: "OPPO Reno12",
+        description: "Scherm: 6,7 inch AMOLED | Camera: 50 MP dubbel | ColorOS",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Zeer betaalbaar", "Lange batterijduur", "Degelijk"],
-        cons: ["Basis camera", "Basis scherm"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oppo-a38"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oppo-a38"
-          }
-        ]
+        pros: [
+          "Scherm: 6,7 inch AMOLED",
+          "Camera: 50 MP dubbele camera",
+          "Stijlvol Reno-design met ColorOS"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
-        name: "OPPO A18",
-        description: "De meest betaalbare OPPO smartphone",
-        rating: 8.7,
+        name: "OPPO A80 5G",
+        description: "Scherm: 6,67 inch display | 5G | Budgetvriendelijk",
+        rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: ["Zeer goedkoop", "Basis functies", "Degelijk"],
-        cons: ["Minimale specs", "Basis camera"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/oppo-a18"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/oppo-a18"
-          }
-        ]
+        pros: [
+          "Scherm: 6,67 inch groot display",
+          "5G ondersteuning",
+          "Budgetvriendelijk met degelijke batterij"
+        ],
+        cons: [],
+        stores: [{ name: "Bol.com", link: "#" }]
       }
     ]
   },
