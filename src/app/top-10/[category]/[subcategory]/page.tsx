@@ -542,134 +542,155 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     description: "De populairste OnePlus smartphones gerangschikt op verkoopcijfers en gebruikerservaringen",
     products: [
       {
-        name: "OnePlus 14",
+        name: "OnePlus 15",
         description: "Scherm: 6,82 inch LTPO AMOLED 120Hz | Camera: Hasselblad driedubbel | Chip: Snapdragon 8 Elite",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "https://ik.imagekit.io/402p80kep/op_1.jpg",
         pros: [
           "Scherm: 6,82 inch LTPO AMOLED 120Hz",
           "Camera: Hasselblad driedubbel systeem",
           "100W SUPERVOOC snelladen"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foneplus-15-5g-16gb-512gb-zwart-dual-sim%2F9300000243169165%2F&name=OnePlus%2015%20-%2016GB%2F512GB%20-%20Infinite%20Black" },
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F970468%2Foneplus-15-512gb-zwart-5g.html" }
+        ]
       },
       {
         name: "OnePlus 13",
         description: "Scherm: 6,7 inch LTPO AMOLED | Camera: Hasselblad driedubbel | Chip: Snapdragon 8 Gen 3",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "https://ik.imagekit.io/402p80kep/op_2nb.png",
         pros: [
           "Scherm: 6,7 inch LTPO AMOLED",
           "Camera: Hasselblad driedubbel systeem",
           "Chip: Snapdragon 8 Gen 3"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foneplus-13-256gb-12gb-black-eclipse%2F9300000220363404%2F&name=OnePlus%2013%20-%20256GB%20-%20Black%20Eclipse%20-%20IP68%20%26%20IP69%20-%20Triple%2050MP%20camera" },
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F957541%2Foneplus-13-512gb-blauw-5g.html" }
+        ]
       },
       {
-        name: "OnePlus 13R",
+        name: "OnePlus 15R",
         description: "Scherm: 6,78 inch AMOLED 120Hz | Chip: Snapdragon 8 Gen 3 | Batterij: 6000 mAh",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "https://ik.imagekit.io/402p80kep/op_3nb.png",
         pros: [
           "Scherm: 6,78 inch AMOLED 120Hz",
           "Chip: Snapdragon 8 Gen 3",
           "Grote batterij met gamingprestaties"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foneplus-15r-12gb-512gb-charcoal-black%2F9300000252612783%2F&name=OnePlus%2015R%20-%2012GB%2F512GB%20-%20Charcoal%20Black" },
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F973314%2Foneplus-15r-256gb-zwart-5g.html" }
+        ]
       },
       {
         name: "OnePlus Nord 5",
         description: "Scherm: 6,7 inch AMOLED 120Hz | Chip: Snapdragon 7 Gen 3 | 80W SUPERVOOC",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "https://ik.imagekit.io/402p80kep/op_4nb.png",
         pros: [
           "Scherm: 6,7 inch AMOLED 120Hz",
           "Chip: Snapdragon 7 Gen 3",
           "80W SUPERVOOC snelladen"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foneplus-nord-5-256gb-8gb-marble-sands%2F9300000233834189%2F&name=OnePlus%20Nord%205%20-%20256GB%2F8GB%20-%20Marble%20Sands" },
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F966129%2Foneplus-nord-5-512gb-blauw-5g.html" }
+        ]
       },
       {
         name: "OnePlus Nord CE5",
         description: "Scherm: 6,7 inch AMOLED | 5G | OxygenOS middenklasse",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "https://ik.imagekit.io/402p80kep/op_5nb.png",
         pros: [
           "Scherm: 6,7 inch AMOLED",
           "5G met OxygenOS",
           "Betaalbare middenklasser met snelladen"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foneplus-nord-ce5-256gb-8gb-black-infinity%2F9300000233834183%2F&name=OnePlus%20Nord%20CE5%20-%20256GB%2F8GB%20-%20Black%20Infinity%20-%20120%20Hz%20AMOLED-scherm" },
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F966132%2Foneplus-nord-ce-5-256gb-zwart-5g.html" }
+        ]
       },
       {
-        name: "OnePlus Open 2",
+        name: "OnePlus Open",
         description: "Scherm: opvouwbaar 8 inch intern | Camera: Hasselblad | Chip: Snapdragon 8 Elite",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "https://ik.imagekit.io/402p80kep/op_6nb.png",
         pros: [
           "Scherm: groot opvouwbaar intern display",
           "Camera: Hasselblad driedubbel systeem",
           "Multitasking met OxygenOS"
         ],
         cons: [],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foneplus-open-512gb-zwart%2F9300000169556063%2F&name=OnePlus%20Open%20Foldable%20telefoon%20-%20512GB%20-%20Zwart%20-%205G%20-%2048MP%20camera" }
+        ]
       },
       {
         name: "OnePlus 12",
         description: "Scherm: 6,82 inch LTPO AMOLED | Camera: Hasselblad | Chip: Snapdragon 8 Gen 3",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "https://ik.imagekit.io/402p80kep/op_7nb.png",
         pros: [
           "Chip: Snapdragon 8 Gen 3",
           "Camera: Hasselblad driedubbel systeem",
           "100W SUPERVOOC snelladen"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foneplus-12-cph2581-europe-512gb-16gb-silky-black-eu%2F9300000171714141%2F&name=OnePlus%2012%20-%20512GB%20opslag%20-%2016GB%20RAM%20-%20Silky%20Black" }
+        ]
       },
       {
-        name: "OnePlus Nord 4",
+        name: "OnePlus Nord 4 (Refurbished)",
         description: "Scherm: 6,74 inch AMOLED | Chip: Snapdragon 7+ Gen 3 | 80W SUPERVOOC",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "https://ik.imagekit.io/402p80kep/op_8nb.png",
         pros: [
           "Scherm: 6,74 inch AMOLED",
           "Chip: Snapdragon 7+ Gen 3",
           "80W SUPERVOOC snelladen"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foneplus-nord-4-256gb-obsidian-midnight%2F9300000183792422%2F&name=OnePlus%20Nord%204%20-%20256GB%20-%20Obsidian%20Midnight%20-%2050MP%20camera%20-%20120Hz%20OLED-scherm" }
+        ]
       },
       {
         name: "OnePlus Nord CE4 Lite",
         description: "Scherm: 6,7 inch display | 5G | Budget instapmodel",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "https://ik.imagekit.io/402p80kep/op_9nb.png",
         pros: [
           "Scherm: 6,7 inch groot display",
           "5G met OxygenOS",
           "Budgetvriendelijk met lange batterijduur"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foneplus-nord-ce4-lite-5g-8gb-256gb-mega-blauw%2F9300000181988617%2F&name=OnePlus%20Nord%20CE4%20Lite%205G%20-%20256GB%20opslag%20-%20Mega%20Blauw" }
+        ]
       },
       {
-        name: "OnePlus Open",
-        description: "Scherm: 7,82 inch opvouwbaar | Camera: Hasselblad | Vouwbare premium smartphone",
+        name: "Binnenkort...",
+        description: "",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/39/BLACK.PNG",
         pros: [
-          "Scherm: 7,82 inch opvouwbaar display",
-          "Camera: Hasselblad driedubbel systeem",
-          "OxygenOS multitasking op groot scherm"
+
         ],
         cons: [],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [{ name: "#", link: "#" }]
       }
     ]
   },
