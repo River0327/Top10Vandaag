@@ -31,7 +31,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     products: [
       {
         name: "Apple iPhone 17 Pro Max",
-        description: "Scherm: 6,1 inch OLED | Camera: 48 MP hoofdcamera | Chip: A18 Pro",
+        description: "De iPhone 17 Pro Max is het absolute topmodel van Apple met het grootste scherm en de sterkste prestaties. Perfect voor wie het maximale uit foto's, video en multitasking wil halen.",
         rating: 4.8,
         image: "https://media.s-bol.com/0KDNEKOJNj5V/DRL6Ayq/163x210.jpg",
         pros: [
@@ -53,7 +53,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Apple iPhone 17 Pro",
-        description: "Scherm: 6,1 inch OLED | Camera: 48 MP hoofdcamera | Chip: A16 Bionic",
+        description: "De iPhone 17 Pro combineert Pro-camera's en topchip in een iets compacter formaat dan de Max. Ideaal als je Pro-functies wilt zonder het grootste toestel.",
         rating: 4.7,
         image: "https://media.s-bol.com/ZMLZDjvwX10Q/xGw7X1P/550x679.jpg",
         pros: [
@@ -75,7 +75,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Apple iPhone 17",
-        description: "Scherm: 5,4 inch OLED | Camera: 12 MP dual-camera | Chip: A15 Bionic",
+        description: "De standaard iPhone 17 biedt de nieuwste generatie features voor een breder publiek. Een uitstekende keuze als je een actuele iPhone zoekt zonder Pro-prijs.",
         rating: 4.7,
         image: "https://media.s-bol.com/4ZBWqNmEYgK0/WnXj4zJ/168x208.jpg",
         pros: [
@@ -97,7 +97,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Apple iPhone 17e",
-        description: "Scherm: 6,1 inch OLED | Camera: 48 MP hoofdcamera | Chip: A18 Bionic",
+        description: "De iPhone 17e is het instapmodel van de nieuwste lijn met de belangrijkste iPhone-ervaring tegen een scherpere prijs. Slimme keuze voor wie modern iOS wil zonder flagship-budget.",
         rating: 4.6,
         image: "https://media.s-bol.com/k3mJkmGzmq3N/0VRjv5X/168x204.jpg",
         pros: [
@@ -119,7 +119,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Apple iPhone 16 Pro Max",
-        description: "Scherm: 6,1 inch OLED | Camera: 12 MP dual-camera | Chip: A15 Bionic",
+        description: "De iPhone 16 Pro Max blijft een krachtig vlaggenschip met groot scherm en Pro-camera's. Aantrekkelijk als je top-specificaties wilt tegen een iets lagere prijs dan de 17-serie.",
         rating: 4.5,
         image: "https://media.s-bol.com/EEgORmq4zqLY/XD9zJW8/168x210.jpg",
         pros: [
@@ -137,7 +137,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Apple iPhone 16 Pro (Refurbished)",
-        description: "Scherm: 6,1 inch OLED | Camera: 12 MP dual-camera | Chip: A15 Bionic",
+        description: "Een gereviseerde iPhone 16 Pro levert Pro-prestaties en premium design voor minder geld. Duurzame keuze met dezelfde kernervaring als een nieuw exemplaar.",
         rating: 4.7,
         image: "https://media.s-bol.com/6qBjPmL8EoMN/mZmVxVn/168x207.jpg",
         pros: [
@@ -155,7 +155,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Apple iPhone 16",
-        description: "Scherm: 6,1 inch OLED | Camera: 12 MP triple-camera | Chip: A15 Bionic",
+        description: "De iPhone 16 brengt het nieuwe camerasysteem en de A18-chip naar het reguliere formaat. Sterk allround-toestel voor dagelijks gebruik en contentcreatie.",
         rating: 4.8,
         image: "https://media.s-bol.com/vyMq25G8wP10/9rEwKz3/168x206.jpg",
         pros: [
@@ -177,7 +177,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Apple iPhone 15",
-        description: "Scherm: 6,7 inch OLED | Camera: 48 MP triple-camera | Chip: A18 Pro",
+        description: "De iPhone 15 introduceerde Dynamic Island en USB-C en blijft zeer capabel in 2026. Nog steeds een betrouwbare iPhone met moderne basis en goede camera.",
         rating: 4.9,
         image: "https://media.s-bol.com/BYw3mMMkYNyk/Z4wxAzR/160x210.jpg",
         pros: [
@@ -199,7 +199,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Apple iPhone 15 Plus (Refurbished)",
-        description: "Scherm: 6,1 inch OLED | Camera: 48 MP triple-camera | Chip: A17 Pro",
+        description: "De iPhone 15 Plus refurbished biedt een groot 6,7-inch scherm en lange gebruiksduur voor een lagere prijs. Fijn als je veel media kijkt en een Plus-formaat zoekt.",
         rating: 4.7,
         image: "https://media.s-bol.com/5ozp2OOMoQ1Z/98O1ml4/157x210.jpg",
         pros: [
@@ -217,7 +217,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Apple iPhone 14",
-        description: "Scherm: 4,7 inch LCD | Camera: 12 MP single-camera | Chip: A15 Bionic",
+        description: "De iPhone 14 is een bewezen model met solide cameras en crashdetectie. Interessant als instap in het Apple-ecosysteem met lagere aanschafkosten.",
         rating: 4.6,
         image: "https://media.s-bol.com/k0AqNRGQBVY6/vgY3O50/159x210.jpg",
         pros: [
@@ -377,7 +377,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     products: [
       {
         name: "Samsung Galaxy S26 Ultra",
-        description: "Scherm: 6,9 inch Dynamic AMOLED 2X | Camera: 200 MP | Chip: Snapdragon 8 Elite",
+        description: "De Galaxy S26 Ultra is Samsung's absolute top met S Pen, 200 MP camera en het grootste scherm. De beste keuze voor power users en creatievelingen.",
         rating: 0,
         image: "https://ik.imagekit.io/402p80kep/ss_1.jpg",
         pros: [
@@ -393,7 +393,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Samsung Galaxy S26 Plus",
-        description: "Scherm: 6,7 inch Dynamic AMOLED 2X | Camera: 50 MP driedubbel | Chip: Snapdragon 8 Elite",
+        description: "De S26 Plus biedt vlaggenschipprestaties in een groot maar handig formaat. Ideale balans tussen scherm, batterij en dagelijkse snelheid.",
         rating: 0,
         image: "https://ik.imagekit.io/402p80kep/ss_2.jpg",
         pros: [
@@ -409,7 +409,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Samsung Galaxy S26",
-        description: "Scherm: 6,2 inch Dynamic AMOLED 2X | Camera: 50 MP driedubbel | Chip: Snapdragon 8 Elite",
+        description: "De compacte S26 levert premium hardware in een enkel-hand-vriendelijk formaat. Perfect als je een echt vlaggenschip wilt zonder enorm toestel.",
         rating: 0,
         image: "https://ik.imagekit.io/402p80kep/ss_3.jpg",
         pros: [
@@ -425,7 +425,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Samsung Galaxy S25 Ultra",
-        description: "Scherm: 6,9 inch Dynamic AMOLED 2X | Camera: 200 MP | Chip: Snapdragon 8 Gen 3",
+        description: "De S25 Ultra blijft een camera- en productiviteitsbeest met S Pen en groot display. Slim als je vorige generatie topklasse zoekt tegen scherpere prijs.",
         rating: 0,
         image: "https://ik.imagekit.io/402p80kep/ss_4.jpg",
         pros: [
@@ -441,7 +441,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Samsung Galaxy A57 5G",
-        description: "Scherm: 6,7 inch Super AMOLED 120Hz | Camera: 50 MP OIS | Batterij: 5000 mAh",
+        description: "De Galaxy A57 5G is het sterke middenklassemodel van Samsung met 120Hz-scherm en IP67. Uitstekende dagelijkse telefoon met premium trekjes.",
         rating: 0,
         image: "https://ik.imagekit.io/402p80kep/ss_5.jpg",
         pros: [
@@ -457,7 +457,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Samsung Galaxy A56 5G",
-        description: "Scherm: 6,7 inch Super AMOLED 120Hz | Camera: 50 MP dubbel | 5G",
+        description: "De A56 5G combineert AI-tools en 120Hz AMOLED in een betaalbare A-serie behuizing. Goede keuze voor wie slimme Samsung-features wil zonder S-prijs.",
         rating: 0,
         image: "https://ik.imagekit.io/402p80kep/ss_6.jpg",
         pros: [
@@ -473,7 +473,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Samsung Galaxy A37 5G",
-        description: "Scherm: 6,6 inch Super AMOLED | Camera: 50 MP | Batterij: 5000 mAh",
+        description: "De A37 5G richt zich op gebruikers die een groot scherm en lange batterij willen voor weinig geld. Solide 5G-middenklasser voor alledaags werk.",
         rating: 0,
         image: "https://ik.imagekit.io/402p80kep/ss_7.jpg",
         pros: [
@@ -489,7 +489,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Samsung Galaxy A26 5G",
-        description: "Scherm: 6,7 inch display | Camera: 50 MP | 5G instap middenklasse",
+        description: "De A26 5G levert essentiële Samsung-kwaliteit met 5G en een scherpe prijs. Instap in de A-serie zonder in te leveren op formaat.",
         rating: 0,
         image: "https://ik.imagekit.io/402p80kep/ss_8.jpg",
         pros: [
@@ -505,7 +505,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Samsung Galaxy A17 5G",
-        description: "Scherm: 6,7 inch display | 5G | Budgetvriendelijk instapmodel",
+        description: "De A17 5G is het budgetinstapmodel met groot scherm en 5G voor dagelijks gebruik. Ideaal als eerste smartphone of spare toestel.",
         rating: 0,
         image: "https://ik.imagekit.io/402p80kep/ss_9.jpg",
         pros: [
@@ -521,7 +521,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Samsung Galaxy Z Fold 7",
-        description: "Scherm: 7,6 inch intern + 6,4 inch cover | Chip: Snapdragon 8 Elite",
+        description: "De Z Fold 7 verandert van telefoon in tablet met een imposant vouwscherm. Voor wie multitasken, productiviteit en innovatie centraal zet.",
         rating: 0,
         image: "https://ik.imagekit.io/402p80kep/ss_10.jpg",
         pros: [
@@ -543,9 +543,9 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     products: [
       {
         name: "OnePlus 15",
-        description: "Scherm: 6,82 inch LTPO AMOLED 120Hz | Camera: Hasselblad driedubbel | Chip: Snapdragon 8 Elite",
+        description: "De OnePlus 15 is het nieuwste vlaggenschip met Hasselblad-camera's en razendsnel 100W-laden. Voor liefhebbers van snelle OxygenOS en sterke hardware.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/op_1.jpg",
+        image: "https://media.s-bol.com/Bqrv60BlDDNW/P1wML74/550x428.jpg",
         pros: [
           "Scherm: 6,82 inch LTPO AMOLED 120Hz",
           "Camera: Hasselblad driedubbel systeem",
@@ -559,9 +559,9 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OnePlus 13",
-        description: "Scherm: 6,7 inch LTPO AMOLED | Camera: Hasselblad driedubbel | Chip: Snapdragon 8 Gen 3",
+        description: "De OnePlus 13 combineert Hasselblad-fotografie met Snapdragon 8 Gen 3 in een verfijnd design. Nog steeds topkeuze als je het vorige vlaggenschip zoekt.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/op_2nb.png",
+        image: "/images/oneplus/op_2nb.png",
         pros: [
           "Scherm: 6,7 inch LTPO AMOLED",
           "Camera: Hasselblad driedubbel systeem",
@@ -575,9 +575,9 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OnePlus 15R",
-        description: "Scherm: 6,78 inch AMOLED 120Hz | Chip: Snapdragon 8 Gen 3 | Batterij: 6000 mAh",
+        description: "De 15R is de performance-variant met grote batterij en gamingkracht. Perfect voor gamers en heavy users die snelheid boven alles zetten.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/op_3nb.png",
+        image: "/images/oneplus/op_3nb.png",
         pros: [
           "Scherm: 6,78 inch AMOLED 120Hz",
           "Chip: Snapdragon 8 Gen 3",
@@ -591,9 +591,9 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OnePlus Nord 5",
-        description: "Scherm: 6,7 inch AMOLED 120Hz | Chip: Snapdragon 7 Gen 3 | 80W SUPERVOOC",
+        description: "De Nord 5 brengt snelle 80W-lading en een vlot scherm naar de populaire Nord-lijn. Sterke middenklasser met typische OnePlus-waarde.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/op_4nb.png",
+        image: "/images/oneplus/op_4nb.png",
         pros: [
           "Scherm: 6,7 inch AMOLED 120Hz",
           "Chip: Snapdragon 7 Gen 3",
@@ -607,9 +607,9 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OnePlus Nord CE5",
-        description: "Scherm: 6,7 inch AMOLED | 5G | OxygenOS middenklasse",
+        description: "De Nord CE5 is de betaalbare Nord voor wie OxygenOS en 5G wil zonder top-prijs. Eerlijk alledaags toestel met snelladen.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/op_5nb.png",
+        image: "/images/oneplus/op_5nb.png",
         pros: [
           "Scherm: 6,7 inch AMOLED",
           "5G met OxygenOS",
@@ -623,9 +623,9 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OnePlus Open",
-        description: "Scherm: opvouwbaar 8 inch intern | Camera: Hasselblad | Chip: Snapdragon 8 Elite",
+        description: "De OnePlus Open is een opvouwbare met groot intern scherm en Hasselblad-optiek. Uniek als je tabletcomfort in je broekzak wilt.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/op_6nb.png",
+        image: "/images/oneplus/op_6nb.png",
         pros: [
           "Scherm: groot opvouwbaar intern display",
           "Camera: Hasselblad driedubbel systeem",
@@ -638,9 +638,9 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OnePlus 12",
-        description: "Scherm: 6,82 inch LTPO AMOLED | Camera: Hasselblad | Chip: Snapdragon 8 Gen 3",
+        description: "De OnePlus 12 blijft een krachtig vlaggenschip met 100W-laden en Hasselblad-triple camera. Aantrekkelijk als vorige generatie topmodel.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/op_7nb.png",
+        image: "/images/oneplus/op_7nb.png",
         pros: [
           "Chip: Snapdragon 8 Gen 3",
           "Camera: Hasselblad driedubbel systeem",
@@ -653,9 +653,9 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OnePlus Nord 4 (Refurbished)",
-        description: "Scherm: 6,74 inch AMOLED | Chip: Snapdragon 7+ Gen 3 | 80W SUPERVOOC",
+        description: "Een gereviseerde Nord 4 levert snelle 7+ Gen 3 en 80W-laden voor minder. Slimme middenklasser met bijna nieuwe ervaring.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/op_8nb.png",
+        image: "/images/oneplus/op_8nb.png",
         pros: [
           "Scherm: 6,74 inch AMOLED",
           "Chip: Snapdragon 7+ Gen 3",
@@ -668,9 +668,9 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OnePlus Nord CE4 Lite",
-        description: "Scherm: 6,7 inch display | 5G | Budget instapmodel",
+        description: "De Nord CE4 Lite is het budget-Nord-model met 5G en groot scherm. Basis-OnePlus-ervaring tegen de laagste instapprijs.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/op_9nb.png",
+        image: "/images/oneplus/op_9nb.png",
         pros: [
           "Scherm: 6,7 inch groot display",
           "5G met OxygenOS",
@@ -700,7 +700,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     products: [
       {
         name: "Google Pixel 10 Pro XL",
-        description: "Scherm: 6,8 inch LTPO OLED 120Hz | Camera: 50 MP driedubbel | Chip: Tensor G5",
+        description: "De Pixel 10 Pro XL is Google's grootste AI-telefoon met Tensor G5 en jaren updates. Topkeuze voor pure Android en slimme Gemini-functies.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -713,7 +713,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 10 Pro",
-        description: "Scherm: 6,3 inch LTPO OLED 120Hz | Camera: 50 MP driedubbel | Chip: Tensor G5",
+        description: "De Pixel 10 Pro past Pro-camera's en Tensor G5 in een handiger formaat. Sterk voor wie AI-fotografie en compact formaat wil combineren.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -726,7 +726,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 10",
-        description: "Scherm: 6,3 inch OLED 120Hz | Camera: 50 MP dubbel | Chip: Tensor G5",
+        description: "De Pixel 10 biedt Tensor G5 en zeven jaar updates in het reguliere model. Uitstekende instap in de nieuwste Pixel-generatie.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -739,7 +739,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 9 Pro Fold",
-        description: "Scherm: 8 inch intern + 6,3 inch cover | Camera: 50 MP | Chip: Tensor G4",
+        description: "De Pixel 9 Pro Fold combineert een opvouwbaar scherm met Gemini AI van Google. Voor wie Android-productiviteit op tabletformaat wil.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -752,7 +752,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 9 Pro XL",
-        description: "Scherm: 6,8 inch LTPO OLED 120Hz | Camera: 50 MP driedubbel | Chip: Tensor G4",
+        description: "De 9 Pro XL levert een enorm LTPO-scherm en 5x zoom in de vorige Pro-lijn. Nog steeds premium Pixel met lange update-garantie.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -765,7 +765,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 9 Pro",
-        description: "Scherm: 6,3 inch LTPO OLED 120Hz | Camera: 50 MP driedubbel | Chip: Tensor G4",
+        description: "De Pixel 9 Pro is het compactere Pro-model met driedubbele camera en Tensor G4. Ideale Pixel Pro zonder XL-formaat.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -778,7 +778,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 9",
-        description: "Scherm: 6,3 inch OLED 120Hz | Camera: 50 MP dubbel | Chip: Tensor G4",
+        description: "De Pixel 9 brengt Gemini AI en een dubbele camera naar het standaardmodel. Sterke allrounder in het Google-ecosysteem.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -791,7 +791,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 9a",
-        description: "Scherm: 6,3 inch OLED | Camera: 48 MP | Chip: Tensor G4",
+        description: "De Pixel 9a is de betaalbare Pixel met Pro-software en zeven jaar updates. Beste prijs-kwaliteit in de Pixel-familie.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -804,7 +804,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 8 Pro",
-        description: "Scherm: 6,7 inch LTPO OLED 120Hz | Camera: 50 MP driedubbel | Chip: Tensor G3",
+        description: "De Pixel 8 Pro blijft relevant met Tensor G3 en uitstekende computational photography. Goede deal als je vorige Pro-generatie overweegt.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -817,7 +817,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 8a",
-        description: "Scherm: 6,1 inch OLED 120Hz | Camera: 64 MP | Chip: Tensor G3",
+        description: "De Pixel 8a distilleert het Pixel-gevoel naar een scherper prijspunt. Compacte AI-telefoon met pure Android-ervaring.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -836,7 +836,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     products: [
       {
         name: "OPPO Find X9 Pro",
-        description: "Scherm: 6,82 inch LTPO AMOLED 120Hz | Camera: Hasselblad driedubbel | Chip: Snapdragon 8 Elite",
+        description: "De Find X9 Pro is OPPO's top met Hasselblad en Snapdragon 8 Elite. Voor wie premium design en cameraprestaties eisen.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -849,7 +849,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OPPO Reno14 Pro",
-        description: "Scherm: 6,7 inch AMOLED 120Hz | Camera: 50 MP driedubbel | 80W SUPERVOOC",
+        description: "De Reno14 Pro balanceert stijl, snelle 80W-lading en sterke camera's. De populaire Reno-lijn voor moderne gebruikers.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -862,7 +862,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OPPO Reno14 F 5G",
-        description: "Scherm: 6,7 inch AMOLED | Camera: 50 MP | 5G middenklasse",
+        description: "De Reno14 F 5G is de toegankelijke Reno met 5G en stijlvol design. Frisse middenklasser voor jonge en modebewuste gebruikers.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -875,7 +875,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OPPO A5 Pro 5G",
-        description: "Scherm: 6,67 inch display | 5G | IP69 waterbestendig",
+        description: "De A5 Pro 5G is een sterke budgettelefoon met opvallende IP69-bescherming. Duurzaam dagelijks toestel dat nat en stof aankan.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -888,7 +888,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OPPO A5x 4G",
-        description: "Scherm: 6,67 inch display | 4G | Budget instapmodel",
+        description: "De A5x 4G is het instap-OPPO zonder 5G maar met groot scherm. Eenvoudige, betaalbare telefoon voor basisbehoeften.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -901,7 +901,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OPPO Reno13",
-        description: "Scherm: 6,7 inch AMOLED 120Hz | Camera: 50 MP dubbel | 80W SUPERVOOC",
+        description: "De Reno13 combineert slank design met 80W SUPERVOOC en een dubbele camera. Vorige Reno-generatie met bewezen snelladen.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -914,7 +914,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OPPO Find N5",
-        description: "Scherm: opvouwbaar 8 inch intern | Camera: Hasselblad | Chip: Snapdragon 8 Elite",
+        description: "De Find N5 claimt de dunste opvouwbare smartphone met Hasselblad-optiek. Innovatieve keuze voor early adopters.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -927,7 +927,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OPPO A98 5G",
-        description: "Scherm: 6,72 inch display | 5G | 67W SUPERVOOC",
+        description: "De A98 5G biedt snelle 67W-lading en een groot scherm in de A-serie. Degelijke 5G-middenklasser met goede prijs.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -940,7 +940,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OPPO Reno12",
-        description: "Scherm: 6,7 inch AMOLED | Camera: 50 MP dubbel | ColorOS",
+        description: "De Reno12 levert ColorOS en een dubbele camera in een stijlvol Reno-jasje. Betrouwbare middenklasser voor alledaags gebruik.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
@@ -953,7 +953,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "OPPO A80 5G",
-        description: "Scherm: 6,67 inch display | 5G | Budgetvriendelijk",
+        description: "De A80 5G is een budgetvriendelijke 5G-OPPO met groot display. Solide keuze als eerste smartphone of tweede toestel.",
         rating: 0,
         image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
         pros: [
