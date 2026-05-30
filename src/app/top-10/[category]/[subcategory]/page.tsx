@@ -379,7 +379,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Samsung Galaxy S26 Ultra",
         description: "De Galaxy S26 Ultra is Samsung's absolute top met S Pen, 200 MP camera en het grootste scherm. De beste keuze voor power users en creatievelingen.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/ss_1.jpg",
+        image: "/images/samsung/ss_1.png",
         pros: [
           "Scherm: 6,9 inch Dynamic AMOLED 2X",
           "Camera: 200 MP met 5x optische zoom",
@@ -395,7 +395,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Samsung Galaxy S26 Plus",
         description: "De S26 Plus biedt vlaggenschipprestaties in een groot maar handig formaat. Ideale balans tussen scherm, batterij en dagelijkse snelheid.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/ss_2.jpg",
+        image: "/images/samsung/ss_2.png",
         pros: [
           "Scherm: 6,7 inch Dynamic AMOLED 2X",
           "Camera: 50 MP driedubbel systeem",
@@ -411,7 +411,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Samsung Galaxy S26",
         description: "De compacte S26 levert premium hardware in een enkel-hand-vriendelijk formaat. Perfect als je een echt vlaggenschip wilt zonder enorm toestel.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/ss_3.jpg",
+        image: "/images/samsung/ss_3.png",
         pros: [
           "Scherm: 6,2 inch Dynamic AMOLED 2X",
           "Camera: 50 MP driedubbel systeem",
@@ -427,7 +427,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Samsung Galaxy S25 Ultra",
         description: "De S25 Ultra blijft een camera- en productiviteitsbeest met S Pen en groot display. Slim als je vorige generatie topklasse zoekt tegen scherpere prijs.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/ss_4.jpg",
+        image: "/images/samsung/ss_4.png",
         pros: [
           "Scherm: 6,9 inch Dynamic AMOLED 2X",
           "Camera: 200 MP met S Pen",
@@ -443,7 +443,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Samsung Galaxy A57 5G",
         description: "De Galaxy A57 5G is het sterke middenklassemodel van Samsung met 120Hz-scherm en IP67. Uitstekende dagelijkse telefoon met premium trekjes.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/ss_5.jpg",
+        image: "/images/samsung/ss_5.png",
         pros: [
           "Scherm: 6,7 inch Super AMOLED 120Hz",
           "Camera: 50 MP met optische beeldstabilisatie",
@@ -459,7 +459,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Samsung Galaxy A56 5G",
         description: "De A56 5G combineert AI-tools en 120Hz AMOLED in een betaalbare A-serie behuizing. Goede keuze voor wie slimme Samsung-features wil zonder S-prijs.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/ss_6.jpg",
+        image: "/images/samsung/ss_6.png",
         pros: [
           "Scherm: 6,7 inch Super AMOLED 120Hz",
           "Camera: 50 MP dubbele camera",
@@ -475,7 +475,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Samsung Galaxy A37 5G",
         description: "De A37 5G richt zich op gebruikers die een groot scherm en lange batterij willen voor weinig geld. Solide 5G-middenklasser voor alledaags werk.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/ss_7.jpg",
+        image: "/images/samsung/ss_7.png",
         pros: [
           "Scherm: 6,6 inch Super AMOLED",
           "Camera: 50 MP hoofdcamera",
@@ -491,7 +491,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Samsung Galaxy A26 5G",
         description: "De A26 5G levert essentiële Samsung-kwaliteit met 5G en een scherpe prijs. Instap in de A-serie zonder in te leveren op formaat.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/ss_8.jpg",
+        image: "/images/samsung/ss_8.png",
         pros: [
           "Scherm: 6,7 inch groot display",
           "Camera: 50 MP hoofdcamera",
@@ -507,7 +507,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Samsung Galaxy A17 5G",
         description: "De A17 5G is het budgetinstapmodel met groot scherm en 5G voor dagelijks gebruik. Ideaal als eerste smartphone of spare toestel.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/ss_9.jpg",
+        image: "/images/samsung/ss_9.png",
         pros: [
           "Scherm: 6,7 inch groot display",
           "5G ondersteuning",
@@ -523,7 +523,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Samsung Galaxy Z Fold 7",
         description: "De Z Fold 7 verandert van telefoon in tablet met een imposant vouwscherm. Voor wie multitasken, productiviteit en innovatie centraal zet.",
         rating: 0,
-        image: "https://ik.imagekit.io/402p80kep/ss_10.jpg",
+        image: "/images/samsung/ss_10.png",
         pros: [
           "Scherm: 7,6 inch opvouwbaar + 6,4 inch cover",
           "Multitasking op groot vouwscherm",
@@ -545,7 +545,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "OnePlus 15",
         description: "De OnePlus 15 is het nieuwste vlaggenschip met Hasselblad-camera's en razendsnel 100W-laden. Voor liefhebbers van snelle OxygenOS en sterke hardware.",
         rating: 0,
-        image: "https://media.s-bol.com/Bqrv60BlDDNW/P1wML74/550x428.jpg",
+        image: "/images/oneplus/op_1nb.png",
         pros: [
           "Scherm: 6,82 inch LTPO AMOLED 120Hz",
           "Camera: Hasselblad driedubbel systeem",

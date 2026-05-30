@@ -29,34 +29,34 @@ const categoryData: CategoryData = {
       { 
         name: "Apple", 
         slug: "apple", 
-        image: "https://ik.imagekit.io/402p80kep/iphonneee.webp?updatedAt=1779895162772",
+        image: "/images/subcategories/subcat-apple.png",
         description: "iPhones",
         logo: "https://cdn.simpleicons.org/apple/ffffff"
       },
       { 
         name: "Samsung", 
         slug: "samsung", 
-        image: "https://ik.imagekit.io/402p80kep/asdwad.avif",
+        image: "/images/subcategories/subcat-samsung.png",
         description: "Galaxy smartphones",
         logo: "https://cdn.simpleicons.org/samsung/ffffff"
       },
       { 
         name: "OnePlus", 
         slug: "oneplus", 
-        image: "https://ik.imagekit.io/402p80kep/213133312.avif",
+        image: "/images/subcategories/subcat-oneplus.png",
         description: "OnePlus toestellen",
         logo: "https://cdn.simpleicons.org/oneplus/ffffff"
       },
       { 
         name: "Oppo", 
         slug: "oppo", 
-        image: "https://ik.imagekit.io/402p80kep/oppooo.webp",
+        image: "/images/subcategories/subcat-oppo.png",
         description: "Oppo smartphones"
       },
       { 
         name: "Google", 
         slug: "google", 
-        image: "https://ik.imagekit.io/402p80kep/pixel.webp",
+        image: "/images/subcategories/subcat-google.png",
         description: "Pixel smartphones",
         logo: "https://cdn.simpleicons.org/google/ffffff"
       },
