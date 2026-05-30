@@ -236,7 +236,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   ipad: {
-    title: "Top 10 Beste iPads (2026)",
+    title: "Top 10 Populaire Apple iPads van 2026",
     description: "De populairste iPads gerangschikt op prestaties en gebruiksgemak",
     products: [
       {
@@ -372,7 +372,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   samsung: {
-    title: "Top 10 Beste Samsung Telefoons (2026)",
+    title: "Top 10 Populaire Samsung Galaxy Telefoons van 2026",
     description: "De populairste Samsung smartphones gerangschikt op prestaties en gebruikerservaringen",
     products: [
       {
@@ -538,7 +538,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   oneplus: {
-    title: "Top 10 Beste OnePlus Phones (2026)",
+    title: "Top 10 Populaire OnePlus Telefoons van 2026",
     description: "De populairste OnePlus smartphones gerangschikt op verkoopcijfers en gebruikerservaringen",
     products: [
       {
@@ -695,7 +695,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   google: {
-    title: "Top 10 Beste Google Pixel Phones (2026)",
+    title: "Top 10 Populaire Google Pixel Telefoons van 2026",
     description: "De populairste Google Pixel smartphones gerangschikt op verkoopcijfers en gebruikerservaringen",
     products: [
       {
@@ -831,138 +831,156 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   oppo: {
-    title: "Top 10 Beste OPPO Phones (2026)",
+    title: "Top 10 Populaire OPPO Telefoons van 2026",
     description: "De populairste OPPO smartphones gerangschikt op verkoopcijfers en gebruikerservaringen",
     products: [
       {
         name: "OPPO Find X9 Pro",
         description: "De Find X9 Pro is OPPO's top met Hasselblad en Snapdragon 8 Elite. Voor wie premium design en cameraprestaties eisen.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/oppo/op_1.png",
         pros: [
           "Scherm: 6,82 inch LTPO AMOLED 120Hz",
           "Camera: Hasselblad driedubbel systeem",
           "Chip: Snapdragon 8 Elite"
         ],
         cons: [],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F970480%2Foppo-find-x9-pro-512gb-grijs-5g.html" }
+        ]
       },
       {
-        name: "OPPO Reno14 Pro",
-        description: "De Reno14 Pro balanceert stijl, snelle 80W-lading en sterke camera's. De populaire Reno-lijn voor moderne gebruikers.",
+        name: "OPPO Reno15 Pro",
+        description: "De Reno15 Pro balanceert stijl, snelle 80W-lading en sterke camera's. De populaire Reno-lijn voor moderne gebruikers.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/oppo/op_2.png",
         pros: [
           "Scherm: 6,7 inch AMOLED 120Hz",
           "Camera: 50 MP driedubbel systeem",
           "80W SUPERVOOC snelladen"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F975002%2Foppo-reno15-pro-512gb-bruin-5g.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foppo-reno15-pro-5g-12-512gb-dusk-black%2F9300000252393152%2F&name=OPPO%20Reno15%20Pro%205G%2012%2B512GB%20Dusk%20Black" }
+        ]
       },
       {
         name: "OPPO Reno14 F 5G",
         description: "De Reno14 F 5G is de toegankelijke Reno met 5G en stijlvol design. Frisse middenklasser voor jonge en modebewuste gebruikers.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/oppo/op_3.png",
         pros: [
           "Scherm: 6,7 inch AMOLED",
           "Camera: 50 MP hoofdcamera",
           "5G met stijlvol Reno-design"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foppo-reno14-f-5g-8-256gb-luminous-green-extra-garantie%2F9300000235379854%2F&name=OPPO%20Reno14%20F%205G%208%2B256GB%20Luminous%20Green%20-%20Extra%20Garantie" }
+        ]
       },
       {
         name: "OPPO A5 Pro 5G",
         description: "De A5 Pro 5G is een sterke budgettelefoon met opvallende IP69-bescherming. Duurzaam dagelijks toestel dat nat en stof aankan.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/oppo/op_4.png",
         pros: [
           "Scherm: 6,67 inch groot display",
           "5G met IP69 waterbestendigheid",
           "Sterke batterij voor dagelijks gebruik"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foppo-a5-pro-5g-8-256gb-black-brown%2F9300000228516775%2F&name=OPPO%20A5%20Pro%205G%20-%20256GB%20-%20Black%20Brown%20-%20Water-%20en%20stofbestendig%20-%205800%20mAh" }
+        ]
       },
       {
         name: "OPPO A5x 4G",
         description: "De A5x 4G is het instap-OPPO zonder 5G maar met groot scherm. Eenvoudige, betaalbare telefoon voor basisbehoeften.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/oppo/op_5.png",
         pros: [
           "Scherm: 6,67 inch groot display",
           "Betaalbaar 4G instapmodel",
           "Lange batterijduur"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fa5-5g-4-128gb-black-green-extra-garantie%2F9300000233109672%2F&name=OPPO%20A5%205G%20-%20128GB%20opslag%20-%20Black%20Green%20-%20Waterdicht%20-%206000%20mAh%20batterij" }
+        ]
       },
       {
-        name: "OPPO Reno13",
-        description: "De Reno13 combineert slank design met 80W SUPERVOOC en een dubbele camera. Vorige Reno-generatie met bewezen snelladen.",
+        name: "OPPO Reno13 Pro",
+        description: "De Reno13 Pro combineert slank design met 80W SUPERVOOC en een dubbele camera. Vorige Reno-generatie met bewezen snelladen.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/oppo/op_6.png",
         pros: [
           "Scherm: 6,7 inch AMOLED 120Hz",
           "Camera: 50 MP dubbele camera",
           "80W SUPERVOOC snelladen"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
-      },
-      {
-        name: "OPPO Find N5",
-        description: "De Find N5 claimt de dunste opvouwbare smartphone met Hasselblad-optiek. Innovatieve keuze voor early adopters.",
-        rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: [
-          "Scherm: dunste opvouwbare smartphone",
-          "Camera: Hasselblad driedubbel systeem",
-          "Chip: Snapdragon 8 Elite"
-        ],
-        cons: [],
-        stores: [{ name: "Coolblue", link: "#" }]
-      },
-      {
-        name: "OPPO A98 5G",
-        description: "De A98 5G biedt snelle 67W-lading en een groot scherm in de A-serie. Degelijke 5G-middenklasser met goede prijs.",
-        rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: [
-          "Scherm: 6,72 inch groot display",
-          "5G met 67W SUPERVOOC",
-          "Goede prijs-kwaliteit in A-serie"
-        ],
-        cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
-      },
-      {
-        name: "OPPO Reno12",
-        description: "De Reno12 levert ColorOS en een dubbele camera in een stijlvol Reno-jasje. Betrouwbare middenklasser voor alledaags gebruik.",
-        rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: [
-          "Scherm: 6,7 inch AMOLED",
-          "Camera: 50 MP dubbele camera",
-          "Stijlvol Reno-design met ColorOS"
-        ],
-        cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foppo-13-pro-5g-17-4-cm-dual-sim-android-15-usb-type-c-12-gb-512-gb-5800-mah-grafiet-grijs-paars%2F9300000226494304%2F&name=OPPO%20Reno13%20Pro%205G%20-%2012GB%20RAM%20-%20512GB%20opslag%20-%20Grafiet%20Grijs" }
+        ]
       },
       {
         name: "OPPO A80 5G",
         description: "De A80 5G is een budgetvriendelijke 5G-OPPO met groot display. Solide keuze als eerste smartphone of tweede toestel.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/oppo/op_7.png",
         pros: [
           "Scherm: 6,67 inch groot display",
           "5G ondersteuning",
           "Budgetvriendelijk met degelijke batterij"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foppo-a80-5g-16-9-cm-8-gb-256-gb-50-mp-android-14-paars%2F9300000185745967%2F&name=OPPO%20A80%205G%20-%20256GB%20opslag%20-%208GB%20RAM%20-%2050MP%20camera%20-%20Paars" }
+        ]
+      },
+      {
+        name: "OPPO A98 5G",
+        description: "De A98 5G biedt snelle 67W-lading en een groot scherm in de A-serie. Degelijke 5G-middenklasser met goede prijs.",
+        rating: 0,
+        image: "/images/oppo/op_8.png",
+        pros: [
+          "Scherm: 6,72 inch groot display",
+          "5G met 67W SUPERVOOC",
+          "Goede prijs-kwaliteit in A-serie"
+        ],
+        cons: [],
+        stores: [
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foppo-a98-5g-256-gb-blauw%2F9300000152276508%2F&name=OPPO%20A98%205G%20-%20256GB%20-%20Blauw" }
+        ]
+      },
+      {
+        name: "OPPO Reno12",
+        description: "De Reno12 levert ColorOS en een dubbele camera in een stijlvol Reno-jasje. Betrouwbare middenklasser voor alledaags gebruik.",
+        rating: 0,
+        image: "/images/oppo/op_9.png",
+        pros: [
+          "Scherm: 6,7 inch AMOLED",
+          "Camera: 50 MP dubbele camera",
+          "Stijlvol Reno-design met ColorOS"
+        ],
+        cons: [],
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F960614%2Foppo-reno12-256gb-zwart-5g.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Foppo-reno-12-5g-dual-sim-12-256gb-black-brown%2F9300000183436436%2F&name=OPPO%20Reno%2012%205G%20-%20256GB%20-%20AMOLED%20120Hz%20-%2050MP%20camera%20-%20Black%20Brown" }
+        ]
+      },
+      {
+        name: "Binnenkort...",
+        description: "",
+        rating: 0,
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/39/BLACK.PNG",
+        pros: [
+
+        ],
+        cons: [],
+        stores: []
       }
     ]
   },

@@ -24,7 +24,7 @@ interface CategoryData {
 const categoryData: CategoryData = {
   telefoons: {
     title: "Telefoons en tablets",
-    description: "Kies de categorie waar jouw telefoon bij hoort",
+    description: "Selecteer de categorie waar jij naar op zoek bent!",
     subcategories: [
       { 
         name: "Apple", 
