@@ -237,137 +237,223 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
   },
   ipad: {
     title: "Top 10 Populaire Apple iPads van 2026",
-    description: "De populairste iPads gerangschikt op prestaties en gebruiksgemak",
+    description: "Een overzicht van de meest gekozen iPads, met de belangrijkste verschillen op een rij",
     products: [
       {
-        name: "Apple iPad Pro 13-inch M5",
-        description: "Scherm: 13 inch Ultra Retina XDR | Chip: Apple M5 | ProMotion 120Hz",
+        name: 'Apple iPad (2025) 11" 128GB',
+        description: "De instap in de nieuwe iPad-lijn. Met 11 inch scherm en 128 GB heb je genoeg voor school, studie en dagelijks gebruik.",
         rating: 0,
-        image: "",
+        image: "/images/ipad/ip_1.png",
         pros: [
-          "Scherm: 13 inch Ultra Retina XDR",
-          "Chip: Apple M5",
-          "Thunderbolt en Apple Pencil Pro"
+          "11 inch Liquid Retina scherm",
+          "128 GB opslag",
+          "Laagste instapprijs in deze lijst"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-ipad-a16-11-inch-wi-fi-128gb-blue%2F9300000226757671%2F&name=Apple%20iPad%20A16%202025%20-%2011e%20generatie%20-%2011%20inch%20-%20Wi-Fi%20-%20128GB"
+          },
+          {
+            name: "Coolblue",
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F961491%2Fapple-ipad-2025-11-inch-128gb-wifi-blauw.html"
+          }
+        ]
       },
       {
-        name: "Apple iPad Pro 11-inch M5",
-        description: "Scherm: 11 inch Ultra Retina XDR | Chip: Apple M5 | ProMotion 120Hz",
+        name: 'Apple iPad Air (2026) 11" M4',
+        description: "De Air zit tussen de gewone iPad en de Pro in. Met de M4-chip voelt hij snel aan, ook als je tekent, werkt of meerdere apps open hebt.",
         rating: 0,
-        image: "",
+        image: "/images/ipad/ip_2.png",
         pros: [
-          "Scherm: 11 inch Ultra Retina XDR",
-          "Chip: Apple M5",
-          "Compact Pro-model met ProMotion"
+          "11 inch scherm, makkelijk mee te nemen",
+          "M4-chip voor studie en werk",
+          "Geschikt voor Apple Pencil Pro"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-ipad-air-11-inch-m1-128gb-blauw-wi-fi%2F9300000266298200%2F&name=Apple%20iPad%20Air%20(2026)%20-%2011%20inch%20-%20M4%20-%20128GB%20-%20Blauw-%20Wi-Fi"
+          },
+          {
+            name: "Coolblue",
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F976740%2Fapple-ipad-air-2026-11-inch-256gb-wifi-grijs.html"
+          }
+        ]
       },
       {
-        name: "Apple iPad Air 13-inch M4",
-        description: "Scherm: 13 inch Liquid Retina | Chip: Apple M4 | Dun en licht design",
+        name: 'Apple iPad Air (2026) 13" M4',
+        description: "Dezelfde kracht als de Air van 11 inch, met een groter scherm. Fijn als je vaker met twee vensters naast elkaar werkt of veel video kijkt.",
         rating: 0,
-        image: "",
+        image: "/images/ipad/ip_3.png",
         pros: [
-          "Scherm: 13 inch Liquid Retina",
-          "Chip: Apple M4",
-          "Groot scherm in dun Air-ontwerp"
+          "13 inch scherm met meer werkruimte",
+          "M4-chip",
+          "Lichter en vaak goedkoper dan de Pro 13 inch"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-ipad-air-13-inch-m4-1-tb-grijs-wi-fi%2F9300000266298148%2F&name=Apple%20iPad%20Air%20(2026)%20-%2013%20inch%20-%20M4%20-%201%20TB%20-%20Grijs-%20Wi-Fi"
+          },
+          {
+            name: "Coolblue",
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F976753%2Fapple-ipad-air-2026-13-inch-256gb-wifi-grijs.html"
+          }
+        ]
       },
       {
-        name: "Apple iPad Air 11-inch M4",
-        description: "Scherm: 11 inch Liquid Retina | Chip: Apple M4 | Apple Pencil Pro",
+        name: 'Apple iPad Pro (2025) 11" M5',
+        description: "De compacte Pro voor wie serieus met video, design of zware apps werkt, maar geen groot tablet wil. De M5-chip en het 120 Hz-scherm maken het verschil merkbaar.",
         rating: 0,
-        image: "",
+        image: "/images/ipad/ip_4.png",
         pros: [
-          "Scherm: 11 inch Liquid Retina",
-          "Chip: Apple M4",
-          "Krachtige middenklasser voor werk en studie"
+          "11 inch Pro-scherm met 120 Hz",
+          "M5-chip voor professioneel gebruik",
+          "Past beter in de hand dan de 13 inch Pro"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-ipad-pro-11-inch-wi-fi-5g-256gb-space-black%2F9300000244057427%2F&name=Apple%20iPad%20Pro%20(2025)%20-%2011%20inch%20-%20Wi-Fi%20%2B%205G%20-%20256GB%20-%20Space%20Black"
+          },
+          {
+            name: "Coolblue",
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F971060%2Fapple-ipad-pro-2025-11-inch-256gb-wifi-zwart.html"
+          }
+        ]
       },
       {
-        name: "Apple iPad 11e generatie",
-        description: "Scherm: 11 inch Liquid Retina | Chip: A18 | Betaalbare alleskunner",
+        name: 'Apple iPad Pro (2025) 13" M5',
+        description: "Apples krachtigste tablet met het grootste scherm. Bedoeld voor creatief werk, professionele apps en wie het maximale uit een iPad wil halen.",
         rating: 0,
-        image: "",
+        image: "/images/ipad/ip_5.png",
         pros: [
-          "Scherm: 11 inch Liquid Retina",
-          "Chip: A18",
-          "Betaalbare iPad voor dagelijks gebruik"
+          "13 inch scherm met Pro-kwaliteit",
+          "M5-chip",
+          "Geschikt voor video, design en zware apps"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Coolblue",
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F971072%2Fapple-ipad-pro-2025-13-inch-256gb-wifi-zwart.html"
+          }
+        ]
       },
       {
-        name: "Apple iPad Mini 8",
-        description: "Scherm: 8,3 inch Liquid Retina | Chip: A19 Pro | Compact formaat",
+        name: "Apple iPad Mini 7 (2024) 5G",
+        description: "De kleinste iPad in het overzicht, met mobiel internet. Handig om te lezen en onderweg online te blijven, ook zonder wifi.",
         rating: 0,
-        image: "",
+        image: "/images/ipad/ip_6.png",
         pros: [
-          "Scherm: 8,3 inch Liquid Retina",
-          "Chip: A19 Pro",
-          "Krachtigste compacte iPad"
+          "8,3 inch scherm in compact formaat",
+          "5G voor internet buiten wifi",
+          "128 GB opslag"
         ],
         cons: [],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-ipad-mini-5g-td-lte-fdd-lte-128-gb-21-1-cm-wi-fi-6e-ipados-18-grijs%2F9300000193725381%2F&name=Apple%20iPad%20Mini%20(2024)%20Wi-Fi%20%2B%205G%20-%20128GB%20-%20Grijs%20-%207e%20generatie"
+          },
+          {
+            name: "Coolblue",
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F956098%2Fapple-ipad-mini-7-2024-128gb-wifi-5g-space-gray.html"
+          }
+        ]
       },
       {
-        name: "Apple iPad Pro M4",
-        description: "Scherm: Ultra Retina XDR | Chip: Apple M4 | Professionele prestaties",
+        name: 'Apple iPad (2025) 11" 256GB',
+        description: "Hetzelfde toestel als de iPad van 128 GB, maar met twee keer zoveel opslag. Een logische keuze als je veel apps, foto’s of offline content bewaart.",
         rating: 0,
-        image: "",
+        image: "/images/ipad/ip_7.png",
         pros: [
-          "Scherm: Ultra Retina XDR",
-          "Chip: Apple M4",
-          "Pro-prestaties voor creatief werk"
+          "11 inch scherm",
+          "256 GB opslag",
+          "Meer ruimte zonder Air- of Pro-prijs"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-ipad-a16-11-inch-wi-fi-256gb-silver%2F9300000226757636%2F&name=Apple%20iPad%20A16%20(2025)%20-%2011e%20generatie%20-%20256GB%20-%20Wi-Fi%20-%20Silver"
+          },
+          {
+            name: "Coolblue",
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F960491%2Fapple-ipad-2025-11-inch-256gb-wifi-zilver.html"
+          }
+        ]
       },
       {
-        name: "Apple iPad Air M2",
-        description: "Scherm: Liquid Retina | Chip: Apple M2 | Goede prijs-kwaliteit",
+        name: 'Apple iPad Air (2026) 11" 256GB',
+        description: "De populaire Air van 11 inch met extra opslag. Past goed bij studenten en thuiswerkers die veel documenten, apps en bestanden op het toestel bewaren.",
         rating: 0,
-        image: "",
+        image: "/images/ipad/ip_8.png",
         pros: [
-          "Scherm: Liquid Retina",
-          "Chip: Apple M2",
-          "Sterke middenklasser met scherpe prijs"
+          "11 inch scherm",
+          "256 GB opslag",
+          "M4-chip met ruimte voor groei"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-ipad-air-11-inch-m1-256gb-blauw-wi-fi%2F9300000266298419%2F&name=Apple%20iPad%20Air%20(2026)%20-%2011%20inch%20-%20M4%20-%20256GB%20-%20Blauw%20-%20Wi-Fi"
+          },
+          {
+            name: "Coolblue",
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F976740%2Fapple-ipad-air-2026-11-inch-256gb-wifi-grijs.html"
+          }
+        ]
       },
       {
-        name: "Apple iPad 10e generatie",
-        description: "Scherm: 10,9 inch Liquid Retina | Chip: A14 Bionic | Instapmodel",
+        name: 'Apple iPad Air (2026) 13" 256GB',
+        description: "Combineert een groot 13 inch scherm met 256 GB opslag. Geschikt voor wie veel projecten, PDF’s en apps op één tablet wil houden.",
         rating: 0,
-        image: "",
+        image: "/images/ipad/ip_9.png",
         pros: [
-          "Scherm: 10,9 inch Liquid Retina",
-          "Chip: A14 Bionic",
-          "Instap iPad voor studie en entertainment"
+          "13 inch scherm",
+          "256 GB opslag",
+          "M4-chip voor intensiever gebruik"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-ipad-air-13-inch-m4-256-gb-grijs-wi-fi%2F9300000266298197%2F&name=Apple%20iPad%20Air%20(2026)%20-%2013%20inch%20-%20M4%20-%20256%20GB%20-%20Grijs%20-%20Wi-Fi"
+          },
+          {
+            name: "Coolblue",
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F976753%2Fapple-ipad-air-2026-13-inch-256gb-wifi-grijs.html"
+          }
+        ]
       },
       {
-        name: "Apple iPad Mini 7",
-        description: "Scherm: 8,3 inch Liquid Retina | Chip: A17 Pro | Compact formaat",
+        name: 'Apple iPad Air (2025) 11" M3 256GB',
+        description: "De vorige Air-generatie met M3-chip en 256 GB opslag. Nog steeds krachtig genoeg voor studie en werk, met extra ruimte voor apps en bestanden.",
         rating: 0,
-        image: "",
+        image: "/images/ipad/ip_10.png",
         pros: [
-          "Scherm: 8,3 inch Liquid Retina",
-          "Chip: A17 Pro",
-          "Compact met sterke prestaties"
+          "11 inch Liquid Retina scherm",
+          "M3-chip en 256 GB opslag",
+          "Vaak scherper geprijsd dan de Air 2026 met 256 GB"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-ipad-air-m3-11-inch-wi-fi-cellular-256gb-space-grey%2F9300000226757746%2F&name=Apple%20iPad%20Air%20M3%20(2025)%20-%2011%20inch%20-%20Wi-Fi%20%2B%20Cellular%20-%20256GB%20-%20Space%20Grey"
+          },
+          {
+            name: "Coolblue",
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F960497%2Fapple-ipad-air-2025-11-inch-256gb-wifi-space-gray.html"
+          }
+        ]
       }
     ]
   },
@@ -696,16 +782,16 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
   },
   google: {
     title: "Top 10 Populaire Google Pixel Telefoons van 2026",
-    description: "De populairste Google Pixel smartphones gerangschikt op verkoopcijfers en gebruikerservaringen",
+    description: "De meest gekozen Pixel-telefoons, met duidelijk wat elk model je biedt",
     products: [
       {
         name: "Google Pixel 10 Pro XL",
-        description: "Grootste Pixel met het grootste scherm, beste zoom en veel geheugen. Handig als je veel foto's maakt en graag een groot display hebt.",
+        description: "De grootste Pixel met het beste scherm en de sterkste zoom. Een logische keuze als je veel fotografeert en een groot, helder display belangrijk vindt.",
         rating: 0,
         image: "/images/google/gp_1.png",
         pros: [
-          "Groot 6,8 inch scherm (120 Hz)",
-          "Sterke camera met 5x inzoomen",
+          "6,8 inch scherm met 120 Hz",
+          "5x optische zoom",
           "Tot 512 GB opslag en 7 jaar updates"
         ],
         cons: [],
@@ -718,12 +804,12 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 10 Pro",
-        description: "Pro-camera en snelle chip in een formaat dat je makkelijk met één hand bedient. Goede keuze voor scherpe foto's zonder XL-formaat.",
+        description: "De Pro-ervaring in een formaat dat je makkelijker met één hand bedient. Je krijgt de sterke camera's en snelheid van de Pro-lijn, zonder het XL-formaat.",
         rating: 0,
         image: "/images/google/gp_2.png",
         pros: [
-          "6,3 inch scherm, past in de hand",
-          "Drie camera's, ook goed bij weinig licht",
+          "6,3 inch scherm, prettig in de hand",
+          "Drie camera's, ook bij weinig licht",
           "16 GB werkgeheugen en 7 jaar updates"
         ],
         cons: [],
@@ -740,13 +826,13 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 10",
-        description: "Nieuwste standaard-Pixel: snel genoeg voor apps en games, goede camera en lange software-ondersteuning. Vaak scherper geprijsd dan de Pro.",
+        description: "De nieuwste standaard Pixel voelt in het dagelijks gebruik snel en soepel aan. Je krijgt een sterke camera en zeven jaar updates, meestal voor een lagere prijs dan de Pro.",
         rating: 0,
         image: "/images/google/gp_3.png",
         pros: [
           "6,3 inch scherm met 120 Hz",
           "Dubbele camera met 5x zoom",
-          "12 GB RAM en 7 jaar updates"
+          "12 GB RAM en 7 jaar software-updates"
         ],
         cons: [],
         stores: [
@@ -762,12 +848,12 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 9 Pro Fold",
-        description: "Opvouwbare telefoon: klein in je zak, uitgevouwen een groot scherm voor series, mail en multitasken.",
+        description: "Een opvouwbare Pixel die in je zak compact blijft en uitgeklapt een groot scherm geeft. Handig als je series kijkt, mail leest of onderweg veel op je telefoon werkt.",
         rating: 0,
         image: "/images/google/gp_4.png",
         pros: [
-          "Binnen- en buitenscherm (ideaal voor video)",
-          "Pro-camera's zoals bij andere Pixel Pro's",
+          "Binnen- en buitenscherm",
+          "Pro-camerasysteem",
           "256 GB opslag"
         ],
         cons: [],
@@ -780,12 +866,12 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 9 Pro XL",
-        description: "Grote Pixel van vorig jaar: groot scherm, sterke zoom en premium afwerking. Interessant als je een XL wilt voor minder dan de Pixel 10-serie.",
+        description: "Nog steeds een sterke keuze als je een groot Pixel-scherm wilt met goede zoom. Vaak interessant geprijsd ten opzichte van de nieuwste XL.",
         rating: 0,
         image: "/images/google/gp_5.png",
         pros: [
-          "6,8 inch scherm (120 Hz)",
-          "5x optische zoom voor ver foto's",
+          "6,8 inch scherm met 120 Hz",
+          "5x optische zoom",
           "7 jaar Android-updates"
         ],
         cons: [],
@@ -798,11 +884,11 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 9 Pro",
-        description: "Pro-model in normaal formaat: drie camera's, vloeiend scherm en lange updates. Past goed als je geen extra groot toestel wilt.",
+        description: "De Pro-lijn in een normaal formaat, met drie camera's, een vloeiend scherm en lange software-ondersteuning. Past goed als je geen extra groot toestel nodig hebt.",
         rating: 0,
         image: "/images/google/gp_6.png",
         pros: [
-          "6,3 inch scherm, 120 Hz",
+          "6,3 inch scherm met 120 Hz",
           "Drie camera's met zoom",
           "256 GB opslag en 12 GB RAM"
         ],
@@ -820,12 +906,12 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 9",
-        description: "Allround Pixel: goede camera, 5G en jaren updates zonder Pro-prijs. Geschikt voor dagelijks gebruik, social media en foto's.",
+        description: "Een complete Pixel voor dagelijks gebruik, met goede camera, 5G en jaren updates. Je mist vooral de extra Pro-camera's, niet de basiservaring.",
         rating: 0,
         image: "/images/google/gp_7.png",
         pros: [
           "6,3 inch scherm",
-          "50 MP camera",
+          "50 MP hoofdcamera",
           "128 GB opslag en 7 jaar updates"
         ],
         cons: [],
@@ -838,13 +924,13 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 9a",
-        description: "Goedkoopste Pixel in de lijst: zelfde soort software en updates als duurdere modellen, voor een lagere prijs.",
+        description: "De betaalbare Pixel in deze lijst. Je krijgt grotendeels dezelfde software en updatebelofte als bij duurdere modellen, voor een duidelijk lagere prijs.",
         rating: 0,
         image: "/images/google/gp_8.png",
         pros: [
-          "Lage prijs voor een Pixel",
-          "Goede camera voor de prijsklasse",
-          "7 jaar updates (zeldzaam in deze prijs)"
+          "Scherpe prijs voor een Pixel",
+          "Sterke camera in deze prijsklasse",
+          "7 jaar software-updates"
         ],
         cons: [],
         stores: [
@@ -860,12 +946,12 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 8 Pro",
-        description: "Oudere Pro met groot scherm en sterke camera. Handig als je een Pro wilt en de nieuwste modellen te duur vindt.",
+        description: "Een oudere Pro die nog steeds overtuigt met groot scherm en sterke camera's. Vooral interessant als je Pro-wil hebt maar de nieuwste generatie te duur vindt.",
         rating: 0,
         image: "/images/google/gp_9.png",
         pros: [
           "6,7 inch scherm",
-          "Drie camera's, 50 MP",
+          "Drie camera's van 50 MP",
           "128 GB opslag en 12 GB RAM"
         ],
         cons: [],
@@ -878,12 +964,12 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Google Pixel 8a",
-        description: "Kleinste en goedkoopste Pixel hier: compact, prima voor WhatsApp en foto's. Ideaal als budget belangrijk is.",
+        description: "De compacte en betaalbare Pixel. Geschikt voor wie vooral WhatsApp, internet en foto's gebruikt en geen topmodel nodig heeft.",
         rating: 0,
         image: "/images/google/gp_10.png",
         pros: [
           "Compact 6,1 inch scherm",
-          "64 MP camera",
+          "64 MP hoofdcamera",
           "8 GB RAM en 128 GB opslag"
         ],
         cons: [],
