@@ -700,133 +700,199 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     products: [
       {
         name: "Google Pixel 10 Pro XL",
-        description: "De Pixel 10 Pro XL is Google's grootste AI-telefoon met Tensor G5 en jaren updates. Topkeuze voor pure Android en slimme Gemini-functies.",
+        description: "Grootste Pixel met het grootste scherm, beste zoom en veel geheugen. Handig als je veel foto's maakt en graag een groot display hebt.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/google/gp_1.png",
         pros: [
-          "Scherm: 6,8 inch LTPO OLED 120Hz",
-          "Camera: 50 MP met 5x optische zoom",
-          "7 jaar Android-updates en Gemini AI"
+          "Groot 6,8 inch scherm (120 Hz)",
+          "Sterke camera met 5x inzoomen",
+          "Tot 512 GB opslag en 7 jaar updates"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fgoogle-pixel-10-pro-xl-17-3-cm-dual-sim-android-16-0-5g-16-gb-512-gb-5200-mah-zwart%2F9300000238713396%2F&name=Google%20Pixel%2010%20Pro%20XL%205G%20-%20512GB%20opslag%20-%2016GB%20RAM%20-%20Zwart"
+          }
+        ]
       },
       {
         name: "Google Pixel 10 Pro",
-        description: "De Pixel 10 Pro past Pro-camera's en Tensor G5 in een handiger formaat. Sterk voor wie AI-fotografie en compact formaat wil combineren.",
+        description: "Pro-camera en snelle chip in een formaat dat je makkelijk met één hand bedient. Goede keuze voor scherpe foto's zonder XL-formaat.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/google/gp_2.png",
         pros: [
-          "Scherm: 6,3 inch LTPO OLED 120Hz",
-          "Camera: 50 MP driedubbel systeem",
-          "Chip: Tensor G5 met Gemini AI"
+          "6,3 inch scherm, past in de hand",
+          "Drie camera's, ook goed bij weinig licht",
+          "16 GB werkgeheugen en 7 jaar updates"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fgoogle-pixel-10-pro-5g-16gb-128gb-zwart-dual-sim%2F9300000238634856%2F&name=Google%20Pixel%2010%20Pro%20-%205G%2016GB%2F128GB%20-%20Obsidian%20-%20Dual%20SIM"
+          },
+          {
+            name: "Coolblue",
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F969262%2Fgoogle-pixel-10-pro-256gb-zwart-5g.html"
+          }
+        ]
       },
       {
         name: "Google Pixel 10",
-        description: "De Pixel 10 biedt Tensor G5 en zeven jaar updates in het reguliere model. Uitstekende instap in de nieuwste Pixel-generatie.",
+        description: "Nieuwste standaard-Pixel: snel genoeg voor apps en games, goede camera en lange software-ondersteuning. Vaak scherper geprijsd dan de Pro.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/google/gp_3.png",
         pros: [
-          "Scherm: 6,3 inch OLED 120Hz",
-          "Camera: 50 MP dubbele camera",
-          "7 jaar updates met pure Android"
+          "6,3 inch scherm met 120 Hz",
+          "Dubbele camera met 5x zoom",
+          "12 GB RAM en 7 jaar updates"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fgoogle-pixel-10-5g-12gb-128gb-zwart-dual-sim%2F9300000238634854%2F&name=Google%20Pixel%2010%205G%20-%20128GB%20opslag%20-%2012GB%20RAM%20-%20Zwart"
+          },
+          {
+            name: "Coolblue",
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F969260%2Fgoogle-pixel-10-256gb-zwart-5g.html"
+          }
+        ]
       },
       {
         name: "Google Pixel 9 Pro Fold",
-        description: "De Pixel 9 Pro Fold combineert een opvouwbaar scherm met Gemini AI van Google. Voor wie Android-productiviteit op tabletformaat wil.",
+        description: "Opvouwbare telefoon: klein in je zak, uitgevouwen een groot scherm voor series, mail en multitasken.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/google/gp_4.png",
         pros: [
-          "Scherm: 8 inch opvouwbaar + 6,3 inch cover",
-          "Camera: 50 MP Pro camera's",
-          "Gemini AI op groot vouwscherm"
+          "Binnen- en buitenscherm (ideaal voor video)",
+          "Pro-camera's zoals bij andere Pixel Pro's",
+          "256 GB opslag"
         ],
         cons: [],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fgoogle-pixel-9-pro-fold-256gb-zwart%2F9300000187345078%2F&name=Google%20Pixel%209%20Pro%20Fold%20-%20Nieuwe%20opvouwbare%20smartphone%20-%20256GB%20-%20Zwart"
+          }
+        ]
       },
       {
         name: "Google Pixel 9 Pro XL",
-        description: "De 9 Pro XL levert een enorm LTPO-scherm en 5x zoom in de vorige Pro-lijn. Nog steeds premium Pixel met lange update-garantie.",
+        description: "Grote Pixel van vorig jaar: groot scherm, sterke zoom en premium afwerking. Interessant als je een XL wilt voor minder dan de Pixel 10-serie.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/google/gp_5.png",
         pros: [
-          "Scherm: 6,8 inch LTPO OLED 120Hz",
-          "Camera: 50 MP met 5x optische zoom",
-          "Chip: Tensor G4 met Gemini AI"
-        ],
-        cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
-      },
-      {
-        name: "Google Pixel 9 Pro",
-        description: "De Pixel 9 Pro is het compactere Pro-model met driedubbele camera en Tensor G4. Ideale Pixel Pro zonder XL-formaat.",
-        rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
-        pros: [
-          "Scherm: 6,3 inch LTPO OLED 120Hz",
-          "Camera: 50 MP driedubbel systeem",
+          "6,8 inch scherm (120 Hz)",
+          "5x optische zoom voor ver foto's",
           "7 jaar Android-updates"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fgoogle-pixel-9-pro-xl-128gb-zwart%2F9300000187294767%2F&name=Google%20Pixel%209%20Pro%20XL%20-%20128GB%20-%20Zwart%20-%20Krachtige%20camera%20-%20Super%20Actua-scherm"
+          }
+        ]
+      },
+      {
+        name: "Google Pixel 9 Pro",
+        description: "Pro-model in normaal formaat: drie camera's, vloeiend scherm en lange updates. Past goed als je geen extra groot toestel wilt.",
+        rating: 0,
+        image: "/images/google/gp_6.png",
+        pros: [
+          "6,3 inch scherm, 120 Hz",
+          "Drie camera's met zoom",
+          "256 GB opslag en 12 GB RAM"
+        ],
+        cons: [],
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fgoogle-pixel-9-pro-256gb-zwart%2F9300000187294755%2F&name=Google%20Pixel%209%20Pro%20-%20256GB%20opslag%20-%20Zwart%20-%2012%20GB%20RAM%20-%20Actua-scherm"
+          },
+          {
+            name: "Coolblue",
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F956831%2Fgoogle-pixel-9-pro-256gb-zwart-5g.html"
+          }
+        ]
       },
       {
         name: "Google Pixel 9",
-        description: "De Pixel 9 brengt Gemini AI en een dubbele camera naar het standaardmodel. Sterke allrounder in het Google-ecosysteem.",
+        description: "Allround Pixel: goede camera, 5G en jaren updates zonder Pro-prijs. Geschikt voor dagelijks gebruik, social media en foto's.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/google/gp_7.png",
         pros: [
-          "Scherm: 6,3 inch OLED 120Hz",
-          "Camera: 50 MP dubbele camera",
-          "Gemini AI en 7 jaar updates"
+          "6,3 inch scherm",
+          "50 MP camera",
+          "128 GB opslag en 7 jaar updates"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fgoogle-pixel-9-128gb-zwart%2F9300000187251827%2F&name=Google%20Pixel%209%20-%20Telefoon%20-%20128GB%20-%2050MP%20camera%20-%206.3%20inch%20Actua-display"
+          }
+        ]
       },
       {
         name: "Google Pixel 9a",
-        description: "De Pixel 9a is de betaalbare Pixel met Pro-software en zeven jaar updates. Beste prijs-kwaliteit in de Pixel-familie.",
+        description: "Goedkoopste Pixel in de lijst: zelfde soort software en updates als duurdere modellen, voor een lagere prijs.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/google/gp_8.png",
         pros: [
-          "Scherm: 6,3 inch OLED",
-          "Camera: 48 MP met Pro-functies",
-          "Betaalbare Pixel met 7 jaar updates"
+          "Lage prijs voor een Pixel",
+          "Goede camera voor de prijsklasse",
+          "7 jaar updates (zeldzaam in deze prijs)"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fgoogle-pixel-9a-dual-sim-128gb-zwart%2F9300000228637472%2F&name=Google%20Pixel%209a%20-%20128GB%20-%20Zwart"
+          },
+          {
+            name: "Coolblue",
+            link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F964141%2Fgoogle-pixel-9a-128gb-zwart-5g.html"
+          }
+        ]
       },
       {
         name: "Google Pixel 8 Pro",
-        description: "De Pixel 8 Pro blijft relevant met Tensor G3 en uitstekende computational photography. Goede deal als je vorige Pro-generatie overweegt.",
+        description: "Oudere Pro met groot scherm en sterke camera. Handig als je een Pro wilt en de nieuwste modellen te duur vindt.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/google/gp_9.png",
         pros: [
-          "Scherm: 6,7 inch LTPO OLED 120Hz",
-          "Camera: 50 MP driedubbel systeem",
-          "Chip: Tensor G3 met AI-functies"
+          "6,7 inch scherm",
+          "Drie camera's, 50 MP",
+          "128 GB opslag en 12 GB RAM"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fgoogle-pixel-8-pro-12-128gb-black%2F9300000163877263%2F&name=Google%20Pixel%208%20Pro%20-%2012GB%2F128GB%20-%20Black%20-%2050MP%20camera%20-%206.7%20inch%20OLED"
+          }
+        ]
       },
       {
         name: "Google Pixel 8a",
-        description: "De Pixel 8a distilleert het Pixel-gevoel naar een scherper prijspunt. Compacte AI-telefoon met pure Android-ervaring.",
+        description: "Kleinste en goedkoopste Pixel hier: compact, prima voor WhatsApp en foto's. Ideaal als budget belangrijk is.",
         rating: 0,
-        image: "https://images.unsplash.com/photo-1675785732030-3f80c7d95ed5",
+        image: "/images/google/gp_10.png",
         pros: [
-          "Scherm: 6,1 inch OLED 120Hz",
-          "Camera: 64 MP hoofdcamera",
-          "Scherpe prijs met pure Android"
+          "Compact 6,1 inch scherm",
+          "64 MP camera",
+          "8 GB RAM en 128 GB opslag"
         ],
         cons: [],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Bol.com",
+            link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fgoogle-pixel-8a-8-128gb-zwart%2F9300000179545228%2F&name=Google%20Pixel%208a%20-%208GB%20RAM%20-%20128GB%20opslag%20-%20Zwart"
+          }
+        ]
       }
     ]
   },
