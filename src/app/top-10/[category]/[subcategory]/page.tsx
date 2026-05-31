@@ -1699,370 +1699,190 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     description: "De populairste laptops gerangschikt op prestaties en gebruikerservaringen",
     products: [
       {
-        name: "MacBook Pro 16 M3 Max",
-        description: "De krachtigste MacBook ooit met M3 Max chip",
-        rating: 9.8,
-        image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        pros: ["M3 Max chip", "Mini-LED display", "Lange batterijduur"],
-        cons: ["Zeer hoge prijs", "Zwaar"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/macbook-pro-16-m3"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/macbook-pro-16-m3"
-          }
-        ]
-      },
-      {
-        name: "Dell XPS 16 (2025)",
-        description: "Premium Windows laptop met OLED display",
-        rating: 9.7,
-        image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        pros: ["4K OLED", "RTX 4070", "Premium build"],
-        cons: ["Prijzig", "Warm onder load"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/dell-xps-16"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/dell-xps-16"
-          }
-        ]
-      },
-      {
-        name: "Lenovo ThinkPad X1 Carbon Gen 12",
-        description: "Zakelijke ultrabook met uitstekende bouwkwaliteit",
-        rating: 9.6,
-        image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        pros: ["Licht", "Geweldig toetsenbord", "Lange batterijduur"],
-        cons: ["Prijzig", "Beperkte GPU"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/thinkpad-x1"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/thinkpad-x1"
-          }
-        ]
-      },
-      {
-        name: "ASUS ROG Zephyrus G16",
-        description: "Krachtige gaming laptop met Mini-LED",
-        rating: 9.5,
-        image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        pros: ["RTX 4080", "Mini-LED", "Uitstekende koeling"],
-        cons: ["Korte batterijduur", "Luid onder load"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/asus-rog-g16"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/asus-rog-g16"
-          }
-        ]
-      },
-      {
-        name: "MacBook Air 15 M3",
-        description: "Dunne en lichte laptop met M3 chip",
-        rating: 9.4,
-        image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        pros: ["M3 chip", "Fanless design", "Groot display"],
+        name: "Apple MacBook Air",
+        description: "Dunne en lichte Apple-laptop met krachtige Apple Silicon-chip, lange batterijduur en premium build quality.",
+        rating: 4.9,
+        image: "",
+        pros: ["Apple Silicon", "Lange batterijduur", "Dun en licht"],
         cons: ["Beperkte poorten", "Prijzig"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/macbook-air-15"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/macbook-air-15"
-          }
-        ]
+        stores: [{ name: "Coolblue", link: "#" }]
       },
       {
-        name: "HP Spectre x360 16",
-        description: "Premium 2-in-1 laptop met OLED",
-        rating: 9.3,
-        image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        pros: ["Veelzijdig", "OLED display", "Pen support"],
-        cons: ["Zwaar als tablet", "Prijzig"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/hp-spectre-16"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/hp-spectre-16"
-          }
-        ]
+        name: "Samsung Galaxy Book4",
+        description: "Veelzijdige Samsung-laptop met helder scherm, solide prestaties en naadloze integratie met Galaxy-apparaten.",
+        rating: 4.7,
+        image: "",
+        pros: ["Galaxy-ecosysteem", "Helder scherm", "Goede prestaties"],
+        cons: ["Windows bloatware"],
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
-        name: "Acer Swift Edge 16",
-        description: "Ultralichte laptop met OLED display",
-        rating: 9.2,
-        image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        pros: ["Zeer licht", "OLED", "Goede prijs"],
-        cons: ["Plastic chassis", "Basis speakers"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/acer-swift-edge"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/acer-swift-edge"
-          }
-        ]
+        name: "Lenovo IdeaPad Slim 3 15IRH10",
+        description: "Betaalbare 15-inch laptop voor dagelijks gebruik, studie en licht productief werk.",
+        rating: 4.5,
+        image: "",
+        pros: ["Betaalbaar", "15-inch scherm", "IdeaPad betrouwbaarheid"],
+        cons: ["Plastic behuizing", "Basis display"],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "MSI Stealth 16 Studio",
-        description: "Creatieve laptop met krachtige GPU",
-        rating: 9.1,
-        image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        pros: ["RTX 4070", "4K display", "Stil"],
-        cons: ["Duur", "Matige batterij"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/msi-stealth-16"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/msi-stealth-16"
-          }
-        ]
+        name: "MSI Modern 15",
+        description: "Stijlvolle MSI-laptop voor werk en studie met lichtgewicht design en solide dagelijkse prestaties.",
+        rating: 4.5,
+        image: "",
+        pros: ["Lichtgewicht", "Modern design", "MSI kwaliteit"],
+        cons: ["Geen dedicated GPU"],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "Lenovo Legion Pro 7",
-        description: "High-end gaming laptop",
-        rating: 9.0,
-        image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        pros: ["RTX 4090", "165Hz display", "Uitstekende koeling"],
-        cons: ["Zwaar", "Korte batterijduur"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/legion-pro-7"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/legion-pro-7"
-          }
-        ]
+        name: "ASUS Vivobook 15 X1504VA",
+        description: "Populaire allround 15-inch laptop met Intel-processor, compact design en goede prijs-kwaliteit.",
+        rating: 4.6,
+        image: "",
+        pros: ["Allround laptop", "Compact", "Goede prijs"],
+        cons: ["Basis speakers", "Geen premium afwerking"],
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
-        name: "ASUS Zenbook 14",
-        description: "Compacte laptop met OLED display",
-        rating: 8.9,
-        image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca4",
-        pros: ["OLED", "Licht", "Betaalbaar"],
-        cons: ["Integrated GPU", "Beperkte poorten"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/zenbook-14"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/zenbook-14"
-          }
-        ]
+        name: "Lenovo V15 G4 Ryzen 5",
+        description: "Zakelijke budget-laptop met AMD Ryzen 5-processor voor efficiënt werken en studeren.",
+        rating: 4.5,
+        image: "",
+        pros: ["Ryzen 5", "Betaalbaar", "Zakelijk design"],
+        cons: ["Dikker formaat", "Basis scherm"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "HP 15-fd0700nd",
+        description: "HP 15-inch laptop voor dagelijks gebruik met betrouwbare prestaties en vertrouwd HP-design.",
+        rating: 4.4,
+        image: "",
+        pros: ["HP betrouwbaarheid", "15-inch", "Betaalbaar"],
+        cons: ["Plastic chassis", "Basis features"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "Lenovo IdeaPad Slim 3 14M868",
+        description: "Compacte 14-inch IdeaPad voor onderweg met slank design en solide prestaties voor studie en werk.",
+        rating: 4.5,
+        image: "",
+        pros: ["Compact 14 inch", "Slank design", "Draagbaar"],
+        cons: ["Kleiner scherm", "Beperkte poorten"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "ASUS TUF Gaming A16 RTX 4050",
+        description: "Krachtige gaming laptop met AMD-processor en NVIDIA RTX 4050 voor moderne games op medium-hoge instellingen.",
+        rating: 4.7,
+        image: "",
+        pros: ["RTX 4050", "Gaming prestaties", "TUF robuustheid"],
+        cons: ["Korte batterijduur", "Zwaar"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "ACEMAGIC LX15Pro",
+        description: "Betaalbare laptop met solide specificaties voor dagelijks gebruik, studie en lichte multitasking.",
+        rating: 4.3,
+        image: "",
+        pros: ["Betaalbaar", "Solide specs", "Allround"],
+        cons: ["Minder bekend merk", "Basis afwerking"],
+        stores: [{ name: "Bol.com", link: "#" }]
       }
     ]
   },
   desktops: {
-    title: "Top 10 Beste Desktop PCs van 2025",
+    title: "Top 10 Beste Desktop PC's van 2025",
     description: "De populairste desktop computers gerangschikt op prestaties en gebruikerservaringen",
     products: [
       {
-        name: "Mac Studio M3 Ultra",
-        description: "De krachtigste Mac desktop voor professionals",
-        rating: 9.8,
-        image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        pros: ["M3 Ultra chip", "Tot 192GB RAM", "Stil"],
-        cons: ["Zeer duur", "Niet upgradeable"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/mac-studio"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/mac-studio"
-          }
-        ]
+        name: "Lenovo LOQ Tower 17IRR9",
+        description: "Lenovo gaming desktop uit de LOQ-serie met solide prestaties voor moderne games en dagelijks gebruik.",
+        rating: 4.7,
+        image: "",
+        pros: ["Lenovo LOQ-serie", "Gaming prestaties", "Upgradebaar"],
+        cons: ["Basis RGB", "Groot formaat"],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "HP Omen 45L",
-        description: "High-end gaming desktop met waterkoeking",
-        rating: 9.7,
-        image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        pros: ["RTX 4090", "Cryo cooling", "Makkelijk upgraden"],
-        cons: ["Groot formaat", "Prijzig"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/hp-omen-45l"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/hp-omen-45l"
-          }
-        ]
+        name: "PCSpecialist Impact 99 RTX 3050",
+        description: "Custom gaming PC van PCSpecialist met NVIDIA RTX 3050 — ideaal instapmodel voor 1080p-gaming.",
+        rating: 4.6,
+        image: "",
+        pros: ["RTX 3050", "Custom build", "PCSpecialist kwaliteit"],
+        cons: ["Instap GPU", "Beperkt voor zware games"],
+        stores: [{ name: "Coolblue", link: "#" }]
       },
       {
-        name: "Corsair One i300",
-        description: "Compacte high-end gaming PC",
-        rating: 9.6,
-        image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        pros: ["Compact", "Waterkoeling", "RTX 4080"],
-        cons: ["Duur", "Beperkt upgradebaar"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/corsair-one"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/corsair-one"
-          }
-        ]
+        name: "Intel Gaming PC RTX 3050",
+        description: "Intel-gebaseerde gaming desktop met RTX 3050 voor betaalbaar gamen en alledaags gebruik.",
+        rating: 4.5,
+        image: "",
+        pros: ["RTX 3050", "Intel processor", "Betaalbaar"],
+        cons: ["Instap specificaties", "Basis behuizing"],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "MSI MEG Aegis Ti6",
-        description: "Futuristisch gaming desktop",
-        rating: 9.5,
-        image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        pros: ["Uniek design", "RTX 4090", "RGB"],
-        cons: ["Zeer groot", "Prijzig"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/msi-aegis"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/msi-aegis"
-          }
-        ]
+        name: "VIST PC Gaming Ryzen 7 5700X RTX 5060",
+        description: "Krachtige gaming PC met AMD Ryzen 7 5700X en RTX 5060 voor vloeiende gameplay op hoge instellingen.",
+        rating: 4.8,
+        image: "",
+        pros: ["Ryzen 7 5700X", "RTX 5060", "Sterke prijs-prestatie"],
+        cons: ["Minder bekend merk"],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "iMac M3 24-inch",
-        description: "All-in-one desktop met M3 chip",
-        rating: 9.4,
-        image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        pros: ["Slank design", "4.5K display", "M3 chip"],
-        cons: ["Niet upgradeable", "Beperkte poorten"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/imac-24"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/imac-24"
-          }
-        ]
+        name: "Sedatech Silent Gaming PC Ryzen 5 RTX 5060",
+        description: "Stille gaming desktop met Ryzen 5 en RTX 5060 — geschikt voor gamen zonder storend geluid.",
+        rating: 4.7,
+        image: "",
+        pros: ["Stil design", "RTX 5060", "Ryzen 5"],
+        cons: ["Compacte koeling", "Minder upgrade-ruimte"],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "Lenovo Legion Tower 7",
-        description: "Krachtige gaming desktop",
-        rating: 9.3,
-        image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        pros: ["RTX 4080", "Goede koeling", "Tool-less design"],
-        cons: ["Groot", "Basic RGB"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/legion-tower"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/legion-tower"
-          }
-        ]
+        name: "HYPER BYTE Essential Gaming PC",
+        description: "Betaalbare instap gaming PC voor beginnende gamers en lichte tot middelzware titels.",
+        rating: 4.4,
+        image: "",
+        pros: ["Betaalbaar", "Instap gaming", "Plug-and-play"],
+        cons: ["Basis specificaties", "Beperkte upgrade-opties"],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "Dell XPS Desktop",
-        description: "Stijlvolle desktop voor werk en gaming",
-        rating: 9.2,
-        image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        pros: ["Compact", "RTX 4070", "Stil"],
-        cons: ["Beperkte RGB", "Prijzig"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/xps-desktop"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/xps-desktop"
-          }
-        ]
+        name: "HP Victus Gaming Desktop",
+        description: "HP Victus gaming desktop met betrouwbare HP-kwaliteit en solide prestaties voor moderne games.",
+        rating: 4.7,
+        image: "",
+        pros: ["HP betrouwbaarheid", "Victus gaming", "Goede airflow"],
+        cons: ["Basis RGB", "Prijzig voor specs"],
+        stores: [{ name: "Coolblue", link: "#" }]
       },
       {
-        name: "ASUS ROG Strix G35",
-        description: "Gaming desktop met uniek design",
-        rating: 9.1,
-        image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        pros: ["RTX 4070 Ti", "Goede airflow", "RGB"],
-        cons: ["Groot formaat", "Luid onder load"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/rog-strix"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/rog-strix"
-          }
-        ]
+        name: "Lenovo Legion Tower 5",
+        description: "Lenovo Legion gaming tower met krachtige hardware, goede koeling en premium Legion-design.",
+        rating: 4.8,
+        image: "",
+        pros: ["Legion premium", "Goede koeling", "Upgradebaar"],
+        cons: ["Groot formaat", "Duur"],
+        stores: [{ name: "Coolblue", link: "#" }]
       },
       {
-        name: "HP Pavilion Gaming",
-        description: "Budget-vriendelijke gaming PC",
-        rating: 9.0,
-        image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        pros: ["RTX 4060", "Compact", "Betaalbaar"],
-        cons: ["Basic koeling", "Beperkt RGB"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/pavilion-gaming"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/pavilion-gaming"
-          }
-        ]
+        name: "MSI MAG Infinite S3",
+        description: "MSI gaming desktop uit de MAG-serie met compact design en solide gamingprestaties.",
+        rating: 4.7,
+        image: "",
+        pros: ["MSI MAG-serie", "Compact design", "Gaming prestaties"],
+        cons: ["Beperkte upgrade-ruimte"],
+        stores: [{ name: "Coolblue", link: "#" }]
       },
       {
-        name: "Acer Aspire TC",
-        description: "Betaalbare desktop voor thuisgebruik",
-        rating: 8.9,
-        image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
-        pros: ["Goede prijs", "Stil", "Compact"],
-        cons: ["Integrated graphics", "Basis design"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/aspire-tc"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/aspire-tc"
-          }
-        ]
+        name: "Acer Nitro Gaming PC",
+        description: "Acer Nitro gaming desktop voor betaalbaar gamen met betrouwbare prestaties en Nitro-gamingdesign.",
+        rating: 4.6,
+        image: "",
+        pros: ["Acer Nitro-serie", "Betaalbaar", "Gaming design"],
+        cons: ["Basis koeling", "Instap-middenklasse GPU"],
+        stores: [{ name: "Bol.com", link: "#" }]
       }
     ]
   },
@@ -2071,184 +1891,94 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     description: "De populairste PC onderdelen gerangschikt op prestaties en prijs-kwaliteit verhouding",
     products: [
       {
-        name: "NVIDIA GeForce RTX 5090",
-        description: "De snelste gaming GPU ter wereld",
-        rating: 9.8,
-        image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        pros: ["Ongekende prestaties", "Ray tracing", "DLSS 4.0"],
-        cons: ["Zeer duur", "Hoog stroomverbruik"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/rtx-5090"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/rtx-5090"
-          }
-        ]
+        name: "AMD Ryzen 7 7800X3D",
+        description: "De populairste gaming-CPU met 3D V-Cache-technologie voor topprestaties in games en solide allround performance.",
+        rating: 4.9,
+        image: "",
+        pros: ["3D V-Cache", "Top gaming CPU", "AM5 platform"],
+        cons: ["Geen integrated graphics", "Koeler apart nodig"],
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
-        name: "Intel Core i9-15900K",
-        description: "High-end desktop processor",
-        rating: 9.7,
-        image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        pros: ["32 cores", "Hoge kloksnelheid", "PCIe 5.0"],
-        cons: ["Prijzig", "Stroomverbruik"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/i9-15900k"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/i9-15900k"
-          }
-        ]
-      },
-      {
-        name: "Samsung 990 Pro 4TB",
-        description: "Ultra-snelle PCIe 5.0 NVMe SSD",
-        rating: 9.6,
-        image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        pros: ["13GB/s reads", "Lange levensduur", "Heatsink"],
-        cons: ["Hoge prijs", "Overkill voor gaming"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/990-pro"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/990-pro"
-          }
-        ]
-      },
-      {
-        name: "AMD Ryzen 9 8950X",
-        description: "High-end AMD processor",
-        rating: 9.5,
-        image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        pros: ["24 cores", "Efficient", "AM5 socket"],
-        cons: ["Dure moederborden", "Prijzig"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/ryzen-8950x"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/ryzen-8950x"
-          }
-        ]
-      },
-      {
-        name: "ASUS ROG Maximus Z890 Hero",
-        description: "High-end Intel moederbord",
-        rating: 9.4,
-        image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        pros: ["PCIe 5.0", "WiFi 7", "Uitstekende VRMs"],
-        cons: ["Zeer duur", "Overkill features"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/maximus-hero"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/maximus-hero"
-          }
-        ]
-      },
-      {
-        name: "Corsair Dominator Platinum RGB",
-        description: "DDR5-8000 RAM kit (32GB)",
-        rating: 9.3,
-        image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        pros: ["Extreme snelheid", "RGB", "Goede koeling"],
-        cons: ["Zeer duur", "Overkill"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/dominator-ddr5"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/dominator-ddr5"
-          }
-        ]
-      },
-      {
-        name: "be quiet! Dark Power 13",
-        description: "1500W ATX 3.0 voeding",
-        rating: 9.2,
-        image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        pros: ["Titanium efficiency", "Stil", "Modulair"],
-        cons: ["Hoge prijs", "Overkill voor veel builds"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/dark-power"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/dark-power"
-          }
-        ]
-      },
-      {
-        name: "Lian Li O11 Dynamic 3",
-        description: "Premium PC behuizing",
-        rating: 9.1,
-        image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        pros: ["Uitstekende airflow", "Tool-less", "Mooi design"],
+        name: "ASUS Prime GeForce RTX 5070 OC",
+        description: "ASUS Prime videokaart met RTX 5070 en factory overclock voor krachtige 1440p-gaming en ray tracing.",
+        rating: 4.8,
+        image: "",
+        pros: ["RTX 5070", "Factory OC", "ASUS Prime kwaliteit"],
         cons: ["Prijzig", "Groot formaat"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/o11-dynamic"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/o11-dynamic"
-          }
-        ]
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
-        name: "ARCTIC Liquid Freezer III",
-        description: "360mm AIO waterkoeling",
-        rating: 9.0,
-        image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        pros: ["Uitstekende koeling", "Stil", "Goede prijs"],
-        cons: ["Groot radiator", "Basic RGB"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/liquid-freezer"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/liquid-freezer"
-          }
-        ]
+        name: "MSI GeForce RTX 5070 Ventus 2X OC",
+        description: "MSI Ventus RTX 5070 met compact dual-fan design en solide prestaties voor moderne games.",
+        rating: 4.8,
+        image: "",
+        pros: ["RTX 5070", "Compact dual-fan", "MSI betrouwbaarheid"],
+        cons: ["Basis koeling vs premium modellen"],
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
-        name: "Noctua NH-D15 chromax.black",
-        description: "Premium CPU luchtkoeler",
-        rating: 8.9,
-        image: "https://images.unsplash.com/photo-1591488320449-011701bb6704",
-        pros: ["Uitstekende koeling", "Zeer stil", "Duurzaam"],
-        cons: ["Groot formaat", "RAM clearance"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/nh-d15"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/nh-d15"
-          }
-        ]
+        name: "Sapphire Pulse Radeon RX 9060 XT",
+        description: "AMD Radeon RX 9060 XT van Sapphire Pulse — sterke prijs-prestatie GPU voor 1080p en 1440p gaming.",
+        rating: 4.6,
+        image: "",
+        pros: ["RX 9060 XT", "Goede prijs-prestatie", "Compact design"],
+        cons: ["Minder ray tracing dan NVIDIA"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "Gigabyte GeForce RTX 5060 Windforce",
+        description: "Instap-middenklasse NVIDIA RTX 5060 van Gigabyte voor betaalbaar gamen op 1080p met DLSS-ondersteuning.",
+        rating: 4.6,
+        image: "",
+        pros: ["RTX 5060", "DLSS", "Betaalbaar"],
+        cons: ["Beperkt voor 4K gaming"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "Acer Nitro Arc B580 OC",
+        description: "Intel Arc B580 videokaart met factory overclock — aantrekkelijke budget GPU voor 1080p gaming.",
+        rating: 4.5,
+        image: "",
+        pros: ["Intel Arc B580", "Factory OC", "Betaalbaar"],
+        cons: ["Driver-maturiteit", "Minder bekend"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "RTX 5050 MSI Gaming OC",
+        description: "MSI Gaming RTX 5050 — instap NVIDIA GPU voor lichte gaming en alledaags gebruik tegen scherpe prijs.",
+        rating: 4.4,
+        image: "",
+        pros: ["RTX 5050", "Instap gaming", "MSI Gaming"],
+        cons: ["Beperkte prestaties", "Niet voor zware titels"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "AMD Ryzen 7 9700X",
+        description: "Krachtige AMD Zen 5-processor met 8 cores voor gaming, streaming en productief multitasken op AM5.",
+        rating: 4.8,
+        image: "",
+        pros: ["Zen 5 architectuur", "8 cores", "Efficiënt"],
+        cons: ["Prijzig", "Koeler apart nodig"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Intel Core Ultra 7 265K",
+        description: "Intel Core Ultra 7 desktopprocessor met NPU voor AI-taken, solide gaming en productiviteit.",
+        rating: 4.7,
+        image: "",
+        pros: ["Core Ultra serie", "NPU voor AI", "Sterke single-core"],
+        cons: ["Hoog stroomverbruik", "Duur platform"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Corsair Vengeance DDR5 32GB",
+        description: "Populair 32GB DDR5-geheugenkit van Corsair Vengeance voor snelle, stabiele prestaties in gaming en werk.",
+        rating: 4.8,
+        image: "",
+        pros: ["32GB DDR5", "Corsair betrouwbaarheid", "Breed compatibel"],
+        cons: ["Geen RGB op alle varianten"],
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       }
     ]
   },
@@ -2257,688 +1987,574 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     description: "De populairste gaming monitoren gerangschikt op prestaties en gebruikerservaringen",
     products: [
       {
-        name: "ASUS ROG Swift PG32UCDM",
-        description: "Premium 32-inch 4K Mini-LED gaming monitor",
-        rating: 9.8,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["4K 240Hz", "Mini-LED", "HDR 1600", "G-Sync Ultimate"],
-        cons: ["Zeer duur", "Groot formaat"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/rog-swift-pg32ucdm"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/rog-swift-pg32ucdm"
-          }
-        ]
-      },
-      {
-        name: "Samsung Odyssey OLED G9",
-        description: "49-inch ultrawide OLED gaming monitor",
-        rating: 9.7,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["5120x1440", "OLED", "240Hz", "Perfect blacks"],
-        cons: ["Zeer duur", "Enorm formaat"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/odyssey-oled-g9"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/odyssey-oled-g9"
-          }
-        ]
-      },
-      {
-        name: "LG 32GR93U",
-        description: "32-inch 4K gaming monitor met OLED",
-        rating: 9.6,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["4K 144Hz", "OLED", "G-Sync", "HDR"],
+        name: "Samsung Odyssey OLED G8",
+        description: "Best overall premium OLED gaming monitor met diep zwart, hoge refresh rate en Samsung's Odyssey-kwaliteit voor serieuze gamers.",
+        rating: 4.9,
+        image: "",
+        pros: ["OLED paneel", "Premium gaming", "Zeer populair"],
         cons: ["Prijzig", "Burn-in risico"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/lg-32gr93u"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/lg-32gr93u"
-          }
-        ]
+        stores: []
+      },
+      {
+        name: "LG UltraGear 27GR95QE-B",
+        description: "Een van de meest verkochte OLED gamingmonitoren op bol.com.",
+        rating: 4.9,
+        image: "",
+        pros: ["OLED paneel", "Premium gaming", "Zeer populair"],
+        cons: ["27 inch kan klein zijn voor sommigen"],
+        stores: []
       },
       {
         name: "Alienware AW2725DF",
-        description: "27-inch QD-OLED gaming monitor",
-        rating: 9.5,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["1440p 360Hz", "QD-OLED", "G-Sync"],
-        cons: ["Hoge prijs", "Beperkte HDR"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/alienware-aw2725df"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/alienware-aw2725df"
-          }
-        ]
+        description: "QD‑OLED esportsfavoriet met extreem hoge refreshrate.",
+        rating: 4.8,
+        image: "",
+        pros: ["QD-OLED paneel", "Esports-niveau", "Hoge refresh rate"],
+        cons: ["Duur", "Beperkte HDR"],
+        stores: []
       },
       {
-        name: "MSI MPG 321URX",
-        description: "32-inch 4K gaming monitor",
-        rating: 9.4,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["4K 160Hz", "HDR 600", "KVM switch"],
-        cons: ["IPS glow", "Groot formaat"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/msi-mpg-321urx"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/msi-mpg-321urx"
-          }
-        ]
+        name: "MSI MPG 271QRX",
+        description: "Premium QD-OLED gaming monitor met scherpe beelden, snelle response en MSI Gaming-kwaliteit.",
+        rating: 4.8,
+        image: "",
+        pros: ["QD-OLED paneel", "Premium gaming", "Snelle response"],
+        cons: ["Prijzig"],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
-        name: "AOC 27G3X",
-        description: "27-inch gaming monitor met hoge refresh rate",
-        rating: 9.3,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["1080p 280Hz", "Adaptive Sync", "Goede prijs"],
-        cons: ["Basis HDR", "1080p op 27 inch"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/aoc-27g3x"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/aoc-27g3x"
-          }
-        ]
+        name: "ASUS ROG Strix OLED",
+        description: "ROG gaming monitor met OLED-paneel voor diepe contrasten en vloeiende gameplay in premium ASUS-kwaliteit.",
+        rating: 4.8,
+        image: "",
+        pros: ["OLED paneel", "ROG gaming", "Diep contrast"],
+        cons: ["Duur"],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
-        name: "ViewSonic XG271QG",
-        description: "27-inch 1440p gaming monitor",
-        rating: 9.2,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["1440p 240Hz", "IPS", "G-Sync"],
-        cons: ["Matige HDR", "Prijzig"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/viewsonic-xg271qg"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/viewsonic-xg271qg"
-          }
-        ]
+        name: "Samsung Odyssey OLED G8 G81SF",
+        description: "Samsung Odyssey OLED gaming monitor met curved design en premium beeldkwaliteit voor meeslepend gamen.",
+        rating: 4.7,
+        image: "",
+        pros: ["OLED curved", "Odyssey-serie", "Premium beeld"],
+        cons: ["Curved niet voor iedereen"],
+        stores: [{ name: "Coolblue", link: "#" }]
       },
       {
-        name: "BenQ MOBIUZ EX2710R",
-        description: "27-inch curved gaming monitor",
-        rating: 9.1,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["1440p 165Hz", "Curved", "HDR"],
-        cons: ["VA panel", "Basic design"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/benq-ex2710r"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/benq-ex2710r"
-          }
-        ]
+        name: "AOC OLED Q27G41ZDF",
+        description: "Betaalbare OLED gaming monitor met 27-inch QHD-scherm en snelle refresh rate voor competitief spelen.",
+        rating: 4.6,
+        image: "",
+        pros: ["OLED paneel", "QHD 27 inch", "Goede prijs"],
+        cons: ["Minder premium afwerking"],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "Gigabyte M27Q X",
-        description: "27-inch gaming monitor met KVM",
-        rating: 9.0,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["1440p 240Hz", "KVM switch", "Goede prijs"],
-        cons: ["Basic design", "Matige HDR"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/gigabyte-m27q-x"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/gigabyte-m27q-x"
-          }
-        ]
+        name: "LG 27GX790A-B",
+        description: "LG UltraGear gaming monitor met OLED-technologie en hoge refresh rate voor vloeiende esports-prestaties.",
+        rating: 4.7,
+        image: "",
+        pros: ["OLED paneel", "UltraGear", "Hoge refresh rate"],
+        cons: ["Prijzig"],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "ASUS TUF Gaming VG259QM",
-        description: "25-inch esports gaming monitor",
-        rating: 8.9,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["1080p 280Hz", "ELMB-Sync", "Betaalbaar"],
-        cons: ["Klein scherm", "Basic HDR"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/asus-vg259qm"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/asus-vg259qm"
-          }
-        ]
+        name: "MSI MAG QD-OLED",
+        description: "MSI MAG-serie QD-OLED monitor met uitstekende kleuren, snelle response en gaming-georiënteerde features.",
+        rating: 4.6,
+        image: "",
+        pros: ["QD-OLED paneel", "MSI MAG-serie", "Scherpe kleuren"],
+        cons: ["Basis standaard"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "LG UltraGear OLED-serie (diverse modellen)",
+        description: "Populaire LG UltraGear OLED-lijn met meerdere formaten en specificaties — breed verkrijgbaar voor elke gamer.",
+        rating: 4.7,
+        image: "",
+        pros: ["OLED paneel", "Diverse modellen", "Breed verkrijgbaar"],
+        cons: ["Specificaties variëren per model"],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       }
     ]
   },
-  professional_monitors: {
-    title: "Top 10 Beste Professionele Monitoren van 2025",
-    description: "De populairste monitoren voor professionals gerangschikt op beeldkwaliteit en kleurnauwkeurigheid",
+  office_monitors: {
+    title: "Top 10 Beste Office Monitoren van 2025",
+    description: "De populairste monitoren voor kantoor en thuiswerken gerangschikt op beeldkwaliteit en comfort",
     products: [
       {
-        name: "Apple Pro Display XDR 2",
-        description: "32-inch 6K professionele monitor",
-        rating: 9.8,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["6K resolutie", "Mini-LED", "Perfect kleurbereik"],
-        cons: ["Extreem duur", "Stand apart verkrijgbaar"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/pro-display-xdr-2"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/pro-display-xdr-2"
-          }
-        ]
+        name: "Dell Ultrasharp U4924DW",
+        description: "Best overall ultrawide kantoormonitor met 49-inch curved QHD-scherm, USB-C hub en KVM-switch voor productief multitasken.",
+        rating: 4.9,
+        image: "",
+        pros: ["49-inch ultrawide", "USB-C hub", "KVM-switch"],
+        cons: ["Groot bureau nodig", "Prijzig"],
+        stores: []
       },
       {
-        name: "ASUS ProArt PA32UCR",
-        description: "32-inch 4K professionele monitor",
-        rating: 9.7,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["4K Mini-LED", "Calman verified", "Thunderbolt 4"],
-        cons: ["Zeer duur", "Complex menu"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/proart-pa32ucr"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/proart-pa32ucr"
-          }
-        ]
+        name: "Dell UltraSharp U2424H",
+        description: "Een van de populairste kantoorseries dankzij ergonomie, betrouwbaarheid en beeldkwaliteit.",
+        rating: 4.8,
+        image: "",
+        pros: ["Ergonomisch design", "Betrouwbaar", "Heldere beeldkwaliteit"],
+        cons: ["1080p resolutie"],
+        stores: []
       },
       {
-        name: "Dell UltraSharp U4024QW",
-        description: "40-inch ultrawide professionele monitor",
-        rating: 9.6,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["5K2K resolutie", "Thunderbolt 4", "KVM"],
-        cons: ["Hoge prijs", "Groot formaat"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/dell-u4024qw"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/dell-u4024qw"
-          }
-        ]
+        name: "LG 32UN880K-B Ergo",
+        description: "Populaire ergonomische 4K-monitor met monitorarm en USB‑C.",
+        rating: 4.8,
+        image: "",
+        pros: ["Ingebouwde monitorarm", "4K resolutie", "USB-C"],
+        cons: ["32 inch kan groot zijn", "Arm niet verstelbaar voor iedereen"],
+        stores: []
       },
       {
-        name: "LG UltraFine 32EP950",
-        description: "32-inch 4K OLED monitor",
-        rating: 9.5,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["OLED", "Perfect zwart", "99% Adobe RGB"],
-        cons: ["Zeer duur", "Burn-in risico"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/lg-32ep950"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/lg-32ep950"
-          }
-        ]
+        name: "Samsung ViewFinity S6",
+        description: "Veelzijdige 4K kantoor monitor met USB-C, ergonomische standaard en strak Samsung-design voor dagelijks werk.",
+        rating: 4.7,
+        image: "",
+        pros: ["4K IPS", "USB-C", "Ergonomische stand"],
+        cons: ["Basis HDR"],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       },
       {
-        name: "BenQ SW321C",
-        description: "32-inch 4K monitor voor fotografen",
-        rating: 9.4,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["4K IPS", "Hardware kalibratie", "16-bit 3D LUT"],
-        cons: ["Prijzig", "Basis HDR"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/benq-sw321c"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/benq-sw321c"
-          }
-        ]
-      },
-      {
-        name: "ViewSonic ColorPro VP2786-4K",
-        description: "27-inch 4K monitor voor creators",
-        rating: 9.3,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["4K", "Pantone validated", "USB-C"],
-        cons: ["Basic HDR", "Prijzig"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/viewsonic-vp2786"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/viewsonic-vp2786"
-          }
-        ]
-      },
-      {
-        name: "Philips 279P1",
-        description: "27-inch 4K USB-C monitor",
-        rating: 9.2,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["4K IPS", "USB-C", "Goede prijs"],
-        cons: ["Basic HDR", "Basis design"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/philips-279p1"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/philips-279p1"
-          }
-        ]
-      },
-      {
-        name: "Dell P2724DE",
-        description: "27-inch QHD USB-C monitor",
-        rating: 9.1,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["QHD", "USB-C", "Ergonomisch"],
-        cons: ["Geen HDR", "Basic speakers"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/dell-p2724de"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/dell-p2724de"
-          }
-        ]
-      },
-      {
-        name: "HP Z27k G3",
-        description: "27-inch 4K USB-C monitor",
-        rating: 9.0,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["4K", "USB-C", "Factory gekalibreerd"],
-        cons: ["Prijzig", "Basic HDR"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/hp-z27k"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/hp-z27k"
-          }
-        ]
-      },
-      {
-        name: "ASUS ProArt PA278CV",
-        description: "27-inch professionele monitor",
-        rating: 8.9,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["QHD", "100% sRGB", "USB-C"],
-        cons: ["Geen HDR", "Basic design"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/proart-pa278cv"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/proart-pa278cv"
-          }
-        ]
-      }
-    ]
-  },
-  budget_monitors: {
-    title: "Top 10 Beste Budget Monitoren van 2025",
-    description: "De populairste betaalbare monitoren gerangschikt op prijs-kwaliteit verhouding",
-    products: [
-      {
-        name: "AOC 24G2SP",
-        description: "24-inch gaming monitor",
-        rating: 9.4,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["144Hz", "IPS", "Adaptive Sync"],
-        cons: ["1080p", "Basic HDR"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/aoc-24g2sp"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/aoc-24g2sp"
-          }
-        ]
-      },
-      {
-        name: "Samsung S27A336",
-        description: "27-inch IPS monitor",
-        rating: 9.3,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["IPS panel", "75Hz", "AMD FreeSync"],
-        cons: ["1080p op 27 inch", "Basis stand"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/samsung-s27a336"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/samsung-s27a336"
-          }
-        ]
-      },
-      {
-        name: "LG 24GN60R",
-        description: "24-inch gaming monitor",
-        rating: 9.2,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["144Hz", "1ms response", "FreeSync"],
-        cons: ["1080p", "TN panel"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/lg-24gn60r"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/lg-24gn60r"
-          }
-        ]
-      },
-      {
-        name: "Philips 242V8A",
-        description: "24-inch IPS monitor",
-        rating: 9.1,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["IPS", "75Hz", "Ingebouwde speakers"],
-        cons: ["1080p", "Basic design"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/philips-242v8a"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/philips-242v8a"
-          }
-        ]
-      },
-      {
-        name: "ASUS VA24DQ",
-        description: "24-inch kantoor monitor",
-        rating: 9.0,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["IPS", "75Hz", "Eye Care"],
+        name: "BenQ GW2790",
+        description: "Betaalbare 27-inch kantoor monitor met Eye-Care-technologie en flicker-free display voor lange werkdagen.",
+        rating: 4.6,
+        image: "",
+        pros: ["Eye-Care technologie", "Flicker-free", "Betaalbaar"],
         cons: ["1080p", "Basis features"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/asus-va24dq"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/asus-va24dq"
-          }
-        ]
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "BenQ GW2475H",
-        description: "24-inch IPS monitor",
-        rating: 8.9,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["IPS", "Flicker-free", "Eye Care"],
-        cons: ["60Hz", "Geen VESA"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/benq-gw2475h"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/benq-gw2475h"
-          }
-        ]
+        name: "Philips 27B2G5500/00",
+        description: "27-inch QHD monitor met USB-C, ingebouwde webcam en microfoon — ideaal voor thuiswerken en videovergaderingen.",
+        rating: 4.6,
+        image: "",
+        pros: ["QHD resolutie", "Ingebouwde webcam", "USB-C"],
+        cons: ["Webcam kwaliteit beperkt"],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "iiyama ProLite E2483HSU-B5",
-        description: "24-inch gaming monitor",
-        rating: 8.8,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["75Hz", "FreeSync", "USB hub"],
-        cons: ["TN panel", "Basic design"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/iiyama-e2483hsu"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/iiyama-e2483hsu"
-          }
-        ]
+        name: "Dell UltraSharp U2724D",
+        description: "27-inch QHD kantoor monitor uit de UltraSharp-serie met IPS Black-technologie voor dieper zwart en scherp contrast.",
+        rating: 4.7,
+        image: "",
+        pros: ["IPS Black panel", "QHD", "USB-C hub"],
+        cons: ["Geen 4K"],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "ViewSonic VA2432-H",
-        description: "24-inch IPS monitor",
-        rating: 8.7,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["IPS", "75Hz", "Slim design"],
-        cons: ["Geen VESA", "Basic features"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/viewsonic-va2432h"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/viewsonic-va2432h"
-          }
-        ]
+        name: "Dell UltraSharp U3423WE",
+        description: "34-inch ultrawide WQHD-monitor met USB-C hub en IPS Black-panel voor efficiënt multitasken op kantoor.",
+        rating: 4.7,
+        image: "",
+        pros: ["Ultrawide WQHD", "USB-C hub", "IPS Black"],
+        cons: ["Groot formaat", "Prijzig"],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "HP M24f",
-        description: "24-inch design monitor",
-        rating: 8.6,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["IPS", "Mooi design", "AMD FreeSync"],
-        cons: ["60Hz", "Geen VESA"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/hp-m24f"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/hp-m24f"
-          }
-        ]
+        name: "LG 32QP880-B Ergo",
+        description: "32-inch QHD monitor met ergonomische monitorarm, USB-C en hoogte-/kantelverstelling voor comfortabel werken.",
+        rating: 4.6,
+        image: "",
+        pros: ["Ergonomische arm", "QHD 32 inch", "USB-C"],
+        cons: ["Arm past niet op elk bureau"],
+        stores: [{ name: "Bol.com", link: "#" }]
       },
       {
-        name: "Acer K243Y",
-        description: "24-inch basis monitor",
-        rating: 8.5,
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-        pros: ["VA panel", "Betaalbaar", "VESA"],
-        cons: ["60Hz", "Basic features"],
-        stores: [
-          {
-            name: "Coolblue",
-            link: "https://www.coolblue.nl/product/acer-k243y"
-          },
-          {
-            name: "Bol.com",
-            link: "https://www.bol.com/nl/p/acer-k243y"
-          }
-        ]
+        name: "Samsung S70D 4K",
+        description: "32-inch 4K Smart Monitor met ingebouwde streaming-apps en USB-C — monitor en entertainment in één.",
+        rating: 4.7,
+        image: "",
+        pros: ["4K resolutie", "Smart TV-functies", "USB-C"],
+        cons: ["Smart functies niet voor iedereen nodig"],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
       }
     ]
   },
   controllers: {
     title: "Top 10 Beste Controllers van 2025",
-    description: "De populairste gamecontrollers voor PC, PlayStation en Xbox",
+    description: "De populairste gamecontrollers voor PC, PlayStation, Xbox en Nintendo Switch",
     products: [
       {
-        name: "Sony DualSense Wireless Controller",
-        description: "Officiële PlayStation 5 controller met haptische feedback",
+        name: "Microsoft Xbox Wireless Controller",
+        description: "De standaard Xbox-controller met Bluetooth en Share-knop. Werkt naadloos op Xbox Series X|S, Xbox One en PC.",
         rating: 4.8,
-        image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&q=80",
-        pros: ["Haptische feedback", "Adaptive triggers", "Bluetooth"],
-        cons: ["Batterijduur beperkt"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
-      },
-      {
-        name: "Xbox Wireless Controller",
-        description: "Officiële Xbox controller, ook geschikt voor PC",
-        rating: 4.7,
-        image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&q=80",
-        pros: ["Ergonomisch", "Werkt op PC en Xbox", "Bluetooth"],
+        image: "",
+        pros: ["Bluetooth voor PC", "Ergonomisch design", "Breed beschikbaar"],
         cons: ["Geen oplaadbare batterij standaard"],
         stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
-        name: "8BitDo Ultimate Bluetooth Controller",
-        description: "Veelzijdige controller voor Switch, PC en mobiel",
-        rating: 4.6,
-        image: "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&q=80",
-        pros: ["Hall-effect sticks", "Programmeerbare knoppen", "Multi-platform"],
-        cons: ["Software kan beter"],
+        name: "DualSense Wireless Controller Sony",
+        description: "Officiële PlayStation 5-controller met haptische feedback en adaptive triggers voor meeslepend gamen.",
+        rating: 4.8,
+        image: "",
+        pros: ["Haptische feedback", "Adaptive triggers", "Ingebouwde microfoon"],
+        cons: ["Batterijduur beperkt"],
         stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "Nintendo Switch Pro Controller",
+        description: "Premium controller voor de Nintendo Switch met HD-rumble, motion controls en lange batterijduur.",
+        rating: 4.7,
+        image: "",
+        pros: ["HD-rumble", "40 uur batterij", "Comfortabel voor lange sessies"],
+        cons: ["Geen koptelefoonaansluiting"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "Turtle Beach Stealth Pivot Controller",
+        description: "Modulaire Xbox-controller met draaibare handgrepen en aanpasbare knoppen voor extra comfort.",
+        rating: 4.5,
+        image: "",
+        pros: ["Draaibare handgrepen", "Aanpasbare knoppen", "Xbox en PC"],
+        cons: ["Groter formaat"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Turtle Beach Rematch Core Xbox Controller",
+        description: "Betaalbare wired Xbox-controller met remappable knoppen en robuuste bouwkwaliteit.",
+        rating: 4.4,
+        image: "",
+        pros: ["Remappable knoppen", "Betaalbaar", "Betrouwbaar wired"],
+        cons: ["Geen draadloos"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "Xbox Elite Wireless Controller Series 2",
+        description: "Premium Xbox-controller met instelbare stickspanning, extra paddles en oplaadbare batterij.",
+        rating: 4.7,
+        image: "",
+        pros: ["Instelbare sticks", "Extra paddles", "Oplaadbare batterij"],
+        cons: ["Hoge prijs"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "PowerA Enhanced Xbox Controller",
+        description: "Officieel gelicenseerde Xbox-controller met extra programmabare knoppen en mappable profielen.",
+        rating: 4.3,
+        image: "",
+        pros: ["Programmabare knoppen", "Officieel gelicenseerd", "Goede prijs"],
+        cons: ["AA-batterijen nodig"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "PDP Afterglow Switch Controller",
+        description: "Officieel gelicenseerde Switch-controller met RGB-verlichting en transparante behuizing.",
+        rating: 4.2,
+        image: "",
+        pros: ["RGB-verlichting", "Officieel gelicenseerd", "Betaalbaar"],
+        cons: ["Geen HD-rumble"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "Trust GXT gaming controller",
+        description: "Veelzijdige wired gaming-controller compatibel met PC, PlayStation en Nintendo Switch.",
+        rating: 4.1,
+        image: "",
+        pros: ["Multi-platform", "Betaalbaar", "Plug-and-play"],
+        cons: ["Geen draadloos"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "Nacon Revolution 5 Pro",
+        description: "Premium PS5/PC-controller met Hall-effect sticks, draadloos en bedraad, plus aanpasbare gewichten.",
+        rating: 4.6,
+        image: "",
+        pros: ["Hall-effect sticks", "Draadloos + bedraad", "Aanpasbare gewichten"],
+        cons: ["Duur"],
+        stores: [{ name: "Coolblue", link: "#" }]
       }
     ]
   },
   headsets: {
-    title: "Top 10 Beste Gaming Headsets van 2025",
-    description: "De beste koptelefoons voor gaming met heldere microfoon en comfort",
+    title: "Top 10 Beste Koptelefoons van 2025",
+    description: "Van noise-cancelling tot gaming — de populairste draadloze koptelefoons",
     products: [
       {
-        name: "SteelSeries Arctis Nova 7",
-        description: "Draadloze gaming headset met lange batterijduur",
+        name: "Sony WH-1000XM5 Wireless Headphones",
+        description: "Premium noise-cancelling koptelefoon met brancheleidende ANC, heldere call-kwaliteit en tot 30 uur batterij.",
+        rating: 4.9,
+        image: "",
+        pros: ["Beste noise cancelling", "Lichtgewicht", "Multipoint Bluetooth"],
+        cons: ["Duur"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Sennheiser Momentum 4 Wireless Headphones",
+        description: "Luxe draadloze koptelefoon met rijke audiokwaliteit, adaptieve ANC en maar liefst 60 uur batterijduur.",
         rating: 4.8,
-        image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80",
-        pros: ["2.4GHz + Bluetooth", "30 uur batterij", "Comfortabel"],
-        cons: ["Prijzig"],
+        image: "",
+        pros: ["60 uur batterij", "Uitstekende audiokwaliteit", "Adaptieve ANC"],
+        cons: ["Groot formaat"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Bose QuietComfort Ultra",
+        description: "Topklasse Bose-koptelefoon met immersive audio, krachtige noise cancelling en premium comfort.",
+        rating: 4.8,
+        image: "",
+        pros: ["Immersive audio", "Krachtige ANC", "Zachte oorkussens"],
+        cons: ["Hoge prijs"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "JBL Tune 770NC",
+        description: "Betaalbare over-ear koptelefoon met actieve noise cancelling en JBL Pure Bass-geluid.",
+        rating: 4.5,
+        image: "",
+        pros: ["Actieve noise cancelling", "JBL Pure Bass", "Goede prijs"],
+        cons: ["Minder premium afwerking"],
         stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
-        name: "HyperX Cloud III Wireless",
-        description: "Lichtgewicht draadloze headset met DTS audio",
+        name: "Sony WH-CH720N",
+        description: "Instapmodel van Sony met noise cancelling, lichtgewicht design en lange batterijduur voor dagelijks gebruik.",
+        rating: 4.4,
+        image: "",
+        pros: ["Lichtgewicht", "Noise cancelling", "Betaalbaar"],
+        cons: ["Minder premium geluid dan XM5"],
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "JBL Live 770NC",
+        description: "Draadloze over-ear koptelefoon met adaptieve noise cancelling en JBL Signature Sound.",
+        rating: 4.5,
+        image: "",
+        pros: ["Adaptieve ANC", "JBL Signature Sound", "Comfortabel"],
+        cons: ["App vereist voor instellingen"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Apple AirPods Max",
+        description: "Premium Apple-koptelefoon met computational audio, spatial audio en naadloze integratie met Apple-apparaten.",
         rating: 4.7,
-        image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80",
+        image: "",
+        pros: ["Spatial audio", "Apple-ecosysteem", "Premium bouwkwaliteit"],
+        cons: ["Zwaar", "Duur"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "SteelSeries Arctis Nova 7",
+        description: "Draadloze gaming headset met 2.4GHz + Bluetooth, lange batterijduur en heldere microfoon.",
+        rating: 4.8,
+        image: "",
+        pros: ["2.4GHz + Bluetooth", "30 uur batterij", "Comfortabel"],
+        cons: ["Prijzig"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "HyperX Cloud III Wireless",
+        description: "Lichtgewicht draadloze gaming headset met DTS Headphone:X spatial audio en verwijderbare microfoon.",
+        rating: 4.7,
+        image: "",
         pros: ["Lichtgewicht", "Goede microfoon", "Multi-platform"],
         cons: ["Geen actieve noise cancelling"],
         stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
-        name: "Razer BlackShark V2 Pro",
-        description: "Premium draadloze esports headset",
-        rating: 4.6,
-        image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80",
-        pros: ["Heldere audio", "Verwijderbare microfoon", "Lange batterij"],
+        name: "Logitech G Pro X 2 Lightspeed",
+        description: "Esports gaming headset met PRO-G GRAPHENE-drivers, Lightspeed draadloos en draaibare microfoon.",
+        rating: 4.8,
+        image: "",
+        pros: ["PRO-G GRAPHENE drivers", "Lightspeed draadloos", "Esports-kwaliteit"],
         cons: ["Duur"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }]
       }
     ]
   },
   keyboards: {
-    title: "Top 10 Beste Gaming Toetsenborden van 2025",
-    description: "Mechanische en gaming toetsenborden voor elke speler",
+    title: "Top 10 Beste Toetsenborden van 2025",
+    description: "Van productiviteitstoetsenborden tot mechanische gaming boards — de populairste keuzes voor werk en gamen",
     products: [
       {
-        name: "Logitech G Pro X TKL Lightspeed",
-        description: "Compact draadloos toetsenbord voor esports",
+        name: "Logitech MX Mechanical Wireless Keyboard",
+        description: "Premium draadloos mechanisch toetsenbord met tactile switches, multi-device Bluetooth en backlit toetsen voor productief werken.",
         rating: 4.8,
-        image: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&q=80",
-        pros: ["Lightspeed draadloos", "Compact TKL", "GX switches"],
-        cons: ["Geen numpad"],
+        image: "",
+        pros: ["Mechanische switches", "Multi-device", "Draadloos"],
+        cons: ["Prijzig", "Geen gaming RGB"],
         stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
-        name: "Keychron Q1 Pro",
-        description: "Premium mechanisch toetsenbord met aluminium behuizing",
+        name: "Logitech G915 X LIGHTSPEED Wireless Gaming Keyboard",
+        description: "Ultradun draadloos gaming toetsenbord met low-profile GL-switches, LIGHTSPEED-verbinding en per-key RGB-verlichting.",
+        rating: 4.8,
+        image: "",
+        pros: ["Ultradun design", "LIGHTSPEED draadloos", "Per-key RGB"],
+        cons: ["Duur", "Low-profile switches"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Logitech MX Mechanical Mini Keyboard",
+        description: "Compact draadloos mechanisch toetsenbord zonder numpad. Ideaal voor kleinere bureaus met dezelfde MX-kwaliteit.",
         rating: 4.7,
-        image: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&q=80",
-        pros: ["Aluminium frame", "Hot-swap", "Bluetooth + kabel"],
-        cons: ["Zwaar"],
+        image: "",
+        pros: ["Compact formaat", "Mechanisch", "Multi-device"],
+        cons: ["Geen numpad", "Prijzig"],
         stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
-        name: "Razer BlackWidow V4 Pro",
-        description: "Full-size gaming toetsenbord met RGB en macrotoetsen",
-        rating: 4.6,
-        image: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&q=80",
-        pros: ["Razer switches", "Dial control", "RGB Chroma"],
-        cons: ["Duur", "Groot formaat"],
+        name: "Logitech G Pro X TKL",
+        description: "Esports toetsenbord in tenkeyless formaat met hot-swappable GX-switches en compact design voor competitief gamen.",
+        rating: 4.8,
+        image: "",
+        pros: ["Hot-swappable", "Compact TKL", "GX switches"],
+        cons: ["Geen numpad", "Bedraad"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Logitech MX Keys S",
+        description: "Slim draadloos toetsenbord met spherically-dished toetsen, backlit keys en naadloze multi-device switching.",
+        rating: 4.7,
+        image: "",
+        pros: ["Stille toetsen", "Backlit", "Multi-device"],
+        cons: ["Geen mechanisch", "Niet voor gaming"],
         stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "SteelSeries Apex Pro TKL",
+        description: "Premium gaming toetsenbord met instelbare OmniPoint 2.0-switches en OLED Smart Display in compact TKL-formaat.",
+        rating: 4.8,
+        image: "",
+        pros: ["Instelbare switches", "OLED display", "Compact TKL"],
+        cons: ["Duur"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Keychron K8 Pro",
+        description: "Hot-swappable mechanisch toetsenbord in TKL-formaat met QMK/VIA-ondersteuning en Bluetooth + bedraad.",
+        rating: 4.6,
+        image: "",
+        pros: ["Hot-swap", "QMK/VIA", "Bluetooth + kabel"],
+        cons: ["Geen numpad"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "Corsair K70 RGB Pro",
+        description: "Full-size gaming toetsenbord met Cherry MX-switches, per-key RGB en aluminium frame voor lange gaming sessies.",
+        rating: 4.6,
+        image: "",
+        pros: ["Cherry MX switches", "Aluminium frame", "Per-key RGB"],
+        cons: ["Groot formaat", "Bedraad"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "Ducky One 3 Gaming Keyboard",
+        description: "Premium mechanisch toetsenbord met hot-swap PCB, PBT keycaps en Ducky's befaamde bouwkwaliteit.",
+        rating: 4.7,
+        image: "",
+        pros: ["Hot-swap PCB", "PBT keycaps", "Premium bouw"],
+        cons: ["Geen draadloos"],
+        stores: [{ name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "Ducky One 3 Classic White SF Gaming Keyboard",
+        description: "Compact 65% mechanisch toetsenbord in classic white met Cherry MX-switches en hot-swap ondersteuning.",
+        rating: 4.7,
+        image: "",
+        pros: ["Compact 65%", "Cherry MX", "Hot-swap"],
+        cons: ["Geen numpad of F-rij", "Bedraad"],
+        stores: [{ name: "Bol.com", link: "#" }]
       }
     ]
   },
   mice: {
-    title: "Top 10 Beste Gaming Muizen van 2025",
-    description: "Lichte en precieze gaming muizen voor competitief spelen",
+    title: "Top 10 Beste Muizen van 2025",
+    description: "Van productiviteitsmuizen tot esports-gamingmuizen — de populairste muizen voor werk en gamen",
     products: [
       {
-        name: "Logitech G Pro X Superlight 2",
-        description: "Ultralichte draadloze esports muis",
+        name: "Logitech MX Master 3S Mouse",
+        description: "De ultieme productiviteitsmuis met MagSpeed-scrollwiel, 8K DPI-lasersensor en stille klikken. Verbindt met tot 3 apparaten via Bluetooth of USB-ontvanger.",
         rating: 4.9,
-        image: "https://images.unsplash.com/photo-1623820919239-0d0ff10797a1?auto=format&fit=crop&q=80",
+        image: "",
+        pros: ["MagSpeed scrollwiel", "Multi-device", "Ergonomisch design"],
+        cons: ["Niet geschikt voor gaming", "Prijzig"],
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "Logitech G502 X Mouse",
+        description: "Iconische gaming muis vernieuwd met LIGHTFORCE-schakelaars, HERO 25K-sensor en aanpasbaar gewicht.",
+        rating: 4.7,
+        image: "",
+        pros: ["LIGHTFORCE schakelaars", "HERO 25K sensor", "Aanpasbaar gewicht"],
+        cons: ["Bedraad"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Logitech G Pro X Superlight 2",
+        description: "Ultralichte draadloze esports muis van slechts 60 gram met HERO 2-sensor en Lightspeed-verbinding.",
+        rating: 4.9,
+        image: "",
         pros: ["60g gewicht", "HERO 2 sensor", "Lightspeed"],
         cons: ["Duur"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [{ name: "Coolblue", link: "#" }]
       },
       {
         name: "Razer DeathAdder V3 Pro",
-        description: "Ergonomische draadloze muis met Focus Pro sensor",
+        description: "Ergonomische draadloze gaming muis met Focus Pro 30K-sensor en tot 90 uur batterijduur.",
         rating: 4.8,
-        image: "https://images.unsplash.com/photo-1623820919239-0d0ff10797a1?auto=format&fit=crop&q=80",
+        image: "",
         pros: ["Ergonomisch", "Lange batterij", "Precieze sensor"],
         cons: ["Rechtshandig only"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Razer Viper V3 Pro",
+        description: "Ultralichte esports muis met Focus Pro 35K-sensor, 54 gram gewicht en HyperSpeed draadloos.",
+        rating: 4.9,
+        image: "",
+        pros: ["54g ultralicht", "Focus Pro 35K", "Esports-kwaliteit"],
+        cons: ["Duur", "Symmetrisch — minder ergonomisch"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Logitech Lift Vertical",
+        description: "Verticale ergonomische muis die je hand in een natuurlijke handshake-positie houdt. Ideaal voor lange werkdagen.",
+        rating: 4.6,
+        image: "",
+        pros: ["Verticaal design", "Ergonomisch", "Stille klikken"],
+        cons: ["Even wennen", "Niet voor gaming"],
         stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
       },
       {
-        name: "SteelSeries Rival 3 Wireless",
-        description: "Betaalbare draadloze gaming muis",
-        rating: 4.5,
-        image: "https://images.unsplash.com/photo-1623820919239-0d0ff10797a1?auto=format&fit=crop&q=80",
-        pros: ["Goede prijs", "Lichtgewicht", "Multi-platform"],
-        cons: ["Minder premium afwerking"],
+        name: "Logitech G305 Lightspeed",
+        description: "Betaalbare draadloze gaming muis met HERO-sensor en tot 250 uur batterijduur op één AA-batterij.",
+        rating: 4.7,
+        image: "",
+        pros: ["Betaalbaar", "250 uur batterij", "Lightspeed draadloos"],
+        cons: ["Geen oplaadbare batterij"],
         stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "SteelSeries Aerox 3 Wireless",
+        description: "Lichtgewicht draadloze gaming muis van 66 gram met AquaBarrier en TrueMove Air-sensor.",
+        rating: 4.6,
+        image: "",
+        pros: ["66g lichtgewicht", "Waterbestendig", "Multi-platform"],
+        cons: ["Kleiner formaat"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Logitech M720 Triathlon",
+        description: "Veelzijdige multi-device muis die naadloos schakelt tussen drie apparaten via Bluetooth of Unifying-ontvanger.",
+        rating: 4.5,
+        image: "",
+        pros: ["3 apparaten", "Lange batterijduur", "Betaalbaar"],
+        cons: ["Basis sensor", "Geen gaming"],
+        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+      },
+      {
+        name: "Corsair Scimitar Elite RGB",
+        description: "MMO-gaming muis met 16 programmeerbare zijknoppen, 26K DPI-sensor en snel verwisselbare zijpanelen.",
+        rating: 4.5,
+        image: "",
+        pros: ["16 zijknoppen", "26K DPI sensor", "MMO-gaming"],
+        cons: ["Groot formaat", "Bedraad"],
+        stores: [{ name: "Bol.com", link: "#" }]
       }
     ]
   },
@@ -2947,31 +2563,94 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     description: "Smart TV's met OLED en QLED voor film, sport en gaming",
     products: [
       {
-        name: "Samsung S95D 65 inch OLED",
-        description: "QD-OLED TV met heldere beelden en diep zwart",
+        name: "LG OLED evo AI Smart TV",
+        description: "Best overall OLED-tv met AI-beeldverwerking, diep zwart en slimme webOS-functies voor film, sport en gaming.",
         rating: 4.9,
-        image: "https://images.pexels.com/photos/5202957/pexels-photo-5202957.jpeg?auto=format&fit=crop&q=80",
-        pros: ["QD-OLED", "4K 144Hz gaming", "Dolby Atmos"],
-        cons: ["Zeer duur"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        image: "",
+        pros: ["OLED evo paneel", "AI-beeldverwerking", "webOS smart TV"],
+        cons: ["Prijzig"],
+        stores: []
       },
       {
-        name: "LG C4 55 inch OLED evo",
-        description: "Populaire OLED TV met uitstekende gaming features",
+        name: "Sony BRAVIA 8 OLED",
+        description: "Topklasse OLED-tv met uitstekende beeldverwerking en filmkwaliteit.",
+        rating: 4.9,
+        image: "",
+        pros: ["Sony beeldverwerking", "Filmkwaliteit", "OLED paneel"],
+        cons: ["Duur"],
+        stores: []
+      },
+      {
+        name: "LG OLED evo G5",
+        description: "Premium OLED met extreem hoge helderheid en sterke gamingprestaties.",
         rating: 4.8,
-        image: "https://images.pexels.com/photos/5202957/pexels-photo-5202957.jpeg?auto=format&fit=crop&q=80",
-        pros: ["OLED evo panel", "HDMI 2.1", "webOS"],
-        cons: ["Helderheid lager dan QD-OLED"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        image: "",
+        pros: ["Extreem hoge helderheid", "Sterke gaming", "Premium OLED"],
+        cons: ["Zeer duur", "Gallery design niet voor iedereen"],
+        stores: []
       },
       {
-        name: "TCL C855 65 inch Mini LED",
-        description: "Betaalbare Mini LED TV met hoge helderheid",
+        name: "Samsung S90D OLED",
+        description: "Populaire Samsung OLED-tv met QD-OLED-technologie, heldere kleuren en 4K-gaming via HDMI 2.1.",
+        rating: 4.8,
+        image: "",
+        pros: ["QD-OLED", "HDMI 2.1 gaming", "Helder beeld"],
+        cons: ["Geen ingebouwde One Connect box op alle modellen"],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "TCL C805",
+        description: "Mini LED TV met hoge helderheid, Google TV en uitstekende prijs-kwaliteitverhouding voor film en sport.",
         rating: 4.6,
-        image: "https://images.pexels.com/photos/5202957/pexels-photo-5202957.jpeg?auto=format&fit=crop&q=80",
-        pros: ["Hoge helderheid", "Google TV", "Goede prijs"],
+        image: "",
+        pros: ["Mini LED", "Google TV", "Goede prijs"],
         cons: ["Viewing angles minder goed dan OLED"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "LG C5 OLED",
+        description: "Instapmodel in LG's OLED-lijn met evo-technologie, webOS en solide gamingfeatures voor dagelijks gebruik.",
+        rating: 4.7,
+        image: "",
+        pros: ["OLED evo", "webOS", "Gaming via HDMI 2.1"],
+        cons: ["Minder helder dan G-serie"],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Samsung S95D OLED",
+        description: "Topklasse Samsung QD-OLED met maximale helderheid, diep zwart en premium beeld voor thuisbioscoop.",
+        rating: 4.9,
+        image: "",
+        pros: ["QD-OLED topklasse", "Maximale helderheid", "Premium beeld"],
+        cons: ["Zeer duur"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Sony Bravia 7",
+        description: "Sony Mini LED-tv met krachtige beeldverwerker, hoge helderheid en uitstekende upscaling voor elke content.",
+        rating: 4.7,
+        image: "",
+        pros: ["Mini LED", "Sony beeldverwerking", "Hoge helderheid"],
+        cons: ["Prijzig"],
+        stores: [{ name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "Philips OLED809",
+        description: "Philips OLED Ambilight-tv met meeslepende verlichting, Dolby Vision en Ambilight voor unieke kijkervaring.",
+        rating: 4.7,
+        image: "",
+        pros: ["Ambilight", "OLED paneel", "Dolby Vision"],
+        cons: ["Ambilight niet voor iedereen"],
+        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+      },
+      {
+        name: "TCL QM8-serie / C855-serie",
+        description: "TCL's premium Mini LED-lijn met hoge helderheid, Google TV en sterke prijs-kwaliteit voor grote schermen.",
+        rating: 4.6,
+        image: "",
+        pros: ["Mini LED premium", "Google TV", "Goede prijs-kwaliteit"],
+        cons: ["Specificaties variëren per model"],
+        stores: [{ name: "Bol.com", link: "#" }]
       }
     ]
   },

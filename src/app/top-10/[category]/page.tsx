@@ -24,7 +24,7 @@ interface CategoryData {
 const categoryData: CategoryData = {
   telefoons: {
     title: "Telefoons en tablets",
-    description: "Selecteer de categorie waar jij naar op zoek bent!",
+    description: "Selecteer het merk van het product waar jij naar op zoek bent!",
     subcategories: [
       { 
         name: "Apple", 
@@ -76,25 +76,25 @@ const categoryData: CategoryData = {
       { 
         name: "Controllers", 
         slug: "controllers", 
-        image: "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&q=80",
+        image: "/images/subcategories/subcat-controllers.png",
         description: "Controllers" 
       },
       { 
         name: "Koptelefoons", 
         slug: "headsets", 
-        image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80",
+        image: "/images/subcategories/subcat-headsets.png",
         description: "Headsets" 
       },
       { 
         name: "Toetsenborden", 
         slug: "keyboards", 
-        image: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&q=80",
+        image: "/images/subcategories/subcat-keyboards.png",
         description: "Toetsenborden" 
       },
       { 
         name: "Muizen", 
         slug: "mice", 
-        image: "https://images.unsplash.com/photo-1623820919239-0d0ff10797a1?auto=format&fit=crop&q=80",
+        image: "/images/subcategories/subcat-mice.png",
         description: "Muizen" 
       }
     ]
@@ -106,19 +106,19 @@ const categoryData: CategoryData = {
       { 
         name: "Laptops", 
         slug: "laptops", 
-        image: "https://images.unsplash.com/photo-1637761582862-4dbf5c0e2a37?auto=format&fit=crop&q=80",
+        image: "/images/subcategories/subcat-laptops.png",
         description: "Draagbare computers" 
       },
       { 
         name: "Desktop PC's", 
         slug: "desktops", 
-        image: "https://media.s-bol.com/7rPEr2n9op6A/xGvV1yB/159x210.jpg",
+        image: "/images/subcategories/subcat-desktops.png",
         description: "Vaste computers" 
       },
       { 
         name: "Componenten", 
         slug: "components", 
-        image: "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&q=80",
+        image: "/images/subcategories/subcat-components.png",
         description: "GPU's, CPU's en meer" 
       }
     ]
@@ -130,32 +130,32 @@ const categoryData: CategoryData = {
       { 
         name: "TV's", 
         slug: "tvs", 
-        image: "https://images.pexels.com/photos/5202957/pexels-photo-5202957.jpeg",
+        image: "/images/subcategories/subcat-tvs.png",
         description: "Smart TV's en televisies" 
       },
       { 
         name: "Gaming monitoren", 
         slug: "gaming_monitors", 
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&q=80",
+        image: "/images/subcategories/subcat-gaming-monitors.png",
         description: "Hoge refresh rate" 
       },
       { 
-        name: "Professionele monitoren", 
-        slug: "professional_monitors", 
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&q=80",
-        description: "Voor werk en design" 
-      },
-      { 
-        name: "Budget monitoren", 
-        slug: "budget_monitors", 
-        image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&q=80",
-        description: "Betaalbare keuzes" 
+        name: "Office monitoren", 
+        slug: "office_monitors", 
+        image: "/images/subcategories/subcat-office-monitors.png",
+        description: "Voor werk en kantoor" 
       }
     ]
   }
 };
 
 const brandSlugs = new Set(['apple', 'samsung', 'oneplus', 'oppo', 'google', 'ipad']);
+const accessorySlugs = new Set(['controllers', 'headsets', 'keyboards', 'mice']);
+const productImageSlugs = new Set([
+  'controllers', 'headsets', 'keyboards', 'mice',
+  'tvs', 'gaming_monitors', 'office_monitors',
+  'laptops', 'desktops', 'components',
+]);
 
 export default function CategoryPage({ params }: { params: { category: string } }) {
   const data = categoryData[params.category];
@@ -216,6 +216,7 @@ export default function CategoryPage({ params }: { params: { category: string } 
           <div className="mx-auto max-w-[1400px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 justify-items-center">
             {data.subcategories.map((subcategory) => {
               const isBrandCard = brandSlugs.has(subcategory.slug);
+              const isAccessoryCard = accessorySlugs.has(subcategory.slug);
 
               return (
                 <Link
@@ -228,7 +229,7 @@ export default function CategoryPage({ params }: { params: { category: string } 
                       <img
                         src={subcategory.image}
                         alt={subcategory.name}
-                        className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        className={`h-full w-full transition-transform duration-500 group-hover:scale-105 ${productImageSlugs.has(subcategory.slug) ? 'object-contain p-6' : 'object-cover'}`}
                       />
                     ) : (
                       <div className="h-full w-full bg-[#1a1f2e] flex items-center justify-center text-gray-500 text-sm">
@@ -259,7 +260,9 @@ export default function CategoryPage({ params }: { params: { category: string } 
                     ) : (
                       <>
                         <h2 className="text-xl font-bold text-white mb-1 leading-tight">{subcategory.name}</h2>
-                        <p className="text-sm text-gray-200">{subcategory.description}</p>
+                        {!isAccessoryCard && (
+                          <p className="text-sm text-gray-200">{subcategory.description}</p>
+                        )}
                       </>
                     )}
                   </div>
