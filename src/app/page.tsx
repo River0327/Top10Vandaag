@@ -49,10 +49,10 @@ export default function Home() {
       {/* Hero Section with enhanced effects */}
       <section className="relative pt-20 pb-12 md:pt-24 md:pb-20 overflow-hidden">
         {/* Professional dark background with subtle patterns */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-[#0a0a0a] to-black"></div>
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black via-[#0a0a0a] to-black"></div>
         
         {/* Subtle grid pattern */}
-        <div className="absolute inset-0" style={{ 
+        <div className="pointer-events-none absolute inset-0" style={{ 
           backgroundImage: `
             linear-gradient(to right, rgba(255,255,255,0.025) 1px, transparent 1px),
             linear-gradient(to bottom, rgba(255,255,255,0.025) 1px, transparent 1px)
@@ -61,7 +61,7 @@ export default function Home() {
         }}></div>
         
         {/* Diagonal lines pattern */}
-        <div className="absolute inset-0" style={{
+        <div className="pointer-events-none absolute inset-0" style={{
           backgroundImage: `
             repeating-linear-gradient(
               45deg,
@@ -75,11 +75,11 @@ export default function Home() {
         }}></div>
 
         {/* Subtle radial glow */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.03),transparent_800px)]"></div>
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.03),transparent_800px)]"></div>
         
         {/* Glowing orbs */}
-        <div className="absolute top-0 left-1/4 w-64 h-64 bg-blue-500/30 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-purple-500/30 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="pointer-events-none absolute top-0 left-1/4 w-64 h-64 bg-blue-500/30 rounded-full blur-3xl animate-pulse"></div>
+        <div className="pointer-events-none absolute bottom-0 right-1/4 w-64 h-64 bg-purple-500/30 rounded-full blur-3xl animate-pulse delay-1000"></div>
         
         {/* Content */}
         <div className={`container mx-auto px-4 relative z-10 transition-all duration-1000 transform ${
@@ -95,14 +95,14 @@ export default function Home() {
       </section>
 
       {/* Categories Grid with enhanced cards */}
-      <section className="py-10 md:py-16 relative">
-        <div className="container mx-auto px-4">
+      <section className="relative py-10 md:py-16">
+        <div className="container relative z-10 mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             {categories.map((category, index) => (
               <a
                 key={category.id}
                 href={category.link}
-                className={`group relative overflow-hidden rounded-2xl glass-effect glow hover:scale-105 transition-all duration-500 transform ${
+                className={`group relative block overflow-hidden rounded-2xl glass-effect glow hover:scale-105 transition-all duration-500 transform touch-manipulation ${
                   isLoaded 
                     ? 'translate-y-0 opacity-100' 
                     : 'translate-y-20 opacity-0'
@@ -127,8 +127,8 @@ export default function Home() {
         </div>
         
         {/* Background Decorative Elements */}
-        <div className="absolute top-1/4 left-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+        <div className="pointer-events-none absolute top-1/4 left-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl"></div>
+        <div className="pointer-events-none absolute bottom-1/4 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
       </section>
 
       <section className="md:hidden py-8 border-t border-white/10">

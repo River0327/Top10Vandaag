@@ -2182,91 +2182,103 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Microsoft Xbox Wireless Controller",
         description: "De standaard Xbox-controller met Bluetooth en Share-knop. Werkt naadloos op Xbox Series X|S, Xbox One en PC.",
         rating: 4.8,
-        image: "",
+        image: "/images/controllers/01-xbox-wireless.png",
         pros: ["Bluetooth voor PC", "Ergonomisch design", "Breed beschikbaar"],
         cons: ["Geen oplaadbare batterij standaard"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F870176%2Fmicrosoft-xbox-series-x-en-s-wireless-controller-robot-wit.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fxbox-draadloze-controller-carbon-zwart-series-x-s-xbox-one%2F9300000009936880%2F&name=Xbox%20Wireless%20Controller%20Carbon%20Zwart%20-%20Series%20X" }
+        ]
       },
       {
         name: "DualSense Wireless Controller Sony",
         description: "Officiële PlayStation 5-controller met haptische feedback en adaptive triggers voor meeslepend gamen.",
         rating: 4.8,
-        image: "",
+        image: "/images/controllers/02-dualsense.png",
         pros: ["Haptische feedback", "Adaptive triggers", "Ingebouwde microfoon"],
         cons: ["Batterijduur beperkt"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F883860%2Fsony-playstation-5-dualsense-draadloze-controller-cosmic-red.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsony-dualsense-v2%2F9300000039086009%2F&name=Sony%20Playstation%20PS5%20DualSense%20controller%20-%20Midnight%20Black%20-%20Draadloos" }
+        ]
       },
       {
         name: "Nintendo Switch Pro Controller",
         description: "Premium controller voor de Nintendo Switch met HD-rumble, motion controls en lange batterijduur.",
         rating: 4.7,
-        image: "",
+        image: "/images/controllers/03-switch-pro.png",
         pros: ["HD-rumble", "40 uur batterij", "Comfortabel voor lange sessies"],
         cons: ["Geen koptelefoonaansluiting"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F762434%2Fnintendo-switch-pro-controller.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fnintendo-pro-controller-zwart-nintendo-switch%2F9200000073684267%2F&name=Nintendo%20Switch%20Pro%20Controller%20-%20Zwart%20-%20Draadloos%20-%2040%20uur%20batterijduur" }
+        ]
       },
       {
         name: "Turtle Beach Stealth Pivot Controller",
         description: "Modulaire Xbox-controller met draaibare handgrepen en aanpasbare knoppen voor extra comfort.",
         rating: 4.5,
-        image: "",
+        image: "/images/controllers/04-stealth-pivot.png",
         pros: ["Draaibare handgrepen", "Aanpasbare knoppen", "Xbox en PC"],
         cons: ["Groter formaat"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F958817%2Fturtle-beach-stealth-pivot-controller.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fturtle-beach-stealth-pivot-draadloze-controller-xbox-series-x-xbox-one-windows%2F9300000197111175%2F&name=Turtle%20Beach%20Stealth%20Pivot%20-%20Draadloze%20controller%20-%20Xbox%20Series%20X%2C%20Xbox%20One%2C%20Windows" }
+        ]
       },
       {
         name: "Turtle Beach Rematch Core Xbox Controller",
         description: "Betaalbare wired Xbox-controller met remappable knoppen en robuuste bouwkwaliteit.",
         rating: 4.4,
-        image: "",
+        image: "/images/controllers/05-rematch-core.png",
         pros: ["Remappable knoppen", "Betaalbaar", "Betrouwbaar wired"],
         cons: ["Geen draadloos"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fturtle-beach-rematch-core-controller-pc-xbox-series-x-s-xbox-one-zwart-groen%2F9300000230797755%2F&name=Turtle%20Beach%20Rematch%20Core%20-%20Controller%20-%20PC%2C%20Xbox%20Series%20X" }]
       },
       {
         name: "Xbox Elite Wireless Controller Series 2",
         description: "Premium Xbox-controller met instelbare stickspanning, extra paddles en oplaadbare batterij.",
         rating: 4.7,
-        image: "",
+        image: "/images/controllers/06-elite-series-2.png",
         pros: ["Instelbare sticks", "Extra paddles", "Oplaadbare batterij"],
         cons: ["Hoge prijs"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fxbox-elite-series-2-draadloze-controller-zwart-xbox-series-x-s-xbox-one-pc%2F9200000113983766%2F&name=Xbox%20Elite%20Series%202%20Controller%20-%20Draadloos%20-%20Zwart%20-%20Xbox%20Series%20X%2FS%2C%20Xbox%20One%20%26%20PC" }]
       },
       {
         name: "PowerA Enhanced Xbox Controller",
         description: "Officieel gelicenseerde Xbox-controller met extra programmabare knoppen en mappable profielen.",
         rating: 4.3,
-        image: "",
+        image: "/images/controllers/07-powera-enhanced.png",
         pros: ["Programmabare knoppen", "Officieel gelicenseerd", "Goede prijs"],
         cons: ["AA-batterijen nodig"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fpowera-enhanced-controller-xbox-series-x-s-soldier%2F9300000018942625%2F&name=PowerA%20Enhanced%20Controller%20Xbox%20Series%20X%20S%20-%20Soldier" }]
       },
       {
         name: "PDP Afterglow Switch Controller",
         description: "Officieel gelicenseerde Switch-controller met RGB-verlichting en transparante behuizing.",
         rating: 4.2,
-        image: "",
+        image: "/images/controllers/08-pdp-afterglow.png",
         pros: ["RGB-verlichting", "Officieel gelicenseerd", "Betaalbaar"],
         cons: ["Geen HD-rumble"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fpdp-afterglow-wave-nintendo-switch-controller-usb-analoog-digitaal-wit%2F9300000230534100%2F&name=PDP%20AfterGlow%20Wave%20-%20Nintendo%20Switch%20Controller%20-%20USB%20Analoog%2Fdigitaal%20-%20Wit" }]
       },
       {
         name: "Trust GXT gaming controller",
         description: "Veelzijdige wired gaming-controller compatibel met PC, PlayStation en Nintendo Switch.",
         rating: 4.1,
-        image: "",
+        image: "/images/controllers/09-trust-gxt.png",
         pros: ["Multi-platform", "Betaalbaar", "Plug-and-play"],
         cons: ["Geen draadloos"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Ftrust-gxt-542-muta-draadloze-controller-geschikt-voor-nintendo-switch-pc-zwart%2F9300000133590435%2F&name=Trust%20GXT%20542%20Muta%20-%20Draadloze%20controller%20voor%20Nintendo%20Switch%20%26%20PC%20-%20GXT542" }]
       },
       {
         name: "Nacon Revolution 5 Pro",
         description: "Premium PS5/PC-controller met Hall-effect sticks, draadloos en bedraad, plus aanpasbare gewichten.",
         rating: 4.6,
-        image: "",
+        image: "/images/controllers/10-nacon-revolution.png",
         pros: ["Hall-effect sticks", "Draadloos + bedraad", "Aanpasbare gewichten"],
         cons: ["Duur"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fnacon-officially-licensed-playstation-revolution-5-pro-controller%2F9300000162046256%2F&name=Nacon%20Revolution%205%20Pro%20Controller%20-%20PS5%2C%20PS4%20%26%20PC%20-%20Zwart%20-%20Hall-Effect" }]
       }
     ]
   },
@@ -2278,91 +2290,121 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Sony WH-1000XM5 Wireless Headphones",
         description: "Premium noise-cancelling koptelefoon met brancheleidende ANC, heldere call-kwaliteit en tot 30 uur batterij.",
         rating: 4.9,
-        image: "",
+        image: "/images/headsets/01-sony-xm5.png",
         pros: ["Beste noise cancelling", "Lichtgewicht", "Multipoint Bluetooth"],
         cons: ["Duur"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F905648%2Fsony-wh-1000xm5-zwart.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsony-wh-1000xm5-draadloze-koptelefoon-met-noise-cancelling-zwart%2F9300000096972714%2F&name=Sony%20WH-1000XM5%20-%20Draadloze%20Koptelefoon%20met%20Noise%20Cancelling%20-%20Zwart" }
+        ]
       },
       {
         name: "Sennheiser Momentum 4 Wireless Headphones",
         description: "Luxe draadloze koptelefoon met rijke audiokwaliteit, adaptieve ANC en maar liefst 60 uur batterijduur.",
         rating: 4.8,
-        image: "",
+        image: "/images/headsets/02-sennheiser-momentum4.png",
         pros: ["60 uur batterij", "Uitstekende audiokwaliteit", "Adaptieve ANC"],
         cons: ["Groot formaat"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F911912%2Fsennheiser-momentum-4-wireless-zwart.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsennheiser-momentum-4-draadloze-hoofdtelefoon-zwart%2F9300000118315140%2F&name=Sennheiser%20MOMENTUM%204%20Wireless%20-%20Draadloze%20over-ear%20koptelefoon%20met%20Noise%20Cancelling%20-..." }
+        ]
       },
       {
         name: "Bose QuietComfort Ultra",
         description: "Topklasse Bose-koptelefoon met immersive audio, krachtige noise cancelling en premium comfort.",
         rating: 4.8,
-        image: "",
+        image: "/images/headsets/03-bose-qc-ultra.png",
         pros: ["Immersive audio", "Krachtige ANC", "Zachte oorkussens"],
         cons: ["Hoge prijs"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F968677%2Fbose-quietcomfort-ultra-headphones-2e-gen-zwart.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fbose-quietcomfort-ultra-headphones-draadloze-over-ear-koptelefoon-active-noise-cancelling-zwart%2F9300000242085612%2F&name=Bose%20QuietComfort%20Ultra%20Headphones%20(2nd%20Gen)%20%E2%80%93%20Draadloze%20over-ear%20koptelefoon%20%E2%80%93%20Active..." }
+        ]
       },
       {
         name: "JBL Tune 770NC",
         description: "Betaalbare over-ear koptelefoon met actieve noise cancelling en JBL Pure Bass-geluid.",
         rating: 4.5,
-        image: "",
+        image: "/images/headsets/04-jbl-tune-770nc.png",
         pros: ["Actieve noise cancelling", "JBL Pure Bass", "Goede prijs"],
         cons: ["Minder premium afwerking"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F930309%2Fjbl-tune-770nc-zwart.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fjbl-tune-770nc-draadloze-over-ear-koptelefoon-noise-cancelling-zwart%2F9300000149873801%2F&name=JBL%20Tune%20770NC%20-%20Draadloze%20over-ear%20koptelefoon%20-%20Noise%20Cancelling-%20Zwart" }
+        ]
       },
       {
         name: "Sony WH-CH720N",
         description: "Instapmodel van Sony met noise cancelling, lichtgewicht design en lange batterijduur voor dagelijks gebruik.",
         rating: 4.4,
-        image: "",
+        image: "/images/headsets/05-sony-ch720n.png",
         pros: ["Lichtgewicht", "Noise cancelling", "Betaalbaar"],
         cons: ["Minder premium geluid dan XM5"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F923501%2Fsony-wh-ch720n-zwart.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsony-wh-ch720n-draadloze-over-ear-koptelefoon-met-noise-cancelling-zwart%2F9300000139579321%2F&name=Sony%20WH-CH720N%20-%20Draadloze%20Koptelefoon%20met%20Noise%20Cancelling%20-%20Zwart" }
+        ]
       },
       {
         name: "JBL Live 770NC",
         description: "Draadloze over-ear koptelefoon met adaptieve noise cancelling en JBL Signature Sound.",
         rating: 4.5,
-        image: "",
+        image: "/images/headsets/06-jbl-live-770nc.png",
         pros: ["Adaptieve ANC", "JBL Signature Sound", "Comfortabel"],
         cons: ["App vereist voor instellingen"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F934400%2Fjbl-live-770nc-zwart.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fjbl-live-770nc-draadloze-over-ear-koptelefoon-met-noise-cancelling-zwart%2F9300000151669587%2F&name=JBL%20Live%20770NC%20-%20Draadloze%20Noise%20Cancelling%20Koptelefoon%20-%20Bluetooth%20-%20Over-ear%20-%2065..." }
+        ]
       },
       {
         name: "Apple AirPods Max",
         description: "Premium Apple-koptelefoon met computational audio, spatial audio en naadloze integratie met Apple-apparaten.",
         rating: 4.7,
-        image: "",
+        image: "/images/headsets/07-airpods-max.png",
         pros: ["Spatial audio", "Apple-ecosysteem", "Premium bouwkwaliteit"],
         cons: ["Zwaar", "Duur"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F977430%2Fapple-airpods-max-2-middernacht.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-airpods-max-draadloze-bluetooth-koptelefoon-usb-c-zwart%2F9300000189466513%2F&name=Apple%20AirPods%20Max%20-%20USB-C%20-%20Middernacht" }
+        ]
       },
       {
         name: "SteelSeries Arctis Nova 7",
         description: "Draadloze gaming headset met 2.4GHz + Bluetooth, lange batterijduur en heldere microfoon.",
         rating: 4.8,
-        image: "",
+        image: "/images/headsets/08-arctis-nova-7.png",
         pros: ["2.4GHz + Bluetooth", "30 uur batterij", "Comfortabel"],
         cons: ["Prijzig"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F968284%2Fsteelseries-arctis-nova-7-gen-2-zwart.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsteelseries-arctis-nova-7-gen-2-draadloze-gamingheadset-zwart-50-uur-accuduur-2-4-ghz-bluetooth-pc-ps5-ps4-switch-mobiel%2F9300000242454183%2F&name=SteelSeries%20Arctis%20Nova%207%20Gen%202%20-%20Draadloze%20Gaming%20Headset%20-%20PC%20-%20Zwart" }
+        ]
       },
       {
         name: "HyperX Cloud III Wireless",
         description: "Lichtgewicht draadloze gaming headset met DTS Headphone:X spatial audio en verwijderbare microfoon.",
         rating: 4.7,
-        image: "",
+        image: "/images/headsets/09-hyperx-cloud-iii.png",
         pros: ["Lichtgewicht", "Goede microfoon", "Multi-platform"],
         cons: ["Geen actieve noise cancelling"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F965458%2Fhyperx-cloud-iii-s-wireless-rood-zwart.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fhyperx-cloud-iii-s-wireless-gaming-headset-draadloos-bluetooth-2-4ghz-spatial-audio-120uur-batterij-pc-ps5-switch2-mobiel-steamdeck-zwart-rood%2F9300000196268345%2F&name=HyperX%20Cloud%20III%20S%20Wireless%20-%20Gaming%20Headset%20-%20Draadloos%20-%20Bluetooth%20%26%202.4GHz%20-..." }
+        ]
       },
       {
         name: "Logitech G Pro X 2 Lightspeed",
         description: "Esports gaming headset met PRO-G GRAPHENE-drivers, Lightspeed draadloos en draaibare microfoon.",
         rating: 4.8,
-        image: "",
+        image: "/images/headsets/10-logitech-gpro-x2.png",
         pros: ["PRO-G GRAPHENE drivers", "Lightspeed draadloos", "Esports-kwaliteit"],
         cons: ["Duur"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F928437%2Flogitech-g-pro-x-2-lightspeed-wireless-gaming-headset-zwart.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-g-pro-x-2-lightspeed-draadloze-gaming-headset-zwart%2F9300000151053944%2F&name=Logitech%20G%20PRO%20X%202%20Lightspeed%20-%20Draadloze%20Gaming%20Headset%20-%20Zwart%20-%20Wireless" }
+        ]
       }
     ]
   },
@@ -2374,91 +2416,109 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Logitech MX Mechanical Wireless Keyboard",
         description: "Premium draadloos mechanisch toetsenbord met tactile switches, multi-device Bluetooth en backlit toetsen voor productief werken.",
         rating: 4.8,
-        image: "",
+        image: "/images/keyboards/01-mx-mechanical.png",
         pros: ["Mechanische switches", "Multi-device", "Draadloos"],
         cons: ["Prijzig", "Geen gaming RGB"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F908468%2Flogitech-mx-mechanical-draadloos-toetsenbord-metaal.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-mx-mechanical-toetsenbord-rf-draadloos-bluetooth-qwertz-duits-grafiet-grijs%2F9300000104777042%2F&name=LOGITECH%20MX%20MECHANICAL%20WIRELESS%20ILLUMINATED%20PERFORMANCE%20KEYBOARD%20AZERTY%20FR" }
+        ]
       },
       {
         name: "Logitech G915 X LIGHTSPEED Wireless Gaming Keyboard",
         description: "Ultradun draadloos gaming toetsenbord met low-profile GL-switches, LIGHTSPEED-verbinding en per-key RGB-verlichting.",
         rating: 4.8,
-        image: "",
+        image: "/images/keyboards/02-g915-x.png",
         pros: ["Ultradun design", "LIGHTSPEED draadloos", "Per-key RGB"],
         cons: ["Duur", "Low-profile switches"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F953305%2Flogitech-g915-x-lightspeed-wireless-gaming-toetsenbord-zwart-qwerty.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-g915-x-lightspeed-draadloos-gaming-toetsenbord-tactile-qwerty-zwart%2F9300000185453659%2F&name=Logitech%20G%20G915%20X%20Lightspeed%20Wireless%20Gaming%20Toetsenbord%20-%20Qwerty%20-%20Zwart" }
+        ]
       },
       {
         name: "Logitech MX Mechanical Mini Keyboard",
         description: "Compact draadloos mechanisch toetsenbord zonder numpad. Ideaal voor kleinere bureaus met dezelfde MX-kwaliteit.",
         rating: 4.7,
-        image: "",
+        image: "/images/keyboards/03-mx-mechanical-mini.png",
         pros: ["Compact formaat", "Mechanisch", "Multi-device"],
         cons: ["Geen numpad", "Prijzig"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F915980%2Flogitech-mx-mechanical-mini-voor-mac-space-grey.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-mx-mechanical-mini-toetsenbord-qwerty-iso-grijs%2F9300000096887783%2F&name=Logitech%20MX%20Mechanical%20Mini%20-%20QWERTY%20ISO%20-%20Draadloos%20toetsenbord%20-%20Grijs" }
+        ]
       },
       {
         name: "Logitech G Pro X TKL",
         description: "Esports toetsenbord in tenkeyless formaat met hot-swappable GX-switches en compact design voor competitief gamen.",
         rating: 4.8,
-        image: "",
+        image: "/images/keyboards/04-g-pro-x-tkl.png",
         pros: ["Hot-swappable", "Compact TKL", "GX switches"],
         cons: ["Geen numpad", "Bedraad"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F953347%2Flogitech-g915-x-lightspeed-tkl-wireless-gaming-toetsenbord-zwart-qwerty.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-g-pro-x-tkl-lightspeed-draadloos-gaming-toetsenbord-tactile-qwerty-zwart%2F9300000160446071%2F&name=Logitech%20G%20Pro%20X%20TKL%20Lightspeed%20Toetsenbord%20-%20Draadloos%20Gaming%20-%20Tactile%20-%20Qwerty" }
+        ]
       },
       {
         name: "Logitech MX Keys S",
         description: "Slim draadloos toetsenbord met spherically-dished toetsen, backlit keys en naadloze multi-device switching.",
         rating: 4.7,
-        image: "",
+        image: "/images/keyboards/05-mx-keys-s.png",
         pros: ["Stille toetsen", "Backlit", "Multi-device"],
         cons: ["Geen mechanisch", "Niet voor gaming"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F930939%2Flogitech-mx-keys-s-grafiet-qwerty.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-mx-keys-s-draadloos-toetsenbord-qwerty-us-international-graphite%2F9300000151546985%2F&name=Logitech%20MX%20Keys%20S%20-%20Draadloos%20Toetsenbord%20-%20Qwerty%20-%20Grafiet" }
+        ]
       },
       {
         name: "SteelSeries Apex Pro TKL",
         description: "Premium gaming toetsenbord met instelbare OmniPoint 2.0-switches en OLED Smart Display in compact TKL-formaat.",
         rating: 4.8,
-        image: "",
+        image: "/images/keyboards/06-apex-pro-tkl.png",
         pros: ["Instelbare switches", "OLED display", "Compact TKL"],
         cons: ["Duur"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F954992%2Fsteelseries-apex-pro-tkl-gen-3-gaming-toetsenbord-qwerty.html" },
+          { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsteelseries-apex-pro-tkl-gen-3-mechanisch-gaming-keyboard-us-layout-rapid-tap%2F9300000191126533%2F&name=Steelseries%20Apex%20Pro%20TKL%20Gen%203%20-%20Mechanisch%20Gaming%20Keyboard%20-%20US%20Layout" }
+        ]
       },
       {
-        name: "Keychron K8 Pro",
-        description: "Hot-swappable mechanisch toetsenbord in TKL-formaat met QMK/VIA-ondersteuning en Bluetooth + bedraad.",
+        name: "Keychron B1 Pro Ultra-Slim",
+        description: "Ultradun draadloos toetsenbord met laag profiel, multi-device Bluetooth en stille toetsen — ideaal voor een opgeruimd bureau en productief werken.",
         rating: 4.6,
-        image: "",
-        pros: ["Hot-swap", "QMK/VIA", "Bluetooth + kabel"],
-        cons: ["Geen numpad"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        image: "/images/keyboards/07-keychron-b1-pro.png",
+        pros: ["Ultra-slim design", "Draadloos", "Multi-device Bluetooth"],
+        cons: ["Geen mechanische switches", "Geen numpad"],
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fkeychron-b1-pro-ultra-slim-draadloze-toetsenbord-wit%2F9300000184565230%2F&name=Keychron%20B1%20Pro%20Ultra-Slim%20draadloos%20toetsenbord%20-%202.4GHz%2C%20Bluetooth%2C%20bekabeld" }]
       },
       {
         name: "Corsair K70 RGB Pro",
         description: "Full-size gaming toetsenbord met Cherry MX-switches, per-key RGB en aluminium frame voor lange gaming sessies.",
         rating: 4.6,
-        image: "",
+        image: "/images/keyboards/08-corsair-k70.png",
         pros: ["Cherry MX switches", "Aluminium frame", "Per-key RGB"],
         cons: ["Groot formaat", "Bedraad"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fcorsair-k70-rgb-core-mechanisch-gaming-toetsenbord-qwerty-zwart%2F9300000162693627%2F&name=Corsair%20K70%20RGB%20Core%20Gaming%20Toetsenbord%20-%20Mechanisch%20-%20QWERTY%20-%20Zwart" }]
       },
       {
         name: "Ducky One 3 Gaming Keyboard",
         description: "Premium mechanisch toetsenbord met hot-swap PCB, PBT keycaps en Ducky's befaamde bouwkwaliteit.",
         rating: 4.7,
-        image: "",
+        image: "/images/keyboards/09-ducky-one-3.png",
         pros: ["Hot-swap PCB", "PBT keycaps", "Premium bouw"],
         cons: ["Geen draadloos"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fducky-one-3-cosmic-hs-mx-red-rgb%2F9300000156023426%2F&name=Ducky%20One%203%20Cosmic%20HS%20MX%20Red%20RGB" }]
       },
       {
         name: "Ducky One 3 Classic White SF Gaming Keyboard",
         description: "Compact 65% mechanisch toetsenbord in classic white met Cherry MX-switches en hot-swap ondersteuning.",
         rating: 4.7,
-        image: "",
+        image: "/images/keyboards/10-ducky-one-3-sf.png",
         pros: ["Compact 65%", "Cherry MX", "Hot-swap"],
         cons: ["Geen numpad of F-rij", "Bedraad"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fducky-one-3-classic-sf-usb-mechanische-keyswitch-rgb-led-wit%2F9300000146131604%2F&name=Ducky%20One%203%20Classic%20SF%20toetsenbord%20USB%20Amerikaans%20Engels%20Wit" }]
       }
     ]
   },
@@ -2470,91 +2530,91 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Logitech MX Master 3S Mouse",
         description: "De ultieme productiviteitsmuis met MagSpeed-scrollwiel, 8K DPI-lasersensor en stille klikken. Verbindt met tot 3 apparaten via Bluetooth of USB-ontvanger.",
         rating: 4.9,
-        image: "",
+        image: "/images/mice/01-mx-master-3s.png",
         pros: ["MagSpeed scrollwiel", "Multi-device", "Ergonomisch design"],
         cons: ["Niet geschikt voor gaming", "Prijzig"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-mx-master-3s-muis-zwart%2F9300000096887779%2F&name=Logitech%20MX%20Master%203S%20-%20Draadloze%20Muis%20-%20Rechtshandig%20-%20Graphite%20-%208K%20DPI" }]
       },
       {
-        name: "Logitech G502 X Mouse",
-        description: "Iconische gaming muis vernieuwd met LIGHTFORCE-schakelaars, HERO 25K-sensor en aanpasbaar gewicht.",
-        rating: 4.7,
-        image: "",
-        pros: ["LIGHTFORCE schakelaars", "HERO 25K sensor", "Aanpasbaar gewicht"],
-        cons: ["Bedraad"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        name: "Logitech G502 X Plus",
+        description: "Draadloze versie van de iconische G502 met LIGHTFORCE-schakelaars, HERO 25K-sensor, LIGHTSPEED-verbinding en RGB-verlichting.",
+        rating: 4.8,
+        image: "/images/mice/02-g502-x-plus.png",
+        pros: ["LIGHTSPEED draadloos", "LIGHTFORCE schakelaars", "HERO 25K sensor", "RGB-verlichting"],
+        cons: ["Prijziger dan bedrade G502 X"],
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-g502-x-plus-draadloze-gamingmuis-rechtshandig-optisch-rgb-zwart%2F9300000121723023%2F&name=Logitech%20G%20G502%20X%20Plus%20-%20Draadloze%20Gaming%20Muis%20-%20LIGHTSPEED%20-%20RGB%20-%20Zwart" }]
       },
       {
         name: "Logitech G Pro X Superlight 2",
         description: "Ultralichte draadloze esports muis van slechts 60 gram met HERO 2-sensor en Lightspeed-verbinding.",
         rating: 4.9,
-        image: "",
+        image: "/images/mice/03-g-pro-x-superlight-2.png",
         pros: ["60g gewicht", "HERO 2 sensor", "Lightspeed"],
         cons: ["Duur"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-g-pro-x-superlight-2-draadloze-gaming-muis-lightspeed-wit%2F9300000160446074%2F&name=Logitech%20G%20Pro%20X%20Superlight%202%20-%20Draadloze%20Gaming%20Muis%20-%2060%20gram%20-%20Wit" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F936061%2Flogitech-g-pro-x-superlight-2-lightspeed-draadloze-gaming-muis-zwart.html" }]
       },
       {
         name: "Razer DeathAdder V3 Pro",
         description: "Ergonomische draadloze gaming muis met Focus Pro 30K-sensor en tot 90 uur batterijduur.",
         rating: 4.8,
-        image: "",
+        image: "/images/mice/04-deathadder-v3-pro.png",
         pros: ["Ergonomisch", "Lange batterij", "Precieze sensor"],
         cons: ["Rechtshandig only"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Frazer-deathadder-v3-pro-gaming-muis-zwart%2F9300000120836646%2F&name=Razer%20DeathAdder%20V3%20Pro%20-%20Draadloze%20Gaming%20Muis%20-%2030.000%20DPI%20-%20Ultra%20Licht" }]
       },
       {
         name: "Razer Viper V3 Pro",
         description: "Ultralichte esports muis met Focus Pro 35K-sensor, 54 gram gewicht en HyperSpeed draadloos.",
         rating: 4.9,
-        image: "",
+        image: "/images/mice/05-viper-v3-pro.png",
         pros: ["54g ultralicht", "Focus Pro 35K", "Esports-kwaliteit"],
         cons: ["Duur", "Symmetrisch — minder ergonomisch"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Frazer-viper-v3-pro-draadloze-gaming-muis-optische-switches-35000-dpi-wit%2F9300000178188178%2F&name=Razer%20Viper%20V3%20Pro%20-%20Draadloze%20Gaming%20Muis%20-%2035.000%20DPI%20-%20Ultralicht%20-%20Wit" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F953160%2Frazer-viper-v3-pro-wireless-gaming-muis-zwart.html" }]
       },
       {
         name: "Logitech Lift Vertical",
         description: "Verticale ergonomische muis die je hand in een natuurlijke handshake-positie houdt. Ideaal voor lange werkdagen.",
         rating: 4.6,
-        image: "",
+        image: "/images/mice/06-lift-vertical.png",
         pros: ["Verticaal design", "Ergonomisch", "Stille klikken"],
         cons: ["Even wennen", "Niet voor gaming"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-lift-verticale-ergonomische-muis-rechtshandig-donkergrijs%2F9300000082834969%2F&name=Logitech%20Lift%20Verticale%20ergonomische%20muis%20-%20Rechtshandig%20-%20Donkergrijs" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F905909%2Flogitech-lift-verticale-ergonomische-muis-zwart.html" }]
       },
       {
         name: "Logitech G305 Lightspeed",
         description: "Betaalbare draadloze gaming muis met HERO-sensor en tot 250 uur batterijduur op één AA-batterij.",
         rating: 4.7,
-        image: "",
+        image: "/images/mice/07-g305-lightspeed.png",
         pros: ["Betaalbaar", "250 uur batterij", "Lightspeed draadloos"],
         cons: ["Geen oplaadbare batterij"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fwireless-muis-910-005282%2F9200000093446803%2F&name=Logitech%20G305%20Lightspeed%20draadloze%20muis%20-%20Gaming%20-%20Zwart%20-%20Rechtshandig" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F813678%2Flogitech-g305-lightspeed-draadloze-gaming-muis.html" }]
       },
       {
         name: "SteelSeries Aerox 3 Wireless",
         description: "Lichtgewicht draadloze gaming muis van 66 gram met AquaBarrier en TrueMove Air-sensor.",
         rating: 4.6,
-        image: "",
+        image: "/images/mice/08-aerox-3-wireless.png",
         pros: ["66g lichtgewicht", "Waterbestendig", "Multi-platform"],
         cons: ["Kleiner formaat"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsteelseries-aerox-3-2022-edition-draadloze-gaming-muis-zwart%2F9300000053677967%2F&name=Steelseries%20Aerox%203%20Wireless%20Gaming%20Muis%20-%2068g%20-%20200%20uur%20accuduur%20-%20Zwart" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F893852%2Fsteelseries-aerox-3-wireless-onyx.html" }]
       },
       {
         name: "Logitech M720 Triathlon",
         description: "Veelzijdige multi-device muis die naadloos schakelt tussen drie apparaten via Bluetooth of Unifying-ontvanger.",
         rating: 4.5,
-        image: "",
+        image: "/images/mice/09-m720-triathlon.png",
         pros: ["3 apparaten", "Lange batterijduur", "Betaalbaar"],
         cons: ["Basis sensor", "Geen gaming"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-m720-draadloze-muis-zwart%2F9200000063622433%2F&name=Logitech%20M720%20Triathlon%20Muis%20-%20Draadloos%20-%20Bluetooth%20-%20Zwart" }]
       },
       {
         name: "Corsair Scimitar Elite RGB",
         description: "MMO-gaming muis met 16 programmeerbare zijknoppen, 26K DPI-sensor en snel verwisselbare zijpanelen.",
         rating: 4.5,
-        image: "",
+        image: "/images/mice/10-scimitar-elite.png",
         pros: ["16 zijknoppen", "26K DPI sensor", "MMO-gaming"],
         cons: ["Groot formaat", "Bedraad"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fcorsair-scimitar-rgb-elite-gaming-muis-18000-dpi-zwart%2F9200000128199372%2F&name=Corsair%20Scimitar%20RGB%20Elite%20Gaming%20Mouse%20-%2018000%20DPI%20-%2017%20programmeerbare%20knoppen" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F856099%2Fcorsair-scimitar-elite-rgb-gaming-muis.html" }]
       }
     ]
   },

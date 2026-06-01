@@ -183,9 +183,9 @@ export default function CategoryPage({ params }: { params: { category: string } 
       <Navigation />
       
       <section className="relative pt-24 pb-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-[#0a0a0a] to-black"></div>
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black via-[#0a0a0a] to-black"></div>
         
-        <div className="absolute inset-0" style={{ 
+        <div className="pointer-events-none absolute inset-0" style={{ 
           backgroundImage: `
             linear-gradient(to right, rgba(255,255,255,0.025) 1px, transparent 1px),
             linear-gradient(to bottom, rgba(255,255,255,0.025) 1px, transparent 1px)
@@ -193,7 +193,7 @@ export default function CategoryPage({ params }: { params: { category: string } 
           backgroundSize: '30px 30px'
         }}></div>
         
-        <div className="absolute inset-0" style={{
+        <div className="pointer-events-none absolute inset-0" style={{
           backgroundImage: `
             repeating-linear-gradient(
               45deg,
@@ -206,7 +206,7 @@ export default function CategoryPage({ params }: { params: { category: string } 
           opacity: 0.5
         }}></div>
 
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.03),transparent_800px)]"></div>
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.03),transparent_800px)]"></div>
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-10">
@@ -222,9 +222,9 @@ export default function CategoryPage({ params }: { params: { category: string } 
                 <Link
                   key={subcategory.slug}
                   href={`/top-10/${params.category}/${subcategory.slug}`}
-                  className="group relative w-full max-w-[250px] h-[370px] rounded-2xl overflow-hidden border border-white/10 bg-[#0b0f16] transform hover:-translate-y-1 hover:border-white/25 transition-all duration-300"
+                  className="group relative block w-full max-w-[250px] h-[370px] rounded-2xl overflow-hidden border border-white/10 bg-[#0b0f16] transform hover:-translate-y-1 hover:border-white/25 transition-all duration-300 touch-manipulation"
                 >
-                  <div className="absolute inset-0">
+                  <div className="pointer-events-none absolute inset-0">
                     {subcategory.image ? (
                       <img
                         src={subcategory.image}
@@ -237,8 +237,8 @@ export default function CategoryPage({ params }: { params: { category: string } 
                       </div>
                     )}
                   </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent"></div>
-                  <div className="absolute bottom-0 left-0 right-0 z-10 p-4">
+                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent"></div>
+                  <div className="pointer-events-none absolute bottom-0 left-0 right-0 z-10 p-4">
                     {isBrandCard ? (
                       <>
                         <h2
