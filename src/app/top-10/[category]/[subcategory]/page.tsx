@@ -2619,98 +2619,98 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   tvs: {
-    title: "Top 10 Beste TV's van 2025",
+    title: "Top 10 meest populaire TV's van 2026",
     description: "Smart TV's met OLED en QLED voor film, sport en gaming",
     products: [
       {
         name: "LG OLED evo AI Smart TV",
         description: "Best overall OLED-tv met AI-beeldverwerking, diep zwart en slimme webOS-functies voor film, sport en gaming.",
         rating: 4.9,
-        image: "",
+        image: "/images/tvs/01-lg-oled-evo-c5.png",
         pros: ["OLED evo paneel", "AI-beeldverwerking", "webOS smart TV"],
         cons: ["Prijzig"],
-        stores: []
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flg-c5-oled55c55la-55-inch-4k-oled-evo-2025%2F9300000230515238%2F&name=LG%20C5%20OLED55C55LA%20-%2055%20inch%20-%204K%20OLED%20Evo%20-%202025%20-%20Smart%20TV" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F963247%2Flg-55-oled-evo-c54-4k-2025.html" }]
       },
       {
         name: "Sony BRAVIA 8 OLED",
         description: "Topklasse OLED-tv met uitstekende beeldverwerking en filmkwaliteit.",
         rating: 4.9,
-        image: "",
+        image: "/images/tvs/02-sony-bravia-8.png",
         pros: ["Sony beeldverwerking", "Filmkwaliteit", "OLED paneel"],
         cons: ["Duur"],
-        stores: []
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsony-bravia-8-55-inch-4k-oled-2024%2F9300000177672017%2F&name=Sony%20Bravia%208%20-%2055%20inch%20-%204K%20OLED%20TV%20-%202024" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F949407%2Fsony-55-bravia-8-oled-4k-2024.html" }]
       },
       {
         name: "LG OLED evo G5",
         description: "Premium OLED met extreem hoge helderheid en sterke gamingprestaties.",
         rating: 4.8,
-        image: "",
+        image: "/images/tvs/03-lg-g5-oled.png",
         pros: ["Extreem hoge helderheid", "Sterke gaming", "Premium OLED"],
         cons: ["Zeer duur", "Gallery design niet voor iedereen"],
-        stores: []
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flg-g5-oled65g56ls-65-inch-4k-oled-evo-2025%2F9300000229178466%2F&name=LG%20OLED65G56LS%20-%2065%20inch%20-%204K%20OLED%20Evo%20Max%20-%202025" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F963241%2Flg-65-oled-evo-g56-4k-2025.html" }]
       },
       {
-        name: "Samsung S90D OLED",
-        description: "Populaire Samsung OLED-tv met QD-OLED-technologie, heldere kleuren en 4K-gaming via HDMI 2.1.",
+        name: "Samsung S90F OLED",
+        description: "Nieuwe generatie Samsung QD-OLED met verbeterde helderheid, diep zwart en 4K-gaming via HDMI 2.1 met lage input lag.",
         rating: 4.8,
-        image: "",
-        pros: ["QD-OLED", "HDMI 2.1 gaming", "Helder beeld"],
+        image: "/images/tvs/04-samsung-s90f.png",
+        pros: ["QD-OLED paneel", "HDMI 2.1 gaming", "Verbeterde helderheid"],
         cons: ["Geen ingebouwde One Connect box op alle modellen"],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-qe77s90faexxh-77-oled-smart-tv-vision-ai-144-hz-4k-uhd%2F9300000234157119%2F&name=Samsung%20QE77S90F%20-%2077%20inch%20-%204K%20OLED%20-%202025%20-%20Buitenlands%20model" }]
       },
       {
-        name: "TCL C805",
-        description: "Mini LED TV met hoge helderheid, Google TV en uitstekende prijs-kwaliteitverhouding voor film en sport.",
+        name: "Samsung Q7F QLED",
+        description: "Populaire Samsung QLED-tv uit 2025 met Quantum Dot-technologie, helder Mini-LED-beeld en Tizen smart TV — breed verkrijgbaar in meerdere formaten.",
         rating: 4.6,
-        image: "",
-        pros: ["Mini LED", "Google TV", "Goede prijs"],
-        cons: ["Viewing angles minder goed dan OLED"],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        image: "/images/tvs/05-samsung-q7f.png",
+        pros: ["QLED Quantum Dot", "Helder Mini-LED-beeld", "Tizen smart TV", "Goede prijs-kwaliteit"],
+        cons: ["Geen OLED — minder diep zwart"],
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-q7f-75-qled-4k-vision-ai-smart-tv-q7fa%2F9300000230943478%2F&name=Samsung%20QE75Q7FA%20-%2075%20inch%20-%204K%20QLED%20-%202025%20%2B%203%20jaar%20extra%20garantie%20-%20Smart%20TV" }]
       },
       {
         name: "LG C5 OLED",
         description: "Instapmodel in LG's OLED-lijn met evo-technologie, webOS en solide gamingfeatures voor dagelijks gebruik.",
         rating: 4.7,
-        image: "",
+        image: "/images/tvs/06-lg-c5-oled.png",
         pros: ["OLED evo", "webOS", "Gaming via HDMI 2.1"],
         cons: ["Minder helder dan G-serie"],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flg-c5-oled65c55la-65-inch-4k-oled-evo-2025%2F9300000230515237%2F&name=LG%20C5%20OLED65C55LA%20-%2065%20inch%20-%204K%20OLED%20Evo" }]
       },
       {
-        name: "Samsung S95D OLED",
-        description: "Topklasse Samsung QD-OLED met maximale helderheid, diep zwart en premium beeld voor thuisbioscoop.",
+        name: "Samsung S95F OLED",
+        description: "Topklasse Samsung QD-OLED uit 2025 met maximale helderheid, Glare Free-technologie en premium beeld voor thuisbioscoop.",
         rating: 4.9,
-        image: "",
-        pros: ["QD-OLED topklasse", "Maximale helderheid", "Premium beeld"],
+        image: "/images/tvs/07-samsung-s95f.png",
+        pros: ["QD-OLED topklasse", "Glare Free", "Maximale helderheid"],
         cons: ["Zeer duur"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-qe65s95f-65-inch-4k-qd-oled-2025%2F9300000232685854%2F&name=Samsung%20QE65S95F%20-%2065%20inch%20-%204K%20QD-OLED%20-%202025%20-%20Smart%20TV" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F963453%2Fsamsung-65-oled-s95f-4k-2025.html" }]
       },
       {
-        name: "Sony Bravia 7",
+        name: "Sony Bravia 5",
         description: "Sony Mini LED-tv met krachtige beeldverwerker, hoge helderheid en uitstekende upscaling voor elke content.",
         rating: 4.7,
-        image: "",
+        image: "/images/tvs/08-sony-bravia-5.png",
         pros: ["Mini LED", "Sony beeldverwerking", "Hoge helderheid"],
         cons: ["Prijzig"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsony-bravia-5-65-inch-4k-xr-miniled-2025%2F9300000228487631%2F&name=Sony%20Bravia%205%20-%2065%20inch%20-%204K%20XR" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F962916%2Fsony-bravia-5-65-xr-mini-led-2025.html" }]
       },
       {
-        name: "Philips OLED809",
+        name: "Philips OLED849",
         description: "Philips OLED Ambilight-tv met meeslepende verlichting, Dolby Vision en Ambilight voor unieke kijkervaring.",
         rating: 4.7,
-        image: "",
+        image: "/images/tvs/09-philips-oled849.png",
         pros: ["Ambilight", "OLED paneel", "Dolby Vision"],
         cons: ["Ambilight niet voor iedereen"],
-        stores: [{ name: "Bol.com", link: "#" }, { name: "Coolblue", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fphilips-65oled849-12-oled-tv-65-ambilight-4k-uhd-2024-titan-os-smart-tv%2F9300000176604392%2F&name=Philips%2065OLED849%2F12%20-%2065%20inch%204K%20OLED%20TV%20met%20Ambilight" }]
       },
       {
-        name: "TCL QM8-serie / C855-serie",
+        name: "TCL 85T8D",
         description: "TCL's premium Mini LED-lijn met hoge helderheid, Google TV en sterke prijs-kwaliteit voor grote schermen.",
         rating: 4.6,
-        image: "",
+        image: "/images/tvs/10-tcl-85t8d.png",
         pros: ["Mini LED premium", "Google TV", "Goede prijs-kwaliteit"],
         cons: ["Specificaties variëren per model"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Ftcl-85t8d-85-inch-4k-qd-miniled-2026-smart-tv%2F9300000273452844%2F&name=TCL%2085T8D%20-%2085%20inch%20-%204K%20QD-MiniLED%20-%202026%20-%20Smart%20TV" }]
       }
     ]
   },
