@@ -1,134 +1,173 @@
-'use client';
+"use client";
 
-import Navigation from '../../components/Navigation';
-import { useEffect, useState } from 'react';
+import Navigation from "../../components/Navigation";
+import PageShell from "../../components/PageShell";
+import Link from "next/link";
+
+const contactMethods = [
+  {
+    title: "E-mail",
+    description: "Voor suggesties, vragen over producten of feedback op onze gidsen.",
+    detail: "Top10Vandaag@hotmail.com",
+    href: "mailto:Top10Vandaag@hotmail.com?subject=Vraag%20via%20Top10Vandaag",
+    cta: "Stuur een e-mail",
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+      </svg>
+    ),
+  },
+  {
+    title: "X (Twitter)",
+    description: "Volg ons voor nieuwe Top 10 lijsten, updates en korte tips.",
+    detail: "@Top10Vandaag",
+    href: "https://twitter.com/Top10Vandaag",
+    cta: "Volg op X",
+    external: true,
+    icon: (
+      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+      </svg>
+    ),
+  },
+];
+
+const reasons = [
+  {
+    title: "Product suggestie",
+    text: "Mis je een product in een Top 10? Laat weten welke categorie en welk model we moeten toevoegen.",
+  },
+  {
+    title: "Fout of verouderde info",
+    text: "Zie je een fout in een beschrijving, link of rangschikking? Meld het en we kijken het na.",
+  },
+  {
+    title: "Samenwerking",
+    text: "Vragen over affiliate partnerships of samenwerkingen? Stuur een bericht met je voorstel.",
+  },
+];
+
+const faqs: { id: string; q: string; a: string }[] = [
+  {
+    id: "response",
+    q: "Hoe snel krijg ik antwoord?",
+    a: "We reageren meestal binnen 24 uur op werkdagen. In het weekend kan het iets langer duren.",
+  },
+  {
+    id: "suggestion",
+    q: "Wat gebeurt er met mijn suggestie?",
+    a: "We bekijken elke suggestie en beoordelen of het past bij de categorie en onze lezers. Als we je tip gebruiken, laten we dat graag weten.",
+  },
+  {
+    id: "recommendation",
+    q: "Kunnen jullie een specifiek product aanbevelen?",
+    a: "Onze koopgidsen en Top 10 lijsten zijn een goed startpunt. Staat je vraag er niet tussen? Mail ons met je budget en gebruik.",
+  },
+  {
+    id: "affiliate",
+    q: "Hoe verdienen jullie geld?",
+    a: "Via affiliate links naar retailers zoals Bol.com en Coolblue. Dat verandert niets aan onze rangschikking.",
+  },
+];
 
 export default function Contact() {
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  useEffect(() => {
-    setIsLoaded(true);
-  }, []);
-
   return (
     <main className="min-h-screen bg-black">
       <Navigation />
-      
-      {/* Hero Section */}
-      <section className="relative pt-24 pb-20 overflow-hidden">
-        {/* Professional dark background with subtle patterns */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-[#0a0a0a] to-black"></div>
-        
-        {/* Subtle grid pattern */}
-        <div className="absolute inset-0" style={{ 
-          backgroundImage: `
-            linear-gradient(to right, rgba(255,255,255,0.025) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(255,255,255,0.025) 1px, transparent 1px)
-          `,
-          backgroundSize: '30px 30px'
-        }}></div>
-        
-        {/* Diagonal lines pattern */}
-        <div className="absolute inset-0" style={{
-          backgroundImage: `
-            repeating-linear-gradient(
-              45deg,
-              rgba(255,255,255,0.01) 0px,
-              rgba(255,255,255,0.01) 1px,
-              transparent 1px,
-              transparent 30px
-            )
-          `,
-          opacity: 0.5
-        }}></div>
-
-        {/* Subtle radial glow */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.03),transparent_800px)]"></div>
-        
-        {/* Main Content */}
-        <div className={`container mx-auto px-4 relative z-10 transition-all duration-1000 transform ${
-          isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-        }`}>
-          {/* Header */}
-          <h1 className="text-6xl font-bold mb-6 gradient-text text-center">
-            Enige suggesties? Stuur ze op!
-          </h1>
-          <div className="max-w-2xl mx-auto text-center mb-16">
-            <p className="text-xl text-gray-300">
-              Heb jij nog suggesties voor Top10's? Stuur nu een mailtje naar{' '}
-              <a href="mailto:Top10Vandaag@hotmail.com" className="gradient-text hover:scale-105 inline-block transition-transform">
-                Top10Vandaag@hotmail.com
-              </a>
-              {' '}of stuur ons een bericht op{' '}
-              <a href="https://twitter.com/Top10Vandaag" target="_blank" rel="noopener noreferrer" className="gradient-text hover:scale-105 inline-block transition-transform">
-                X (@Top10Vandaag)
-              </a>
+      <PageShell>
+        <div className="max-w-4xl mx-auto">
+          <header className="text-center mb-12">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">Contact</h1>
+            <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+              Vragen, suggesties of feedback? We horen graag van je. Kies hieronder hoe je contact wilt opnemen.
             </p>
+          </header>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+            {contactMethods.map((method) => (
+              <div key={method.title} className="glass-effect rounded-xl p-6 flex flex-col">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="p-2 rounded-lg bg-white/5 text-purple-300">{method.icon}</div>
+                  <h2 className="text-xl font-bold text-white">{method.title}</h2>
+                </div>
+                <p className="text-gray-400 text-sm mb-3 flex-1">{method.description}</p>
+                <p className="text-white font-medium mb-4">{method.detail}</p>
+                <a
+                  href={method.href}
+                  target={method.external ? "_blank" : undefined}
+                  rel={method.external ? "noopener noreferrer" : undefined}
+                  className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-5 py-2.5 rounded-lg font-semibold transition-colors text-sm"
+                >
+                  {method.cta}
+                </a>
+              </div>
+            ))}
           </div>
 
-          {/* Contact Methods */}
-          <div className="flex justify-center gap-6 mb-24">
-            <a href="mailto:Top10Vandaag@hotmail.com"
-              className="glass-effect glow px-8 py-4 rounded-lg hover:bg-white/20 transition-all duration-300 hover:scale-105 active:scale-95 flex items-center gap-3">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-              </svg>
-              Stuur een Email
-            </a>
-            <a href="https://twitter.com/Top10Vandaag" target="_blank" rel="noopener noreferrer"
-              className="glass-effect glow px-8 py-4 rounded-lg hover:bg-white/20 transition-all duration-300 hover:scale-105 active:scale-95 flex items-center gap-3">
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-              </svg>
-              Volg ons op X
-            </a>
-          </div>
-
-          {/* FAQ Section */}
-          <div className="max-w-3xl mx-auto mb-24">
-            <h2 className="text-3xl font-bold text-center mb-12 text-white">Veelgestelde vragen</h2>
-            <div className="space-y-6">
-              {[
-                {
-                  q: "Hoe snel krijg ik antwoord?",
-                  a: "We streven ernaar om binnen 24 uur te reageren op alle berichten."
-                },
-                {
-                  q: "Wat gebeurt er met mijn suggestie?",
-                  a: "Elke suggestie wordt zorgvuldig bekeken en geëvalueerd. Als we je suggestie gebruiken, laten we je dit weten!"
-                },
-                {
-                  q: "Kan ik meerdere suggesties insturen?",
-                  a: "Jazeker! Je kunt zoveel suggesties insturen als je wilt."
-                }
-              ].map((faq, index) => (
-                <div key={index} className="glass-effect p-6 rounded-xl">
-                  <h3 className="text-xl font-semibold mb-2 gradient-text">{faq.q}</h3>
-                  <p className="text-gray-300">{faq.a}</p>
+          <section className="mb-12">
+            <h2 className="text-2xl font-bold text-white mb-6 text-center">Waarom contact opnemen?</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {reasons.map((reason) => (
+                <div key={reason.title} className="glass-effect rounded-xl p-5">
+                  <h3 className="text-white font-semibold mb-2">{reason.title}</h3>
+                  <p className="text-gray-400 text-sm leading-relaxed">{reason.text}</p>
                 </div>
               ))}
             </div>
-          </div>
+          </section>
 
-          {/* Newsletter Section */}
-          <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6 text-white">Blijf op de hoogte</h2>
-            <p className="text-gray-300 mb-8">
-              Schrijf je in voor onze nieuwsbrief en ontvang als eerste nieuwe Top10 lijsten!
-            </p>
-            <div className="flex gap-4 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Jouw email adres"
-                className="flex-1 px-4 py-2 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
-              />
-              <button className="glass-effect glow px-6 py-2 rounded-lg hover:bg-white/20 transition-all duration-300 hover:scale-105 active:scale-95">
-                Inschrijven
-              </button>
+          <section className="mb-12">
+            <h2 className="text-2xl font-bold text-white mb-6 text-center">Veelgestelde vragen</h2>
+            <div className="space-y-4">
+              {faqs.map((faq) => (
+                <div key={faq.id} className="glass-effect rounded-xl p-5">
+                  <h3 className="text-lg font-semibold text-white mb-2">{faq.q}</h3>
+                  <p className="text-gray-400 text-sm leading-relaxed">
+                    {faq.a}
+                    {faq.id === "affiliate" && (
+                      <>
+                        {" "}
+                        Lees meer op onze{" "}
+                        <Link href="/affiliate-disclosure" className="text-purple-300 hover:underline">
+                          affiliate disclosure
+                        </Link>
+                        .
+                      </>
+                    )}
+                  </p>
+                </div>
+              ))}
             </div>
-          </div>
+          </section>
+
+          <section className="glass-effect rounded-xl p-8 text-center">
+            <h2 className="text-xl font-bold text-white mb-2">Nog ergens anders mee geholpen?</h2>
+            <p className="text-gray-400 text-sm mb-6">
+              Bekijk onze koopgidsen of lees meer over hoe wij producten selecteren.
+            </p>
+            <div className="flex flex-wrap justify-center gap-3">
+              <Link
+                href="/gidsen"
+                className="glass-effect px-5 py-2.5 rounded-lg hover:bg-white/10 transition-colors text-sm text-white"
+              >
+                Koopgidsen
+              </Link>
+              <Link
+                href="/over-ons"
+                className="glass-effect px-5 py-2.5 rounded-lg hover:bg-white/10 transition-colors text-sm text-white"
+              >
+                Over ons
+              </Link>
+              <Link
+                href="/"
+                className="glass-effect px-5 py-2.5 rounded-lg hover:bg-white/10 transition-colors text-sm text-white"
+              >
+                Alle categorieën
+              </Link>
+            </div>
+          </section>
         </div>
-      </section>
+      </PageShell>
     </main>
   );
-} 
+}

@@ -18,7 +18,9 @@ export default function Navigation() {
 
   const links = [
     { href: '/', label: 'Home' },
+    { href: '/gidsen', label: 'Gidsen' },
     { href: '/trending', label: 'Trending' },
+    { href: '/over-ons', label: 'Over ons' },
     { href: '/contact', label: 'Contact' },
   ];
 

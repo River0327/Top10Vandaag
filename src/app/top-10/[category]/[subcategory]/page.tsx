@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react';
 import Navigation from '../../../../components/Navigation';
 import Link from 'next/link';
 import Head from 'next/head';
+import { editorialIntros, defaultEditorialIntro } from '../../../../data/editorialIntros';
 
 interface Product {
   name: string;
@@ -1805,7 +1806,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "PCSpecialist Impact 99 RTX 3050",
-        description: "Custom gaming PC van PCSpecialist met NVIDIA RTX 3050 — ideaal instapmodel voor 1080p-gaming.",
+        description: "Custom gaming PC van PCSpecialist met NVIDIA RTX 3050, ideaal instapmodel voor 1080p-gaming.",
         rating: 4.6,
         image: "",
         pros: ["RTX 3050", "Custom build", "PCSpecialist kwaliteit"],
@@ -1832,7 +1833,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Sedatech Silent Gaming PC Ryzen 5 RTX 5060",
-        description: "Stille gaming desktop met Ryzen 5 en RTX 5060 — geschikt voor gamen zonder storend geluid.",
+        description: "Stille gaming desktop met Ryzen 5 en RTX 5060, geschikt voor gamen zonder storend geluid.",
         rating: 4.7,
         image: "",
         pros: ["Stil design", "RTX 5060", "Ryzen 5"],
@@ -1919,7 +1920,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Sapphire Pulse Radeon RX 9060 XT",
-        description: "AMD Radeon RX 9060 XT van Sapphire Pulse — sterke prijs-prestatie GPU voor 1080p en 1440p gaming.",
+        description: "AMD Radeon RX 9060 XT van Sapphire Pulse, sterke prijs-prestatie GPU voor 1080p en 1440p gaming.",
         rating: 4.6,
         image: "",
         pros: ["RX 9060 XT", "Goede prijs-prestatie", "Compact design"],
@@ -1937,7 +1938,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Acer Nitro Arc B580 OC",
-        description: "Intel Arc B580 videokaart met factory overclock — aantrekkelijke budget GPU voor 1080p gaming.",
+        description: "Intel Arc B580 videokaart met factory overclock, aantrekkelijke budget GPU voor 1080p gaming.",
         rating: 4.5,
         image: "",
         pros: ["Intel Arc B580", "Factory OC", "Betaalbaar"],
@@ -1946,7 +1947,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "RTX 5050 MSI Gaming OC",
-        description: "MSI Gaming RTX 5050 — instap NVIDIA GPU voor lichte gaming en alledaags gebruik tegen scherpe prijs.",
+        description: "MSI Gaming RTX 5050, instap NVIDIA GPU voor lichte gaming en alledaags gebruik tegen scherpe prijs.",
         rating: 4.4,
         image: "",
         pros: ["RTX 5050", "Instap gaming", "MSI Gaming"],
@@ -2069,7 +2070,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "LG UltraGear OLED-serie (diverse modellen)",
-        description: "Populaire LG UltraGear OLED-lijn met meerdere formaten en specificaties — breed verkrijgbaar voor elke gamer.",
+        description: "Populaire LG UltraGear OLED-lijn met meerdere formaten en specificaties, breed verkrijgbaar voor elke gamer.",
         rating: 4.7,
         image: "",
         pros: ["OLED paneel", "Diverse modellen", "Breed verkrijgbaar"],
@@ -2129,7 +2130,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Philips 27B2G5500/00",
-        description: "27-inch QHD monitor met USB-C, ingebouwde webcam en microfoon — ideaal voor thuiswerken en videovergaderingen.",
+        description: "27-inch QHD monitor met USB-C, ingebouwde webcam en microfoon, ideaal voor thuiswerken en videovergaderingen.",
         rating: 4.6,
         image: "",
         pros: ["QHD resolutie", "Ingebouwde webcam", "USB-C"],
@@ -2165,7 +2166,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Samsung S70D 4K",
-        description: "32-inch 4K Smart Monitor met ingebouwde streaming-apps en USB-C — monitor en entertainment in één.",
+        description: "32-inch 4K Smart Monitor met ingebouwde streaming-apps en USB-C, monitor en entertainment in één.",
         rating: 4.7,
         image: "",
         pros: ["4K resolutie", "Smart TV-functies", "USB-C"],
@@ -2284,7 +2285,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
   },
   headsets: {
     title: "Top 10 Beste Koptelefoons van 2025",
-    description: "Van noise-cancelling tot gaming — de populairste draadloze koptelefoons",
+    description: "Van noise-cancelling tot gaming, de populairste draadloze koptelefoons",
     products: [
       {
         name: "Sony WH-1000XM5 Wireless Headphones",
@@ -2410,7 +2411,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
   },
   keyboards: {
     title: "Top 10 Beste Toetsenborden van 2025",
-    description: "Van productiviteitstoetsenborden tot mechanische gaming boards — de populairste keuzes voor werk en gamen",
+    description: "Van productiviteitstoetsenborden tot mechanische gaming boards, de populairste keuzes voor werk en gamen",
     products: [
       {
         name: "Logitech MX Mechanical Wireless Keyboard",
@@ -2486,7 +2487,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Keychron B1 Pro Ultra-Slim",
-        description: "Ultradun draadloos toetsenbord met laag profiel, multi-device Bluetooth en stille toetsen — ideaal voor een opgeruimd bureau en productief werken.",
+        description: "Ultradun draadloos toetsenbord met laag profiel, multi-device Bluetooth en stille toetsen, ideaal voor een opgeruimd bureau en productief werken.",
         rating: 4.6,
         image: "/images/keyboards/07-keychron-b1-pro.png",
         pros: ["Ultra-slim design", "Draadloos", "Multi-device Bluetooth"],
@@ -2524,7 +2525,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
   },
   mice: {
     title: "Top 10 Beste Muizen van 2025",
-    description: "Van productiviteitsmuizen tot esports-gamingmuizen — de populairste muizen voor werk en gamen",
+    description: "Van productiviteitsmuizen tot esports-gamingmuizen, de populairste muizen voor werk en gamen",
     products: [
       {
         name: "Logitech MX Master 3S Mouse",
@@ -2568,7 +2569,7 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
         rating: 4.9,
         image: "/images/mice/05-viper-v3-pro.png",
         pros: ["54g ultralicht", "Focus Pro 35K", "Esports-kwaliteit"],
-        cons: ["Duur", "Symmetrisch — minder ergonomisch"],
+        cons: ["Duur", "Symmetrisch, minder ergonomisch"],
         stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Frazer-viper-v3-pro-draadloze-gaming-muis-optische-switches-35000-dpi-wit%2F9300000178188178%2F&name=Razer%20Viper%20V3%20Pro%20-%20Draadloze%20Gaming%20Muis%20-%2035.000%20DPI%20-%20Ultralicht%20-%20Wit" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F953160%2Frazer-viper-v3-pro-wireless-gaming-muis-zwart.html" }]
       },
       {
@@ -2660,11 +2661,11 @@ const subcategoryData: { [key: string]: SubcategoryData } = {
       },
       {
         name: "Samsung Q7F QLED",
-        description: "Populaire Samsung QLED-tv uit 2025 met Quantum Dot-technologie, helder Mini-LED-beeld en Tizen smart TV — breed verkrijgbaar in meerdere formaten.",
+        description: "Populaire Samsung QLED-tv uit 2025 met Quantum Dot-technologie, helder Mini-LED-beeld en Tizen smart TV, breed verkrijgbaar in meerdere formaten.",
         rating: 4.6,
         image: "/images/tvs/05-samsung-q7f.png",
         pros: ["QLED Quantum Dot", "Helder Mini-LED-beeld", "Tizen smart TV", "Goede prijs-kwaliteit"],
-        cons: ["Geen OLED — minder diep zwart"],
+        cons: ["Geen OLED, minder diep zwart"],
         stores: [{ name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-q7f-75-qled-4k-vision-ai-smart-tv-q7fa%2F9300000230943478%2F&name=Samsung%20QE75Q7FA%20-%2075%20inch%20-%204K%20QLED%20-%202025%20%2B%203%20jaar%20extra%20garantie%20-%20Smart%20TV" }]
       },
       {
@@ -2736,6 +2737,7 @@ function BolComAffiliateImage() {
 
 export default function SubcategoryPage({ params }: { params: { category: string; subcategory: string } }) {
   const data = subcategoryData[params.subcategory];
+  const editorial = editorialIntros[params.subcategory] ?? defaultEditorialIntro;
 
   if (!data) {
     return (
@@ -2787,6 +2789,24 @@ export default function SubcategoryPage({ params }: { params: { category: string
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold mb-4 text-white/90">{data.title}</h1>
             <p className="text-xl text-gray-400">{data.description}</p>
+          </div>
+
+          <div className="max-w-3xl mx-auto mb-12 glass-effect rounded-xl p-6 border border-white/10">
+            <p className="text-gray-300 leading-relaxed mb-4">{editorial.intro}</p>
+            {editorial.guideSlug && (
+              <Link
+                href={`/gidsen/${editorial.guideSlug}`}
+                className="text-purple-300 hover:text-purple-200 text-sm font-medium transition-colors"
+              >
+                Lees de volledige koopgids →
+              </Link>
+            )}
+            <p className="text-xs text-gray-500 mt-4 pt-4 border-t border-white/5">
+              Affiliate disclosure: wij kunnen commissie ontvangen via links op deze pagina.{" "}
+              <Link href="/affiliate-disclosure" className="underline hover:text-gray-400">
+                Meer info
+              </Link>
+            </p>
           </div>
 
           {/* Products */}

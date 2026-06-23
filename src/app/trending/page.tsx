@@ -1,180 +1,243 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import Navigation from '../../components/Navigation';
-import Link from 'next/link';
+import Navigation from "../../components/Navigation";
+import PageShell from "../../components/PageShell";
+import Link from "next/link";
 
-const trendingItems = [
+interface TrendingItem {
+  rank: number;
+  name: string;
+  description: string;
+  rating: number;
+  image: string;
+  categoryLabel: string;
+  listHref: string;
+  listLabel: string;
+  tag?: string;
+  stores: { name: string; link: string }[];
+}
+
+const trendingItems: TrendingItem[] = [
   {
-    category: "gaming",
-    name: "Logitech G Pro X Superlight",
-    description: "Ultralichte draadloze gaming muis",
-    rating: 9.8,
-    image: "https://image.coolblue.nl/max/500x500/products/1784657",
+    rank: 1,
+    name: "Sony WH-1000XM5 Wireless Headphones",
+    description: "Premium noise-cancelling koptelefoon met brancheleidende ANC en tot 30 uur batterij.",
+    rating: 4.9,
+    image: "/images/headsets/01-sony-xm5.png",
+    categoryLabel: "Koptelefoons",
+    listHref: "/top-10/gaming/headsets",
+    listLabel: "Top 10 headsets",
+    tag: "Meest populair",
     stores: [
-      {
-        name: "Coolblue",
-        link: "https://www.coolblue.nl/product/logitech-g-pro-x-superlight"
-      },
-      {
-        name: "Bol.com",
-        link: "https://www.bol.com/nl/p/logitech-g-pro-x-superlight"
-      }
-    ]
+      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F905648%2Fsony-wh-1000xm5-zwart.html" },
+      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsony-wh-1000xm5-draadloze-koptelefoon-met-noise-cancelling-zwart%2F9300000096972714%2F&name=Sony%20WH-1000XM5%20-%20Draadloze%20Koptelefoon%20met%20Noise%20Cancelling%20-%20Zwart" },
+    ],
   },
   {
-    category: "schermen",
-    name: "LG 27GP950",
-    description: "4K gaming monitor met 144Hz",
-    rating: 9.7,
-    image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
+    rank: 2,
+    name: "Logitech G Pro X Superlight 2",
+    description: "Ultralichte draadloze esports muis van 60 gram met HERO 2-sensor.",
+    rating: 4.9,
+    image: "/images/mice/03-g-pro-x-superlight-2.png",
+    categoryLabel: "Muizen",
+    listHref: "/top-10/gaming/mice",
+    listLabel: "Top 10 muizen",
+    tag: "Gaming favoriet",
     stores: [
-      {
-        name: "Coolblue",
-        link: "https://www.coolblue.nl/product/lg-27gp950"
-      },
-      {
-        name: "Bol.com",
-        link: "https://www.bol.com/nl/p/lg-27gp950"
-      }
-    ]
+      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-g-pro-x-superlight-2-draadloze-gaming-muis-lightspeed-wit%2F9300000160446074%2F&name=Logitech%20G%20Pro%20X%20Superlight%202%20-%20Draadloze%20Gaming%20Muis%20-%2060%20gram%20-%20Wit" },
+      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F936061%2Flogitech-g-pro-x-superlight-2-lightspeed-draadloze-gaming-muis-zwart.html" },
+    ],
   },
   {
-    category: "telefoons",
-    name: "iPhone 15 Pro",
-    description: "Apple's beste smartphone",
-    rating: 9.8,
-    image: "/images/iphone-se.png",
+    rank: 3,
+    name: "LG OLED evo AI Smart TV",
+    description: "Best overall OLED-tv met AI-beeldverwerking en webOS voor film, sport en gaming.",
+    rating: 4.9,
+    image: "/images/tvs/01-lg-oled-evo-c5.png",
+    categoryLabel: "TV's",
+    listHref: "/top-10/schermen/tvs",
+    listLabel: "Top 10 TV's",
+    tag: "Beste OLED",
     stores: [
-      {
-        name: "Coolblue",
-        link: "https://www.coolblue.nl/product/iphone-15-pro"
-      },
-      {
-        name: "Bol.com",
-        link: "https://www.bol.com/nl/p/iphone-15-pro"
-      }
-    ]
+      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flg-c5-oled55c55la-55-inch-4k-oled-evo-2025%2F9300000230515238%2F&name=LG%20C5%20OLED55C55LA%20-%2055%20inch%20-%204K%20OLED%20Evo%20-%202025%20-%20Smart%20TV" },
+      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F963247%2Flg-55-oled-evo-c54-4k-2025.html" },
+    ],
   },
   {
-    category: "computers",
-    name: "MacBook Pro 14\"",
-    description: "M1 Pro chip, beste voor creatives",
-    rating: 9.8,
-    image: "https://images.unsplash.com/photo-1639249227523-78502e9b01c6",
+    rank: 4,
+    name: "Apple iPhone 17 Pro Max",
+    description: "Apples topmodel met het grootste scherm, A19 Pro-chip en de sterkste camera.",
+    rating: 4.8,
+    image: "https://media.s-bol.com/0KDNEKOJNj5V/DRL6Ayq/163x210.jpg",
+    categoryLabel: "Telefoons",
+    listHref: "/top-10/telefoons/apple",
+    listLabel: "Top 10 iPhones",
+    tag: "Nieuw",
     stores: [
-      {
-        name: "Coolblue",
-        link: "https://www.coolblue.nl/product/macbook-pro-14"
-      },
-      {
-        name: "Bol.com",
-        link: "https://www.bol.com/nl/p/macbook-pro-14"
-      }
-    ]
-  }
+      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F969451%2Fapple-iphone-17-pro-max-256gb-blauw.html" },
+      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-17-pro-max-256gb-cosmic-orange%2F9300000240171924%2F&name=Apple%20iPhone%2017%20Pro%20Max%20-%20Cosmic%20Orange%20-%20256GB%20-%2018MP%20camera" },
+    ],
+  },
+  {
+    rank: 5,
+    name: "Logitech MX Mechanical Wireless Keyboard",
+    description: "Premium draadloos mechanisch toetsenbord voor productief werken met multi-device Bluetooth.",
+    rating: 4.8,
+    image: "/images/keyboards/01-mx-mechanical.png",
+    categoryLabel: "Toetsenborden",
+    listHref: "/top-10/gaming/keyboards",
+    listLabel: "Top 10 toetsenborden",
+    stores: [
+      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F908468%2Flogitech-mx-mechanical-draadloos-toetsenbord-metaal.html" },
+      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-mx-mechanical-toetsenbord-rf-draadloos-bluetooth-qwertz-duits-grafiet-grijs%2F9300000104777042%2F&name=LOGITECH%20MX%20MECHANICAL%20WIRELESS%20ILLUMINATED%20PERFORMANCE%20KEYBOARD%20AZERTY%20FR" },
+    ],
+  },
+  {
+    rank: 6,
+    name: "Samsung S95F OLED",
+    description: "Topklasse QD-OLED met maximale helderheid en Glare Free-technologie voor thuisbioscoop.",
+    rating: 4.9,
+    image: "/images/tvs/07-samsung-s95f.png",
+    categoryLabel: "TV's",
+    listHref: "/top-10/schermen/tvs",
+    listLabel: "Top 10 TV's",
+    tag: "Premium keuze",
+    stores: [
+      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-qe65s95f-65-inch-4k-qd-oled-2025%2F9300000232685854%2F&name=Samsung%20QE65S95F%20-%2065%20inch%20-%204K%20QD-OLED%20-%202025%20-%20Smart%20TV" },
+      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F963453%2Fsamsung-65-oled-s95f-4k-2025.html" },
+    ],
+  },
 ];
 
+const categoryLinks = [
+  { label: "Accessoires", href: "/top-10/gaming" },
+  { label: "Schermen", href: "/top-10/schermen" },
+  { label: "Telefoons", href: "/top-10/telefoons" },
+  { label: "Computers", href: "/top-10/computers" },
+];
+
+function StoreButton({ name, link }: { name: string; link: string }) {
+  const isCoolblue = name === "Coolblue";
+  return (
+    <a
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`text-center text-sm font-semibold text-white px-4 py-2.5 rounded-lg transition-colors ${
+        isCoolblue ? "bg-orange-500 hover:bg-orange-600" : "bg-blue-600 hover:bg-blue-700"
+      }`}
+    >
+      Bekijk op {name}
+    </a>
+  );
+}
+
 export default function TrendingPage() {
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  useEffect(() => {
-    setIsLoaded(true);
-  }, []);
-
   return (
     <main className="min-h-screen bg-black">
       <Navigation />
-      
-      <section className="relative pt-24 pb-20 overflow-hidden">
-        {/* Professional dark background with subtle patterns */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-[#0a0a0a] to-black"></div>
-        
-        {/* Subtle grid pattern */}
-        <div className="absolute inset-0" style={{ 
-          backgroundImage: `
-            linear-gradient(to right, rgba(255,255,255,0.025) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(255,255,255,0.025) 1px, transparent 1px)
-          `,
-          backgroundSize: '30px 30px'
-        }}></div>
-        
-        {/* Diagonal lines pattern */}
-        <div className="absolute inset-0" style={{
-          backgroundImage: `
-            repeating-linear-gradient(
-              45deg,
-              rgba(255,255,255,0.01) 0px,
-              rgba(255,255,255,0.01) 1px,
-              transparent 1px,
-              transparent 30px
-            )
-          `,
-          opacity: 0.5
-        }}></div>
+      <PageShell>
+        <div className="max-w-4xl mx-auto">
+          <header className="text-center mb-10">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">Trending</h1>
+            <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+              De populairste producten op Top 10 Vandaag. Geselecteerd op populariteit, reviews en
+              beschikbaarheid bij Nederlandse retailers.
+            </p>
+          </header>
 
-        {/* Subtle radial glow */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.03),transparent_800px)]"></div>
-        
-        {/* Content */}
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center mb-16">
-            <h1 className="text-5xl font-bold mb-4 text-white/90">Trending Producten</h1>
-            <p className="text-xl text-gray-400">De meest populaire producten van dit moment</p>
+          <div className="flex flex-wrap justify-center gap-2 mb-10">
+            {categoryLinks.map((cat) => (
+              <Link
+                key={cat.href}
+                href={cat.href}
+                className="text-sm px-4 py-2 rounded-full glass-effect hover:bg-white/10 transition-colors text-gray-300"
+              >
+                {cat.label}
+              </Link>
+            ))}
           </div>
 
-          {/* Trending Items with updated glass effect */}
-          <div className="max-w-4xl mx-auto">
+          <div className="space-y-5">
             {trendingItems.map((item) => (
-              <div
+              <article
                 key={item.name}
-                className="block mb-6"
+                className="glass-effect rounded-xl p-5 md:p-6 hover:bg-white/[0.04] transition-colors"
               >
-                <div className="bg-white/[0.02] backdrop-blur-md border border-white/[0.05] p-6 rounded-xl shadow-xl hover:bg-white/[0.04] transition-all duration-300">
-                  <div className="flex gap-6">
-                    <div className="w-48 h-48 relative rounded-lg overflow-hidden bg-white/[0.02] p-4">
+                <div className="flex flex-col md:flex-row gap-5 md:gap-6">
+                  <div className="relative shrink-0 mx-auto md:mx-0">
+                    <span className="absolute -top-2 -left-2 z-10 bg-black/90 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center border border-white/10">
+                      {item.rank}
+                    </span>
+                    <div className="w-40 h-40 md:w-44 md:h-44 rounded-lg bg-white/[0.02] flex items-center justify-center p-4">
                       <img
                         src={item.image}
                         alt={item.name}
-                        className="w-full h-full object-contain"
+                        className="max-w-full max-h-full object-contain"
                       />
                     </div>
-                    <div className="flex-1">
-                      <div className="flex justify-between items-start mb-4">
-                        <div>
-                          <Link href={`/top-10/${item.category}`} className="hover:underline">
-                            <h2 className="text-2xl font-semibold mb-2 text-white/90">{item.name}</h2>
-                          </Link>
-                          <p className="text-gray-400">{item.description}</p>
-                        </div>
-                      </div>
-                      <div className="flex justify-end items-end">
-                        <div className="flex flex-col gap-2 w-[300px]">
-                          {item.stores.map((store) => (
-                            <a
-                              key={store.name}
-                              href={store.link}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="bg-[#2563eb] hover:bg-[#1d4ed8] text-white/90 px-4 py-2 rounded-lg transition-all duration-200 flex justify-center items-center w-full shadow-lg hover:shadow-xl"
-                            >
-                              <span>Bekijk bij {store.name}</span>
-                            </a>
-                          ))}
-                        </div>
+                  </div>
+
+                  <div className="flex-1 min-w-0">
+                    <div className="flex flex-wrap items-center gap-2 mb-2">
+                      <Link
+                        href={item.listHref}
+                        className="text-xs font-medium text-purple-300 bg-purple-500/10 px-2 py-1 rounded hover:bg-purple-500/20 transition-colors"
+                      >
+                        {item.categoryLabel}
+                      </Link>
+                      {item.tag && (
+                        <span className="text-xs text-amber-400/90 border border-amber-400/20 px-2 py-1 rounded">
+                          {item.tag}
+                        </span>
+                      )}
+                      <span className="text-xs text-gray-500 ml-auto">★ {item.rating}/5</span>
+                    </div>
+
+                    <h2 className="text-xl md:text-2xl font-bold text-white mb-2">{item.name}</h2>
+                    <p className="text-gray-400 text-sm leading-relaxed mb-4">{item.description}</p>
+
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-3">
+                      <Link
+                        href={item.listHref}
+                        className="text-sm text-purple-300 hover:text-purple-200 transition-colors"
+                      >
+                        {item.listLabel} →
+                      </Link>
+                      <div className="flex flex-col sm:flex-row gap-2 sm:ml-auto sm:min-w-[280px]">
+                        {item.stores.map((store) => (
+                          <StoreButton key={store.name} name={store.name} link={store.link} />
+                        ))}
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </article>
             ))}
           </div>
 
-          {/* Categories Overview with updated styling */}
-          <div className="max-w-4xl mx-auto mt-16">
-          </div>
+          <section className="mt-12 glass-effect rounded-xl p-8 text-center">
+            <h2 className="text-xl font-bold text-white mb-2">Meer producten ontdekken?</h2>
+            <p className="text-gray-400 text-sm mb-6">
+              Bekijk onze koopgidsen voor advies, of ga direct naar een Top 10 lijst.
+            </p>
+            <div className="flex flex-wrap justify-center gap-3">
+              <Link
+                href="/gidsen"
+                className="glass-effect px-5 py-2.5 rounded-lg hover:bg-white/10 transition-colors text-sm text-white"
+              >
+                Koopgidsen
+              </Link>
+              <Link
+                href="/"
+                className="bg-orange-500 hover:bg-orange-600 px-5 py-2.5 rounded-lg transition-colors text-sm text-white font-semibold"
+              >
+                Alle categorieën
+              </Link>
+            </div>
+          </section>
         </div>
-      </section>
+      </PageShell>
     </main>
   );
-} 
+}

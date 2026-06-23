@@ -1,4 +1,7 @@
 {
   "/page": "app/page.js",
-  "/top-10/[category]/[subcategory]/page": "app/top-10/[category]/[subcategory]/page.js"
+  "/gidsen/[slug]/page": "app/gidsen/[slug]/page.js",
+  "/gidsen/page": "app/gidsen/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/top-10/[category]/page": "app/top-10/[category]/page.js"
 }
