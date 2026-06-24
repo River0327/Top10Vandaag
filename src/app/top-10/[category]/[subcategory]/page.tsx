@@ -2819,18 +2819,18 @@ export default function SubcategoryPage({ params }: { params: { category: string
                       <span className="absolute top-2 left-2 bg-black/80 text-white px-3 py-1 rounded-full">
                         #{index + 1}
                       </span>
-                      <div className="bg-[#0b0f16] rounded-lg overflow-hidden flex justify-center items-center mb-4">
+                      <div className="product-image-frame rounded-lg overflow-hidden flex justify-center items-center mb-4 p-3">
                         {product.image ? (
                           <img
                             src={product.image}
                             alt={product.name}
-                            className="product-image w-full h-[200px] object-contain"
+                            className="w-full h-[200px] object-contain"
                           />
                         ) : product.name === "Apple iPhone SE (3e generatie) 64GB Midnight" ? (
                           <img
                             src="/images/iphone-se.png"
                             alt="Apple iPhone SE"
-                            className="product-image w-full h-[200px] object-contain"
+                            className="w-full h-[200px] object-contain"
                           />
                         ) : (
                           <div style={{width: '100%%', height: '200px', background: '#e5e7eb', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#888', fontSize: '1.2rem', borderRadius: '1rem', marginBottom: '1rem'}}>Geen afbeelding</div>

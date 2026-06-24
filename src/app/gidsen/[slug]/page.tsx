@@ -39,11 +39,6 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
                 {guide.category}
               </span>
               <span className="text-xs text-gray-500">{guide.readTime} leestijd</span>
-              {guide.isConcept && (
-                <span className="text-xs text-amber-400/80 border border-amber-400/20 px-2 py-1 rounded">
-                  Voorbeeldconcept (uit te breiden)
-                </span>
-              )}
             </div>
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">{guide.title}</h1>
             <p className="text-lg text-gray-400 leading-relaxed">{guide.excerpt}</p>

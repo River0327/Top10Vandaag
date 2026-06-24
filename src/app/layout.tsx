@@ -37,12 +37,18 @@ export const metadata: Metadata = {
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
     url: getSiteUrl(),
+    images: [{ url: '/logo.svg', width: 280, height: 64, alt: SITE_NAME }],
   },
   twitter: {
     card: 'summary_large_image',
     site: '@Top10Vandaag',
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
+  },
+  icons: {
+    icon: '/logo-icon.svg',
+    apple: '/logo-icon.svg',
+    shortcut: '/logo-icon.svg',
   },
 }
 

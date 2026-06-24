@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import Logo from './Logo';
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +33,10 @@ export default function Navigation() {
     }`}>
       <div className="container mx-auto px-4">
         <div className="flex items-center h-14 md:h-16">
-          <div className="flex items-center space-x-1 sm:space-x-2 md:space-x-4">
+          <Logo variant="full" className="hidden sm:block" />
+          <Logo variant="icon" className="sm:hidden" />
+
+          <div className="flex items-center space-x-1 sm:space-x-2 md:space-x-4 overflow-x-auto">
             {links.map((link, index) => (
               <div key={link.href} className="flex items-center">
                 {index > 0 && (

@@ -71,6 +71,7 @@ export function organizationJsonLd() {
     "@type": "Organization",
     name: SITE_NAME,
     url: getSiteUrl(),
+    logo: `${getSiteUrl()}/logo.svg`,
     email: "Top10Vandaag@hotmail.com",
     sameAs: ["https://twitter.com/Top10Vandaag"],
     description: SITE_DESCRIPTION,

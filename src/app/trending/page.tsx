@@ -170,11 +170,11 @@ export default function TrendingPage() {
                     <span className="absolute -top-2 -left-2 z-10 bg-black/90 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center border border-white/10">
                       {item.rank}
                     </span>
-                    <div className="w-40 h-40 md:w-44 md:h-44 rounded-lg overflow-hidden bg-white/[0.02] flex items-center justify-center p-4">
+                    <div className="product-image-frame w-40 h-40 md:w-44 md:h-44 rounded-lg overflow-hidden flex items-center justify-center p-4">
                       <img
                         src={item.image}
                         alt={item.name}
-                        className="product-image max-w-full max-h-full object-contain"
+                        className="max-w-full max-h-full object-contain"
                       />
                     </div>
                   </div>

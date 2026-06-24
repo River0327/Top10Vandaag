@@ -62,7 +62,6 @@ body {
   color: #ffffff;
 }
 
-/* Verwijdert witte achtergrond van productfoto's op donkere UI */
-.product-image {
-  mix-blend-mode: darken;
+.product-image-frame {
+  background-color: #000000;
 } 

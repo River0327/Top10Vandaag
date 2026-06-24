@@ -29,11 +29,6 @@ export default function GidsenPage() {
                 <span className="text-xs font-medium text-purple-300 bg-purple-500/10 px-2 py-1 rounded">
                   {guide.category}
                 </span>
-                {guide.isConcept && (
-                  <span className="text-xs text-gray-500 border border-white/10 px-2 py-1 rounded">
-                    Concept
-                  </span>
-                )}
               </div>
               <h2 className="text-xl font-bold text-white mb-2 group-hover:text-purple-200 transition-colors">
                 {guide.title}

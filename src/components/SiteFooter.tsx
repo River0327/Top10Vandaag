@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Logo from "./Logo";
 
 const footerLinks = [
   { href: "/gidsen", label: "Gidsen" },
@@ -14,7 +15,7 @@ export default function SiteFooter() {
       <div className="container mx-auto px-4 py-10">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div>
-            <p className="text-lg font-semibold text-white">Top 10 Vandaag</p>
+            <Logo variant="full" href="" className="mb-3" />
             <p className="text-sm text-gray-400 mt-1 max-w-md">
               Onafhankelijke koopgidsen en Top 10 lijsten voor tech en elektronica in Nederland.
             </p>

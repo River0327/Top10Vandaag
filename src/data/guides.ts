@@ -18,7 +18,6 @@ export interface Guide {
   top10Link: string;
   top10Label: string;
   publishedAt: string;
-  isConcept?: boolean;
   sections: GuideSection[];
   faqs: GuideFAQ[];
 }
@@ -29,7 +28,7 @@ export const guides: Guide[] = [
     title: "Beste gaming muis kiezen in 2025",
     excerpt:
       "FPS, MMO of kantoorwerk, ontdek welke specificaties het verschil maken en welke muis bij jouw speelstijl past.",
-    readTime: "8 min",
+    readTime: "4 min",
     category: "Accessoires",
     top10Link: "/top-10/gaming/mice",
     top10Label: "Bekijk Top 10 gaming muizen",
@@ -91,7 +90,7 @@ export const guides: Guide[] = [
     title: "OLED vs QLED: welke TV past bij jou?",
     excerpt:
       "Diep zwart of extreme helderheid? We leggen het verschil uit zodat je de juiste TV kiest voor film, sport en gaming.",
-    readTime: "9 min",
+    readTime: "4 min",
     category: "Schermen",
     top10Link: "/top-10/schermen/tvs",
     top10Label: "Bekijk Top 10 TV's",
@@ -157,12 +156,11 @@ export const guides: Guide[] = [
     slug: "beste-gaming-headset-2025",
     title: "Beste gaming headset kiezen in 2025",
     excerpt: "Draadloos, ruisonderdrukking of puur gaming-geluid, zo vind je de headset die bij jou past.",
-    readTime: "5 min",
+    readTime: "2 min",
     category: "Accessoires",
     top10Link: "/top-10/gaming/headsets",
     top10Label: "Bekijk Top 10 headsets",
     publishedAt: "2025-06-01",
-    isConcept: true,
     sections: [
       {
         heading: "Gaming vs hybride gebruik",
@@ -193,12 +191,11 @@ export const guides: Guide[] = [
     slug: "beste-gaming-monitor-2025",
     title: "Beste gaming monitor kiezen in 2025",
     excerpt: "Refresh rate, resolutie en paneeltype, alles wat je moet weten vóór je een gaming monitor koopt.",
-    readTime: "5 min",
+    readTime: "2 min",
     category: "Schermen",
     top10Link: "/top-10/schermen/gaming_monitors",
     top10Label: "Bekijk Top 10 gaming monitoren",
     publishedAt: "2025-06-01",
-    isConcept: true,
     sections: [
       {
         heading: "1080p, 1440p of 4K?",
@@ -224,12 +221,11 @@ export const guides: Guide[] = [
     slug: "laptop-vs-desktop-gamen",
     title: "Laptop vs desktop: wat is beter om te gamen?",
     excerpt: "Mobiliteit of maximale prestaties per euro? We vergelijken beide opties voor Nederlandse gamers.",
-    readTime: "5 min",
+    readTime: "2 min",
     category: "Computers",
     top10Link: "/top-10/computers/laptops",
     top10Label: "Bekijk Top 10 laptops",
     publishedAt: "2025-06-01",
-    isConcept: true,
     sections: [
       {
         heading: "Wanneer kies je een laptop?",
@@ -260,12 +256,11 @@ export const guides: Guide[] = [
     slug: "beste-smartphone-kiezen",
     title: "Beste smartphone kiezen in 2025",
     excerpt: "iPhone, Samsung, OnePlus of Google Pixel, zo bepaal je welk toestel bij jouw budget en gebruik past.",
-    readTime: "5 min",
+    readTime: "2 min",
     category: "Telefoons",
     top10Link: "/top-10/telefoons/apple",
     top10Label: "Bekijk Top 10 iPhones",
     publishedAt: "2025-06-01",
-    isConcept: true,
     sections: [
       {
         heading: "Ecosysteem of vrijheid?",

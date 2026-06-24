@@ -20,6 +20,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/gidsen/layout.js"
+    ],
+    "/gidsen/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/gidsen/[slug]/page.js"
+    ],
+    "/gidsen/[slug]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/gidsen/[slug]/layout.js"
     ]
   }
 }
