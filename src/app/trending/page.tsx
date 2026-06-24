@@ -3,6 +3,7 @@
 import Navigation from "../../components/Navigation";
 import PageShell from "../../components/PageShell";
 import Link from "next/link";
+import { sortStores } from "../../lib/stores";
 
 interface TrendingItem {
   rank: number;
@@ -169,11 +170,11 @@ export default function TrendingPage() {
                     <span className="absolute -top-2 -left-2 z-10 bg-black/90 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center border border-white/10">
                       {item.rank}
                     </span>
-                    <div className="w-40 h-40 md:w-44 md:h-44 rounded-lg bg-white/[0.02] flex items-center justify-center p-4">
+                    <div className="w-40 h-40 md:w-44 md:h-44 rounded-lg overflow-hidden bg-white/[0.02] flex items-center justify-center p-4">
                       <img
                         src={item.image}
                         alt={item.name}
-                        className="max-w-full max-h-full object-contain"
+                        className="product-image max-w-full max-h-full object-contain"
                       />
                     </div>
                   </div>
@@ -205,7 +206,7 @@ export default function TrendingPage() {
                         {item.listLabel} →
                       </Link>
                       <div className="flex flex-col sm:flex-row gap-2 sm:ml-auto sm:min-w-[280px]">
-                        {item.stores.map((store) => (
+                        {sortStores(item.stores).map((store) => (
                           <StoreButton key={store.name} name={store.name} link={store.link} />
                         ))}
                       </div>

@@ -60,4 +60,9 @@ body {
 
 .gradient-text {
   color: #ffffff;
+}
+
+/* Verwijdert witte achtergrond van productfoto's op donkere UI */
+.product-image {
+  mix-blend-mode: darken;
 } 

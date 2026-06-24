@@ -3,8 +3,8 @@
 import { useEffect, useRef } from 'react';
 import Navigation from '../../../../components/Navigation';
 import Link from 'next/link';
-import Head from 'next/head';
 import { editorialIntros, defaultEditorialIntro } from '../../../../data/editorialIntros';
+import { sortStores } from '../../../../lib/stores';
 
 interface Product {
   name: string;
@@ -2819,30 +2819,18 @@ export default function SubcategoryPage({ params }: { params: { category: string
                       <span className="absolute top-2 left-2 bg-black/80 text-white px-3 py-1 rounded-full">
                         #{index + 1}
                       </span>
-                      <div className="bg-white/[0.02] rounded-lg flex justify-center items-center">
+                      <div className="bg-[#0b0f16] rounded-lg overflow-hidden flex justify-center items-center mb-4">
                         {product.image ? (
                           <img
                             src={product.image}
                             alt={product.name}
-                            style={{
-                              width: '100%%',
-                              height: '200px',
-                              objectFit: 'contain',
-                              borderRadius: '1rem',
-                              marginBottom: '1rem'
-                            }}
+                            className="product-image w-full h-[200px] object-contain"
                           />
                         ) : product.name === "Apple iPhone SE (3e generatie) 64GB Midnight" ? (
                           <img
                             src="/images/iphone-se.png"
                             alt="Apple iPhone SE"
-                            style={{
-                              width: '100%%',
-                              height: '200px',
-                              objectFit: 'contain',
-                              borderRadius: '1rem',
-                              marginBottom: '1rem'
-                            }}
+                            className="product-image w-full h-[200px] object-contain"
                           />
                         ) : (
                           <div style={{width: '100%%', height: '200px', background: '#e5e7eb', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#888', fontSize: '1.2rem', borderRadius: '1rem', marginBottom: '1rem'}}>Geen afbeelding</div>
@@ -2875,44 +2863,32 @@ export default function SubcategoryPage({ params }: { params: { category: string
 
                     <div className="flex items-center justify-between">
                       <div className="flex gap-4">
-                        {product.stores && product.stores.find(s => s.name === 'Coolblue') && (() => {
-                          const coolblue = product.stores.find(s => s.name === 'Coolblue');
-                          if (!coolblue) return null;
-                          return (
-                            <a
-                              href={coolblue.link}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 shadow-lg"
-                            >
-                              Bekijk op Coolblue
-                            </a>
-                          );
-                        })()}
                         {product.name === "Apple iPhone SE (3e generatie) 64GB Midnight" ? (
                           <a
                             href="https://partner.bol.com/click/click?p=1&t=url&s=1445110&f=PDL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Fiphone-se-3-64gb%2F9300000084961830%2F&name=Apple%20iPhone%20SE%20(2022)%20-%2064GB%20-%20Zwart"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 shadow-lg"
+                            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 shadow-lg"
                           >
                             Bekijk op Bol.com
                           </a>
                         ) : (
-                          product.stores && product.stores.find(s => s.name === 'Bol.com') && (() => {
-                            const bol = product.stores.find(s => s.name === 'Bol.com');
-                            if (!bol) return null;
-                            return (
-                              <a
-                                href={bol.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 shadow-lg"
-                              >
-                                Bekijk op Bol.com 
-                              </a>
-                            );
-                          })()
+                          product.stores &&
+                          sortStores(product.stores).map((store) => (
+                            <a
+                              key={store.name}
+                              href={store.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className={`text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 shadow-lg ${
+                                store.name === "Coolblue"
+                                  ? "bg-orange-500 hover:bg-orange-600"
+                                  : "bg-blue-600 hover:bg-blue-700"
+                              }`}
+                            >
+                              Bekijk op {store.name}
+                            </a>
+                          ))
                         )}
                       </div>
                     </div>
