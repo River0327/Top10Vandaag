@@ -15,7 +15,7 @@ interface TrendingItem {
   listHref: string;
   listLabel: string;
   tag?: string;
-  stores: { name: string; link: string }[];
+  stores: { name: string; link: string; approxPrice?: string }[];
 }
 
 const trendingItems: TrendingItem[] = [
@@ -30,8 +30,8 @@ const trendingItems: TrendingItem[] = [
     listLabel: "Top 10 headsets",
     tag: "Meest populair",
     stores: [
-      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F905648%2Fsony-wh-1000xm5-zwart.html" },
-      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsony-wh-1000xm5-draadloze-koptelefoon-met-noise-cancelling-zwart%2F9300000096972714%2F&name=Sony%20WH-1000XM5%20-%20Draadloze%20Koptelefoon%20met%20Noise%20Cancelling%20-%20Zwart" },
+      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F905648%2Fsony-wh-1000xm5-zwart.html", approxPrice: "€ 226" },
+      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsony-wh-1000xm5-draadloze-koptelefoon-met-noise-cancelling-zwart%2F9300000096972714%2F&name=Sony%20WH-1000XM5%20-%20Draadloze%20Koptelefoon%20met%20Noise%20Cancelling%20-%20Zwart", approxPrice: "€ 249" },
     ],
   },
   {
@@ -45,8 +45,8 @@ const trendingItems: TrendingItem[] = [
     listLabel: "Top 10 muizen",
     tag: "Gaming favoriet",
     stores: [
-      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-g-pro-x-superlight-2-draadloze-gaming-muis-lightspeed-wit%2F9300000160446074%2F&name=Logitech%20G%20Pro%20X%20Superlight%202%20-%20Draadloze%20Gaming%20Muis%20-%2060%20gram%20-%20Wit" },
-      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F936061%2Flogitech-g-pro-x-superlight-2-lightspeed-draadloze-gaming-muis-zwart.html" },
+      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-g-pro-x-superlight-2-draadloze-gaming-muis-lightspeed-wit%2F9300000160446074%2F&name=Logitech%20G%20Pro%20X%20Superlight%202%20-%20Draadloze%20Gaming%20Muis%20-%2060%20gram%20-%20Wit", approxPrice: "€ 90" },
+      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F936061%2Flogitech-g-pro-x-superlight-2-lightspeed-draadloze-gaming-muis-zwart.html", approxPrice: "€ 99" },
     ],
   },
   {
@@ -60,8 +60,8 @@ const trendingItems: TrendingItem[] = [
     listLabel: "Top 10 TV's",
     tag: "Beste OLED",
     stores: [
-      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flg-c5-oled55c55la-55-inch-4k-oled-evo-2025%2F9300000230515238%2F&name=LG%20C5%20OLED55C55LA%20-%2055%20inch%20-%204K%20OLED%20Evo%20-%202025%20-%20Smart%20TV" },
-      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F963247%2Flg-55-oled-evo-c54-4k-2025.html" },
+      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flg-c5-oled55c55la-55-inch-4k-oled-evo-2025%2F9300000230515238%2F&name=LG%20C5%20OLED55C55LA%20-%2055%20inch%20-%204K%20OLED%20Evo%20-%202025%20-%20Smart%20TV", approxPrice: "€ 779" },
+      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F963247%2Flg-55-oled-evo-c54-4k-2025.html", approxPrice: "€ 1.049" },
     ],
   },
   {
@@ -75,8 +75,8 @@ const trendingItems: TrendingItem[] = [
     listLabel: "Top 10 iPhones",
     tag: "Nieuw",
     stores: [
-      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F969451%2Fapple-iphone-17-pro-max-256gb-blauw.html" },
-      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-17-pro-max-256gb-cosmic-orange%2F9300000240171924%2F&name=Apple%20iPhone%2017%20Pro%20Max%20-%20Cosmic%20Orange%20-%20256GB%20-%2018MP%20camera" },
+      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F969451%2Fapple-iphone-17-pro-max-256gb-blauw.html", approxPrice: "€ 1.439" },
+      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fapple-iphone-17-pro-max-256gb-cosmic-orange%2F9300000240171924%2F&name=Apple%20iPhone%2017%20Pro%20Max%20-%20Cosmic%20Orange%20-%20256GB%20-%2018MP%20camera", approxPrice: "€ 1.229" },
     ],
   },
   {
@@ -89,8 +89,8 @@ const trendingItems: TrendingItem[] = [
     listHref: "/top-10/gaming/keyboards",
     listLabel: "Top 10 toetsenborden",
     stores: [
-      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F908468%2Flogitech-mx-mechanical-draadloos-toetsenbord-metaal.html" },
-      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-mx-mechanical-toetsenbord-rf-draadloos-bluetooth-qwertz-duits-grafiet-grijs%2F9300000104777042%2F&name=LOGITECH%20MX%20MECHANICAL%20WIRELESS%20ILLUMINATED%20PERFORMANCE%20KEYBOARD%20AZERTY%20FR" },
+      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F908468%2Flogitech-mx-mechanical-draadloos-toetsenbord-metaal.html", approxPrice: "€ 151" },
+      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flogitech-mx-mechanical-toetsenbord-rf-draadloos-bluetooth-qwertz-duits-grafiet-grijs%2F9300000104777042%2F&name=LOGITECH%20MX%20MECHANICAL%20WIRELESS%20ILLUMINATED%20PERFORMANCE%20KEYBOARD%20AZERTY%20FR", approxPrice: "€ 99" },
     ],
   },
   {
@@ -104,8 +104,8 @@ const trendingItems: TrendingItem[] = [
     listLabel: "Top 10 TV's",
     tag: "Premium keuze",
     stores: [
-      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-qe65s95f-65-inch-4k-qd-oled-2025%2F9300000232685854%2F&name=Samsung%20QE65S95F%20-%2065%20inch%20-%204K%20QD-OLED%20-%202025%20-%20Smart%20TV" },
-      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F963453%2Fsamsung-65-oled-s95f-4k-2025.html" },
+      { name: "Bol.com", link: "https://partner.bol.com/click/click?p=2&t=url&s=1508333&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsamsung-qe65s95f-65-inch-4k-qd-oled-2025%2F9300000232685854%2F&name=Samsung%20QE65S95F%20-%2065%20inch%20-%204K%20QD-OLED%20-%202025%20-%20Smart%20TV", approxPrice: "€ 3.749" },
+      { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F963453%2Fsamsung-65-oled-s95f-4k-2025.html", approxPrice: "€ 2.039" },
     ],
   },
 ];

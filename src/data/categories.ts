@@ -90,6 +90,12 @@ export const categoryData: CategoryData = {
         image: "/images/subcategories/subcat-mice.png",
         description: "Muizen",
       },
+      {
+        name: "AirPods",
+        slug: "airpods",
+        image: "/images/headsets/07-airpods-max.png",
+        description: "AirPods",
+      },
     ],
   },
   computers: {

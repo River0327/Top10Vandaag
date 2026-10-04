@@ -22,6 +22,10 @@ export const editorialIntros: Record<string, EditorialIntro> = {
     intro:
       "Of je nu op Xbox, PlayStation, PC of Switch speelt: de juiste controller bepaalt je comfort en precisie. We vergelijken de populairste pads op build-kwaliteit, features en compatibiliteit.",
   },
+  airpods: {
+    intro:
+      "Van compacte in-ear oordopjes tot premium over-ear: Apple AirPods zijn de standaard voor iPhone-gebruikers. We vergelijken modellen op geluid, noise cancelling, batterijduur en integratie met het Apple-ecosysteem.",
+  },
   tvs: {
     intro:
       "OLED of QLED? 55 of 65 inch? Deze lijst helpt je de beste TV te vinden voor film, sport en gaming, gerangschikt op beeldkwaliteit, smart-functies en beschikbaarheid bij Nederlandse retailers.",
@@ -29,12 +33,12 @@ export const editorialIntros: Record<string, EditorialIntro> = {
   },
   gaming_monitors: {
     intro:
-      "Refresh rate, resolutie en paneeltype bepalen je game-ervaring. Van budget 1080p tot premium OLED, dit zijn de gaming monitoren die nu het meest gekozen worden.",
+      "Refresh rate, resolutie en paneeltype bepalen je game-ervaring. Deze top 10 is samengesteld op basis van populariteit bij bol.com en Coolblue — van budget 144Hz tot QHD 240Hz.",
     guideSlug: "beste-gaming-monitor-2025",
   },
   office_monitors: {
     intro:
-      "Voor kantoorwerk telt leescomfort, kleurweergave en ergonomie meer dan Hz. Deze monitoren zijn geselecteerd op productiviteit, oogcomfort en prijs-kwaliteit.",
+      "Voor kantoorwerk telt leescomfort, ergonomie en energieverbruik meer dan Hz. Deze top 10 is samengesteld op basis van populariteit bij bol.com en Coolblue — van compact 24 inch tot 4K.",
   },
   laptops: {
     intro:

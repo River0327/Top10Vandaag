@@ -1,13 +1,20 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import SocialLinks from '../components/SocialLinks'
-import SiteFooter from '../components/SiteFooter'
-import JsonLd from '../components/JsonLd'
-import { organizationJsonLd, websiteJsonLd } from '../lib/seo'
-import { getSiteUrl, SITE_DESCRIPTION, SITE_NAME } from '../lib/site'
+import "./globals.css";
+import type { Metadata } from "next";
+import { Space_Grotesk, Syne } from "next/font/google";
+import SiteFooter from "../components/SiteFooter";
+import JsonLd from "../components/JsonLd";
+import { organizationJsonLd, websiteJsonLd } from "../lib/seo";
+import { getSiteUrl, SITE_DESCRIPTION, SITE_NAME } from "../lib/site";
 
-const inter = Inter({ subsets: ['latin'] })
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-body",
+});
+
+const syne = Syne({
+  subsets: ["latin"],
+  variable: "--font-display",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
@@ -31,40 +38,39 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true },
   },
   openGraph: {
-    type: 'website',
-    locale: 'nl_NL',
+    type: "website",
+    locale: "nl_NL",
     siteName: SITE_NAME,
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
     url: getSiteUrl(),
-    images: [{ url: '/logo.svg', width: 280, height: 64, alt: SITE_NAME }],
+    images: [{ url: "/logo.svg", width: 280, height: 64, alt: SITE_NAME }],
   },
   twitter: {
-    card: 'summary_large_image',
-    site: '@Top10Vandaag',
+    card: "summary_large_image",
+    site: "@Top10Vandaag",
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
   },
   icons: {
-    icon: '/logo-icon.svg',
-    apple: '/logo-icon.svg',
-    shortcut: '/logo-icon.svg',
+    icon: "/logo-icon.svg",
+    apple: "/logo-icon.svg",
+    shortcut: "/logo-icon.svg",
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="nl">
-      <body className={inter.className}>
+      <body className={`${spaceGrotesk.className} ${spaceGrotesk.variable} ${syne.variable} bg-[#05070f] text-slate-100`}>
         <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
-        <SocialLinks />
         {children}
         <SiteFooter />
       </body>
     </html>
-  )
+  );
 }

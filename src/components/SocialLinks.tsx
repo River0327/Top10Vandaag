@@ -24,7 +24,7 @@ export function SocialIconLinks({ className = '' }: { className?: string }) {
       </a>
 
       <a
-        href="https://twitter.com"
+        href="https://twitter.com/Top10Vandaag"
         target="_blank"
         rel="noopener noreferrer"
         className={iconClass}
@@ -41,7 +41,7 @@ export function SocialIconLinks({ className = '' }: { className?: string }) {
       </a>
 
       <a
-        href="mailto:contact@example.com"
+        href="mailto:Top10Vandaag@hotmail.com"
         className={iconClass}
         aria-label="Stuur ons een email"
       >
@@ -64,10 +64,6 @@ export function SocialIconLinks({ className = '' }: { className?: string }) {
   );
 }
 
-const SocialLinks = () => {
-  return (
-    <SocialIconLinks className="hidden md:flex fixed top-4 right-4 z-[100] gap-4" />
-  );
-};
+const SocialLinks = () => null;
 
 export default SocialLinks;

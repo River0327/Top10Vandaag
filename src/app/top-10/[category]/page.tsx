@@ -6,9 +6,9 @@ import Link from 'next/link';
 import { categoryData } from '../../../data/categories';
 
 const brandSlugs = new Set(['apple', 'samsung', 'oneplus', 'oppo', 'google', 'ipad']);
-const accessorySlugs = new Set(['controllers', 'headsets', 'keyboards', 'mice']);
+const accessorySlugs = new Set(['controllers', 'headsets', 'keyboards', 'mice', 'airpods']);
 const productImageSlugs = new Set([
-  'controllers', 'headsets', 'keyboards', 'mice',
+  'controllers', 'headsets', 'keyboards', 'mice', 'airpods',
   'tvs', 'gaming_monitors', 'office_monitors',
   'laptops', 'desktops', 'components',
 ]);

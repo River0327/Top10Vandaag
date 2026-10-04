@@ -74,13 +74,13 @@ export const subcategorySeo: Record<string, SubcategorySeo> = {
     category: "computers",
   },
   gaming_monitors: {
-    title: "Top 10 Beste Gaming Monitoren van 2025",
-    description: "Gaming monitoren met hoge refresh rate en lage input lag vergeleken.",
+    title: "Top 10 Beste Gaming Monitoren van 2026",
+    description: "Gaming monitoren met hoge refresh rate en lage input lag, op basis van populariteit bij bol.com en Coolblue.",
     category: "schermen",
   },
   office_monitors: {
-    title: "Top 10 Beste Office Monitoren van 2025",
-    description: "Monitoren voor werk en kantoor, gerangschikt op beeldkwaliteit en comfort.",
+    title: "Top 10 Beste Office Monitoren van 2026",
+    description: "Kantoor- en thuiswerkmonitoren gerangschikt op ergonomie, beeldkwaliteit en populariteit bij bol.com en Coolblue.",
     category: "schermen",
   },
   controllers: {
@@ -101,6 +101,11 @@ export const subcategorySeo: Record<string, SubcategorySeo> = {
   mice: {
     title: "Top 10 Beste Muizen van 2025",
     description: "De beste gaming muizen vergeleken op sensor, gewicht en ergonomie.",
+    category: "gaming",
+  },
+  airpods: {
+    title: "Top 10 Beste AirPods van 2026",
+    description: "Apple AirPods vergeleken op geluid, noise cancelling, comfort en prijs.",
     category: "gaming",
   },
   tvs: {

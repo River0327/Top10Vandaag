@@ -11,6 +11,32 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/demo/layouts/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/demo/layouts/page.js"
+    ],
+    "/demo/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/demo/layout.css",
+      "static/chunks/app/demo/layout.js"
+    ],
+    "/demo/layouts/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/demo/layouts/[slug]/page.js"
+    ],
+    "/top-10/[category]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/top-10/[category]/layout.js"
+    ],
+    "/top-10/[category]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/top-10/[category]/page.js"
+    ],
     "/gidsen/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -21,15 +47,45 @@
       "static/chunks/main-app.js",
       "static/chunks/app/gidsen/layout.js"
     ],
-    "/gidsen/[slug]/page": [
+    "/over-ons/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/gidsen/[slug]/page.js"
+      "static/chunks/app/over-ons/page.js"
     ],
-    "/gidsen/[slug]/layout": [
+    "/over-ons/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/gidsen/[slug]/layout.js"
+      "static/chunks/app/over-ons/layout.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/contact/page.js"
+    ],
+    "/contact/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/contact/layout.js"
+    ],
+    "/trending/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/trending/layout.js"
+    ],
+    "/trending/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/trending/page.js"
+    ],
+    "/top-10/[category]/[subcategory]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/top-10/[category]/[subcategory]/layout.js"
+    ],
+    "/top-10/[category]/[subcategory]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/top-10/[category]/[subcategory]/page.js"
     ]
   }
 }

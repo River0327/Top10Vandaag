@@ -1,121 +1,132 @@
-'use client';
+"use client";
 
-import Navigation from '../components/Navigation';
-import { SocialIconLinks } from '../components/SocialLinks';
-import PageShell from '../components/PageShell';
-import Link from 'next/link';
-
-const categories = [
-  {
-    id: 4,
-    title: "Telefoons en tablets",
-    description: "Apple, Samsung, OnePlus, Oppo, Google.",
-    image: "https://images.unsplash.com/photo-1616348436168-de43ad0db179?q=80&w=1000&auto=format&fit=crop",
-    link: "/top-10/telefoons",
-  },
-  {
-    id: 1,
-    title: "Accessoires",
-    description: "Controllers, Koptelefoons, Toetsenborden, Muizen.",
-    image: "https://images.pexels.com/photos/7031690/pexels-photo-7031690.jpeg",
-    link: "/top-10/gaming",
-  },
-  {
-    id: 2,
-    title: "Schermen",
-    description: "Monitoren, Televisies.",
-    image: "https://images.pexels.com/photos/3459979/pexels-photo-3459979.jpeg",
-    link: "/top-10/schermen",
-  },
-  {
-    id: 3,
-    title: "Computers",
-    description: "Laptops, PC's.",
-    image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=1000&auto=format&fit=crop",
-    link: "/top-10/computers",
-  },
-];
+import Link from "next/link";
+import Navigation from "../components/Navigation";
+import { homeCategories, homeGuides, homePicks } from "@/data/home";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-black">
+    <main className="relative min-h-screen overflow-hidden bg-[#05070f] pb-10 text-slate-100">
+      <div className="pointer-events-none absolute -left-24 top-0 h-80 w-80 rounded-full bg-[#3b5bff]/25 blur-[110px]" />
+      <div className="pointer-events-none absolute right-0 top-24 h-72 w-72 rounded-full bg-[#ff7a3d]/18 blur-[100px]" />
+      <div
+        className="pointer-events-none absolute inset-0 opacity-40"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px)",
+          backgroundSize: "48px 48px",
+        }}
+      />
+
       <Navigation />
 
-      <PageShell>
-        <header className="text-center mb-12 md:mb-16">
-          <p className="text-sm font-medium text-purple-300 mb-3 tracking-wide uppercase">
-            Top 10 Vandaag
-          </p>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-5 gradient-text leading-tight max-w-4xl mx-auto">
-            Ontdek hier alle elektronische Top 10-lijsten die je nodig hebt!
-          </h1>
-          <p className="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto">
-            Ontdek de beste producten in elke categorie, zorgvuldig getest en vergeleken.
-          </p>
-        </header>
-
-        <section id="categorieen" className="mb-14 md:mb-20">
-          <div className="mb-6">
-            <h2 className="text-2xl md:text-3xl font-bold text-white">Categorieën</h2>
-            <p className="text-gray-400 text-sm mt-1">Kies een categorie om de Top 10 te bekijken</p>
+      <div className="relative mx-auto max-w-6xl px-5 pt-24 sm:px-8">
+        <section className="flex flex-col gap-5 py-7 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] uppercase tracking-[0.22em] text-[#ffb089]">
+              <span className="h-1.5 w-1.5 rounded-full bg-[#ff7a3d]" />
+              Actuele lijsten
+            </div>
+            <h1 className="font-display max-w-3xl text-3xl font-bold uppercase leading-[0.95] tracking-tight text-white sm:text-4xl lg:text-5xl">
+              Gerangschikt op populariteit
+            </h1>
+            <p className="mt-3 max-w-md text-sm text-white/55">
+              Top 10-lijsten voor smartphones, schermen, computers en accessoires.
+            </p>
           </div>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              href="#categorieen"
+              className="rounded-xl bg-white px-5 py-2.5 text-sm font-semibold text-black hover:bg-slate-200"
+            >
+              Categorieën
+            </Link>
+            <Link
+              href="/gidsen"
+              className="rounded-xl border border-white/15 bg-white/5 px-5 py-2.5 text-sm hover:bg-white/10"
+            >
+              Gidsen
+            </Link>
+          </div>
+        </section>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6">
-            {categories.map((category) => (
+        <section id="categorieen" className="pb-8">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {homeCategories.map((category) => (
               <Link
                 key={category.id}
                 href={category.link}
-                className="group relative block overflow-hidden rounded-2xl border border-white/[0.08] bg-white/[0.02] hover:border-white/[0.15] transition-all duration-300 touch-manipulation"
+                className="group relative block aspect-[16/10] overflow-hidden rounded-3xl border border-white/10 touch-manipulation"
               >
-                <div className="aspect-[16/10] relative overflow-hidden">
-                  <img
-                    src={category.image}
-                    alt={category.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-5 md:p-6">
-                    <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-1">
-                      {category.title}
-                    </h3>
-                    <p className="text-gray-300 text-sm sm:text-base">{category.description}</p>
-                    <span className="inline-block mt-3 text-sm text-purple-300 opacity-0 group-hover:opacity-100 transition-opacity">
-                      Bekijk Top 10 →
-                    </span>
-                  </div>
+                <img
+                  src={category.image}
+                  alt={category.title}
+                  className="absolute inset-0 h-full w-full object-cover opacity-70 transition duration-500 group-hover:scale-[1.04] group-hover:opacity-90"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#05070f] via-[#05070f]/40 to-transparent" />
+                <div className="absolute inset-x-0 bottom-0 p-5">
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.28em] text-[#ff7a3d]">
+                    {category.kicker}
+                  </p>
+                  <h2 className="font-display mt-1 text-2xl font-bold uppercase leading-tight sm:text-3xl">
+                    {category.title}
+                  </h2>
+                  <p className="mt-1 hidden text-sm text-white/60 sm:block">{category.description}</p>
                 </div>
               </Link>
             ))}
           </div>
         </section>
 
-        <section className="glass-effect rounded-xl p-8 md:p-10 text-center mb-8">
-          <h2 className="text-xl md:text-2xl font-bold text-white mb-3">
-            Niet zeker wat je nodig hebt?
-          </h2>
-          <p className="text-gray-400 text-sm max-w-xl mx-auto mb-6">
-            Lees eerst onze koopgidsen, daarna vergelijk je eenvoudig in onze Top 10 lijsten.
-          </p>
-          <div className="flex flex-wrap justify-center gap-3">
-            <Link
-              href="/gidsen"
-              className="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-lg font-semibold text-white text-sm transition-colors"
-            >
-              Bekijk alle gidsen
-            </Link>
-            <Link
-              href="/trending"
-              className="glass-effect px-6 py-3 rounded-lg hover:bg-white/10 transition-colors text-sm text-white"
-            >
-              Trending producten
+        <section className="grid gap-4 pb-8 lg:grid-cols-[1.2fr_0.8fr]">
+          <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-4 backdrop-blur">
+            <div className="mb-3 flex items-center justify-between px-1">
+              <h2 className="font-display text-sm font-bold uppercase tracking-wide">Featured stack</h2>
+              <Link href="/trending" className="text-xs font-semibold uppercase tracking-wider text-[#ff7a3d]">
+                Trending →
+              </Link>
+            </div>
+            <div className="space-y-2">
+              {homePicks.map((pick) => (
+                <Link
+                  key={pick.name}
+                  href={pick.href}
+                  className="flex items-center gap-3 rounded-2xl border border-white/5 bg-black/30 p-3 transition hover:border-[#ff7a3d]/40"
+                >
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-black">
+                    <img src={pick.image} alt="" className="max-h-10 object-contain" />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <p className="text-[10px] uppercase tracking-[0.18em] text-[#8da2ff]">
+                      {pick.rank} · {pick.category}
+                    </p>
+                    <h3 className="truncate font-semibold">{pick.name}</h3>
+                  </div>
+                  <span className="text-sm text-white/50">{pick.price}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-[#11183a] to-[#05070f] p-5">
+            <p className="text-[10px] font-semibold uppercase tracking-[0.28em] text-[#8da2ff]">Guides</p>
+            <h2 className="font-display mt-2 text-xl font-bold uppercase">Eerst de specs.</h2>
+            <div className="mt-4 space-y-3">
+              {homeGuides.map((guide) => (
+                <Link key={guide.href} href={guide.href} className="block border-t border-white/10 pt-3">
+                  <p className="text-[11px] text-[#ffb089]">
+                    {guide.category} · {guide.readTime}
+                  </p>
+                  <h3 className="mt-1 text-sm font-medium leading-snug">{guide.title}</h3>
+                </Link>
+              ))}
+            </div>
+            <Link href="/gidsen" className="mt-5 inline-block text-sm font-semibold text-[#ff7a3d]">
+              Alle gidsen →
             </Link>
           </div>
         </section>
-
-        <section className="md:hidden py-6 border-t border-white/10">
-          <SocialIconLinks className="flex justify-center gap-6" />
-        </section>
-      </PageShell>
+      </div>
     </main>
   );
 }

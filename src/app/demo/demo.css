@@ -1,0 +1,74 @@
+body:has(.demo-root) > footer {
+  display: none !important;
+}
+
+body:has(.demo-root) > .fixed.top-4 {
+  display: none !important;
+}
+
+body:has(.demo-noir) {
+  background: #070708 !important;
+  color: #f4efe6;
+}
+
+body:has(.demo-galerie) {
+  background: #0e0e10 !important;
+  color: #ece7df;
+}
+
+body:has(.demo-pulse) {
+  background: #05070f !important;
+  color: #eef2ff;
+}
+
+.demo-grain {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  opacity: 0.18;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.demo-marquee {
+  display: flex;
+  gap: 3rem;
+  width: max-content;
+  animation: demo-marquee 32s linear infinite;
+}
+
+@keyframes demo-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes demo-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.demo-float {
+  animation: demo-float 6s ease-in-out infinite;
+}
+
+@keyframes demo-kenburns {
+  from {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1.18);
+  }
+}
+
+.demo-kenburns {
+  animation: demo-kenburns 22s ease-out forwards;
+}

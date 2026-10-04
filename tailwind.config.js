@@ -14,6 +14,10 @@ module.exports = {
         'dark-purple': '#2D1B6B',
         'midnight': '#0A0826',
       },
+      fontFamily: {
+        sans: ["var(--font-body)", "system-ui", "sans-serif"],
+        display: ["var(--font-display)", "Georgia", "serif"],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-main': 'linear-gradient(to right, #1E1B6B, #6B1E89)',
