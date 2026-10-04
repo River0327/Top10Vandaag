@@ -177,7 +177,7 @@ export default function NoirHomePage() {
                   {category.title}
                 </h3>
                 <p className="mt-2 max-w-sm text-sm text-white/70">{category.description}</p>
-                <span className="mt-4 text-sm text-[#d4b483]">{category.count} · Bekijk Top 10 →</span>
+                <span className="mt-4 text-sm text-[#d4b483]">Bekijk Top 10 →</span>
               </div>
             </Link>
           ))}

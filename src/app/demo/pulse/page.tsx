@@ -171,7 +171,7 @@ export default function PulseHomePage() {
                 </h3>
                 <p className="mt-2 max-w-md text-sm text-white/60">{category.description}</p>
                 <span className="mt-4 text-sm font-semibold text-white">
-                  {category.count} →
+                  Bekijk Top 10 →
                 </span>
               </div>
             </Link>
