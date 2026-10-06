@@ -148,10 +148,9 @@ export default function TrendingPage() {
       <PageShell>
         <div className="max-w-4xl mx-auto">
           <header className="text-center mb-10">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">Trending</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">Trending tech van 2026</h1>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              De populairste producten op Top 10 Vandaag. Geselecteerd op populariteit, reviews en
-              beschikbaarheid bij Nederlandse retailers.
+              De populairste producten op Top 10 Vandaag, met actuele prijzen bij Bol.com en Coolblue.
             </p>
           </header>
 

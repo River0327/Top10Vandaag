@@ -11,10 +11,9 @@ export default function GidsenPage() {
       <Navigation />
       <PageShell>
         <div className="text-center mb-12 max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">Koopgidsen & Advies</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">Koopgidsen voor tech</h1>
           <p className="text-lg text-gray-400">
-            Eerst begrijpen, dan kiezen. Onze gidsen helpen je de juiste producten te vinden 
-            met links naar onze actuele Top 10 lijsten.
+            Eerst begrijpen, dan kopen. Gidsen voor smartphones, tv’s, laptops en accessoires, met links naar actuele Top 10-lijsten.
           </p>
         </div>
 

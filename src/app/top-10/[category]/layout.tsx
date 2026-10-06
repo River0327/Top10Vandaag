@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
-import { getCategory } from "@/data/categories";
-import { breadcrumbJsonLd, createMetadata } from "@/lib/seo";
+import { categorySlugs, getCategory } from "@/data/categories";
+import { breadcrumbJsonLd, createMetadata, faqJsonLd, itemListJsonLd, webPageJsonLd } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 
 type Props = {
   children: React.ReactNode;
   params: { category: string };
 };
+
+export function generateStaticParams() {
+  return categorySlugs.map((category) => ({ category }));
+}
 
 export async function generateMetadata({ params }: { params: { category: string } }): Promise<Metadata> {
   const category = getCategory(params.category);
@@ -20,10 +24,10 @@ export async function generateMetadata({ params }: { params: { category: string 
   }
 
   return createMetadata({
-    title: `Top 10 ${category.title}`,
-    description: `${category.description} Bekijk onze Top 10 lijsten per subcategorie met voor- en nadelen en links naar Bol.com en Coolblue.`,
+    title: category.seoTitle,
+    description: category.description,
     path: `/top-10/${params.category}`,
-    keywords: [category.title, "top 10", "vergelijking", "koopgids"],
+    keywords: [...category.keywords, category.question],
   });
 }
 
@@ -32,14 +36,35 @@ export default function CategoryLayout({ children, params }: Props) {
 
   if (!category) return children;
 
+  const path = `/top-10/${params.category}`;
+
+  const schema = [
+    breadcrumbJsonLd([
+      { name: "Home", path: "/" },
+      { name: category.title, path },
+    ]),
+    webPageJsonLd({
+      name: category.seoTitle,
+      description: category.description,
+      path,
+      type: "CollectionPage",
+    }),
+    itemListJsonLd({
+      name: category.seoTitle,
+      description: category.description,
+      path,
+      items: category.subcategories.map((sub) => ({
+        name: sub.name,
+        image: sub.image,
+        url: `${path}/${sub.slug}`,
+      })),
+    }),
+  ];
+  const faq = faqJsonLd(category.faqs);
+
   return (
     <>
-      <JsonLd
-        data={breadcrumbJsonLd([
-          { name: "Home", path: "/" },
-          { name: category.title, path: `/top-10/${params.category}` },
-        ])}
-      />
+      <JsonLd data={faq ? [...schema, faq] : schema} />
       {children}
     </>
   );

@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import Navigation from "../components/Navigation";
-import { homeCategories, homeGuides, homePicks } from "@/data/home";
+import { homeCategories, homeGuides, homePicks, homeFaqs } from "@/data/home";
+import FaqSection from "../components/FaqSection";
 
 export default function HomePage() {
   return (
@@ -28,10 +29,11 @@ export default function HomePage() {
               Actuele lijsten
             </div>
             <h1 className="font-display max-w-3xl text-3xl font-bold uppercase leading-[0.95] tracking-tight text-white sm:text-4xl lg:text-5xl">
-              Gerangschikt op populariteit
+              Top 10 Vandaag
             </h1>
-            <p className="mt-3 max-w-md text-sm text-white/55">
-              Top 10-lijsten voor smartphones, schermen, computers en accessoires.
+            <p className="mt-3 max-w-lg text-sm text-white/55">
+              De Nederlandse site voor de top 10 beste telefoons, laptops, tv’s en accessoires. Ook bekend als
+              Top10Vandaag.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
@@ -94,7 +96,7 @@ export default function HomePage() {
                   className="flex items-center gap-3 rounded-2xl border border-white/5 bg-black/30 p-3 transition hover:border-[#ff7a3d]/40"
                 >
                   <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-black">
-                    <img src={pick.image} alt="" className="max-h-10 object-contain" />
+                    <img src={pick.image} alt={pick.name} className="max-h-10 object-contain" />
                   </div>
                   <div className="min-w-0 flex-1">
                     <p className="text-[10px] uppercase tracking-[0.18em] text-[#8da2ff]">
@@ -126,6 +128,8 @@ export default function HomePage() {
             </Link>
           </div>
         </section>
+
+        <FaqSection faqs={homeFaqs} />
       </div>
     </main>
   );

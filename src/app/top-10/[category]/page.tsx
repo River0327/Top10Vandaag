@@ -4,6 +4,7 @@ import Navigation from '../../../components/Navigation';
 import PageShell from '../../../components/PageShell';
 import Link from 'next/link';
 import { categoryData } from '../../../data/categories';
+import FaqSection from '../../../components/FaqSection';
 
 const brandSlugs = new Set(['apple', 'samsung', 'oneplus', 'oppo', 'google', 'ipad']);
 const accessorySlugs = new Set(['controllers', 'headsets', 'keyboards', 'mice', 'airpods']);
@@ -55,8 +56,11 @@ export default function CategoryPage({ params }: { params: { category: string } 
           </Link>
 
           <header className="text-center mb-10 md:mb-12">
-            <h1 className="text-3xl md:text-4xl font-bold gradient-text mb-3">{data.title}</h1>
-            <p className="text-lg text-gray-400">{data.description}</p>
+            <h1 className="text-3xl md:text-4xl font-bold gradient-text mb-3">{data.question}</h1>
+            <p className="text-lg text-gray-400 max-w-3xl mx-auto">{data.description}</p>
+            {data.intro && (
+              <p className="text-sm text-gray-500 max-w-3xl mx-auto mt-4 leading-relaxed">{data.intro}</p>
+            )}
           </header>
 
           <div className={`mx-auto grid ${gridClass} gap-5 md:gap-6 justify-items-center`}>
@@ -136,6 +140,8 @@ export default function CategoryPage({ params }: { params: { category: string } 
               );
             })}
           </div>
+
+          <FaqSection faqs={data.faqs} />
         </div>
       </PageShell>
     </main>

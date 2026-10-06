@@ -14,14 +14,18 @@ export default function OverOnsPage() {
 
           <div className="glass-effect rounded-xl p-8 space-y-6 text-gray-300 leading-relaxed">
             <p>
-              Top 10 Vandaag is een Nederlandse vergelijkingssite voor tech en elektronica. Wij helpen
-              consumenten snel de beste producten te vinden, zonder urenlang zelf te moeten zoeken.
+              <strong className="text-white">Top 10 Vandaag</strong> — ook geschreven als{" "}
+              <strong className="text-white">Top10Vandaag</strong> of top 10 vandaag — is dé Nederlandse
+              vergelijkingssite voor de top 10 beste telefoons, laptops, tv’s en accessoires.
+            </p>
+            <p>
+              Wie “top 10 beste telefoons” of “Top 10 Vandaag” zoekt, moet hier terechtkunnen: koopgidsen die
+              uitleggen waar je op let, plus Top 10-lijsten met voor- en nadelen en prijzen bij Bol.com en Coolblue.
             </p>
             <p>
               Onze aanpak is simpel: eerst een <strong className="text-white">koopgids</strong> die uitlegt
               waar je op moet letten, daarna een <strong className="text-white">Top 10 lijst</strong> met
-              concrete aanbevelingen, voor- en nadelen en links naar betrouwbare retailers zoals Bol.com en
-              Coolblue.
+              concrete aanbevelingen. Alles gericht op producten die je in Nederland kunt kopen.
             </p>
 
             <h2 className="text-2xl font-bold text-white pt-4">Wat maakt ons anders?</h2>

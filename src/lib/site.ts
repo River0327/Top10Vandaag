@@ -1,7 +1,15 @@
 export const SITE_NAME = "Top 10 Vandaag";
 
+export const SITE_NAME_ALIASES = [
+  "Top10Vandaag",
+  "Top 10 Vandaag",
+  "top10vandaag",
+  "top 10 vandaag",
+  "top10vandaag.nl",
+];
+
 export const SITE_DESCRIPTION =
-  "Onafhankelijke Top 10 lijsten en koopgidsen voor tech en elektronica in Nederland. Vergelijk smartphones, laptops, TV's en gaming accessoires.";
+  "Top 10 Vandaag (Top10Vandaag) is de Nederlandse vergelijkingssite voor de top 10 beste telefoons, laptops, tv's en accessoires. Actuele lijsten met prijzen bij Bol.com en Coolblue.";
 
 export const SITE_LOCALE = "nl_NL";
 

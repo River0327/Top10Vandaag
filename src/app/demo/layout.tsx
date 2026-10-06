@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { createMetadata } from "@/lib/seo";
 import { DM_Sans, Fraunces, Outfit, Playfair_Display, Space_Grotesk, Syne } from "next/font/google";
 import DemoChrome from "./DemoChrome";
 import DemoSwitcher from "./DemoSwitcher";
@@ -34,10 +35,12 @@ const spaceGrotesk = Space_Grotesk({
   variable: "--font-demo-tech",
 });
 
-export const metadata: Metadata = {
+export const metadata: Metadata = createMetadata({
   title: "Homepage designs",
-  robots: { index: false, follow: false },
-};
+  description: "Interne designvarianten. Deze pagina is niet bedoeld voor zoekmachines.",
+  path: "/demo",
+  noIndex: true,
+});
 
 export default function DemoLayout({ children }: { children: React.ReactNode }) {
   return (

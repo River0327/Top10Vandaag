@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
 import { guides } from "@/data/guides";
-import { articleJsonLd, breadcrumbJsonLd, createMetadata } from "@/lib/seo";
+import { articleJsonLd, breadcrumbJsonLd, createMetadata, faqJsonLd } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 
 type Props = {
   children: React.ReactNode;
   params: { slug: string };
 };
+
+export function generateStaticParams() {
+  return guides.map((guide) => ({ slug: guide.slug }));
+}
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const guide = guides.find((g) => g.slug === params.slug);
@@ -23,9 +27,10 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     title: guide.title,
     description: guide.excerpt,
     path: `/gidsen/${guide.slug}`,
-    keywords: [guide.category, "koopgids", "top 10", "vergelijking"],
+    keywords: [guide.category, "koopgids", "vergelijken", "Nederland", ...guide.title.split(" ").slice(0, 4)],
     type: "article",
     publishedTime: guide.publishedAt,
+    modifiedTime: guide.updatedAt ?? guide.publishedAt,
   });
 }
 
@@ -34,21 +39,7 @@ export default function GuideLayout({ children, params }: Props) {
 
   if (!guide) return children;
 
-  const faqJsonLd =
-    guide.faqs.length > 0
-      ? {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: guide.faqs.map((faq) => ({
-            "@type": "Question",
-            name: faq.question,
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: faq.answer,
-            },
-          })),
-        }
-      : null;
+  const faq = faqJsonLd(guide.faqs);
 
   return (
     <>
@@ -56,7 +47,7 @@ export default function GuideLayout({ children, params }: Props) {
         data={[
           breadcrumbJsonLd([
             { name: "Home", path: "/" },
-            { name: "Gidsen", path: "/gidsen" },
+            { name: "Koopgidsen", path: "/gidsen" },
             { name: guide.title, path: `/gidsen/${guide.slug}` },
           ]),
           articleJsonLd({
@@ -64,8 +55,9 @@ export default function GuideLayout({ children, params }: Props) {
             description: guide.excerpt,
             path: `/gidsen/${guide.slug}`,
             publishedAt: guide.publishedAt,
+            modifiedAt: guide.updatedAt ?? guide.publishedAt,
           }),
-          ...(faqJsonLd ? [faqJsonLd] : []),
+          ...(faq ? [faq] : []),
         ]}
       />
       {children}

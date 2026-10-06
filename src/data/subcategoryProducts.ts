@@ -1029,7 +1029,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   playstation: {
-    title: "Top 10 Beste PlayStation Producten van 2025",
+    title: "Top 10 Beste PlayStation Producten van 2026",
     description: "De populairste PlayStation games en accessoires gerangschikt op verkoopcijfers en gebruikerservaringen",
     products: [
       {
@@ -1215,7 +1215,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   xbox: {
-    title: "Top 10 Beste Xbox Producten van 2025",
+    title: "Top 10 Beste Xbox Producten van 2026",
     description: "De populairste Xbox games en accessoires gerangschikt op verkoopcijfers en gebruikerservaringen",
     products: [
       {
@@ -1401,7 +1401,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   nintendo: {
-    title: "Top 10 Beste Nintendo Producten van 2025",
+    title: "Top 10 Beste Nintendo Producten van 2026",
     description: "De populairste Nintendo games en accessoires gerangschikt op verkoopcijfers en gebruikerservaringen",
     products: [
       {
@@ -1587,7 +1587,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   laptops: {
-    title: "Top 10 Beste Laptops van 2025",
+    title: "Top 10 Beste Laptops van 2026",
     description: "De populairste laptops gerangschikt op prestaties en gebruikerservaringen",
     products: [
       {
@@ -1697,7 +1697,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   desktops: {
-    title: "Top 10 Beste Desktop PC's van 2025",
+    title: "Top 10 Beste Desktop PC's van 2026",
     description: "De populairste desktop computers gerangschikt op prestaties en gebruikerservaringen",
     products: [
       {
@@ -1833,7 +1833,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   components: {
-    title: "Top 10 Beste PC Componenten van 2025",
+    title: "Top 10 Beste PC Componenten van 2026",
     description: "De populairste PC onderdelen gerangschikt op prestaties en prijs-kwaliteit verhouding",
     products: [
       {
@@ -2204,7 +2204,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   controllers: {
-    title: "Top 10 Beste Controllers van 2025",
+    title: "Top 10 Beste Controllers van 2026",
     description: "De populairste gamecontrollers voor PC, PlayStation, Xbox en Nintendo Switch",
     products: [
       {
@@ -2312,7 +2312,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   headsets: {
-    title: "Top 10 Beste Koptelefoons van 2025",
+    title: "Top 10 Beste Koptelefoons van 2026",
     description: "Van noise-cancelling tot gaming, de populairste draadloze koptelefoons",
     products: [
       {
@@ -2426,7 +2426,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   keyboards: {
-    title: "Top 10 Beste Toetsenborden van 2025",
+    title: "Top 10 Beste Toetsenborden van 2026",
     description: "Van productiviteitstoetsenborden tot mechanische gaming boards, de populairste keuzes voor werk en gamen",
     products: [
       {
@@ -2540,7 +2540,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
     ]
   },
   mice: {
-    title: "Top 10 Beste Muizen van 2025",
+    title: "Top 10 Beste Muizen van 2026",
     description: "Van productiviteitsmuizen tot esports-gamingmuizen, de populairste muizen voor werk en gamen",
     products: [
       {

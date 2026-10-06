@@ -9,18 +9,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
   const staticPages: MetadataRoute.Sitemap = [
-    { url: baseUrl, lastModified: now, changeFrequency: "weekly", priority: 1 },
+    { url: baseUrl, lastModified: now, changeFrequency: "daily", priority: 1 },
     { url: `${baseUrl}/gidsen`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${baseUrl}/trending`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
-    { url: `${baseUrl}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
-    { url: `${baseUrl}/over-ons`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
-    { url: `${baseUrl}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
-    { url: `${baseUrl}/affiliate-disclosure`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${baseUrl}/trending`, lastModified: now, changeFrequency: "daily", priority: 0.85 },
+    { url: `${baseUrl}/over-ons`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
+    { url: `${baseUrl}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
+    { url: `${baseUrl}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${baseUrl}/affiliate-disclosure`, lastModified: now, changeFrequency: "yearly", priority: 0.2 },
   ];
 
   const guidePages: MetadataRoute.Sitemap = guides.map((guide) => ({
     url: `${baseUrl}/gidsen/${guide.slug}`,
-    lastModified: new Date(guide.publishedAt),
+    lastModified: new Date(guide.updatedAt ?? guide.publishedAt),
     changeFrequency: "monthly",
     priority: 0.8,
   }));
@@ -29,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}/top-10/${slug}`,
     lastModified: now,
     changeFrequency: "weekly",
-    priority: 0.9,
+    priority: 0.8,
   }));
 
   const subcategoryPages: MetadataRoute.Sitemap = subcategorySlugs.map((slug) => {
@@ -37,8 +37,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     return {
       url: `${baseUrl}/top-10/${seo.category}/${slug}`,
       lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.85,
+      changeFrequency: "daily",
+      priority: 0.9,
     };
   });
 

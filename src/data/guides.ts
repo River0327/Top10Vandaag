@@ -18,6 +18,7 @@ export interface Guide {
   top10Link: string;
   top10Label: string;
   publishedAt: string;
+  updatedAt: string;
   sections: GuideSection[];
   faqs: GuideFAQ[];
 }
@@ -25,7 +26,7 @@ export interface Guide {
 export const guides: Guide[] = [
   {
     slug: "beste-gaming-muis-2025",
-    title: "Beste gaming muis kiezen in 2025",
+    title: "Beste gaming muis kiezen in 2026",
     excerpt:
       "FPS, MMO of kantoorwerk, ontdek welke specificaties het verschil maken en welke muis bij jouw speelstijl past.",
     readTime: "4 min",
@@ -33,6 +34,7 @@ export const guides: Guide[] = [
     top10Link: "/top-10/gaming/mice",
     top10Label: "Bekijk Top 10 gaming muizen",
     publishedAt: "2025-06-01",
+    updatedAt: "2026-10-06",
     sections: [
       {
         heading: "Waarom de juiste muis zo veel uitmaakt",
@@ -95,6 +97,7 @@ export const guides: Guide[] = [
     top10Link: "/top-10/schermen/tvs",
     top10Label: "Bekijk Top 10 TV's",
     publishedAt: "2025-06-01",
+    updatedAt: "2026-10-06",
     sections: [
       {
         heading: "Het korte antwoord",
@@ -136,7 +139,7 @@ export const guides: Guide[] = [
     ],
     faqs: [
       {
-        question: "Is OLED de moeite waard in 2025?",
+        question: "Is OLED de moeite waard in 2026?",
         answer:
           "Ja, zeker als je veel films kijkt in een donkere ruimte. De prijzen zijn gedaald en modellen als de LG C5 en Samsung S90F bieden uitstekende waarde.",
       },
@@ -154,13 +157,14 @@ export const guides: Guide[] = [
   },
   {
     slug: "beste-gaming-headset-2025",
-    title: "Beste gaming headset kiezen in 2025",
+    title: "Beste gaming headset kiezen in 2026",
     excerpt: "Draadloos, ruisonderdrukking of puur gaming-geluid, zo vind je de headset die bij jou past.",
     readTime: "2 min",
     category: "Accessoires",
     top10Link: "/top-10/gaming/headsets",
     top10Label: "Bekijk Top 10 headsets",
     publishedAt: "2025-06-01",
+    updatedAt: "2026-10-06",
     sections: [
       {
         heading: "Gaming vs hybride gebruik",
@@ -189,13 +193,14 @@ export const guides: Guide[] = [
   },
   {
     slug: "beste-gaming-monitor-2025",
-    title: "Beste gaming monitor kiezen in 2025",
+    title: "Beste gaming monitor kiezen in 2026",
     excerpt: "Refresh rate, resolutie en paneeltype, alles wat je moet weten vóór je een gaming monitor koopt.",
     readTime: "2 min",
     category: "Schermen",
     top10Link: "/top-10/schermen/gaming_monitors",
     top10Label: "Bekijk Top 10 gaming monitoren",
     publishedAt: "2025-06-01",
+    updatedAt: "2026-10-06",
     sections: [
       {
         heading: "1080p, 1440p of 4K?",
@@ -226,6 +231,7 @@ export const guides: Guide[] = [
     top10Link: "/top-10/computers/laptops",
     top10Label: "Bekijk Top 10 laptops",
     publishedAt: "2025-06-01",
+    updatedAt: "2026-10-06",
     sections: [
       {
         heading: "Wanneer kies je een laptop?",
@@ -254,13 +260,14 @@ export const guides: Guide[] = [
   },
   {
     slug: "beste-smartphone-kiezen",
-    title: "Beste smartphone kiezen in 2025",
+    title: "Beste smartphone kiezen in 2026",
     excerpt: "iPhone, Samsung, OnePlus of Google Pixel, zo bepaal je welk toestel bij jouw budget en gebruik past.",
     readTime: "2 min",
     category: "Telefoons",
     top10Link: "/top-10/telefoons/apple",
     top10Label: "Bekijk Top 10 iPhones",
     publishedAt: "2025-06-01",
+    updatedAt: "2026-10-06",
     sections: [
       {
         heading: "Ecosysteem of vrijheid?",

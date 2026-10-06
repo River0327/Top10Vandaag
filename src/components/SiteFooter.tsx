@@ -18,7 +18,7 @@ export default function SiteFooter() {
           <div>
             <Logo variant="full" href="/" className="mb-3" />
             <p className="mt-3 max-w-md text-sm text-white/45">
-              Onafhankelijke koopgidsen en Top 10 lijsten voor tech en elektronica in Nederland.
+              Top 10 Vandaag (Top10Vandaag): de top 10 beste telefoons, laptops, tv’s en accessoires in Nederland.
             </p>
             <SocialIconLinks className="mt-5 flex gap-3" />
           </div>

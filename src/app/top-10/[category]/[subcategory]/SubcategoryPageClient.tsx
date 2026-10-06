@@ -3,8 +3,10 @@
 import Navigation from '../../../../components/Navigation';
 import Link from 'next/link';
 import { editorialIntros, defaultEditorialIntro } from '../../../../data/editorialIntros';
+import { getSubcategorySeo } from '../../../../data/subcategorySeo';
 import { sortStores } from '../../../../lib/stores';
 import StoreLink from '../../../../components/StoreLink';
+import FaqSection from '../../../../components/FaqSection';
 import type { EnrichedSubcategoryData } from '../../../../lib/bol/types';
 
 interface SubcategoryPageClientProps {
@@ -14,6 +16,7 @@ interface SubcategoryPageClientProps {
 
 export default function SubcategoryPageClient({ params, data }: SubcategoryPageClientProps) {
   const editorial = editorialIntros[params.subcategory] ?? defaultEditorialIntro;
+  const seo = getSubcategorySeo(params.subcategory);
 
   if (!data) {
     return (
@@ -58,8 +61,10 @@ export default function SubcategoryPageClient({ params, data }: SubcategoryPageC
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
-            <h1 className="text-5xl font-bold mb-4 text-white/90">{data.title}</h1>
-            <p className="text-xl text-gray-400">{data.description}</p>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white/90">
+              {seo?.question ?? seo?.title ?? data.title}
+            </h1>
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto">{seo?.description ?? data.description}</p>
           </div>
 
           <div className="max-w-3xl mx-auto mb-12 glass-effect rounded-xl p-6 border border-white/10">
@@ -144,6 +149,8 @@ export default function SubcategoryPageClient({ params, data }: SubcategoryPageC
               </div>
             ))}
           </div>
+
+          <FaqSection faqs={seo?.faqs} />
         </div>
       </section>
     </main>

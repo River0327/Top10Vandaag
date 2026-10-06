@@ -3,7 +3,7 @@ export const homeCategories = [
     id: "telefoons",
     title: "Telefoons & tablets",
     kicker: "Mobiel",
-    description: "iPhone, Galaxy, Pixel en iPad — de toestellen die er écht toe doen.",
+    description: "Top 10 beste telefoons: iPhone, Galaxy, Pixel en iPad.",
     image:
       "https://images.unsplash.com/photo-1616348436168-de43ad0db179?q=80&w=1400&auto=format&fit=crop",
     link: "/top-10/telefoons",
@@ -81,7 +81,7 @@ export const homeGuides = [
     category: "Telefoons",
   },
   {
-    title: "Beste gaming muis in 2025",
+    title: "Beste gaming muis in 2026",
     excerpt: "Gewicht, sensor en grip: de specificaties die het verschil maken.",
     href: "/gidsen/beste-gaming-muis-2025",
     readTime: "4 min",
@@ -102,4 +102,25 @@ export const navLinks = [
   { href: "/trending", label: "Trending" },
   { href: "/over-ons", label: "Over ons" },
   { href: "/contact", label: "Contact" },
+];
+
+export const homeFaqs = [
+  {
+    question: "Wat is de beste telefoon?",
+    answer:
+      "Dat hangt af van merk en budget. Bekijk de Top 10 beste telefoons op Top 10 Vandaag: iPhone, Samsung, Pixel, OnePlus en OPPO.",
+  },
+  {
+    question: "Wat is Top 10 Vandaag?",
+    answer:
+      "Top 10 Vandaag (ook Top10Vandaag) is een Nederlandse vergelijkingssite met Top 10-lijsten en koopgidsen voor tech, met prijzen bij Bol.com en Coolblue.",
+  },
+  {
+    question: "Wat is de beste laptop?",
+    answer: "Voor werk of studie kies je een lichte laptop; voor games een model met dedicated GPU. Zie onze Top 10 laptops.",
+  },
+  {
+    question: "Wat is de beste tv?",
+    answer: "OLED is meestal het best voor films; QLED of Mini LED voor een lichte woonkamer. Open de Top 10 tv’s.",
+  },
 ];

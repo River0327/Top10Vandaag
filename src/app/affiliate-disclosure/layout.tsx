@@ -4,7 +4,7 @@ import { createMetadata } from "@/lib/seo";
 export const metadata: Metadata = createMetadata({
   title: "Affiliate disclosure",
   description:
-    "Hoe Top 10 Vandaag affiliate links gebruikt. Transparantie over commissies via Bol.com, Coolblue en andere partners.",
+    "Transparantie over affiliate links op Top 10 Vandaag. We kunnen commissie ontvangen via Bol.com, Coolblue en andere partners, zonder extra kosten voor jou.",
   path: "/affiliate-disclosure",
 });
 
