@@ -43,7 +43,7 @@ export const homePicks = [
     blurb: "Brancheleidende noise cancelling, 30 uur batterij.",
     image: "/images/headsets/01-sony-xm5.png",
     href: "/top-10/gaming/headsets",
-    price: "vanaf € 226",
+    price: "vanaf € 232",
   },
   {
     rank: "02",
@@ -52,7 +52,7 @@ export const homePicks = [
     blurb: "Diep zwart, AI-beeld en webOS voor film en gaming.",
     image: "/images/tvs/01-lg-oled-evo-c5.png",
     href: "/top-10/schermen/tvs",
-    price: "vanaf € 779",
+    price: "vanaf € 1.099",
   },
   {
     rank: "03",
@@ -61,7 +61,7 @@ export const homePicks = [
     blurb: "60 gram, HERO 2-sensor — de esports-standaard.",
     image: "/images/mice/03-g-pro-x-superlight-2.png",
     href: "/top-10/gaming/mice",
-    price: "vanaf € 90",
+    price: "vanaf € 110",
   },
 ];
 

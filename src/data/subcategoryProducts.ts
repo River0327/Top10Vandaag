@@ -39,10 +39,10 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         cons: [],
         stores: [
           {
-            name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F969451%2Fapple-iphone-17-pro-max-256gb-blauw.html", approxPrice: "€ 1.439"
+            name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F969451%2Fapple-iphone-17-pro-max-256gb-blauw.html", approxPrice: "€ 1.369"
           },
           {
-            name: "Bol.com", bolProductId: "9300000240171924", approxPrice: "€ 1.226"
+            name: "Bol.com", bolProductId: "9300000240171924", approxPrice: "€ 1.219"
           }
         ]
       },
@@ -1591,94 +1591,108 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
     description: "De populairste laptops gerangschikt op prestaties en gebruikerservaringen",
     products: [
       {
-        name: "Apple MacBook Air",
-        description: "Dunne en lichte Apple-laptop met krachtige Apple Silicon-chip, lange batterijduur en premium build quality.",
+        name: "Apple MacBook Air 15 inch (2026) M5",
+        description: "15,3 inch MacBook Air met M5-chip, 16 GB RAM en 512 GB SSD. Licht, stil en sterk genoeg voor studie, werk en lichte beeldbewerking.",
         rating: 4.9,
-        image: "",
-        pros: ["Apple Silicon", "Lange batterijduur", "Dun en licht"],
-        cons: ["Beperkte poorten", "Prijzig"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        image: "/images/laptops/l_1.png",
+        pros: ["Apple M5 (10 CPU / 10 GPU)", "15,3 inch Liquid Retina", "16 GB RAM / 512 GB SSD"],
+        cons: ["Geen HDMI-poort", "Oplader niet meegeleverd"],
+        stores: [
+          {
+            name: "Coolblue",
+            link: "https://www.coolblue.nl/product/976873/apple-macbook-air-15-inch-2026-m5-10-cpu-10-gpu-16gb-512gb-zilver-qwerty.html",
+            approxPrice: "€ 1.729"
+          },
+          { name: "Bol.com", bolProductId: "9300000266631390", approxPrice: "€ 1.729" }
+        ]
       },
       {
         name: "Samsung Galaxy Book4",
         description: "Veelzijdige Samsung-laptop met helder scherm, solide prestaties en naadloze integratie met Galaxy-apparaten.",
         rating: 4.7,
-        image: "",
+        image: "/images/laptops/l_2.png",
         pros: ["Galaxy-ecosysteem", "Helder scherm", "Goede prestaties"],
         cons: ["Windows bloatware"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000228663832", approxPrice: "€ 699" }]
       },
       {
         name: "Lenovo IdeaPad Slim 3 15IRH10",
         description: "Betaalbare 15-inch laptop voor dagelijks gebruik, studie en licht productief werk.",
         rating: 4.5,
-        image: "",
+        image: "/images/laptops/l_3.png",
         pros: ["Betaalbaar", "15-inch scherm", "IdeaPad betrouwbaarheid"],
         cons: ["Plastic behuizing", "Basis display"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000230888720", approxPrice: "€ 749" }]
       },
       {
         name: "MSI Modern 15",
         description: "Stijlvolle MSI-laptop voor werk en studie met lichtgewicht design en solide dagelijkse prestaties.",
         rating: 4.5,
-        image: "",
+        image: "/images/laptops/l_4.png",
         pros: ["Lichtgewicht", "Modern design", "MSI kwaliteit"],
         cons: ["Geen dedicated GPU"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000224390007", approxPrice: "€ 699" }]
       },
       {
         name: "ASUS Vivobook 15 X1504VA",
         description: "Populaire allround 15-inch laptop met Intel-processor, compact design en goede prijs-kwaliteit.",
         rating: 4.6,
-        image: "",
+        image: "/images/laptops/l_5.png",
         pros: ["Allround laptop", "Compact", "Goede prijs"],
         cons: ["Basis speakers", "Geen premium afwerking"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [
+          {
+            name: "Coolblue",
+            link: "https://www.coolblue.nl/product/972841/asus-vivobook-15-x1504va-bq5377w.html",
+            approxPrice: "€ 623"
+          },
+          { name: "Bol.com", bolProductId: "9300000277833427", approxPrice: "€ 699" }
+        ]
       },
       {
         name: "Lenovo V15 G4 Ryzen 5",
         description: "Zakelijke budget-laptop met AMD Ryzen 5-processor voor efficiënt werken en studeren.",
         rating: 4.5,
-        image: "",
+        image: "/images/laptops/l_6.png",
         pros: ["Ryzen 5", "Betaalbaar", "Zakelijk design"],
         cons: ["Dikker formaat", "Basis scherm"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000245771630", approxPrice: "€ 509" }]
       },
       {
         name: "HP 15-fd0700nd",
         description: "HP 15-inch laptop voor dagelijks gebruik met betrouwbare prestaties en vertrouwd HP-design.",
         rating: 4.4,
-        image: "",
+        image: "/images/laptops/l_7.png",
         pros: ["HP betrouwbaarheid", "15-inch", "Betaalbaar"],
         cons: ["Plastic chassis", "Basis features"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000250384073", approxPrice: "€ 389" }]
       },
       {
         name: "Lenovo IdeaPad Slim 3 14M868",
         description: "Compacte 14-inch IdeaPad voor onderweg met slank design en solide prestaties voor studie en werk.",
         rating: 4.5,
-        image: "",
+        image: "/images/laptops/l_8.png",
         pros: ["Compact 14 inch", "Slank design", "Draagbaar"],
         cons: ["Kleiner scherm", "Beperkte poorten"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000181320464", approxPrice: "€ 339" }]
       },
       {
         name: "ASUS TUF Gaming A16 RTX 4050",
         description: "Krachtige gaming laptop met AMD-processor en NVIDIA RTX 4050 voor moderne games op medium-hoge instellingen.",
         rating: 4.7,
-        image: "",
+        image: "/images/laptops/l_9.png",
         pros: ["RTX 4050", "Gaming prestaties", "TUF robuustheid"],
         cons: ["Korte batterijduur", "Zwaar"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000252975565", approxPrice: "€ 1.099" }]
       },
       {
         name: "ACEMAGIC LX15Pro",
         description: "Betaalbare laptop met solide specificaties voor dagelijks gebruik, studie en lichte multitasking.",
         rating: 4.3,
-        image: "",
+        image: "/images/laptops/l_10.png",
         pros: ["Betaalbaar", "Solide specs", "Allround"],
         cons: ["Minder bekend merk", "Basis afwerking"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000264824023", approxPrice: "€ 999" }]
       }
     ]
   },
@@ -1690,91 +1704,131 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Lenovo LOQ Tower 17IRR9",
         description: "Lenovo gaming desktop uit de LOQ-serie met solide prestaties voor moderne games en dagelijks gebruik.",
         rating: 4.7,
-        image: "",
+        image: "/images/desktops/dp_1.png",
         pros: ["Lenovo LOQ-serie", "Gaming prestaties", "Upgradebaar"],
         cons: ["Basis RGB", "Groot formaat"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [
+          {
+            name: "Coolblue",
+            link: "https://www.coolblue.nl/product/968477/lenovo-loq-tower-17irr9-90x000g9mh.html",
+            approxPrice: "€ 1.269"
+          },
+          { name: "Bol.com", bolProductId: "9300000242236393", approxPrice: "€ 1.276" }
+        ]
       },
       {
         name: "PCSpecialist Impact 99 RTX 3050",
         description: "Custom gaming PC van PCSpecialist met NVIDIA RTX 3050, ideaal instapmodel voor 1080p-gaming.",
         rating: 4.6,
-        image: "",
+        image: "/images/desktops/dp_2.png",
         pros: ["RTX 3050", "Custom build", "PCSpecialist kwaliteit"],
         cons: ["Instap GPU", "Beperkt voor zware games"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [{
+          name: "Coolblue",
+          link: "https://www.coolblue.nl/product/964357/pcspecialist-impact-272.html",
+          approxPrice: "€ 2.549"
+        }]
       },
       {
         name: "Intel Gaming PC RTX 3050",
         description: "Intel-gebaseerde gaming desktop met RTX 3050 voor betaalbaar gamen en alledaags gebruik.",
         rating: 4.5,
-        image: "",
+        image: "/images/desktops/dp_3.png",
         pros: ["RTX 3050", "Intel processor", "Betaalbaar"],
         cons: ["Instap specificaties", "Basis behuizing"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9200000084352567", approxPrice: "€ 799" }]
       },
       {
         name: "VIST PC Gaming Ryzen 7 5700X RTX 5060",
         description: "Krachtige gaming PC met AMD Ryzen 7 5700X en RTX 5060 voor vloeiende gameplay op hoge instellingen.",
         rating: 4.8,
-        image: "",
+        image: "/images/desktops/dp_4.png",
         pros: ["Ryzen 7 5700X", "RTX 5060", "Sterke prijs-prestatie"],
         cons: ["Minder bekend merk"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000290089066", approxPrice: "€ 1.320" }]
       },
       {
         name: "Sedatech Silent Gaming PC Ryzen 5 RTX 5060",
         description: "Stille gaming desktop met Ryzen 5 en RTX 5060, geschikt voor gamen zonder storend geluid.",
         rating: 4.7,
-        image: "",
+        image: "/images/desktops/dp_5.png",
         pros: ["Stil design", "RTX 5060", "Ryzen 5"],
         cons: ["Compacte koeling", "Minder upgrade-ruimte"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000247488260", approxPrice: "€ 1.470" }]
       },
       {
-        name: "HYPER BYTE Essential Gaming PC",
-        description: "Betaalbare instap gaming PC voor beginnende gamers en lichte tot middelzware titels.",
-        rating: 4.4,
-        image: "",
-        pros: ["Betaalbaar", "Instap gaming", "Plug-and-play"],
-        cons: ["Basis specificaties", "Beperkte upgrade-opties"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        name: "HP OMEN 16L TG03-0960nd",
+        description: "Compacte HP OMEN gaming desktop met Intel Core i7, RTX 5060 en 1 TB SSD voor soepel Full HD-gamen en streamen.",
+        rating: 4.6,
+        image: "/images/desktops/dp_6.png",
+        pros: ["RTX 5060", "Intel Core i7", "Compact OMEN-design"],
+        cons: ["16 GB RAM", "Beperkte upgrade-ruimte"],
+        stores: [{
+          name: "Coolblue",
+          link: "https://www.coolblue.nl/product/965132/hp-omen-16l-tg03-0960nd.html",
+          approxPrice: "€ 1.619"
+        }]
       },
       {
         name: "HP Victus Gaming Desktop",
         description: "HP Victus gaming desktop met betrouwbare HP-kwaliteit en solide prestaties voor moderne games.",
         rating: 4.7,
-        image: "",
+        image: "/images/desktops/dp_7.png",
         pros: ["HP betrouwbaarheid", "Victus gaming", "Goede airflow"],
         cons: ["Basis RGB", "Prijzig voor specs"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Coolblue",
+            link: "https://www.coolblue.nl/product/950177/hp-victus-tg02-2966nd.html",
+            approxPrice: "€ 1.359"
+          },
+          { name: "Bol.com", bolProductId: "9300000123214896", approxPrice: "€ 1.229" }
+        ]
       },
       {
         name: "Lenovo Legion Tower 5",
         description: "Lenovo Legion gaming tower met krachtige hardware, goede koeling en premium Legion-design.",
         rating: 4.8,
-        image: "",
+        image: "/images/desktops/dp_8.png",
         pros: ["Legion premium", "Goede koeling", "Upgradebaar"],
         cons: ["Groot formaat", "Duur"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Coolblue",
+            link: "https://www.coolblue.nl/product/967341/lenovo-legion-t5-30agb10-90yj0067mh.html",
+            approxPrice: "€ 2.369"
+          },
+          { name: "Bol.com", bolProductId: "9300000264944495", approxPrice: "€ 2.499" }
+        ]
       },
       {
         name: "MSI MAG Infinite S3",
         description: "MSI gaming desktop uit de MAG-serie met compact design en solide gamingprestaties.",
         rating: 4.7,
-        image: "",
+        image: "/images/desktops/dp_9.png",
         pros: ["MSI MAG-serie", "Compact design", "Gaming prestaties"],
         cons: ["Beperkte upgrade-ruimte"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [{
+          name: "Coolblue",
+          link: "https://www.coolblue.nl/product/963763/cobalt-x-powered-by-msi-tier-2-rtx-5070-ryzen-7-9700x-32gb-2tb-ssd.html",
+          approxPrice: "€ 2.079"
+        }]
       },
       {
         name: "Acer Nitro Gaming PC",
         description: "Acer Nitro gaming desktop voor betaalbaar gamen met betrouwbare prestaties en Nitro-gamingdesign.",
         rating: 4.6,
-        image: "",
+        image: "/images/desktops/dp_10.png",
         pros: ["Acer Nitro-serie", "Betaalbaar", "Gaming design"],
         cons: ["Basis koeling", "Instap-middenklasse GPU"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [
+          {
+            name: "Coolblue",
+            link: "https://www.coolblue.nl/product/963209/acer-nitro-n50-656-i56516.html",
+            approxPrice: "€ 1.349"
+          },
+          { name: "Bol.com", bolProductId: "9300000238114207", approxPrice: "€ 1.399" }
+        ]
       }
     ]
   },
@@ -1786,91 +1840,119 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "AMD Ryzen 7 7800X3D",
         description: "De populairste gaming-CPU met 3D V-Cache-technologie voor topprestaties in games en solide allround performance.",
         rating: 4.9,
-        image: "",
+        image: "/images/components/c_1.png",
         pros: ["3D V-Cache", "Top gaming CPU", "AM5 platform"],
         cons: ["Geen integrated graphics", "Koeler apart nodig"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [
+          {
+            name: "Coolblue",
+            link: "https://www.coolblue.nl/product/928327/amd-ryzen-7-7800x3d.html",
+            approxPrice: "€ 411"
+          },
+          { name: "Bol.com", bolProductId: "9300000145270342", approxPrice: "€ 364" }
+        ]
       },
       {
         name: "ASUS Prime GeForce RTX 5070 OC",
         description: "ASUS Prime videokaart met RTX 5070 en factory overclock voor krachtige 1440p-gaming en ray tracing.",
         rating: 4.8,
-        image: "",
+        image: "/images/components/c_2.png",
         pros: ["RTX 5070", "Factory OC", "ASUS Prime kwaliteit"],
         cons: ["Prijzig", "Groot formaat"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000226496774", approxPrice: "€ 934" }]
       },
       {
         name: "MSI GeForce RTX 5070 Ventus 2X OC",
         description: "MSI Ventus RTX 5070 met compact dual-fan design en solide prestaties voor moderne games.",
         rating: 4.8,
-        image: "",
+        image: "/images/components/c_3.png",
         pros: ["RTX 5070", "Compact dual-fan", "MSI betrouwbaarheid"],
         cons: ["Basis koeling vs premium modellen"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [
+          {
+            name: "Coolblue",
+            link: "https://www.coolblue.nl/product/965303/msi-geforce-rtx-5070-ventus-2x-oc.html",
+            approxPrice: "€ 929"
+          },
+          { name: "Bol.com", bolProductId: "9300000225811493", approxPrice: "€ 889" }
+        ]
       },
       {
         name: "Sapphire Pulse Radeon RX 9060 XT",
         description: "AMD Radeon RX 9060 XT van Sapphire Pulse, sterke prijs-prestatie GPU voor 1080p en 1440p gaming.",
         rating: 4.6,
-        image: "",
+        image: "/images/components/c_4.png",
         pros: ["RX 9060 XT", "Goede prijs-prestatie", "Compact design"],
         cons: ["Minder ray tracing dan NVIDIA"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000232646322", approxPrice: "€ 625" }]
       },
       {
         name: "Gigabyte GeForce RTX 5060 Windforce",
         description: "Instap-middenklasse NVIDIA RTX 5060 van Gigabyte voor betaalbaar gamen op 1080p met DLSS-ondersteuning.",
         rating: 4.6,
-        image: "",
+        image: "/images/components/c_5.png",
         pros: ["RTX 5060", "DLSS", "Betaalbaar"],
         cons: ["Beperkt voor 4K gaming"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000247374528", approxPrice: "€ 449" }]
       },
       {
         name: "Acer Nitro Arc B580 OC",
         description: "Intel Arc B580 videokaart met factory overclock, aantrekkelijke budget GPU voor 1080p gaming.",
         rating: 4.5,
-        image: "",
+        image: "/images/components/c_6.png",
         pros: ["Intel Arc B580", "Factory OC", "Betaalbaar"],
         cons: ["Driver-maturiteit", "Minder bekend"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000220254410", approxPrice: "€ 543" }]
       },
       {
         name: "RTX 5050 MSI Gaming OC",
         description: "MSI Gaming RTX 5050, instap NVIDIA GPU voor lichte gaming en alledaags gebruik tegen scherpe prijs.",
         rating: 4.4,
-        image: "",
+        image: "/images/components/c_7.png",
         pros: ["RTX 5050", "Instap gaming", "MSI Gaming"],
         cons: ["Beperkte prestaties", "Niet voor zware titels"],
-        stores: [{ name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000235040912", approxPrice: "€ 458" }]
       },
       {
         name: "AMD Ryzen 7 9700X",
         description: "Krachtige AMD Zen 5-processor met 8 cores voor gaming, streaming en productief multitasken op AM5.",
         rating: 4.8,
-        image: "",
+        image: "/images/components/c_8.png",
         pros: ["Zen 5 architectuur", "8 cores", "Efficiënt"],
         cons: ["Prijzig", "Koeler apart nodig"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Coolblue",
+            link: "https://www.coolblue.nl/product/957553/amd-ryzen-7-9700x.html",
+            approxPrice: "€ 305"
+          },
+          { name: "Bol.com", bolProductId: "9300000184607889", approxPrice: "€ 317" }
+        ]
       },
       {
         name: "Intel Core Ultra 7 265K",
         description: "Intel Core Ultra 7 desktopprocessor met NPU voor AI-taken, solide gaming en productiviteit.",
         rating: 4.7,
-        image: "",
+        image: "/images/components/c_9.png",
         pros: ["Core Ultra serie", "NPU voor AI", "Sterke single-core"],
         cons: ["Hoog stroomverbruik", "Duur platform"],
-        stores: [{ name: "Coolblue", link: "#" }]
+        stores: [
+          {
+            name: "Coolblue",
+            link: "https://www.coolblue.nl/product/962385/intel-core-ultra-7-265k.html",
+            approxPrice: "€ 319"
+          },
+          { name: "Bol.com", bolProductId: "9300000194084031", approxPrice: "€ 339" }
+        ]
       },
       {
         name: "Corsair Vengeance DDR5 32GB",
         description: "Populair 32GB DDR5-geheugenkit van Corsair Vengeance voor snelle, stabiele prestaties in gaming en werk.",
         rating: 4.8,
-        image: "",
+        image: "/images/components/c_10.png",
         pros: ["32GB DDR5", "Corsair betrouwbaarheid", "Breed compatibel"],
         cons: ["Geen RGB op alle varianten"],
-        stores: [{ name: "Coolblue", link: "#" }, { name: "Bol.com", link: "#" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000170349653", approxPrice: "€ 550" }]
       }
     ]
   },
@@ -1882,7 +1964,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Samsung Odyssey G5 G55C 27\"",
         description: "Zeer populair mainstream model met curved QHD-scherm en 165Hz. Coolblue toont 180+ reviews voor de G5-serie.",
         rating: 4.8,
-        image: "",
+        image: "/images/gaming-monitors/gm_1.png",
         pros: ["27 inch QHD curved", "165Hz verversing", "Populair instapmodel"],
         cons: ["Niet in hoogte verstelbaar"],
         stores: [
@@ -1894,7 +1976,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "AOC Q27G4XF 27\" QHD",
         description: "Sterke prijs-kwaliteit met QHD-resolutie en 180Hz IPS-paneel. Populair AOC-model voor competitief gamen.",
         rating: 4.7,
-        image: "",
+        image: "/images/gaming-monitors/gm_2.png",
         pros: ["27 inch QHD IPS", "180Hz", "Instelbare standaard"],
         cons: ["Geen ingebouwde luidsprekers"],
         stores: [
@@ -1906,7 +1988,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "LG UltraGear 27GS85Q-B",
         description: "27 inch QHD Nano IPS-monitor met 180Hz (OC 200Hz). Coolblue's keuze voor meeslepende games met vloeiende beelden.",
         rating: 4.8,
-        image: "",
+        image: "/images/gaming-monitors/gm_3.png",
         pros: ["27 inch QHD Nano IPS", "180Hz (OC 200Hz)", "G-Sync Compatible"],
         cons: ["Prijzig voor Full HD-gamers"],
         stores: [
@@ -1918,7 +2000,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Samsung Odyssey G5 LC34G55TWWPXEN 34\" Curved",
         description: "Ultrawide curved gamingmonitor die bij Coolblue tot de best verkochte gamingmonitoren behoort. Meer schermruimte voor RPG's en racing.",
         rating: 4.7,
-        image: "",
+        image: "/images/gaming-monitors/gm_4.png",
         pros: ["34 inch ultrawide QHD", "165Hz curved VA", "Meeslepend 21:9"],
         cons: ["Veel bureauplaats nodig"],
         stores: [
@@ -1930,7 +2012,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "AOC 25G3ZM/BK",
         description: "Staat in Coolblue's bestverkochte selectie als goedkoop competitief model met hoge 240Hz refresh rate op 25 inch.",
         rating: 4.6,
-        image: "",
+        image: "/images/gaming-monitors/gm_5.png",
         pros: ["25 inch Full HD", "240Hz VA-paneel", "In hoogte verstelbaar"],
         cons: ["Geen QHD-resolutie"],
         stores: [
@@ -1942,7 +2024,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "MSI MAG 242C 24\" Curved",
         description: "Staat hoog in bol.com's actuele bestverkochte gamingmonitorlijst. Compact curved scherm met 180Hz voor budget-gamers.",
         rating: 4.6,
-        image: "",
+        image: "/images/gaming-monitors/gm_6.png",
         pros: ["24 inch curved VA", "180Hz", "Bol.com-bestseller"],
         cons: ["Full HD alleen"],
         stores: [
@@ -1954,7 +2036,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "AOC 24G4HRE 24\" 200Hz",
         description: "Veel performance voor weinig geld: 200Hz IPS-scherm met ingebouwde speakers. Hoog in bol.com's bestsellerlijst.",
         rating: 4.7,
-        image: "",
+        image: "/images/gaming-monitors/gm_7.png",
         pros: ["24 inch Full HD IPS", "200Hz", "Ingebouwde speakers"],
         cons: ["Kleiner scherm"],
         stores: [
@@ -1966,7 +2048,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "LG UltraGear 24G411A-B 24\"",
         description: "Aantrekkelijk instapmodel uit bol.com's bestsellerlijst met 144Hz IPS-paneel en G-Sync Compatible.",
         rating: 4.6,
-        image: "",
+        image: "/images/gaming-monitors/gm_8.png",
         pros: ["24 inch Full HD IPS", "144Hz", "Compact instapmodel"],
         cons: ["5 ms responstijd"],
         stores: [
@@ -1978,7 +2060,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "MSI MAG 27C6F 27\" 180Hz Curved",
         description: "Curved 27 inch gamingmonitor met 180Hz Rapid VA-paneel. Komt voor in bol.com's huidige bestsellerlijst.",
         rating: 4.6,
-        image: "",
+        image: "/images/gaming-monitors/gm_9.png",
         pros: ["27 inch curved", "180Hz", "0,5 ms responstijd"],
         cons: ["Full HD op 27 inch"],
         stores: [
@@ -1990,7 +2072,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "LG UltraGear 27GR83Q-B 27\" QHD",
         description: "Bekend 240Hz QHD-model met HDMI 2.1. Coolblue toont hem in de gamingmonitorcategorie met veel reviews.",
         rating: 4.8,
-        image: "",
+        image: "/images/gaming-monitors/gm_10.png",
         pros: ["27 inch QHD IPS", "240Hz", "HDMI 2.1"],
         cons: ["Duurder instap QHD"],
         stores: [
@@ -2008,7 +2090,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Philips 272B1G/00 – 27\"",
         description: "Sterke thuiswerkmonitor; Coolblue noemt hem expliciet hun keuze voor een 27 inch (thuis)werkplek en hij heeft zeer veel reviews.",
         rating: 4.8,
-        image: "",
+        image: "/images/office-monitors/om_1.png",
         pros: ["27 inch Full HD IPS", "PowerSensor energiebesparing", "In hoogte verstelbaar"],
         cons: ["Geen QHD-resolutie"],
         stores: [
@@ -2020,7 +2102,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Philips 242B1G/00 – 24\"",
         description: "Zeer populaire zakelijke 24 inch monitor met PowerSensor en energiezuinig ontwerp. Hoog in Coolblue's zakelijke selectie.",
         rating: 4.8,
-        image: "",
+        image: "/images/office-monitors/om_2.png",
         pros: ["24 inch Full HD IPS", "349+ Coolblue-reviews", "Energiezuinig B-line model"],
         cons: ["Kleiner scherm dan 27 inch"],
         stores: [
@@ -2032,7 +2114,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Philips 27B2G5500/00 – 27\" QHD",
         description: "QHD IPS-monitor met 100 Hz, ergonomische standaard en door Coolblue uitgelicht als energiezuinige 27 inch keuze voor kantoor.",
         rating: 4.7,
-        image: "",
+        image: "/images/office-monitors/om_3.png",
         pros: ["27 inch QHD IPS", "100 Hz", "PowerSensor & LightSensor"],
         cons: ["Geen USB-C"],
         stores: [
@@ -2044,7 +2126,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Philips 27E1N1600AE – 27\" QHD",
         description: "Interessante betaalbare QHD-kantoormonitor met USB-C 65W en ingebouwde speakers. Momenteel verkrijgbaar bij Coolblue.",
         rating: 4.7,
-        image: "",
+        image: "/images/office-monitors/om_4.png",
         pros: ["27 inch QHD IPS", "USB-C 65W", "100 Hz"],
         cons: ["Geen pivot-functie"],
         stores: [
@@ -2056,7 +2138,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Dell P2725D – 27\" QHD",
         description: "Sterke zakelijke Dell met QHD-resolutie, 100 Hz IPS-paneel en EPEAT Climate+-certificering. Goede keuze voor productiviteit.",
         rating: 4.7,
-        image: "",
+        image: "/images/office-monitors/om_5.png",
         pros: ["27 inch QHD IPS", "100 Hz", "Ergonomisch verstelbaar"],
         cons: ["Geen ingebouwde USB-C hub"],
         stores: [
@@ -2067,7 +2149,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Samsung ViewFinity S6 S61F – 27\" QHD",
         description: "Samsung's zakelijke ViewFinity-lijn met QHD-resolutie en 100 Hz IPS-paneel. Veel werkruimte voor spreadsheets en multitasken.",
         rating: 4.6,
-        image: "",
+        image: "/images/office-monitors/om_6.png",
         pros: ["27 inch QHD IPS", "100 Hz", "Ergonomische HAS-standaard"],
         cons: ["Geen USB-C"],
         stores: [
@@ -2078,7 +2160,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "LG 27BA550-B – 27\" IPS",
         description: "Zakelijke LG-monitor met Full HD IPS-paneel, 100 Hz en ergonomische standaard. Gericht op dagelijks kantoorwerk.",
         rating: 4.6,
-        image: "",
+        image: "/images/office-monitors/om_7.png",
         pros: ["27 inch Full HD IPS", "100 Hz", "USB-hub"],
         cons: ["Full HD op 27 inch"],
         stores: [
@@ -2089,7 +2171,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Dell P2725DE – 27\" QHD USB-C Hub",
         description: "Ideaal voor laptopgebruikers: ingebouwde USB-C hub met 90W power delivery en RJ45-netwerkaansluiting in één monitor.",
         rating: 4.8,
-        image: "",
+        image: "/images/office-monitors/om_8.png",
         pros: ["27 inch QHD IPS", "USB-C hub 90W", "RJ45 Ethernet"],
         cons: ["Prijziger dan instap QHD"],
         stores: [
@@ -2100,7 +2182,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "Lenovo ThinkVision P27h – 27\"",
         description: "Populaire zakelijke ThinkVision-serie met QHD-resolutie en USB-C docking. Bol.com toont dit model momenteel in de assortimentslijst.",
         rating: 4.7,
-        image: "",
+        image: "/images/office-monitors/om_9.png",
         pros: ["27 inch QHD", "USB-C docking", "ThinkVision zakelijke lijn"],
         cons: ["Geen 100 Hz"],
         stores: [
@@ -2112,7 +2194,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         name: "LG 27UP83AK-W – 27\" 4K",
         description: "Duurdere optie voor wie scherper beeld wil: 4K IPS met 95% DCI-P3 en 184 reviews bij Coolblue voor foto- en videobewerking.",
         rating: 4.8,
-        image: "",
+        image: "/images/office-monitors/om_10.png",
         pros: ["27 inch 4K IPS", "95% DCI-P3", "USB-C 90W"],
         cons: ["Duurder dan QHD-modellen"],
         stores: [
@@ -2241,8 +2323,8 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         pros: ["Beste noise cancelling", "Lichtgewicht", "Multipoint Bluetooth"],
         cons: ["Duur"],
         stores: [
-          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F905648%2Fsony-wh-1000xm5-zwart.html", approxPrice: "€ 226" },
-          { name: "Bol.com", bolProductId: "9300000096972714", approxPrice: "€ 227" }
+          { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F905648%2Fsony-wh-1000xm5-zwart.html", approxPrice: "€ 232" },
+          { name: "Bol.com", bolProductId: "9300000096972714", approxPrice: "€ 239,99" }
         ]
       },
       {
@@ -2356,7 +2438,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         cons: ["Prijzig", "Geen gaming RGB"],
         stores: [
           { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F908468%2Flogitech-mx-mechanical-draadloos-toetsenbord-metaal.html", approxPrice: "€ 151" },
-          { name: "Bol.com", bolProductId: "9300000104777042", approxPrice: "€ 99" }
+          { name: "Bol.com", bolProductId: "9300000104777042", approxPrice: "€ 159,50" }
         ]
       },
       {
@@ -2486,7 +2568,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         image: "/images/mice/03-g-pro-x-superlight-2.png",
         pros: ["60g gewicht", "HERO 2 sensor", "Lightspeed"],
         cons: ["Duur"],
-        stores: [{ name: "Bol.com", bolProductId: "9300000160446074", approxPrice: "€ 90" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F936061%2Flogitech-g-pro-x-superlight-2-lightspeed-draadloze-gaming-muis-zwart.html", approxPrice: "€ 99" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000160446074", approxPrice: "€ 121" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F936061%2Flogitech-g-pro-x-superlight-2-lightspeed-draadloze-gaming-muis-zwart.html", approxPrice: "€ 110" }]
       },
       {
         name: "Razer DeathAdder V3 Pro",
@@ -2708,7 +2790,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         image: "/images/tvs/06-lg-c5-oled.png",
         pros: ["OLED evo", "webOS", "Gaming via HDMI 2.1"],
         cons: ["Minder helder dan G-serie"],
-        stores: [{ name: "Bol.com", bolProductId: "9300000230515238", approxPrice: "€ 779" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000230515238", approxPrice: "€ 779" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F963247%2Flg-55-oled-evo-c54-4k-2025.html", approxPrice: "€ 1.099" }]
       },
       {
         name: "Samsung S95F OLED",
@@ -2717,7 +2799,7 @@ export const subcategoryData: { [key: string]: SubcategoryData } = {
         image: "/images/tvs/07-samsung-s95f.png",
         pros: ["QD-OLED topklasse", "Glare Free", "Maximale helderheid"],
         cons: ["Zeer duur"],
-        stores: [{ name: "Bol.com", bolProductId: "9300000232685854", approxPrice: "€ 3.749" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F963453%2Fsamsung-65-oled-s95f-4k-2025.html", approxPrice: "€ 2.039" }]
+        stores: [{ name: "Bol.com", bolProductId: "9300000232685854" }, { name: "Coolblue", link: "https://www.awin1.com/cread.php?awinmid=85161&awinaffid=1940197&ued=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F963453%2Fsamsung-65-oled-s95f-4k-2025.html", approxPrice: "€ 1.959" }]
       },
       {
         name: "Sony Bravia 5",
