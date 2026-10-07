@@ -13,8 +13,20 @@ export const SITE_DESCRIPTION =
 
 export const SITE_LOCALE = "nl_NL";
 
+/** Live host: Vercel serves www and 307s the apex. Canonicals must match www. */
+export const CANONICAL_ORIGIN = "https://www.top10vandaag.nl";
+
 export function getSiteUrl(): string {
-  const url = process.env.NEXT_PUBLIC_SITE_URL?.trim();
-  if (url) return url.replace(/\/$/, "");
-  return "https://top10vandaag.nl";
+  const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim().replace(/\/$/, "");
+  if (!raw) return CANONICAL_ORIGIN;
+
+  try {
+    const parsed = new URL(raw);
+    if (parsed.hostname === "top10vandaag.nl" || parsed.hostname === "www.top10vandaag.nl") {
+      return CANONICAL_ORIGIN;
+    }
+    return `${parsed.protocol}//${parsed.host}`.replace(/\/$/, "");
+  } catch {
+    return CANONICAL_ORIGIN;
+  }
 }

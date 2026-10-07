@@ -4,7 +4,7 @@ import { subcategoryData } from "../src/data/subcategoryProducts";
 import { subcategorySeo } from "../src/data/subcategorySeo";
 import { categoryData } from "../src/data/categories";
 
-const base = "https://top10vandaag.nl";
+const base = "https://www.top10vandaag.nl";
 const lines: string[] = [];
 
 lines.push("TOP 10 VANDAAG - ALLE TOP 10 LIJSTEN");
